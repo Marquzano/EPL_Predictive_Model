@@ -1,0 +1,58 @@
+ID,Season,Round,Home,Away,HomeWin,AwayWin,Draw,HomeGoal,AwayGoal,HomeXG,AwayXG,HomePoss,AwayPoss,HomeCaptain,HomeFormation,HomeSH,HomeSOT,HomeDist,HomeFK,HomePK,HomePKAtt,AwayCaptain,AwayFormation,AwaySH,AwaySOT,AwayDist,AwayFK,AwayPK,AwayPKAtt,Referee,Date,Day,Time
+773,2023,2,Manchester City,Bournemouth,1,0,0,4,0,1.7,0.1,67,33,İlkay Gündoğan,4-2-3-1,19,7,17.5,0,0,0,Lloyd Kelly,3-4-3,3,1,20.6,0,0,0,David Coote,2022-08-13,Sat,15:00
+796,2023,4,Liverpool,Bournemouth,1,0,0,9,0,3.3,0.3,69,31,Jordan Henderson,4-3-3,19,12,11.6,0,0,0,Adam Smith,4-2-3-1,5,2,18.2,0,0,0,Stuart Attwell,2022-08-27,Sat,15:00
+814,2023,6,Nottingham Forest,Bournemouth,0,1,0,2,3,1.9,0.8,52,48,Joe Worrall,3-4-3,10,2,17.5,0,1,1,Lloyd Kelly,4-2-3-1,8,3,17.5,0,0,0,Michael Oliver,2022-09-03,Sat,15:00
+824,2023,8,Newcastle United,Bournemouth,0,0,1,1,1,1.9,0.7,72,28,Kieran Trippier,4-3-3,19,6,20.0,1,1,1,Adam Smith,4-2-3-1,10,3,18.1,0,0,0,Craig Pawson,2022-09-17,Sat,15:00
+850,2023,11,Fulham,Bournemouth,0,0,1,2,2,2.1,1.0,69,31,Tim Ream,4-2-3-1,18,3,18.9,0,1,1,Adam Smith,4-2-3-1,10,6,13.0,0,0,0,Graham Scott,2022-10-15,Sat,15:00
+876,2023,13,West Ham United,Bournemouth,1,0,0,2,0,1.9,0.4,55,45,Declan Rice,4-2-3-1,19,3,21.1,1,1,1,Adam Smith,4-2-3-1,5,3,13.6,0,0,0,David Coote,2022-10-24,Mon,20:00
+890,2023,15,Leeds United,Bournemouth,1,0,0,4,3,2.2,1.5,60,40,Liam Cooper,4-2-3-1,17,3,15.9,0,1,1,Adam Smith,4-4-2,9,5,12.4,0,0,0,Tony Harrington,2022-11-05,Sat,15:00
+914,2023,17,Chelsea,Bournemouth,1,0,0,2,0,1.8,0.5,60,40,Jorginho,4-3-3,15,5,15.7,0,0,0,Lloyd Kelly,5-3-2,9,4,21.0,2,0,0,Simon Hooper,2022-12-27,Tue,17:30
+931,2023,19,Manchester United,Bournemouth,1,0,0,3,0,2.2,0.6,58,42,Harry Maguire,4-2-3-1,18,6,16.7,2,0,0,Lloyd Kelly,4-4-2,7,4,15.7,1,0,0,Michael Salisbury,2023-01-03,Tue,20:00
+944,2023,20,Brentford,Bournemouth,1,0,0,2,0,1.4,0.6,50,50,Christian Nørgaard,4-3-3,11,3,23.3,0,1,1,Lloyd Kelly,4-4-1-1,7,2,18.1,0,0,0,Jarred Gillett,2023-01-14,Sat,17:30
+963,2023,22,Brighton And Hove Albion,Bournemouth,1,0,0,1,0,2.2,1.1,71,29,Lewis Dunk,3-4-3,20,6,16.3,0,0,0,Neto,4-4-1-1,12,2,15.3,0,0,0,Craig Pawson,2023-02-04,Sat,15:00
+987,2023,24,Wolverhampton Wanderers,Bournemouth,0,1,0,0,1,1.3,1.1,68,32,Rúben Neves,4-2-3-1,15,4,13.3,0,0,0,Neto,4-2-3-1,5,1,14.0,0,0,0,Michael Salisbury,2023-02-18,Sat,15:00
+1003,2023,26,Arsenal,Bournemouth,1,0,0,3,2,2.1,1.3,79,21,Martin Ødegaard,4-3-3,31,9,18.1,2,0,0,Neto,5-4-1,4,4,8.1,0,0,0,Chris Kavanagh,2023-03-04,Sat,15:00
+1027,2023,28,Aston Villa,Bournemouth,1,0,0,3,0,3.5,1.3,56,44,John McGinn,4-2-3-1,20,9,13.9,0,0,0,Neto,4-4-1-1,10,3,12.6,1,0,0,Robert Jones,2023-03-18,Sat,15:00
+1050,2023,30,Leicester City,Bournemouth,0,1,0,0,1,0.6,1.9,51,49,James Maddison,4-2-3-1,14,4,16.9,0,0,0,Neto,4-2-3-1,19,7,14.7,1,0,0,David Coote,2023-04-08,Sat,15:00
+1058,2023,31,Tottenham Hotspur,Bournemouth,0,1,0,2,3,2.2,1.3,58,42,Hugo Lloris,3-4-3,24,8,17.9,1,0,0,Neto,3-4-3,9,6,17.9,0,0,0,Andy Madley,2023-04-15,Sat,15:00
+1083,2023,33,Southampton,Bournemouth,0,1,0,0,1,0.5,0.9,57,43,James Ward-Prowse,4-4-2,11,2,19.9,0,0,0,Neto,3-4-3,16,2,17.6,0,0,0,Darren England,2023-04-27,Thu,19:45
+1110,2023,36,Crystal Palace,Bournemouth,1,0,0,2,0,1.5,0.3,59,41,Wilfried Zaha,4-2-3-1,17,5,15.2,0,0,0,Neto,4-2-3-1,5,0,19.4,1,0,0,Michael Salisbury,2023-05-13,Sat,15:00
+1139,2023,38,Everton,Bournemouth,1,0,0,1,0,1.0,0.5,38,62,Jordan Pickford,3-4-3,13,6,17.2,0,0,0,Adam Smith,4-2-3-1,7,1,14.5,0,0,0,Stuart Attwell,2023-05-28,Sun,16:30
+1154,2024,2,Liverpool,Bournemouth,1,0,0,3,1,3.0,1.3,64,36,Virgil van Dijk,4-3-3,25,9,16.8,1,0,1,Neto,4-2-3-1,13,5,19.7,1,0,0,Thomas Bramall,2023-08-19,Sat,15:00
+1174,2024,4,Brentford,Bournemouth,0,0,1,2,2,2.9,2.1,60,40,Christian Nørgaard,4-3-3,21,7,14.7,1,0,0,Neto,4-2-3-1,12,5,15.1,0,0,0,Robert Madley,2023-09-02,Sat,15:00
+1197,2024,6,Brighton And Hove Albion,Bournemouth,1,0,0,3,1,1.9,1.1,61,39,Lewis Dunk,4-2-3-1,13,4,17.1,0,0,0,Neto,4-2-3-1,12,3,17.6,1,0,0,John Brooks,2023-09-24,Sun,14:00
+1213,2024,8,Everton,Bournemouth,1,0,0,3,0,2.4,0.7,48,52,James Tarkowski,4-4-1-1,25,8,15.8,0,0,0,Neto,4-2-3-1,11,3,16.2,0,0,0,David Coote,2023-10-07,Sat,15:00
+1242,2024,11,Manchester City,Bournemouth,1,0,0,6,1,1.9,0.9,65,35,Kyle Walker,3-4-3,21,8,16.4,0,0,0,Lloyd Kelly,5-4-1,5,1,11.4,0,0,0,Craig Pawson,2023-11-04,Sat,15:00
+1262,2024,13,Sheffield United,Bournemouth,0,1,0,1,3,0.8,2.9,46,54,Oliver Norwood,3-4-3,10,2,14.9,0,0,0,Neto,4-2-3-1,23,11,15.7,0,0,0,Andy Madley,2023-11-25,Sat,15:00
+1283,2024,15,Crystal Palace,Bournemouth,0,1,0,0,2,1.0,1.8,59,41,Joel Ward,4-2-3-1,16,3,18.9,1,0,0,Neto,4-2-3-1,11,4,11.5,0,0,0,Craig Pawson,2023-12-06,Wed,19:30
+1292,2024,16,Manchester United,Bournemouth,0,1,0,0,3,1.1,1.5,68,32,Bruno Fernandes,4-2-3-1,20,3,15.4,0,0,0,Neto,4-2-3-1,10,4,12.7,0,0,0,Peter Bankes,2023-12-09,Sat,15:00
+1315,2024,18,Nottingham Forest,Bournemouth,0,1,0,2,3,1.0,1.6,34,66,Ryan Yates,4-2-3-1,11,4,14.5,0,0,0,Neto,4-2-3-1,18,6,15.9,1,0,0,Robert Jones,2023-12-23,Sat,15:00
+1336,2024,20,Tottenham Hotspur,Bournemouth,1,0,0,3,1,2.3,1.7,50,50,Son Heung-min,4-3-3,12,6,14.7,0,0,0,Neto,4-2-3-1,24,4,17.2,1,0,0,Simon Hooper,2023-12-31,Sun,14:00
+1357,2024,22,West Ham United,Bournemouth,0,0,1,1,1,1.4,1.2,48,52,Kurt Zouma,4-3-2-1,8,2,17.1,0,1,1,Neto,4-2-3-1,9,4,17.2,0,0,0,Tim Robinson,2024-02-01,Thu,19:30
+1371,2024,24,Fulham,Bournemouth,1,0,0,3,1,1.6,1.8,49,51,Tom Cairney,4-2-3-1,7,6,11.4,0,0,0,Neto,4-2-3-1,25,4,16.7,1,0,0,Darren England,2024-02-10,Sat,15:00
+1383,2024,25,Newcastle United,Bournemouth,0,0,1,2,2,2.2,2.2,62,38,Kieran Trippier,4-3-3,16,4,19.4,0,1,1,Neto,4-2-3-1,12,6,20.3,0,0,0,Michael Salisbury,2024-02-17,Sat,15:00
+1406,2024,27,Burnley,Bournemouth,0,1,0,0,2,1.5,1.1,74,26,Josh Cullen,4-4-2,20,5,18.9,1,0,0,Neto,4-2-3-1,10,3,15.1,1,0,0,David Coote,2024-03-03,Sun,13:00
+1445,2024,32,Luton Town,Bournemouth,1,0,0,2,1,1.5,0.4,55,45,Carlton Morris,3-4-3,19,9,18.2,0,0,0,Neto,4-2-3-1,8,1,19.1,1,0,0,Andy Madley,2024-04-06,Sat,15:00
+1469,2024,34,Aston Villa,Bournemouth,1,0,0,3,1,2.4,1.8,56,44,John McGinn,4-2-3-1,15,5,14.8,0,0,0,Neto,4-2-3-1,13,4,16.4,0,1,1,Tim Robinson,2024-04-21,Sun,15:00
+1472,2024,29,Wolverhampton Wanderers,Bournemouth,0,1,0,0,1,0.5,1.9,63,37,Max Kilman,4-1-4-1,15,4,20.1,0,0,0,Adam Smith,4-2-3-1,21,6,16.7,0,0,0,Stuart Attwell,2024-04-24,Wed,19:45
+1489,2024,36,Arsenal,Bournemouth,1,0,0,3,0,3.3,0.5,55,45,Martin Ødegaard,4-3-3,24,8,14.0,0,1,1,Adam Smith,4-3-3,7,2,20.4,1,0,0,David Coote,2024-05-04,Sat,12:30
+1512,2024,38,Chelsea,Bournemouth,1,0,0,2,1,1.1,2.2,61,39,Conor Gallagher,4-2-3-1,16,6,18.2,0,0,0,Neto,4-2-3-1,22,5,16.8,0,0,0,Anthony Taylor,2024-05-19,Sun,16:00
+1525,2025,1,Nottingham Forest,Bournemouth,0,0,1,1,1,1.3,1.2,53,47,Morgan Gibbs-White,4-2-3-1,14,8,19.2,0,0,0,Neto,4-2-3-1,13,4,19.6,1,0,0,Michael Oliver,2024-08-17,Sat,15:00
+1546,2025,3,Everton,Bournemouth,0,1,0,2,3,1.8,2.4,47,53,Séamus Coleman,4-2-3-1,18,8,15.7,0,0,0,Lewis Cook,4-2-3-1,17,7,14.9,0,0,0,Stuart Attwell,2024-08-31,Sat,15:00
+1567,2025,5,Liverpool,Bournemouth,1,0,0,3,0,2.0,1.1,58,42,Virgil van Dijk,4-2-3-1,19,12,16.6,0,0,0,Lewis Cook,4-2-3-1,19,6,18.7,1,0,0,Tony Harrington,2024-09-21,Sat,15:00
+1584,2025,7,Leicester City,Bournemouth,1,0,0,1,0,0.8,2.1,45,55,Jamie Vardy,4-2-3-1,6,2,18.8,0,0,0,Adam Smith,4-2-3-1,19,2,14.3,0,0,0,Darren Bond,2024-10-05,Sat,15:00
+1602,2025,9,Aston Villa,Bournemouth,0,0,1,1,1,1.8,0.3,57,43,John McGinn,4-4-1-1,18,8,15.1,0,0,0,Lewis Cook,4-2-3-1,10,3,21.6,0,0,0,Chris Kavanagh,2024-10-26,Sat,15:00
+1621,2025,11,Brentford,Bournemouth,1,0,0,3,2,1.5,2.6,51,49,Christian Nørgaard,4-3-3,12,6,14.6,0,0,0,Adam Smith,4-2-3-1,15,3,14.8,1,0,0,Darren Bond,2024-11-09,Sat,15:00
+1644,2025,13,Wolverhampton Wanderers,Bournemouth,0,1,0,2,4,0.5,3.3,60,40,Mario Lemina,4-2-3-1,10,3,19.9,1,0,0,Adam Smith,4-2-3-1,9,5,21.4,0,3,3,Peter Bankes,2024-11-30,Sat,15:00
+1666,2025,15,Ipswich Town,Bournemouth,0,1,0,1,2,1.3,3.2,44,56,Sam Morsy,4-2-3-1,18,5,18.4,0,0,0,Adam Smith,4-2-3-1,22,6,16.4,0,0,0,Michael Salisbury,2024-12-08,Sun,14:00
+1687,2025,17,Manchester United,Bournemouth,0,1,0,0,3,2.2,1.6,60,40,Bruno Fernandes,3-4-3,23,7,17.7,1,0,0,Adam Smith,4-2-3-1,9,4,19.7,0,1,1,Craig Pawson,2024-12-22,Sun,14:00
+1703,2025,19,Fulham,Bournemouth,0,0,1,2,2,1.1,2.0,52,48,Antonee Robinson,4-5-1,11,6,16.1,0,0,0,Lewis Cook,4-2-3-1,16,8,13.7,0,0,0,Robert Jones,2024-12-29,Sun,15:00
+1722,2025,21,Chelsea,Bournemouth,0,0,1,2,2,2.5,1.2,57,43,Enzo Fernández,4-2-3-1,26,10,16.6,2,0,0,Lewis Cook,4-2-3-1,6,2,18.6,0,1,1,Robert Jones,2025-01-14,Tue,19:30
+1730,2025,22,Newcastle United,Bournemouth,0,1,0,1,4,0.8,2.0,56,44,Bruno Guimarães,4-3-3,13,4,19.0,1,0,0,Lewis Cook,4-2-3-1,19,10,13.4,0,0,0,Stuart Attwell,2025-01-18,Sat,12:30
+1765,2025,25,Southampton,Bournemouth,0,1,0,1,3,0.8,1.2,44,56,Jan Bednarek,3-4-1-2,11,4,19.3,0,0,0,Lewis Cook,4-2-3-1,14,7,16.7,0,0,0,Jarred Gillett,2025-02-15,Sat,15:00
+1782,2025,27,Brighton And Hove Albion,Bournemouth,1,0,0,2,1,2.4,1.5,44,56,Adam Webster,4-2-3-1,10,3,17.4,1,1,1,Lewis Cook,4-2-3-1,19,5,16.9,0,0,0,Michael Oliver,2025-02-25,Tue,19:30
+1798,2025,28,Tottenham Hotspur,Bournemouth,0,0,1,2,2,1.5,2.2,61,39,Cristian Romero,4-3-3,11,3,18.2,0,1,1,Lewis Cook,4-2-3-1,17,8,14.0,1,0,0,John Brooks,2025-03-09,Sun,14:00
+1823,2025,31,West Ham United,Bournemouth,0,0,1,2,2,0.7,2.1,56,44,Jarrod Bowen,4-2-3-1,9,3,16.4,1,0,0,Adam Smith,4-2-3-1,11,4,14.1,0,0,0,Tim Robinson,2025-04-05,Sat,15:00
+1842,2025,33,Crystal Palace,Bournemouth,0,0,1,0,0,0.4,0.7,29,71,Marc Guéhi,3-4-3,5,0,17.7,1,0,0,Adam Smith,4-2-3-1,15,4,18.6,0,0,0,Samuel Barrott,2025-04-19,Sat,15:00
+1865,2025,35,Arsenal,Bournemouth,0,1,0,1,2,1.4,0.9,51,49,Martin Ødegaard,4-3-3,13,4,14.1,1,0,0,Lewis Cook,4-2-3-1,9,2,15.2,0,0,0,Jarred Gillett,2025-05-03,Sat,17:30
+1890,2025,37,Manchester City,Bournemouth,1,0,0,3,1,1.5,1.1,57,43,Kevin De Bruyne,4-2-3-1,12,5,20.7,1,0,0,Lewis Cook,4-2-3-1,8,2,14.8,0,0,0,Thomas Bramall,2025-05-20,Tue,20:00

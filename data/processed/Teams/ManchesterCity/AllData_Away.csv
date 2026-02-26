@@ -1,0 +1,96 @@
+ID,Season,Round,Home,Away,HomeWin,AwayWin,Draw,HomeGoal,AwayGoal,HomeXG,AwayXG,HomePoss,AwayPoss,HomeCaptain,HomeFormation,HomeSH,HomeSOT,HomeDist,HomeFK,HomePK,HomePKAtt,AwayCaptain,AwayFormation,AwaySH,AwaySOT,AwayDist,AwayFK,AwayPK,AwayPKAtt,Referee,Date,Day,Time
+18,2021,2,Wolverhampton Wanderers,Manchester City,0,1,0,1,3,0.6,1.9,35,65,Conor Coady,5-3-2,10,1,17.4,0,0,0,Fernandinho,4-2-3-1,13,8,21.1,2,1,1,Andre Marriner,2020-09-21,Mon,20:15
+31,2021,4,Leeds United,Manchester City,0,0,1,1,1,2.4,1.2,51,49,Liam Cooper,4-1-4-1,12,7,11.5,0,0,0,Kevin De Bruyne,4-3-3,23,1,18.2,1,0,0,Mike Dean,2020-10-03,Sat,17:30
+50,2021,6,West Ham United,Manchester City,0,0,1,1,1,0.3,1.0,31,69,Declan Rice,5-4-1,6,2,22.3,0,0,0,Raheem Sterling,4-3-3,14,7,20.9,1,0,0,Anthony Taylor,2020-10-24,Sat,12:30
+60,2021,7,Sheffield United,Manchester City,0,1,0,0,1,0.5,1.6,35,65,John Egan,5-3-2,3,1,18.3,0,0,0,Kevin De Bruyne,4-3-3,16,8,18.5,2,0,0,Michael Oliver,2020-10-31,Sat,12:30
+81,2021,9,Tottenham Hotspur,Manchester City,1,0,0,2,0,0.7,1.4,34,66,Hugo Lloris,4-2-3-1,4,2,21.3,1,0,0,Kevin De Bruyne,4-3-3,22,5,16.0,0,0,0,Mike Dean,2020-11-21,Sat,17:30
+111,2021,12,Manchester United,Manchester City,0,0,1,0,0,0.6,1.3,46,54,Harry Maguire,4-2-3-1,11,2,17.2,1,0,0,Fernandinho,4-2-3-1,9,2,18.3,1,0,0,Chris Kavanagh,2020-12-12,Sat,17:30
+129,2021,14,Southampton,Manchester City,0,1,0,0,1,0.7,0.9,48,52,James Ward-Prowse,4-4-2,9,3,15.1,0,0,0,Kevin De Bruyne,4-2-3-1,11,5,20.1,0,0,0,Mike Dean,2020-12-19,Sat,15:00
+163,2021,17,Chelsea,Manchester City,0,1,0,1,3,0.8,2.7,54,46,César Azpilicueta,4-3-3,9,2,17.0,1,0,0,Kevin De Bruyne,4-3-3,18,6,15.1,1,0,0,Anthony Taylor,2021-01-03,Sun,16:30
+188,2021,20,West Bromwich Albion,Manchester City,0,1,0,0,5,0.5,1.8,23,77,Jake Livermore,4-4-1-1,4,1,10.4,0,0,0,Raheem Sterling,4-3-3,18,7,17.4,0,0,0,Chris Kavanagh,2021-01-26,Tue,20:15
+210,2021,22,Burnley,Manchester City,0,1,0,0,2,0.1,2.0,26,74,Ben Mee,4-4-2,2,0,22.9,0,0,0,Raheem Sterling,4-3-3,13,6,15.5,0,0,0,Martin Atkinson,2021-02-03,Wed,18:00
+223,2021,23,Liverpool,Manchester City,0,1,0,1,4,1.2,3.5,56,44,Jordan Henderson,4-3-3,7,2,19.4,1,1,1,Raheem Sterling,4-3-3,7,5,13.4,0,0,1,Michael Oliver,2021-02-07,Sun,16:30
+237,2021,16,Everton,Manchester City,0,1,0,1,3,1.0,1.0,29,71,Gylfi Sigurðsson,4-4-1-1,3,2,9.4,0,0,0,Raheem Sterling,4-3-3,16,7,17.9,0,0,0,Andre Marriner,2021-02-17,Wed,20:15
+245,2021,25,Arsenal,Manchester City,0,1,0,0,1,0.3,1.8,45,55,Pierre-Emerick Aubameyang,4-2-3-1,7,1,19.5,0,0,0,Fernandinho,4-3-3,15,3,16.2,0,0,0,Jonathan Moss,2021-02-21,Sun,16:30
+281,2021,28,Fulham,Manchester City,0,1,0,0,3,0.3,2.2,46,54,Joachim Andersen,4-3-3,3,0,11.2,0,0,0,Sergio Agüero,3-4-3,7,6,15.3,0,1,1,Andre Marriner,2021-03-13,Sat,20:00
+293,2021,30,Leicester City,Manchester City,0,1,0,0,2,0.3,1.4,44,56,Kasper Schmeichel,3-5-2,5,2,19.3,0,0,0,Fernandinho,4-2-3-1,11,4,14.5,1,0,0,Anthony Taylor,2021-04-03,Sat,17:30
+319,2021,32,Aston Villa,Manchester City,0,1,0,1,2,0.7,1.2,28,72,Tyrone Mings,4-1-4-1,8,3,14.6,0,0,0,İlkay Gündoğan,4-3-3,13,3,19.3,2,0,0,Peter Bankes,2021-04-21,Wed,20:15
+330,2021,34,Crystal Palace,Manchester City,0,1,0,0,2,0.9,1.7,32,68,Luka Milivojević,4-3-3,9,4,19.6,0,0,0,Fernandinho,4-4-1-1,20,3,14.6,1,0,0,David Coote,2021-05-01,Sat,12:30
+353,2021,36,Newcastle United,Manchester City,0,1,0,3,4,2.2,1.5,18,82,Jonjo Shelvey,5-3-2,9,3,17.8,1,1,2,Raheem Sterling,4-3-3,15,6,20.0,1,0,0,Kevin Friend,2021-05-14,Fri,20:00
+363,2021,37,Brighton And Hove Albion,Manchester City,1,0,0,3,2,1.1,0.9,63,37,Pascal Groß,3-5-2,19,6,19.7,1,0,0,İlkay Gündoğan,4-3-3,8,4,14.2,1,0,0,Stuart Attwell,2021-05-18,Tue,19:00
+390,2022,1,Tottenham Hotspur,Manchester City,1,0,0,1,0,1.0,1.8,35,65,Hugo Lloris,4-3-3,13,2,20.3,0,0,0,Fernandinho,4-3-3,18,4,17.3,1,0,0,Anthony Taylor,2021-08-15,Sun,16:30
+416,2022,4,Leicester City,Manchester City,0,1,0,0,1,0.6,2.8,39,61,Kasper Schmeichel,4-2-3-1,6,1,12.1,0,0,0,İlkay Gündoğan,4-3-3,25,8,14.3,0,0,0,Paul Tierney,2021-09-11,Sat,15:00
+431,2022,6,Chelsea,Manchester City,0,1,0,0,1,0.2,1.7,41,59,César Azpilicueta,3-5-2,5,0,27.9,1,0,0,Rúben Dias,4-3-3,15,3,17.1,0,0,0,Michael Oliver,2021-09-25,Sat,12:30
+450,2022,7,Liverpool,Manchester City,0,0,1,2,2,0.9,1.2,49,51,Jordan Henderson,4-3-3,6,3,15.0,1,0,0,Rúben Dias,4-3-3,12,3,17.0,1,0,0,Paul Tierney,2021-10-03,Sun,16:30
+467,2022,9,Brighton And Hove Albion,Manchester City,0,1,0,1,4,1.3,3.8,48,52,Lewis Dunk,3-5-2,9,4,18.9,0,1,1,İlkay Gündoğan,4-3-3,23,12,16.0,1,0,0,Kevin Friend,2021-10-23,Sat,17:30
+482,2022,11,Manchester United,Manchester City,0,1,0,0,2,0.9,1.6,33,67,Harry Maguire,3-5-2,5,1,17.3,0,0,0,İlkay Gündoğan,4-3-3,16,5,14.7,0,0,0,Michael Oliver,2021-11-06,Sat,12:30
+516,2022,14,Aston Villa,Manchester City,0,1,0,1,2,0.8,1.0,36,64,Tyrone Mings,4-3-3,9,3,13.1,0,0,0,Fernandinho,4-2-3-1,17,7,19.2,1,0,0,Mike Dean,2021-12-01,Wed,20:15
+524,2022,15,Watford,Manchester City,0,1,0,1,3,0.8,3.1,23,77,Moussa Sissoko,4-1-4-1,11,4,19.6,1,0,0,İlkay Gündoğan,4-3-3,26,12,14.4,0,0,0,Simon Hooper,2021-12-04,Sat,17:30
+548,2022,18,Newcastle United,Manchester City,0,1,0,0,4,0.3,2.9,29,71,Jamaal Lascelles,4-5-1,5,1,19.9,0,0,0,Rúben Dias,4-2-3-1,18,7,12.9,0,0,0,Martin Atkinson,2021-12-19,Sun,14:15
+562,2022,20,Brentford,Manchester City,0,1,0,0,1,0.4,1.1,24,76,Pontus Jansson,3-5-2,6,2,24.6,0,0,0,Fernandinho,4-3-3,12,3,19.8,0,0,0,David Coote,2021-12-29,Wed,20:15
+564,2022,21,Arsenal,Manchester City,0,1,0,1,2,0.8,2.0,29,71,Alexandre Lacazette,4-2-3-1,7,2,15.6,0,0,0,Rúben Dias,4-2-3-1,14,1,18.7,0,1,1,Stuart Attwell,2022-01-01,Sat,12:30
+590,2022,23,Southampton,Manchester City,0,0,1,1,1,0.8,1.8,26,74,James Ward-Prowse,4-4-2,7,3,11.0,0,0,0,Rúben Dias,4-3-3,20,5,17.5,0,0,0,Simon Hooper,2022-01-22,Sat,17:30
+609,2022,25,Norwich City,Manchester City,0,1,0,0,4,0.4,4.6,29,71,Grant Hanley,4-3-3,8,3,14.4,0,0,0,Fernandinho,4-3-3,21,8,11.8,0,0,1,Andre Marriner,2022-02-12,Sat,17:30
+635,2022,27,Everton,Manchester City,0,1,0,0,1,0.5,1.8,33,67,Séamus Coleman,4-3-3,6,2,19.1,1,0,0,İlkay Gündoğan,4-3-3,13,8,16.3,0,0,0,Paul Tierney,2022-02-26,Sat,17:30
+661,2022,29,Crystal Palace,Manchester City,0,0,1,0,0,0.6,2.8,27,73,Marc Guéhi,4-3-3,7,1,14.7,0,0,0,Kevin De Bruyne,4-3-3,19,4,17.2,0,0,0,Martin Atkinson,2022-03-14,Mon,20:00
+672,2022,31,Burnley,Manchester City,0,1,0,0,2,0.1,1.8,24,76,James Tarkowski,4-5-1,3,1,18.3,0,0,0,İlkay Gündoğan,4-3-3,18,6,16.5,0,0,0,Craig Pawson,2022-04-02,Sat,15:00
+718,2022,35,Leeds United,Manchester City,0,1,0,0,4,1.3,2.4,42,58,Luke Ayling,5-4-1,7,1,12.2,0,0,0,İlkay Gündoğan,4-2-3-1,19,6,16.2,0,0,0,Paul Tierney,2022-04-30,Sat,17:30
+737,2022,33,Wolverhampton Wanderers,Manchester City,0,1,0,1,5,0.5,2.3,34,66,Conor Coady,3-5-2,7,3,16.9,0,0,0,Fernandinho,4-2-3-1,15,5,14.7,0,0,0,Martin Atkinson,2022-05-11,Wed,20:15
+740,2022,37,West Ham United,Manchester City,0,0,1,2,2,1.1,2.4,22,78,Declan Rice,4-2-3-1,6,2,13.7,0,0,0,Fernandinho,4-3-3,30,7,18.6,2,0,1,Anthony Taylor,2022-05-15,Sun,14:00
+770,2023,1,West Ham United,Manchester City,0,1,0,0,2,0.5,2.2,25,75,Declan Rice,4-2-3-1,6,1,16.3,0,0,0,İlkay Gündoğan,4-3-3,13,1,18.7,1,1,1,Michael Oliver,2022-08-07,Sun,16:30
+789,2023,3,Newcastle United,Manchester City,0,0,1,3,3,1.8,2.1,31,69,Kieran Trippier,4-3-3,12,5,14.8,1,0,0,İlkay Gündoğan,4-3-3,21,10,16.2,1,0,0,Jarred Gillett,2022-08-21,Sun,16:30
+818,2023,6,Aston Villa,Manchester City,0,0,1,1,1,0.3,2.1,29,71,John McGinn,4-3-2-1,3,1,16.8,0,0,0,İlkay Gündoğan,4-3-3,13,4,16.8,1,0,0,Simon Hooper,2022-09-03,Sat,17:30
+823,2023,8,Wolverhampton Wanderers,Manchester City,0,1,0,0,3,0.4,1.1,41,59,Rúben Neves,4-3-3,6,1,19.6,2,0,0,Kevin De Bruyne,4-3-3,16,7,19.4,0,0,0,Anthony Taylor,2022-09-17,Sat,12:30
+857,2023,11,Liverpool,Manchester City,1,0,0,1,0,2.1,1.0,37,63,James Milner,4-2-3-1,13,2,17.5,0,0,0,İlkay Gündoğan,3-4-3,16,6,18.4,0,0,0,Anthony Taylor,2022-10-16,Sun,16:30
+877,2023,14,Leicester City,Manchester City,0,1,0,0,1,0.7,1.0,36,64,Youri Tielemans,3-4-3,10,5,16.4,0,0,0,İlkay Gündoğan,4-3-3,15,5,20.8,1,0,0,Robert Jones,2022-10-29,Sat,12:30
+916,2023,17,Leeds United,Manchester City,0,1,0,1,3,0.6,4.3,31,69,Liam Cooper,4-3-3,9,1,19.3,2,0,0,İlkay Gündoğan,4-3-3,26,9,16.0,0,0,0,Stuart Attwell,2022-12-28,Wed,20:00
+936,2023,19,Chelsea,Manchester City,0,1,0,0,1,0.4,2.0,48,52,César Azpilicueta,4-2-3-1,8,2,17.2,0,0,0,İlkay Gündoğan,3-2-4-1,12,3,16.0,0,0,0,Paul Tierney,2023-01-05,Thu,20:00
+939,2023,20,Manchester United,Manchester City,1,0,0,2,1,1.7,0.6,30,70,Bruno Fernandes,4-2-3-1,8,3,14.8,0,0,0,Kevin De Bruyne,4-3-3,5,1,19.2,0,0,0,Stuart Attwell,2023-01-14,Sat,12:30
+969,2023,22,Tottenham Hotspur,Manchester City,1,0,0,1,0,1.4,1.3,36,64,Hugo Lloris,3-4-3,12,3,14.7,0,0,0,Kyle Walker,4-4-2,15,5,17.7,1,0,0,Andy Madley,2023-02-05,Sun,16:30
+981,2023,12,Arsenal,Manchester City,0,1,0,1,3,1.6,1.8,63,37,Martin Ødegaard,4-3-3,9,0,19.2,0,1,1,İlkay Gündoğan,4-1-4-1,9,5,12.1,0,0,0,Anthony Taylor,2023-02-15,Wed,19:30
+986,2023,24,Nottingham Forest,Manchester City,0,0,1,1,1,0.9,2.4,27,73,Joe Worrall,4-3-2-1,4,1,14.7,0,0,0,İlkay Gündoğan,3-2-4-1,23,6,18.0,2,0,0,Graham Scott,2023-02-18,Sat,15:00
+997,2023,25,Bournemouth,Manchester City,0,1,0,1,4,1.0,2.4,35,66,Neto,5-4-1,13,2,14.2,0,0,0,İlkay Gündoğan,3-2-4-1,20,5,15.3,1,0,0,Paul Tierney,2023-02-25,Sat,17:30
+1017,2023,27,Crystal Palace,Manchester City,0,1,0,0,1,0.2,2.1,33,67,Luka Milivojević,4-3-3,4,0,17.5,0,0,0,İlkay Gündoğan,4-2-3-1,13,3,19.0,1,1,1,Robert Jones,2023-03-11,Sat,17:30
+1054,2023,30,Southampton,Manchester City,0,1,0,1,4,0.4,2.9,27,73,James Ward-Prowse,4-4-2,4,1,17.0,0,0,0,İlkay Gündoğan,3-2-4-1,12,7,13.2,0,1,1,Robert Jones,2023-04-08,Sat,17:30
+1091,2023,34,Fulham,Manchester City,0,1,0,1,2,0.2,2.5,38,62,Tim Ream,4-2-3-1,4,1,22.4,0,0,0,İlkay Gündoğan,3-2-4-1,11,8,14.1,0,1,1,Simon Hooper,2023-04-30,Sun,14:00
+1114,2023,36,Everton,Manchester City,0,1,0,0,3,1.6,0.8,37,63,Jordan Pickford,4-2-3-1,7,2,7.6,0,0,0,İlkay Gündoğan,4-2-3-1,9,4,19.3,2,0,0,Anthony Taylor,2023-05-14,Sun,14:00
+1129,2023,32,Brighton And Hove Albion,Manchester City,0,0,1,1,1,2.2,1.8,40,60,Pascal Groß,4-2-3-1,20,7,17.4,2,0,0,İlkay Gündoğan,4-3-3,13,4,13.9,0,0,0,Simon Hooper,2023-05-24,Wed,20:00
+1136,2023,38,Brentford,Manchester City,1,0,0,1,0,1.3,1.6,35,65,David Raya,5-3-2,11,4,14.0,0,0,0,Kyle Walker,3-2-4-1,17,2,16.8,0,0,0,John Brooks,2023-05-28,Sun,16:30
+1141,2024,1,Burnley,Manchester City,0,1,0,0,3,0.3,1.9,35,65,Josh Cullen,5-4-1,6,1,14.9,0,0,0,Kevin De Bruyne,4-2-3-1,17,8,13.9,0,0,0,Craig Pawson,2023-08-11,Fri,20:00
+1167,2024,3,Sheffield United,Manchester City,0,1,0,1,2,0.7,3.5,21,79,John Egan,3-5-2,6,1,16.1,0,0,0,Kyle Walker,4-2-3-1,29,9,17.3,2,0,1,Jarred Gillett,2023-08-27,Sun,14:00
+1181,2024,5,West Ham United,Manchester City,0,1,0,1,3,0.9,3.6,32,68,Kurt Zouma,4-2-3-1,6,3,12.1,0,0,0,Kyle Walker,4-2-3-1,29,13,16.4,1,0,0,Andy Madley,2023-09-16,Sat,15:00
+1203,2024,7,Wolverhampton Wanderers,Manchester City,1,0,0,2,1,0.4,0.9,32,68,Max Kilman,3-4-3,3,1,11.4,0,0,0,Kyle Walker,4-2-3-1,23,8,19.3,1,0,0,Craig Pawson,2023-09-30,Sat,15:00
+1220,2024,8,Arsenal,Manchester City,1,0,0,1,0,0.4,0.5,49,51,Martin Ødegaard,4-3-3,12,2,19.2,0,0,0,Kyle Walker,4-3-3,4,0,14.9,0,0,0,Michael Oliver,2023-10-08,Sun,16:30
+1240,2024,10,Manchester United,Manchester City,0,1,0,0,3,0.9,4.0,40,60,Bruno Fernandes,4-2-3-1,7,3,15.2,0,0,0,Kyle Walker,4-2-3-1,20,9,17.2,2,1,1,Paul Tierney,2023-10-29,Sun,15:30
+1260,2024,12,Chelsea,Manchester City,0,0,1,4,4,2.9,2.9,45,55,Reece James,4-2-3-1,16,8,19.1,1,1,1,Kyle Walker,3-2-4-1,14,9,16.6,1,1,1,Anthony Taylor,2023-11-12,Sun,16:30
+1288,2024,15,Aston Villa,Manchester City,1,0,0,1,0,2.3,0.6,46,54,John McGinn,4-4-1-1,22,7,18.9,0,0,0,Kyle Walker,3-2-4-1,2,2,7.4,0,0,0,John Brooks,2023-12-06,Wed,20:15
+1299,2024,16,Luton Town,Manchester City,0,1,0,1,2,0.3,1.6,35,65,Tom Lockyer,3-4-3,4,2,19.2,0,0,0,Kyle Walker,4-2-3-1,18,6,18.7,1,0,0,Tim Robinson,2023-12-10,Sun,14:00
+1326,2024,19,Everton,Manchester City,0,1,0,1,3,1.0,2.4,28,72,James Tarkowski,4-2-3-1,7,2,12.5,0,0,0,Kyle Walker,4-2-3-1,22,8,19.5,1,1,1,John Brooks,2023-12-27,Wed,20:15
+1341,2024,21,Newcastle United,Manchester City,0,1,0,2,3,1.3,3.0,28,72,Kieran Trippier,4-3-3,12,5,14.7,0,0,0,Kyle Walker,4-2-3-1,27,11,19.3,2,0,0,Chris Kavanagh,2024-01-13,Sat,17:30
+1368,2024,23,Brentford,Manchester City,0,1,0,1,3,1.0,2.1,28,72,Christian Nørgaard,3-5-2,9,2,15.3,0,0,0,Kyle Walker,4-1-4-1,25,15,19.2,0,0,0,Jarred Gillett,2024-02-05,Mon,20:00
+1395,2024,26,Bournemouth,Manchester City,0,1,0,0,1,0.9,1.6,38,62,Neto,4-2-3-1,13,4,17.1,0,0,0,Rúben Dias,3-2-4-1,15,6,15.5,1,0,0,Jarred Gillett,2024-02-24,Sat,17:30
+1417,2024,28,Liverpool,Manchester City,0,0,1,1,1,2.7,1.6,53,47,Virgil van Dijk,4-3-3,18,5,19.0,1,1,1,Kyle Walker,3-2-4-1,10,6,18.6,0,0,0,Michael Oliver,2024-03-10,Sun,15:45
+1444,2024,32,Crystal Palace,Manchester City,0,1,0,2,4,1.1,1.9,25,75,Joel Ward,3-4-3,7,4,16.8,0,0,0,Kevin De Bruyne,3-2-4-1,18,8,16.1,0,0,0,Paul Tierney,2024-04-06,Sat,12:30
+1476,2024,29,Brighton And Hove Albion,Manchester City,0,1,0,0,4,0.6,1.4,36,64,Lewis Dunk,4-2-3-1,7,3,16.0,0,0,0,Kyle Walker,4-1-4-1,14,6,17.0,1,0,0,Jarred Gillett,2024-04-25,Thu,20:00
+1486,2024,35,Nottingham Forest,Manchester City,0,1,0,0,2,1.9,0.9,34,66,Morgan Gibbs-White,5-4-1,14,2,15.0,1,0,0,Kyle Walker,4-1-4-1,11,5,18.7,1,0,0,Simon Hooper,2024-04-28,Sun,16:30
+1498,2024,37,Fulham,Manchester City,0,1,0,0,4,0.1,3.2,36,64,Bobby De Cordova-Reid,4-2-3-1,1,1,9.6,0,0,0,Kevin De Bruyne,4-2-3-1,15,8,17.6,0,1,1,Anthony Taylor,2024-05-11,Sat,12:30
+1508,2024,34,Tottenham Hotspur,Manchester City,0,1,0,0,2,1.7,2.4,53,47,Son Heung-min,4-3-1-2,10,5,15.0,0,0,0,Kyle Walker,4-2-3-1,7,4,14.5,0,1,1,Chris Kavanagh,2024-05-14,Tue,20:00
+1529,2025,1,Chelsea,Manchester City,0,1,0,0,2,1.0,0.8,48,52,Enzo Fernández,4-2-3-1,10,3,17.1,0,0,0,Kevin De Bruyne,3-2-4-1,11,5,19.1,0,0,0,Anthony Taylor,2024-08-18,Sun,16:30
+1547,2025,3,West Ham United,Manchester City,0,1,0,1,3,0.7,3.0,33,67,Jarrod Bowen,4-2-3-1,10,2,16.9,0,0,0,Kevin De Bruyne,3-2-4-1,23,8,15.0,1,0,0,Michael Oliver,2024-08-31,Sat,17:30
+1571,2025,6,Newcastle United,Manchester City,0,0,1,1,1,1.6,0.9,38,62,Bruno Guimarães,4-3-3,10,3,15.1,0,1,1,Kyle Walker,4-2-3-1,16,6,17.6,0,0,0,Jarred Gillett,2024-09-28,Sat,12:30
+1598,2025,8,Wolverhampton Wanderers,Manchester City,0,1,0,1,2,0.8,1.6,23,77,Mario Lemina,3-5-2,3,2,17.6,0,0,0,Rúben Dias,4-1-4-1,22,7,18.3,2,0,0,Chris Kavanagh,2024-10-20,Sun,14:00
+1613,2025,10,Bournemouth,Manchester City,1,0,0,2,1,2.0,1.6,36,64,Adam Smith,4-2-3-1,12,6,16.0,0,0,0,Kyle Walker,4-1-4-1,18,4,14.5,0,0,0,Michael Oliver,2024-11-02,Sat,15:00
+1625,2025,11,Brighton And Hove Albion,Manchester City,1,0,0,2,1,2.3,2.1,40,60,Danny Welbeck,4-4-2,10,4,13.5,1,0,0,Kyle Walker,4-1-4-1,15,6,14.1,0,0,0,Samuel Barrott,2024-11-09,Sat,17:30
+1650,2025,13,Liverpool,Manchester City,1,0,0,2,0,3.4,0.8,44,56,Virgil van Dijk,4-2-3-1,17,6,17.5,0,1,1,Kyle Walker,4-2-3-1,8,2,16.2,0,0,0,Chris Kavanagh,2024-12-01,Sun,16:00
+1662,2025,15,Crystal Palace,Manchester City,0,0,1,2,2,1.3,1.4,32,68,Marc Guéhi,3-4-3,12,3,19.1,0,0,0,Kyle Walker,4-2-3-1,12,4,15.1,0,0,0,Robert Jones,2024-12-07,Sat,15:00
+1680,2025,17,Aston Villa,Manchester City,1,0,0,2,1,1.6,1.0,44,56,John McGinn,4-2-3-1,11,6,13.9,0,0,0,Bernardo Silva,4-2-3-1,12,6,18.4,0,0,0,Peter Bankes,2024-12-21,Sat,12:30
+1700,2025,19,Leicester City,Manchester City,0,1,0,0,2,1.3,1.3,53,47,Jamie Vardy,4-2-3-1,11,3,12.9,0,0,0,Kevin De Bruyne,4-1-4-1,14,5,18.3,1,0,0,Michael Oliver,2024-12-29,Sun,14:30
+1720,2025,21,Brentford,Manchester City,0,0,1,2,2,2.5,2.2,45,55,Christian Nørgaard,4-3-3,18,5,14.2,0,0,0,Kevin De Bruyne,4-2-3-1,21,8,15.1,0,0,0,Anthony Taylor,2025-01-14,Tue,19:30
+1738,2025,22,Ipswich Town,Manchester City,0,1,0,0,6,0.5,3.0,33,67,Sam Morsy,5-4-1,8,4,16.7,0,0,0,Kevin De Bruyne,4-2-3-1,17,9,14.9,0,0,0,Samuel Barrott,2025-01-19,Sun,16:30
+1758,2025,24,Arsenal,Manchester City,1,0,0,5,1,1.0,0.8,46,54,Martin Ødegaard,4-3-3,12,7,15.8,0,0,0,Bernardo Silva,4-2-3-1,7,4,12.6,0,0,0,Peter Bankes,2025-02-02,Sun,16:30
+1788,2025,27,Tottenham Hotspur,Manchester City,0,1,0,0,1,1.3,2.1,55,45,James Maddison,4-3-3,11,6,10.9,0,0,0,Rúben Dias,4-2-3-1,12,5,17.2,1,0,0,Jarred Gillett,2025-02-26,Wed,19:30
+1792,2025,28,Nottingham Forest,Manchester City,1,0,0,1,0,0.7,0.9,31,69,Morgan Gibbs-White,4-2-3-1,9,4,14.8,0,0,0,Rúben Dias,4-1-4-1,14,3,20.3,1,0,0,Chris Kavanagh,2025-03-08,Sat,12:30
+1828,2025,31,Manchester United,Manchester City,0,0,1,0,0,0.9,0.5,42,58,Bruno Fernandes,3-4-3,13,2,17.9,1,0,0,Kevin De Bruyne,4-1-2-1-2◆,9,5,21.5,1,0,0,John Brooks,2025-04-06,Sun,16:30
+1843,2025,33,Everton,Manchester City,0,1,0,0,2,0.9,2.0,33,67,James Tarkowski,4-2-3-1,8,2,13.7,0,0,0,Kevin De Bruyne,4-2-3-1,12,6,15.6,0,0,0,Simon Hooper,2025-04-19,Sat,15:00
+1874,2025,36,Southampton,Manchester City,0,0,1,0,0,0.1,1.7,28,72,Jack Stephens,3-4-3,2,0,17.2,0,0,0,Kevin De Bruyne,4-2-3-1,26,4,17.5,2,0,0,Tim Robinson,2025-05-10,Sat,15:00
+1891,2025,38,Fulham,Manchester City,0,1,0,0,2,1.3,3.0,47,53,Tom Cairney,4-2-3-1,13,3,14.7,0,0,0,Rúben Dias,4-2-3-1,19,4,15.2,1,1,1,Andy Madley,2025-05-25,Sun,16:00

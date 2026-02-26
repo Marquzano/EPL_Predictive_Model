@@ -1,0 +1,96 @@
+ID,Season,Round,Home,Away,HomeWin,AwayWin,Draw,HomeGoal,AwayGoal,HomeXG,AwayXG,HomePoss,AwayPoss,HomeCaptain,HomeFormation,HomeSH,HomeSOT,HomeDist,HomeFK,HomePK,HomePKAtt,AwayCaptain,AwayFormation,AwaySH,AwaySOT,AwayDist,AwayFK,AwayPK,AwayPKAtt,Referee,Date,Day,Time
+9,2021,2,Everton,West Bromwich Albion,1,0,0,5,2,3.9,0.3,71,29,Séamus Coleman,4-3-3,17,7,12.0,1,0,0,Jake Livermore,5-4-1,6,4,22.2,1,0,0,Mike Dean,2020-09-19,Sat,12:30
+30,2021,4,Everton,Brighton And Hove Albion,1,0,0,4,2,1.6,1.3,43,57,Séamus Coleman,4-3-3,11,6,16.3,0,0,0,Lewis Dunk,3-4-3,11,3,18.7,1,0,0,Simon Hooper,2020-10-03,Sat,15:00
+39,2021,5,Everton,Liverpool,0,0,1,2,2,1.2,2.6,42,58,Séamus Coleman,4-3-3,11,5,17.4,0,0,0,Jordan Henderson,4-3-3,22,8,16.0,2,0,0,Michael Oliver,2020-10-17,Sat,12:30
+71,2021,8,Everton,Manchester United,0,1,0,1,3,0.4,1.5,55,45,Séamus Coleman,4-3-3,7,1,16.2,0,0,0,Harry Maguire,4-2-3-1,13,5,21.1,2,0,0,Paul Tierney,2020-11-07,Sat,12:30
+92,2021,10,Everton,Leeds United,0,1,0,0,1,1.2,2.9,41,59,Mason Holgate,3-4-3,15,8,17.7,0,0,0,Liam Cooper,4-4-1-1,23,6,16.5,0,0,0,Chris Kavanagh,2020-11-28,Sat,17:30
+112,2021,12,Everton,Chelsea,1,0,0,1,0,1.2,0.7,29,71,Gylfi Sigurðsson,4-3-3,8,3,17.1,1,1,1,Thiago Silva,4-3-3,10,3,20.3,2,0,0,Jonathan Moss,2020-12-12,Sat,20:00
+130,2021,14,Everton,Arsenal,1,0,0,2,1,0.6,1.4,43,57,Gylfi Sigurðsson,4-2-3-1,9,2,19.7,1,0,0,Rob Holding,3-4-3,12,1,18.9,1,1,1,Andre Marriner,2020-12-19,Sat,17:30
+156,2021,17,Everton,West Ham United,0,1,0,0,1,0.4,1.3,60,40,Séamus Coleman,4-2-3-1,10,2,21.0,0,0,0,Declan Rice,4-2-3-1,11,5,16.9,1,0,0,Kevin Friend,2021-01-01,Fri,17:30
+193,2021,20,Everton,Leicester City,0,0,1,1,1,0.5,1.2,35,65,Lucas Digne,4-4-2,8,2,15.0,0,0,0,Kasper Schmeichel,4-2-3-1,19,6,21.4,2,0,0,Mike Dean,2021-01-27,Wed,20:15
+196,2021,21,Everton,Newcastle United,0,1,0,0,2,0.8,1.7,60,40,Séamus Coleman,4-2-3-1,11,3,17.5,0,0,0,Jamaal Lascelles,4-3-1-2,13,3,17.1,2,0,0,Stuart Attwell,2021-01-30,Sat,12:30
+233,2021,24,Everton,Fulham,0,1,0,0,2,0.3,2.5,50,50,Séamus Coleman,4-3-1-2,7,2,18.7,0,0,0,Joachim Andersen,4-4-2,12,3,16.0,0,0,0,Andy Madley,2021-02-14,Sun,19:00
+237,2021,16,Everton,Manchester City,0,1,0,1,3,1.0,1.0,29,71,Gylfi Sigurðsson,4-4-1-1,3,2,9.4,0,0,0,Raheem Sterling,4-3-3,16,7,17.9,0,0,0,Andre Marriner,2021-02-17,Wed,20:15
+258,2021,26,Everton,Southampton,1,0,0,1,0,1.2,0.6,47,53,Gylfi Sigurðsson,4-3-1-2,7,1,13.8,1,0,0,James Ward-Prowse,4-4-2,9,1,16.7,0,0,0,Martin Atkinson,2021-03-01,Mon,20:00
+280,2021,28,Everton,Burnley,0,1,0,1,2,1.5,0.8,65,35,Lucas Digne,4-1-2-1-2◆,14,4,16.6,0,0,0,Ben Mee,4-4-2,14,5,19.1,1,0,0,Jonathan Moss,2021-03-13,Sat,17:30
+299,2021,30,Everton,Crystal Palace,0,0,1,1,1,2.5,0.7,48,52,Séamus Coleman,3-4-1-2,15,7,15.1,1,0,0,Luka Milivojević,4-4-2,13,6,20.1,0,0,0,Kevin Friend,2021-04-05,Mon,18:00
+311,2021,32,Everton,Tottenham Hotspur,0,0,1,2,2,1.8,1.4,53,47,Gylfi Sigurðsson,4-4-2,17,6,18.5,1,1,1,Hugo Lloris,3-4-1-2,12,3,19.3,0,0,0,Michael Oliver,2021-04-16,Fri,20:00
+333,2021,34,Everton,Aston Villa,0,1,0,1,2,1.0,1.6,47,53,Séamus Coleman,4-2-3-1,16,3,19.6,0,0,0,Tyrone Mings,4-2-3-1,13,5,19.6,1,0,0,Simon Hooper,2021-05-01,Sat,20:00
+360,2021,36,Everton,Sheffield United,0,1,0,0,1,1.4,1.2,62,38,Séamus Coleman,4-2-3-1,16,6,15.9,0,0,0,John Egan,3-4-3,10,3,18.5,0,0,0,Jonathan Moss,2021-05-16,Sun,19:00
+365,2021,37,Everton,Wolverhampton Wanderers,1,0,0,1,0,0.7,0.3,41,59,Séamus Coleman,4-4-2,14,4,15.9,0,0,0,Conor Coady,3-4-1-2,9,3,21.5,0,0,0,Andy Madley,2021-05-19,Wed,18:00
+383,2022,1,Everton,Southampton,1,0,0,3,1,2.4,0.8,48,52,Séamus Coleman,4-2-3-1,14,6,12.5,1,0,0,James Ward-Prowse,4-4-2,6,3,15.5,0,0,0,Andy Madley,2021-08-14,Sat,15:00
+420,2022,4,Everton,Burnley,1,0,0,3,1,1.4,1.0,52,48,Séamus Coleman,3-4-3,14,6,19.5,1,0,0,Ben Mee,4-4-2,11,6,16.8,0,0,0,Martin Atkinson,2021-09-13,Mon,20:00
+434,2022,6,Everton,Norwich City,1,0,0,2,0,1.9,0.5,47,53,Lucas Digne,4-4-1-1,10,3,18.8,0,1,1,Grant Hanley,5-3-2,10,2,22.3,1,0,0,David Coote,2021-09-25,Sat,15:00
+458,2022,8,Everton,West Ham United,0,1,0,0,1,0.9,1.2,39,61,Séamus Coleman,4-4-1-1,15,2,14.7,0,0,0,Declan Rice,4-2-3-1,16,4,16.5,0,0,0,Stuart Attwell,2021-10-17,Sun,14:00
+465,2022,9,Everton,Watford,0,1,0,2,5,1.5,3.7,49,51,Séamus Coleman,4-4-1-1,15,4,15.7,0,0,0,Moussa Sissoko,4-1-4-1,20,8,19.2,0,0,0,Graham Scott,2021-10-23,Sat,15:00
+487,2022,11,Everton,Tottenham Hotspur,0,0,1,0,0,0.6,0.7,45,55,Séamus Coleman,4-4-1-1,12,2,18.3,0,0,0,Hugo Lloris,3-4-3,8,0,19.5,0,0,0,Chris Kavanagh,2021-11-07,Sun,14:00
+517,2022,14,Everton,Liverpool,0,1,0,1,4,0.7,2.4,33,67,Séamus Coleman,4-4-2,8,2,20.8,1,0,0,Jordan Henderson,4-3-3,16,7,16.5,1,0,0,Paul Tierney,2021-12-01,Wed,20:15
+529,2022,15,Everton,Arsenal,1,0,0,2,1,0.9,1.0,37,63,Séamus Coleman,4-4-1-1,11,5,17.1,0,0,0,Alexandre Lacazette,4-2-3-1,10,3,16.1,0,0,0,Mike Dean,2021-12-06,Mon,20:00
+568,2022,21,Everton,Brighton And Hove Albion,0,1,0,2,3,1.6,1.7,50,50,Séamus Coleman,5-4-1,16,6,17.9,0,0,1,Adam Lallana,4-4-2,12,5,19.1,0,0,0,John Brooks,2022-01-02,Sun,14:00
+586,2022,23,Everton,Aston Villa,0,1,0,0,1,1.6,0.8,50,50,Yerry Mina,4-4-2,15,0,14.1,2,0,0,Tyrone Mings,4-3-3,8,3,19.8,2,0,0,Craig Pawson,2022-01-22,Sat,12:30
+606,2022,25,Everton,Leeds United,1,0,0,3,0,2.7,0.3,42,58,Séamus Coleman,4-4-2,21,10,18.2,0,0,0,Luke Ayling,3-3-3-1,7,0,24.1,0,0,0,Graham Scott,2022-02-12,Sat,15:00
+635,2022,27,Everton,Manchester City,0,1,0,0,1,0.5,1.8,33,67,Séamus Coleman,4-3-3,6,2,19.1,1,0,0,İlkay Gündoğan,4-3-3,13,8,16.3,0,0,0,Paul Tierney,2022-02-26,Sat,17:30
+658,2022,29,Everton,Wolverhampton Wanderers,0,1,0,0,1,0.4,0.8,39,61,Séamus Coleman,3-4-3,7,2,20.5,1,0,0,Conor Coady,3-5-2,14,3,21.7,0,0,0,Michael Oliver,2022-03-13,Sun,14:00
+664,2022,20,Everton,Newcastle United,1,0,0,1,0,0.7,0.9,39,61,Séamus Coleman,4-2-3-1,9,3,17.2,1,0,0,Fabian Schär,4-3-3,17,6,20.7,1,0,0,Craig Pawson,2022-03-17,Thu,19:45
+681,2022,32,Everton,Manchester United,1,0,0,1,0,0.4,0.8,33,67,Séamus Coleman,4-3-3,7,3,18.3,0,0,0,Harry Maguire,4-2-3-1,12,4,17.5,0,0,0,Jonathan Moss,2022-04-09,Sat,12:30
+697,2022,18,Everton,Leicester City,0,0,1,1,1,1.8,0.9,37,63,Séamus Coleman,4-3-3,13,3,14.7,0,0,0,Kasper Schmeichel,4-2-3-1,11,3,16.5,0,0,0,David Coote,2022-04-20,Wed,19:45
+720,2022,35,Everton,Chelsea,1,0,0,1,0,0.8,0.8,23,77,Séamus Coleman,5-4-1,9,4,17.8,1,0,0,César Azpilicueta,3-4-1-2,17,5,17.9,0,0,0,Kevin Friend,2022-05-01,Sun,14:00
+745,2022,37,Everton,Brentford,0,1,0,2,3,2.1,1.4,28,72,Séamus Coleman,3-4-3,9,4,17.4,0,1,1,Pontus Jansson,4-3-3,18,6,18.1,1,0,0,Michael Oliver,2022-05-15,Sun,16:30
+748,2022,33,Everton,Crystal Palace,1,0,0,3,2,0.8,1.1,43,57,Séamus Coleman,3-4-3,12,6,18.5,1,0,0,Marc Guéhi,4-3-3,7,5,14.2,0,0,0,Anthony Taylor,2022-05-19,Thu,19:45
+767,2023,1,Everton,Chelsea,0,1,0,0,1,0.7,1.5,38,62,Jordan Pickford,5-4-1,8,3,13.5,0,0,0,César Azpilicueta,3-4-3,14,5,16.1,1,1,1,Craig Pawson,2022-08-06,Sat,17:30
+782,2023,3,Everton,Nottingham Forest,0,0,1,1,1,1.5,1.0,49,51,Jordan Pickford,3-4-3,19,8,20.8,1,0,0,Joe Worrall,3-4-1-2,14,5,19.3,1,0,0,Andre Marriner,2022-08-20,Sat,15:00
+811,2023,6,Everton,Liverpool,0,0,1,0,0,1.7,2.1,39,61,Jordan Pickford,4-3-3,14,3,15.5,0,0,0,Virgil van Dijk,4-3-3,23,8,13.1,0,0,0,Anthony Taylor,2022-09-03,Sat,12:30
+827,2023,8,Everton,West Ham United,1,0,0,1,0,0.4,1.0,53,47,Conor Coady,4-3-3,7,2,21.4,0,0,0,Declan Rice,4-2-3-1,14,4,15.2,0,0,0,Michael Oliver,2022-09-18,Sun,14:15
+846,2023,10,Everton,Manchester United,0,1,0,1,2,0.6,1.4,40,60,Séamus Coleman,4-3-3,11,2,17.4,0,0,0,Bruno Fernandes,4-2-3-1,12,4,18.8,0,0,0,David Coote,2022-10-09,Sun,19:00
+869,2023,13,Everton,Crystal Palace,1,0,0,3,0,1.4,0.9,46,54,Séamus Coleman,4-2-3-1,9,6,16.8,0,0,0,Luka Milivojević,4-1-4-1,9,2,17.1,2,0,0,Simon Hooper,2022-10-22,Sat,15:00
+891,2023,15,Everton,Leicester City,0,1,0,0,2,1.2,2.3,49,51,Séamus Coleman,4-3-3,12,2,12.9,0,0,0,Youri Tielemans,4-1-4-1,22,8,17.5,0,0,0,David Coote,2022-11-05,Sat,17:30
+909,2023,17,Everton,Wolverhampton Wanderers,0,1,0,1,2,1.7,0.8,58,42,Jordan Pickford,4-3-3,12,5,19.2,2,0,0,Rúben Neves,4-3-3,7,4,18.6,0,0,0,Craig Pawson,2022-12-26,Mon,15:00
+928,2023,19,Everton,Brighton And Hove Albion,0,1,0,1,4,1.3,2.2,49,51,Jordan Pickford,4-3-3,9,3,19.0,0,1,1,Lewis Dunk,4-2-3-1,19,8,18.9,1,0,0,Andre Marriner,2023-01-03,Tue,19:45
+941,2023,20,Everton,Southampton,0,1,0,1,2,1.4,1.2,52,48,Séamus Coleman,3-4-3,12,4,16.0,0,0,0,James Ward-Prowse,4-2-3-1,13,5,20.7,2,0,0,John Brooks,2023-01-14,Sat,15:00
+961,2023,22,Everton,Arsenal,1,0,0,1,0,1.7,0.9,30,70,Séamus Coleman,4-5-1,12,4,16.4,0,0,0,Martin Ødegaard,4-3-3,15,2,17.6,0,0,0,David Coote,2023-02-04,Sat,12:30
+983,2023,24,Everton,Leeds United,1,0,0,1,0,1.4,0.5,51,49,Séamus Coleman,4-5-1,15,4,15.7,0,0,0,Luke Ayling,4-2-3-1,8,0,18.4,0,0,0,Andy Madley,2023-02-18,Sat,15:00
+993,2023,25,Everton,Aston Villa,0,1,0,0,2,1.6,1.9,47,53,Séamus Coleman,4-1-4-1,15,4,12.6,2,0,0,John McGinn,4-4-2,8,4,22.1,1,1,1,Anthony Taylor,2023-02-25,Sat,15:00
+1016,2023,27,Everton,Brentford,1,0,0,1,0,1.0,2.0,33,67,Séamus Coleman,4-5-1,13,6,17.0,1,0,0,Christian Nørgaard,4-3-3,12,3,13.0,1,0,0,Simon Hooper,2023-03-11,Sat,15:00
+1040,2023,29,Everton,Tottenham Hotspur,0,0,1,1,1,0.9,1.4,39,61,Séamus Coleman,4-1-4-1,15,6,19.3,0,0,0,Hugo Lloris,3-4-3,7,0,19.6,0,1,1,David Coote,2023-04-03,Mon,20:00
+1059,2023,31,Everton,Fulham,0,1,0,1,3,1.4,1.8,46,54,Jordan Pickford,4-4-2,15,7,17.1,0,0,0,Tim Ream,4-2-3-1,21,7,17.9,0,0,0,Anthony Taylor,2023-04-15,Sat,15:00
+1082,2023,33,Everton,Newcastle United,0,1,0,1,4,0.9,2.4,40,60,Jordan Pickford,4-3-3,13,5,22.3,1,0,0,Kieran Trippier,4-3-3,15,7,14.3,0,0,0,Andre Marriner,2023-04-27,Thu,19:45
+1114,2023,36,Everton,Manchester City,0,1,0,0,3,1.6,0.8,37,63,Jordan Pickford,4-2-3-1,7,2,7.6,0,0,0,İlkay Gündoğan,4-2-3-1,9,4,19.3,2,0,0,Anthony Taylor,2023-05-14,Sun,14:00
+1139,2023,38,Everton,Bournemouth,1,0,0,1,0,1.0,0.5,38,62,Jordan Pickford,3-4-3,13,6,17.2,0,0,0,Adam Smith,4-2-3-1,7,1,14.5,0,0,0,Stuart Attwell,2023-05-28,Sun,16:30
+1146,2024,1,Everton,Fulham,0,1,0,0,1,2.7,1.5,42,58,James Tarkowski,4-4-1-1,19,9,15.8,0,0,0,Tom Cairney,4-3-3,9,2,13.2,0,0,0,Stuart Attwell,2023-08-12,Sat,15:00
+1162,2024,3,Everton,Wolverhampton Wanderers,0,1,0,0,1,1.3,1.1,47,53,James Tarkowski,4-1-4-1,15,7,13.8,0,0,0,Max Kilman,4-4-1-1,11,2,17.8,1,0,0,Craig Pawson,2023-08-26,Sat,15:00
+1188,2024,5,Everton,Arsenal,0,1,0,0,1,0.3,1.0,26,74,James Tarkowski,4-5-1,8,1,21.6,0,0,0,Martin Ødegaard,4-3-3,13,4,17.4,0,0,0,Simon Hooper,2023-09-17,Sun,16:30
+1201,2024,7,Everton,Luton Town,0,1,0,1,2,2.9,0.9,67,33,James Tarkowski,4-4-1-1,23,4,14.4,0,0,0,Tom Lockyer,3-4-3,9,2,13.4,0,0,0,Anthony Taylor,2023-09-30,Sat,15:00
+1213,2024,8,Everton,Bournemouth,1,0,0,3,0,2.4,0.7,48,52,James Tarkowski,4-4-1-1,25,8,15.8,0,0,0,Neto,4-2-3-1,11,3,16.2,0,0,0,David Coote,2023-10-07,Sat,15:00
+1246,2024,11,Everton,Brighton And Hove Albion,0,0,1,1,1,0.7,0.5,21,79,James Tarkowski,4-4-1-1,10,4,14.4,1,0,0,Lewis Dunk,4-3-3,7,2,15.6,1,0,0,Tim Robinson,2023-11-04,Sat,15:00
+1269,2024,13,Everton,Manchester United,0,1,0,0,3,2.4,2.2,51,49,James Tarkowski,4-4-1-1,24,6,16.9,0,0,0,Bruno Fernandes,4-2-3-1,8,3,17.4,0,1,1,John Brooks,2023-11-26,Sun,16:30
+1289,2024,15,Everton,Newcastle United,1,0,0,3,0,3.3,1.5,38,62,Séamus Coleman,4-4-1-1,21,6,13.3,0,0,0,Jamaal Lascelles,4-3-3,13,3,19.3,1,0,0,Tim Robinson,2023-12-07,Thu,19:30
+1297,2024,16,Everton,Chelsea,1,0,0,2,0,1.2,0.9,29,71,James Tarkowski,4-4-1-1,9,5,16.4,0,0,0,Reece James,4-2-3-1,16,4,18.5,1,0,0,Michael Oliver,2023-12-10,Sun,14:00
+1326,2024,19,Everton,Manchester City,0,1,0,1,3,1.0,2.4,28,72,James Tarkowski,4-2-3-1,7,2,12.5,0,0,0,Kyle Walker,4-2-3-1,22,8,19.5,1,1,1,John Brooks,2023-12-27,Wed,20:15
+1342,2024,21,Everton,Aston Villa,0,0,1,0,0,1.1,1.2,32,68,Séamus Coleman,4-2-3-1,10,2,17.2,1,0,0,John McGinn,4-4-2,16,4,14.2,0,0,0,David Coote,2024-01-14,Sun,14:00
+1359,2024,23,Everton,Tottenham Hotspur,0,0,1,2,2,2.6,1.0,43,57,James Tarkowski,4-4-1-1,14,4,14.3,0,0,0,Cristian Romero,4-2-3-1,9,6,17.8,0,0,0,Michael Oliver,2024-02-03,Sat,12:30
+1388,2024,25,Everton,Crystal Palace,0,0,1,1,1,1.7,0.7,61,39,James Tarkowski,4-4-1-1,19,4,16.4,1,0,0,Joel Ward,3-4-3,10,3,13.0,0,0,0,Paul Tierney,2024-02-19,Mon,20:00
+1399,2024,27,Everton,West Ham United,0,1,0,1,3,2.7,1.9,55,45,James Tarkowski,4-4-1-1,21,9,21.8,0,0,1,Kurt Zouma,4-2-3-1,12,5,14.2,0,0,0,Craig Pawson,2024-03-02,Sat,15:00
+1446,2024,32,Everton,Burnley,1,0,0,1,0,0.9,0.5,38,62,Séamus Coleman,4-4-1-1,12,3,20.0,1,0,0,Josh Cullen,4-4-2,6,1,16.5,1,0,0,Michael Oliver,2024-04-06,Sat,15:00
+1467,2024,34,Everton,Nottingham Forest,1,0,0,2,0,0.3,0.9,41,59,James Tarkowski,4-1-4-1,7,4,18.7,0,0,0,Morgan Gibbs-White,4-2-3-1,8,3,13.7,0,0,0,Anthony Taylor,2024-04-21,Sun,13:30
+1473,2024,29,Everton,Liverpool,1,0,0,2,0,1.2,2.1,25,75,James Tarkowski,4-4-1-1,16,6,14.9,0,0,0,Virgil van Dijk,4-3-3,23,7,16.8,0,0,0,Andy Madley,2024-04-24,Wed,20:00
+1482,2024,35,Everton,Brentford,1,0,0,1,0,0.8,0.9,48,52,James Tarkowski,4-4-1-1,18,1,19.1,1,0,0,Christian Nørgaard,4-3-3,10,4,16.6,0,0,0,Darren England,2024-04-27,Sat,17:30
+1503,2024,37,Everton,Sheffield United,1,0,0,1,0,2.3,0.6,58,42,Séamus Coleman,4-4-1-1,15,6,17.1,0,0,0,Jack Robinson,3-5-2,13,1,21.0,0,0,0,Stuart Attwell,2024-05-11,Sat,15:00
+1526,2025,1,Everton,Brighton And Hove Albion,0,1,0,0,3,0.5,1.4,40,60,James Tarkowski,4-2-3-1,9,1,18.4,0,0,0,Lewis Dunk,4-2-3-1,10,5,13.8,0,0,0,Simon Hooper,2024-08-17,Sat,15:00
+1546,2025,3,Everton,Bournemouth,0,1,0,2,3,1.8,2.4,47,53,Séamus Coleman,4-2-3-1,18,8,15.7,0,0,0,Lewis Cook,4-2-3-1,17,7,14.9,0,0,0,Stuart Attwell,2024-08-31,Sat,15:00
+1572,2025,6,Everton,Crystal Palace,1,0,0,2,1,0.9,0.9,41,59,James Tarkowski,4-2-3-1,8,2,15.3,0,0,0,Marc Guéhi,3-4-3,17,4,17.3,1,0,0,Andy Madley,2024-09-28,Sat,15:00
+1587,2025,7,Everton,Newcastle United,0,0,1,0,0,0.7,2.1,33,67,James Tarkowski,4-2-3-1,8,2,24.3,1,0,0,Bruno Guimarães,4-3-3,13,1,13.8,0,0,1,Craig Pawson,2024-10-05,Sat,17:30
+1606,2025,9,Everton,Fulham,0,0,1,1,1,0.8,1.2,40,60,James Tarkowski,4-2-3-1,10,5,14.3,0,0,0,Bernd Leno,4-2-3-1,14,3,18.2,0,0,0,John Brooks,2024-10-26,Sat,17:30
+1632,2025,12,Everton,Brentford,0,0,1,0,0,1.2,1.1,59,41,James Tarkowski,4-2-3-1,27,5,19.9,0,0,0,Christian Nørgaard,4-3-3,9,2,18.4,0,0,0,Chris Kavanagh,2024-11-23,Sat,15:00
+1655,2025,14,Everton,Wolverhampton Wanderers,1,0,0,4,0,1.0,0.8,44,56,James Tarkowski,4-2-3-1,13,4,18.7,1,0,0,Mario Lemina,3-4-3,6,2,20.7,0,0,0,Michael Salisbury,2024-12-04,Wed,19:30
+1686,2025,17,Everton,Chelsea,0,0,1,0,0,1.0,1.2,25,75,James Tarkowski,4-3-3,5,4,19.8,1,0,0,Enzo Fernández,4-2-3-1,12,4,16.8,2,0,0,Chris Kavanagh,2024-12-22,Sun,14:00
+1704,2025,19,Everton,Nottingham Forest,0,1,0,0,2,0.9,1.5,64,36,James Tarkowski,4-3-3,13,2,16.3,1,0,0,Morgan Gibbs-White,4-2-3-1,11,7,17.4,0,0,0,Tony Harrington,2024-12-29,Sun,15:00
+1726,2025,21,Everton,Aston Villa,0,1,0,0,1,1.1,1.2,50,50,James Tarkowski,4-2-3-1,10,2,16.4,0,0,0,Emiliano Martínez,4-2-3-1,11,3,20.5,1,0,0,Samuel Barrott,2025-01-15,Wed,19:30
+1736,2025,22,Everton,Tottenham Hotspur,1,0,0,3,2,1.8,1.1,36,64,James Tarkowski,4-2-3-1,12,6,14.2,0,0,0,Son Heung-min,3-4-3,11,5,16.4,0,0,0,Darren England,2025-01-19,Sun,14:00
+1752,2025,24,Everton,Leicester City,1,0,0,4,0,2.5,0.3,48,52,James Tarkowski,4-2-3-1,13,7,13.5,0,0,0,Jamie Vardy,4-2-3-1,9,1,18.1,1,0,0,Darren Bond,2025-02-01,Sat,15:00
+1760,2025,15,Everton,Liverpool,0,0,1,2,2,1.0,0.6,37,63,James Tarkowski,4-2-3-1,10,3,18.3,0,0,0,Virgil van Dijk,4-2-3-1,6,4,15.4,0,0,0,Michael Oliver,2025-02-12,Wed,19:30
+1773,2025,26,Everton,Manchester United,0,0,1,2,2,1.6,0.4,38,62,James Tarkowski,4-2-3-1,9,8,12.5,0,0,0,Bruno Fernandes,3-4-3,9,3,20.0,2,0,0,Andy Madley,2025-02-22,Sat,12:30
+1802,2025,29,Everton,West Ham United,0,0,1,1,1,1.0,0.8,54,46,James Tarkowski,4-2-3-1,13,5,12.3,0,0,0,Jarrod Bowen,3-5-2,10,5,13.6,0,0,0,Darren Bond,2025-03-15,Sat,15:00
+1820,2025,31,Everton,Arsenal,0,0,1,1,1,1.1,1.8,31,69,James Tarkowski,4-2-3-1,4,1,21.7,0,1,1,Jorginho,4-3-3,14,4,13.3,2,0,0,Darren England,2025-04-05,Sat,12:30
+1843,2025,33,Everton,Manchester City,0,1,0,0,2,0.9,2.0,33,67,James Tarkowski,4-2-3-1,8,2,13.7,0,0,0,Kevin De Bruyne,4-2-3-1,12,6,15.6,0,0,0,Simon Hooper,2025-04-19,Sat,15:00
+1864,2025,35,Everton,Ipswich Town,0,0,1,2,2,0.6,0.8,58,42,Jordan Pickford,4-2-3-1,8,3,14.5,0,0,0,Sam Morsy,4-2-3-1,12,5,19.8,0,0,0,Lewis Smith,2025-05-03,Sat,15:00
+1883,2025,37,Everton,Southampton,1,0,0,2,0,2.7,1.2,50,50,Séamus Coleman,4-2-3-1,13,4,12.1,0,0,0,Jack Stephens,3-4-3,6,2,12.5,0,0,0,Michael Oliver,2025-05-18,Sun,12:00

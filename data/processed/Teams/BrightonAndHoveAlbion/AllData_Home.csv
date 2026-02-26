@@ -1,0 +1,96 @@
+ID,Season,Round,Home,Away,HomeWin,AwayWin,Draw,HomeGoal,AwayGoal,HomeXG,AwayXG,HomePoss,AwayPoss,HomeCaptain,HomeFormation,HomeSH,HomeSOT,HomeDist,HomeFK,HomePK,HomePKAtt,AwayCaptain,AwayFormation,AwaySH,AwaySOT,AwayDist,AwayFK,AwayPK,AwayPKAtt,Referee,Date,Day,Time
+8,2021,1,Brighton And Hove Albion,Chelsea,0,1,0,1,3,1.1,1.2,52,48,Lewis Dunk,3-5-2,13,3,17.6,0,0,0,Jorginho,4-2-2-2,9,4,21.3,0,1,1,Craig Pawson,2020-09-14,Mon,20:15
+19,2021,3,Brighton And Hove Albion,Manchester United,0,1,0,2,3,2.5,1.5,53,47,Lewis Dunk,3-4-3,17,4,16.5,0,1,1,Harry Maguire,4-2-3-1,6,2,18.2,0,1,1,Chris Kavanagh,2020-09-26,Sat,12:30
+57,2021,6,Brighton And Hove Albion,West Bromwich Albion,0,0,1,1,1,0.5,0.4,50,50,Adam Webster,3-4-3,5,3,18.4,0,0,0,Jake Livermore,4-1-4-1,9,3,21.9,0,0,0,Jonathan Moss,2020-10-26,Mon,17:30
+69,2021,8,Brighton And Hove Albion,Burnley,0,0,1,0,0,1.5,0.5,59,41,Adam Webster,5-3-2,19,3,17.1,1,0,0,Ben Mee,4-4-2,4,1,11.7,0,0,0,Mike Dean,2020-11-06,Fri,17:30
+90,2021,10,Brighton And Hove Albion,Liverpool,0,0,1,1,1,2.3,0.2,40,60,Lewis Dunk,3-4-1-2,9,2,20.9,1,1,2,James Milner,4-3-3,6,2,21.1,0,0,0,Stuart Attwell,2020-11-28,Sat,12:30
+107,2021,11,Brighton And Hove Albion,Southampton,0,1,0,1,2,1.9,1.4,48,52,Lewis Dunk,3-4-1-2,11,3,15.8,0,1,1,James Ward-Prowse,4-4-2,9,2,19.2,0,1,1,David Coote,2020-12-07,Mon,20:00
+132,2021,14,Brighton And Hove Albion,Sheffield United,0,0,1,1,1,2.8,0.5,73,27,Lewis Dunk,3-4-3,21,4,14.0,0,0,0,John Egan,5-3-2,5,3,26.0,1,0,0,Peter Bankes,2020-12-20,Sun,12:00
+153,2021,16,Brighton And Hove Albion,Arsenal,0,1,0,0,1,0.8,1.1,50,50,Lewis Dunk,3-5-2,13,2,13.9,0,0,0,Pierre-Emerick Aubameyang,4-2-3-1,11,3,14.5,1,0,0,Martin Atkinson,2020-12-29,Tue,18:00
+160,2021,17,Brighton And Hove Albion,Wolverhampton Wanderers,0,0,1,3,3,2.2,1.6,54,46,Lewis Dunk,3-4-3,12,3,16.7,0,1,1,Conor Coady,4-2-3-1,10,3,19.7,0,1,1,Andy Madley,2021-01-02,Sat,17:30
+192,2021,20,Brighton And Hove Albion,Fulham,0,0,1,0,0,1.8,0.5,50,50,Lewis Dunk,3-5-2,16,5,16.0,1,0,0,Joachim Andersen,3-4-3,10,2,16.8,0,0,0,Craig Pawson,2021-01-27,Wed,19:30
+205,2021,21,Brighton And Hove Albion,Tottenham Hotspur,1,0,0,1,0,1.6,0.4,43,57,Lewis Dunk,3-4-3,16,3,15.5,0,0,0,Hugo Lloris,3-4-3,8,4,21.2,1,0,0,Peter Bankes,2021-01-31,Sun,19:15
+229,2021,24,Brighton And Hove Albion,Aston Villa,0,0,1,0,0,2.2,0.1,58,42,Lewis Dunk,4-1-3-2,26,9,18.3,3,0,0,Jack Grealish,4-2-3-1,4,1,23.9,0,0,0,Darren England,2021-02-13,Sat,20:00
+247,2021,25,Brighton And Hove Albion,Crystal Palace,0,1,0,1,2,2.4,0.2,74,26,Lewis Dunk,4-4-2,25,5,14.5,0,0,0,Luka Milivojević,4-3-3,3,2,15.0,0,0,0,Kevin Friend,2021-02-22,Mon,20:00
+269,2021,27,Brighton And Hove Albion,Leicester City,0,1,0,1,2,0.8,0.9,37,63,Lewis Dunk,4-4-2,7,2,15.0,0,0,0,Kasper Schmeichel,3-1-4-2,8,4,17.1,0,0,0,Michael Oliver,2021-03-06,Sat,20:00
+288,2021,29,Brighton And Hove Albion,Newcastle United,1,0,0,3,0,0.9,0.1,65,35,Lewis Dunk,3-4-1-2,11,6,15.7,0,0,0,Jamaal Lascelles,4-3-3,3,1,19.5,0,0,0,Anthony Taylor,2021-03-20,Sat,20:00
+310,2021,31,Brighton And Hove Albion,Everton,0,0,1,0,0,1.2,0.4,55,45,Lewis Dunk,3-4-3,23,3,19.0,2,0,0,Séamus Coleman,5-3-2,8,1,22.0,1,0,0,Darren England,2021-04-12,Mon,20:15
+331,2021,34,Brighton And Hove Albion,Leeds United,1,0,0,2,0,2.3,0.6,42,58,Lewis Dunk,3-4-1-2,16,4,18.4,0,1,1,Luke Ayling,4-1-4-1,11,2,21.6,0,0,0,Chris Kavanagh,2021-05-01,Sat,15:00
+356,2021,36,Brighton And Hove Albion,West Ham United,0,0,1,1,1,0.8,1.7,51,49,Pascal Groß,3-4-3,10,2,23.8,0,0,0,Declan Rice,4-2-3-1,15,2,18.6,0,0,0,Andre Marriner,2021-05-15,Sat,20:00
+363,2021,37,Brighton And Hove Albion,Manchester City,1,0,0,3,2,1.1,0.9,63,37,Pascal Groß,3-5-2,19,6,19.7,1,0,0,İlkay Gündoğan,4-3-3,8,4,14.2,1,0,0,Stuart Attwell,2021-05-18,Tue,19:00
+396,2022,2,Brighton And Hove Albion,Watford,1,0,0,2,0,1.3,0.5,56,44,Lewis Dunk,4-4-1-1,13,3,16.9,0,0,0,Tom Cleverley,4-1-4-1,10,1,19.3,0,0,0,Anthony Taylor,2021-08-21,Sat,17:30
+402,2022,3,Brighton And Hove Albion,Everton,0,1,0,0,2,0.7,1.4,65,35,Lewis Dunk,3-4-3,14,3,22.3,2,0,0,Séamus Coleman,4-4-1-1,13,4,21.2,0,1,1,Jonathan Moss,2021-08-28,Sat,15:00
+429,2022,5,Brighton And Hove Albion,Leicester City,1,0,0,2,1,1.7,1.6,37,63,Lewis Dunk,4-4-2,11,4,16.9,2,1,1,Kasper Schmeichel,4-3-3,14,3,19.9,0,0,0,Stuart Attwell,2021-09-19,Sun,14:00
+446,2022,7,Brighton And Hove Albion,Arsenal,0,0,1,0,0,1.1,0.4,58,42,Lewis Dunk,3-5-2,21,2,17.7,0,0,0,Pierre-Emerick Aubameyang,4-2-3-1,8,2,21.1,1,0,0,Jonathan Moss,2021-10-02,Sat,17:30
+467,2022,9,Brighton And Hove Albion,Manchester City,0,1,0,1,4,1.3,3.8,48,52,Lewis Dunk,3-5-2,9,4,18.9,0,1,1,İlkay Gündoğan,4-3-3,23,12,16.0,1,0,0,Kevin Friend,2021-10-23,Sat,17:30
+486,2022,11,Brighton And Hove Albion,Newcastle United,0,0,1,1,1,1.5,0.3,65,35,Lewis Dunk,4-2-3-1,13,4,17.9,0,1,1,Jamaal Lascelles,5-4-1,6,1,18.1,0,0,0,David Coote,2021-11-06,Sat,17:30
+505,2022,13,Brighton And Hove Albion,Leeds United,0,0,1,0,0,2.1,0.6,57,43,Lewis Dunk,4-2-3-1,20,4,16.6,0,0,0,Liam Cooper,4-2-3-1,11,4,17.4,1,0,0,Craig Pawson,2021-11-27,Sat,17:30
+542,2022,17,Brighton And Hove Albion,Wolverhampton Wanderers,0,1,0,0,1,1.2,1.0,59,41,Dan Burn,4-3-3,12,2,17.8,2,0,0,Conor Coady,3-4-3,8,5,18.0,1,0,0,Tony Harrington,2021-12-15,Wed,19:30
+555,2022,19,Brighton And Hove Albion,Brentford,1,0,0,2,0,0.8,0.7,50,50,Adam Lallana,4-1-2-1-2◆,15,5,21.7,3,0,0,Pontus Jansson,3-5-2,16,5,17.1,0,0,0,Darren England,2021-12-26,Sun,20:00
+574,2022,22,Brighton And Hove Albion,Crystal Palace,0,0,1,1,1,2.0,0.2,63,37,Adam Lallana,4-1-2-1-2◆,18,3,18.2,0,0,1,Joel Ward,4-3-3,3,1,22.2,0,0,0,Robert Jones,2022-01-14,Fri,20:00
+582,2022,24,Brighton And Hove Albion,Chelsea,0,0,1,1,1,0.7,0.7,44,56,Adam Webster,4-1-4-1,10,2,16.2,0,0,0,César Azpilicueta,4-2-2-2,15,3,21.1,1,0,0,Kevin Friend,2022-01-18,Tue,20:00
+619,2022,26,Brighton And Hove Albion,Burnley,0,1,0,0,3,0.6,0.7,68,32,Adam Lallana,4-4-2,11,1,19.5,0,0,0,Ben Mee,4-4-2,10,4,19.7,0,0,0,Kevin Friend,2022-02-19,Sat,15:00
+631,2022,27,Brighton And Hove Albion,Aston Villa,0,1,0,0,2,0.7,1.0,66,34,Lewis Dunk,3-5-2,12,1,19.4,0,0,0,Tyrone Mings,4-1-2-1-2◆,9,4,17.5,1,0,0,John Brooks,2022-02-26,Sat,15:00
+652,2022,29,Brighton And Hove Albion,Liverpool,0,1,0,0,2,0.5,2.2,52,48,Lewis Dunk,4-2-3-1,8,3,18.4,0,0,0,Jordan Henderson,4-3-3,17,8,15.2,0,1,1,Mike Dean,2022-03-12,Sat,12:30
+662,2022,16,Brighton And Hove Albion,Tottenham Hotspur,0,1,0,0,2,0.7,2.2,48,52,Lewis Dunk,4-2-3-1,15,0,18.3,0,0,0,Hugo Lloris,3-4-3,17,7,19.0,1,0,0,Robert Jones,2022-03-16,Wed,19:30
+674,2022,31,Brighton And Hove Albion,Norwich City,0,0,1,0,0,2.8,0.4,63,37,Lewis Dunk,3-4-1-2,30,4,18.7,1,0,1,Grant Hanley,4-1-2-1-2◆,6,0,17.8,0,0,0,Simon Hooper,2022-04-02,Sat,15:00
+709,2022,34,Brighton And Hove Albion,Southampton,0,0,1,2,2,1.7,0.9,48,52,Lewis Dunk,4-3-1-2,8,5,11.4,0,0,0,James Ward-Prowse,4-4-2,18,5,20.4,1,0,0,Robert Jones,2022-04-24,Sun,14:00
+727,2022,36,Brighton And Hove Albion,Manchester United,1,0,0,4,0,2.3,0.9,42,58,Lewis Dunk,3-4-3,17,5,15.9,0,0,0,Bruno Fernandes,4-2-3-1,15,5,19.4,1,0,0,Andy Madley,2022-05-07,Sat,17:30
+756,2022,38,Brighton And Hove Albion,West Ham United,1,0,0,3,1,1.6,0.2,50,50,Lewis Dunk,4-3-2-1,18,7,16.4,0,0,0,Declan Rice,4-2-3-1,7,2,22.0,0,0,0,Kevin Friend,2022-05-22,Sun,16:00
+774,2023,2,Brighton And Hove Albion,Newcastle United,0,0,1,0,0,1.5,0.2,54,46,Lewis Dunk,3-4-1-2,13,5,17.3,0,0,0,Kieran Trippier,4-3-3,4,1,17.8,0,0,0,Graham Scott,2022-08-13,Sat,15:00
+794,2023,4,Brighton And Hove Albion,Leeds United,1,0,0,1,0,2.0,1.8,44,56,Lewis Dunk,4-4-2,13,4,13.6,0,0,0,Rodrigo,4-2-3-1,10,2,18.0,1,0,0,Michael Salisbury,2022-08-27,Sat,15:00
+819,2023,6,Brighton And Hove Albion,Leicester City,1,0,0,5,2,2.6,1.4,53,47,Lewis Dunk,3-5-2,22,10,19.6,2,1,1,Jonny Evans,4-4-2,6,4,14.8,0,0,0,Tony Harrington,2022-09-04,Sun,14:00
+842,2023,10,Brighton And Hove Albion,Tottenham Hotspur,0,1,0,0,1,0.7,0.8,59,41,Lewis Dunk,3-4-3,14,4,18.5,0,0,0,Hugo Lloris,3-5-2,8,3,18.7,1,0,0,Tony Harrington,2022-10-08,Sat,17:30
+858,2023,12,Brighton And Hove Albion,Nottingham Forest,0,0,1,0,0,1.7,0.1,70,30,Lewis Dunk,3-4-3,19,7,15.7,0,0,0,Ryan Yates,4-3-3,3,0,11.5,0,0,0,Darren England,2022-10-18,Tue,19:30
+878,2023,14,Brighton And Hove Albion,Chelsea,1,0,0,4,1,2.4,1.4,41,59,Lewis Dunk,4-2-3-1,19,7,15.9,0,0,0,Thiago Silva,3-4-3,15,7,18.3,0,0,0,Andy Madley,2022-10-29,Sat,15:00
+905,2023,16,Brighton And Hove Albion,Aston Villa,0,1,0,1,2,0.6,1.5,65,35,Lewis Dunk,4-2-3-1,7,2,18.2,0,0,0,John McGinn,4-4-2,7,1,25.1,0,1,1,Chris Kavanagh,2022-11-13,Sun,14:00
+924,2023,18,Brighton And Hove Albion,Arsenal,0,1,0,2,4,1.2,2.9,68,32,Lewis Dunk,4-2-3-1,9,5,13.5,0,0,0,Martin Ødegaard,4-3-3,14,7,11.2,0,0,0,Anthony Taylor,2022-12-31,Sat,17:30
+940,2023,20,Brighton And Hove Albion,Liverpool,1,0,0,3,0,1.9,1.0,61,39,Lewis Dunk,4-2-3-1,16,8,16.3,0,0,0,Jordan Henderson,4-1-2-1-2◆,6,2,12.8,0,0,0,Darren England,2023-01-14,Sat,15:00
+963,2023,22,Brighton And Hove Albion,Bournemouth,1,0,0,1,0,2.2,1.1,71,29,Lewis Dunk,3-4-3,20,6,16.3,0,0,0,Neto,4-4-1-1,12,2,15.3,0,0,0,Craig Pawson,2023-02-04,Sat,15:00
+984,2023,24,Brighton And Hove Albion,Fulham,0,1,0,0,1,2.2,0.3,65,35,Lewis Dunk,4-2-3-1,21,7,15.6,1,0,0,Tim Ream,4-2-3-1,5,2,16.0,0,0,0,Darren England,2023-02-18,Sat,15:00
+1006,2023,26,Brighton And Hove Albion,West Ham United,1,0,0,4,0,3.5,0.3,65,35,Lewis Dunk,4-2-3-1,19,8,16.3,0,1,1,Declan Rice,4-2-3-1,3,2,12.1,0,0,0,Stuart Attwell,2023-03-04,Sat,15:00
+1023,2023,8,Brighton And Hove Albion,Crystal Palace,1,0,0,1,0,0.6,1.1,57,43,Lewis Dunk,4-2-3-1,11,5,20.5,1,0,0,Marc Guéhi,4-3-3,11,3,17.3,1,0,0,Peter Bankes,2023-03-15,Wed,19:30
+1034,2023,29,Brighton And Hove Albion,Brentford,0,0,1,3,3,4.2,1.6,72,28,Lewis Dunk,4-2-3-1,32,13,16.7,1,1,1,Pontus Jansson,5-3-2,7,5,15.6,1,0,0,Michael Oliver,2023-04-01,Sat,15:00
+1086,2023,34,Brighton And Hove Albion,Wolverhampton Wanderers,1,0,0,6,0,3.3,0.8,57,43,Lewis Dunk,4-2-3-1,22,8,16.5,0,0,0,Rúben Neves,4-4-2,10,2,18.7,0,0,0,David Coote,2023-04-29,Sat,15:00
+1097,2023,28,Brighton And Hove Albion,Manchester United,1,0,0,1,0,2.3,1.4,59,41,Lewis Dunk,4-2-3-1,21,5,19.3,0,1,1,Bruno Fernandes,4-3-3,16,5,18.5,1,0,0,Andre Marriner,2023-05-04,Thu,20:00
+1106,2023,35,Brighton And Hove Albion,Everton,0,1,0,1,5,3.2,2.3,78,22,Lewis Dunk,4-2-3-1,23,5,13.3,0,0,0,Jordan Pickford,4-2-3-1,10,5,12.8,0,0,0,Simon Hooper,2023-05-08,Mon,17:30
+1126,2023,37,Brighton And Hove Albion,Southampton,1,0,0,3,1,2.5,0.6,63,37,Lewis Dunk,4-2-3-1,26,8,17.4,0,0,0,James Ward-Prowse,4-1-4-1,5,1,13.8,1,0,0,Paul Tierney,2023-05-21,Sun,14:00
+1129,2023,32,Brighton And Hove Albion,Manchester City,0,0,1,1,1,2.2,1.8,40,60,Pascal Groß,4-2-3-1,20,7,17.4,2,0,0,İlkay Gündoğan,4-3-3,13,4,13.9,0,0,0,Simon Hooper,2023-05-24,Wed,20:00
+1143,2024,1,Brighton And Hove Albion,Luton Town,1,0,0,4,1,4.0,1.5,70,30,Lewis Dunk,4-2-3-1,26,11,17.0,0,1,1,Tom Lockyer,3-5-2,8,2,16.6,0,1,1,David Coote,2023-08-12,Sat,15:00
+1166,2024,3,Brighton And Hove Albion,West Ham United,0,1,0,1,3,1.5,3.0,78,22,Lewis Dunk,4-2-3-1,25,10,19.5,1,0,0,Kurt Zouma,4-1-4-1,12,7,12.3,0,0,0,Anthony Taylor,2023-08-26,Sat,17:30
+1176,2024,4,Brighton And Hove Albion,Newcastle United,1,0,0,3,1,1.3,1.2,56,44,Lewis Dunk,4-2-3-1,15,6,17.3,0,0,0,Kieran Trippier,4-3-3,9,2,14.6,0,0,0,Stuart Attwell,2023-09-02,Sat,17:30
+1197,2024,6,Brighton And Hove Albion,Bournemouth,1,0,0,3,1,1.9,1.1,61,39,Lewis Dunk,4-2-3-1,13,4,17.1,0,0,0,Neto,4-2-3-1,12,3,17.6,1,0,0,John Brooks,2023-09-24,Sun,14:00
+1217,2024,8,Brighton And Hove Albion,Liverpool,0,0,1,2,2,2.3,2.3,46,54,Lewis Dunk,4-2-3-1,14,3,16.9,2,0,0,Virgil van Dijk,4-3-3,13,3,18.8,0,1,1,Anthony Taylor,2023-10-08,Sun,14:00
+1239,2024,10,Brighton And Hove Albion,Fulham,0,0,1,1,1,1.4,0.7,71,29,Lewis Dunk,3-4-3,18,6,18.1,1,0,0,Tim Ream,4-2-3-1,10,5,19.3,0,0,0,Michael Salisbury,2023-10-29,Sun,14:00
+1256,2024,12,Brighton And Hove Albion,Sheffield United,0,0,1,1,1,1.5,1.1,61,39,Pascal Groß,4-2-3-1,11,6,16.5,0,0,0,Oliver Norwood,3-4-3,9,1,19.3,0,0,0,John Brooks,2023-11-12,Sun,14:00
+1285,2024,15,Brighton And Hove Albion,Brentford,1,0,0,2,1,1.5,1.5,61,39,Pascal Groß,4-2-3-1,18,7,16.1,0,0,0,Vitaly Janelt,4-4-2,7,0,17.6,0,1,1,Peter Bankes,2023-12-06,Wed,19:30
+1294,2024,16,Brighton And Hove Albion,Burnley,0,0,1,1,1,2.6,0.6,72,28,Lewis Dunk,4-2-3-1,29,11,14.2,2,0,0,Josh Brownhill,4-4-2,6,3,12.9,0,0,0,Simon Hooper,2023-12-09,Sat,15:00
+1327,2024,19,Brighton And Hove Albion,Tottenham Hotspur,1,0,0,4,2,3.2,2.3,45,55,Lewis Dunk,4-1-2-1-2◆,13,7,15.2,0,2,2,Son Heung-min,4-2-3-1,19,3,15.2,1,0,0,Jarred Gillett,2023-12-28,Thu,19:30
+1348,2024,21,Brighton And Hove Albion,Wolverhampton Wanderers,0,0,1,0,0,1.0,1.1,72,28,Lewis Dunk,4-3-3,11,3,14.2,0,0,0,Max Kilman,3-4-3,8,3,18.6,0,0,0,Craig Pawson,2024-01-22,Mon,19:45
+1361,2024,23,Brighton And Hove Albion,Crystal Palace,1,0,0,4,1,1.4,0.3,68,32,Lewis Dunk,3-4-3,13,6,16.7,0,0,0,Marc Guéhi,4-3-3,7,5,20.6,0,0,0,Simon Hooper,2024-02-03,Sat,15:00
+1394,2024,26,Brighton And Hove Albion,Everton,0,0,1,1,1,1.4,0.3,64,36,Lewis Dunk,4-2-3-1,23,7,16.3,1,0,0,James Tarkowski,4-4-1-1,6,2,16.0,0,0,0,Tony Harrington,2024-02-24,Sat,15:00
+1416,2024,28,Brighton And Hove Albion,Nottingham Forest,1,0,0,1,0,0.4,0.7,63,37,Lewis Dunk,4-2-3-1,10,3,17.5,0,0,0,Ryan Yates,4-3-3,9,4,19.3,2,0,0,Michael Salisbury,2024-03-10,Sun,14:00
+1450,2024,32,Brighton And Hove Albion,Arsenal,0,1,0,0,3,0.5,3.4,54,46,Lewis Dunk,4-2-3-1,10,2,19.2,0,0,0,Martin Ødegaard,4-3-3,19,6,12.4,0,1,1,John Brooks,2024-04-06,Sat,17:30
+1476,2024,29,Brighton And Hove Albion,Manchester City,0,1,0,0,4,0.6,1.4,36,64,Lewis Dunk,4-2-3-1,7,3,16.0,0,0,0,Kyle Walker,4-1-4-1,14,6,17.0,1,0,0,Jarred Gillett,2024-04-25,Thu,20:00
+1495,2024,36,Brighton And Hove Albion,Aston Villa,1,0,0,1,0,2.5,0.1,52,48,Lewis Dunk,4-2-3-1,14,7,16.3,0,0,1,John McGinn,4-2-3-1,2,1,23.2,0,0,0,Robert Jones,2024-05-05,Sun,14:00
+1509,2024,34,Brighton And Hove Albion,Chelsea,0,1,0,1,2,1.3,1.5,55,45,Lewis Dunk,4-2-3-1,12,2,15.3,0,0,0,Conor Gallagher,4-2-3-1,14,6,20.3,2,0,0,Michael Salisbury,2024-05-15,Wed,19:45
+1514,2024,38,Brighton And Hove Albion,Manchester United,0,1,0,0,2,1.7,1.3,55,45,Adam Lallana,4-2-3-1,17,2,14.2,0,0,0,Bruno Fernandes,4-2-2-2,11,4,17.0,0,0,0,Craig Pawson,2024-05-19,Sun,16:00
+1531,2025,2,Brighton And Hove Albion,Manchester United,1,0,0,2,1,2.1,1.4,48,52,Lewis Dunk,4-2-3-1,14,4,14.2,1,0,0,Bruno Fernandes,4-2-3-1,11,3,16.3,0,0,0,Craig Pawson,2024-08-24,Sat,12:30
+1554,2025,4,Brighton And Hove Albion,Ipswich Town,0,0,1,0,0,1.6,0.3,68,32,Lewis Dunk,4-4-2,21,6,18.5,2,0,0,Sam Morsy,4-2-3-1,6,1,16.6,0,0,0,Samuel Barrott,2024-09-14,Sat,15:00
+1569,2025,5,Brighton And Hove Albion,Nottingham Forest,0,0,1,2,2,1.0,1.4,70,30,Lewis Dunk,4-2-3-1,14,3,17.4,1,0,0,Morgan Gibbs-White,4-2-3-1,3,2,17.4,0,1,1,Robert Jones,2024-09-22,Sun,14:00
+1590,2025,7,Brighton And Hove Albion,Tottenham Hotspur,1,0,0,3,2,1.8,1.3,41,59,Lewis Dunk,4-2-3-1,11,4,14.8,0,0,0,Cristian Romero,4-3-3,13,3,16.2,0,0,0,David Coote,2024-10-06,Sun,16:30
+1604,2025,9,Brighton And Hove Albion,Wolverhampton Wanderers,0,0,1,2,2,1.3,1.3,51,49,Danny Welbeck,4-4-2,19,6,17.5,1,0,0,Mario Lemina,3-4-3,14,7,11.9,0,0,0,Michael Oliver,2024-10-26,Sat,15:00
+1625,2025,11,Brighton And Hove Albion,Manchester City,1,0,0,2,1,2.3,2.1,40,60,Danny Welbeck,4-4-2,10,4,13.5,1,0,0,Kyle Walker,4-1-4-1,15,6,14.1,0,0,0,Samuel Barrott,2024-11-09,Sat,17:30
+1641,2025,13,Brighton And Hove Albion,Southampton,0,0,1,1,1,1.7,1.0,53,47,Danny Welbeck,4-4-2,22,5,16.5,0,0,0,Jack Stephens,5-4-1,10,2,16.8,0,0,0,Robert Jones,2024-11-29,Fri,20:00
+1675,2025,16,Brighton And Hove Albion,Crystal Palace,0,1,0,1,3,1.0,2.2,64,36,Lewis Dunk,4-2-3-1,17,5,20.6,1,0,0,Marc Guéhi,3-4-3,13,5,12.6,0,0,0,Michael Oliver,2024-12-15,Sun,14:00
+1698,2025,18,Brighton And Hove Albion,Brentford,0,0,1,0,0,1.3,1.1,57,43,Lewis Dunk,4-2-3-1,24,7,18.0,1,0,0,Christian Nørgaard,4-2-3-1,8,3,14.1,0,0,0,Andy Madley,2024-12-27,Fri,19:30
+1716,2025,20,Brighton And Hove Albion,Arsenal,0,0,1,1,1,1.5,0.9,45,55,João Pedro,4-2-3-1,10,3,21.3,1,1,1,Jorginho,4-3-3,9,3,15.3,0,0,0,Anthony Taylor,2025-01-04,Sat,17:30
+1744,2025,23,Brighton And Hove Albion,Everton,0,1,0,0,1,0.7,0.8,69,31,Lewis Dunk,4-2-3-1,16,1,19.6,0,0,0,James Tarkowski,4-2-3-1,2,0,24.6,0,1,1,Tim Robinson,2025-01-25,Sat,15:00
+1761,2025,25,Brighton And Hove Albion,Chelsea,1,0,0,3,0,1.4,0.5,31,69,Danny Welbeck,5-4-1,13,5,16.2,0,0,0,Enzo Fernández,4-2-3-1,8,0,16.9,0,0,0,Chris Kavanagh,2025-02-14,Fri,20:00
+1782,2025,27,Brighton And Hove Albion,Bournemouth,1,0,0,2,1,2.4,1.5,44,56,Adam Webster,4-2-3-1,10,3,17.4,1,1,1,Lewis Cook,4-2-3-1,19,5,16.9,0,0,0,Michael Oliver,2025-02-25,Tue,19:30
+1794,2025,28,Brighton And Hove Albion,Fulham,1,0,0,2,1,1.5,0.9,53,47,Adam Webster,4-2-3-1,8,3,16.2,0,1,1,Antonee Robinson,3-4-3,6,1,12.5,0,0,0,Samuel Barrott,2025-03-08,Sat,15:00
+1817,2025,30,Brighton And Hove Albion,Aston Villa,0,1,0,0,3,0.9,1.2,56,44,Lewis Dunk,4-2-3-1,11,4,17.0,1,0,0,John McGinn,4-2-3-1,8,5,14.1,0,0,0,Stuart Attwell,2025-04-02,Wed,19:45
+1832,2025,32,Brighton And Hove Albion,Leicester City,0,0,1,2,2,3.8,1.5,59,41,Lewis Dunk,4-1-4-1,19,5,15.8,1,2,2,Jamie Vardy,4-2-3-1,15,6,13.7,0,0,0,Darren Bond,2025-04-12,Sat,15:00
+1854,2025,34,Brighton And Hove Albion,West Ham United,1,0,0,3,2,1.3,1.3,53,47,Lewis Dunk,4-2-3-1,16,9,19.8,0,0,0,Jarrod Bowen,3-5-2,12,4,15.2,0,0,0,Darren England,2025-04-26,Sat,15:00
+1867,2025,35,Brighton And Hove Albion,Newcastle United,0,0,1,1,1,0.7,1.7,45,55,Lewis Dunk,4-2-3-1,5,2,14.6,0,0,0,Bruno Guimarães,4-3-3,12,4,19.2,2,1,1,Craig Pawson,2025-05-04,Sun,14:00
+1888,2025,37,Brighton And Hove Albion,Liverpool,1,0,0,3,2,2.2,2.2,49,51,Danny Welbeck,4-2-3-1,25,12,17.5,1,0,0,Mohamed Salah,4-2-3-1,18,5,16.1,1,0,0,Andy Madley,2025-05-19,Mon,20:00

@@ -1,0 +1,20 @@
+ID,Season,Round,Home,Away,HomeWin,AwayWin,Draw,HomeGoal,AwayGoal,HomeXG,AwayXG,HomePoss,AwayPoss,HomeCaptain,HomeFormation,HomeSH,HomeSOT,HomeDist,HomeFK,HomePK,HomePKAtt,AwayCaptain,AwayFormation,AwaySH,AwaySOT,AwayDist,AwayFK,AwayPK,AwayPKAtt,Referee,Date,Day,Time
+1170,2024,4,Luton Town,West Ham United,0,1,0,1,2,1.4,1.0,39,61,Carlton Morris,5-3-2,16,1,11.9,0,0,0,Kurt Zouma,4-2-3-1,9,3,16.3,0,0,0,Paul Tierney,2023-09-01,Fri,20:00
+1191,2024,6,Luton Town,Wolverhampton Wanderers,0,0,1,1,1,2.1,0.6,57,43,Tom Lockyer,3-4-3,19,3,17.3,0,1,1,Max Kilman,4-2-3-1,3,3,7.0,0,0,0,Joshua Smith,2023-09-23,Sat,15:00
+1210,2024,2,Luton Town,Burnley,0,1,0,1,2,1.3,1.1,49,51,Tom Lockyer,3-4-3,18,2,13.1,0,0,0,Josh Brownhill,4-3-3,14,4,20.2,0,0,0,Peter Bankes,2023-10-03,Tue,19:30
+1211,2024,8,Luton Town,Tottenham Hotspur,0,1,0,0,1,0.8,1.9,34,66,Tom Lockyer,4-4-2,12,2,16.3,0,0,0,Son Heung-min,4-2-3-1,15,4,16.9,1,0,0,John Brooks,2023-10-07,Sat,12:30
+1249,2024,11,Luton Town,Liverpool,0,0,1,1,1,0.8,2.6,27,73,Tom Lockyer,3-4-3,8,5,17.9,0,0,0,Virgil van Dijk,4-3-3,24,6,17.5,0,0,0,Andy Madley,2023-11-05,Sun,16:30
+1264,2024,13,Luton Town,Crystal Palace,1,0,0,2,1,0.9,1.6,39,61,Tom Lockyer,3-4-3,8,3,14.2,0,0,0,Joel Ward,4-2-3-1,16,8,16.3,1,0,0,Jarred Gillett,2023-11-25,Sat,15:00
+1282,2024,15,Luton Town,Arsenal,0,1,0,3,4,0.5,2.2,34,66,Pelly Ruddock Mpanzu,3-4-3,6,4,18.8,0,0,0,Martin Ødegaard,4-3-3,23,9,15.5,0,0,0,Samuel Barrott,2023-12-05,Tue,20:15
+1299,2024,16,Luton Town,Manchester City,0,1,0,1,2,0.3,1.6,35,65,Tom Lockyer,3-4-3,4,2,19.2,0,0,0,Kyle Walker,4-2-3-1,18,6,18.7,1,0,0,Tim Robinson,2023-12-10,Sun,14:00
+1313,2024,18,Luton Town,Newcastle United,1,0,0,1,0,1.4,1.4,35,65,Amari'i Bell,3-4-3,16,5,19.4,0,0,0,Jamaal Lascelles,4-3-3,15,2,12.2,0,0,0,Darren England,2023-12-23,Sat,15:00
+1329,2024,20,Luton Town,Chelsea,0,1,0,2,3,2.3,1.5,52,48,Amari'i Bell,3-4-3,15,6,11.6,1,0,0,Conor Gallagher,4-2-3-1,12,8,17.5,0,0,0,Paul Tierney,2023-12-30,Sat,12:30
+1350,2024,22,Luton Town,Brighton And Hove Albion,1,0,0,4,0,3.1,0.9,41,59,Carlton Morris,3-4-3,18,8,13.8,1,0,0,Lewis Dunk,3-4-3,9,2,13.9,0,0,0,Robert Jones,2024-01-30,Tue,19:45
+1370,2024,24,Luton Town,Sheffield United,0,1,0,1,3,1.8,1.7,74,26,Carlton Morris,3-4-3,19,4,17.3,0,1,1,Anel Ahmedhodžić,5-4-1,6,2,22.4,0,1,1,Chris Kavanagh,2024-02-10,Sat,15:00
+1387,2024,25,Luton Town,Manchester United,0,1,0,1,2,1.8,2.9,58,42,Carlton Morris,3-4-3,22,4,18.6,1,0,0,Bruno Fernandes,4-2-3-1,21,8,19.8,2,0,0,David Coote,2024-02-18,Sun,16:30
+1405,2024,27,Luton Town,Aston Villa,0,1,0,2,3,1.8,1.9,46,54,Carlton Morris,3-4-3,14,4,11.4,1,0,0,John McGinn,4-2-3-1,12,8,12.5,0,0,0,Michael Oliver,2024-03-02,Sat,17:30
+1421,2024,29,Luton Town,Nottingham Forest,0,0,1,1,1,0.6,2.0,60,40,Carlton Morris,3-4-3,10,4,18.5,0,0,0,Ryan Yates,4-2-3-1,16,3,22.0,2,0,0,Darren England,2024-03-16,Sat,15:00
+1445,2024,32,Luton Town,Bournemouth,1,0,0,2,1,1.5,0.4,55,45,Carlton Morris,3-4-3,19,9,18.2,0,0,0,Neto,4-2-3-1,8,1,19.1,1,0,0,Andy Madley,2024-04-06,Sat,15:00
+1465,2024,34,Luton Town,Brentford,0,1,0,1,5,0.6,3.1,53,47,Carlton Morris,3-4-3,6,3,17.0,0,0,0,Mathias Jensen,4-3-3,21,9,18.0,0,0,0,Jarred Gillett,2024-04-20,Sat,15:00
+1488,2024,36,Luton Town,Everton,0,0,1,1,1,0.8,1.4,51,49,Carlton Morris,3-4-3,18,5,18.4,0,0,0,James Tarkowski,4-4-1-1,9,2,18.7,0,1,1,Tim Robinson,2024-05-03,Fri,20:00
+1518,2024,38,Luton Town,Fulham,0,1,0,2,4,2.0,1.1,41,59,Carlton Morris,3-4-3,14,5,19.3,2,1,1,Tim Ream,4-2-3-1,16,8,21.6,2,0,0,Matt Donohue,2024-05-19,Sun,16:00

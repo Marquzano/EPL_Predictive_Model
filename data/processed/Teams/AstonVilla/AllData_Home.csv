@@ -1,0 +1,96 @@
+ID,Season,Round,Home,Away,HomeWin,AwayWin,Draw,HomeGoal,AwayGoal,HomeXG,AwayXG,HomePoss,AwayPoss,HomeCaptain,HomeFormation,HomeSH,HomeSOT,HomeDist,HomeFK,HomePK,HomePKAtt,AwayCaptain,AwayFormation,AwaySH,AwaySOT,AwayDist,AwayFK,AwayPK,AwayPKAtt,Referee,Date,Day,Time
+17,2021,2,Aston Villa,Sheffield United,1,0,0,1,0,1.0,0.9,71,29,Jack Grealish,4-3-3,18,2,17.4,0,0,0,John Egan,3-5-2,3,0,20.2,0,0,1,Graham Scott,2020-09-21,Mon,18:00
+38,2021,4,Aston Villa,Liverpool,1,0,0,7,2,2.7,1.8,31,69,Jack Grealish,4-2-3-1,18,11,16.7,0,0,0,Virgil van Dijk,4-3-3,14,8,16.3,1,0,0,Martin Atkinson,2020-10-04,Sun,19:15
+49,2021,6,Aston Villa,Leeds United,0,1,0,0,3,1.4,2.7,41,59,Jack Grealish,4-2-3-1,12,3,18.5,0,0,0,Luke Ayling,4-4-1-1,27,9,16.9,1,0,0,Paul Tierney,2020-10-23,Fri,20:00
+63,2021,7,Aston Villa,Southampton,0,1,0,3,4,1.9,0.7,56,44,Jack Grealish,4-2-3-1,18,9,15.9,1,1,1,James Ward-Prowse,4-4-2,9,4,18.4,2,0,0,Darren England,2020-11-01,Sun,12:00
+80,2021,9,Aston Villa,Brighton And Hove Albion,0,1,0,1,2,1.5,1.4,56,44,Jack Grealish,4-2-3-1,15,4,18.2,0,0,0,Lewis Dunk,3-4-1-2,7,3,13.3,0,0,0,Michael Oliver,2020-11-21,Sat,15:00
+126,2021,13,Aston Villa,Burnley,0,0,1,0,0,1.5,0.3,59,41,Jack Grealish,4-2-3-1,27,6,17.0,1,0,0,Ben Mee,4-4-2,6,4,19.7,1,0,0,Craig Pawson,2020-12-17,Thu,18:00
+139,2021,15,Aston Villa,Crystal Palace,1,0,0,3,0,3.9,0.9,39,61,Jack Grealish,4-2-3-1,20,9,12.3,0,0,0,Luka Milivojević,4-4-2,13,6,20.2,2,0,0,Anthony Taylor,2020-12-26,Sat,15:00
+185,2021,11,Aston Villa,Newcastle United,1,0,0,2,0,2.3,0.5,58,42,Jack Grealish,4-2-3-1,14,5,17.4,0,0,0,Jamaal Lascelles,5-3-2,7,1,14.5,0,0,0,Simon Hooper,2021-01-23,Sat,20:00
+213,2021,22,Aston Villa,West Ham United,0,1,0,1,3,0.7,1.7,56,44,Jack Grealish,4-2-3-1,9,2,17.5,1,0,0,Declan Rice,4-2-3-1,20,9,18.9,1,0,0,Andy Madley,2021-02-03,Wed,20:15
+216,2021,23,Aston Villa,Arsenal,1,0,0,1,0,1.2,0.8,35,65,Jack Grealish,4-2-3-1,12,8,16.6,0,0,0,Héctor Bellerín,4-2-3-1,14,3,17.3,1,0,0,Chris Kavanagh,2021-02-06,Sat,12:30
+244,2021,25,Aston Villa,Leicester City,0,1,0,1,2,1.4,1.1,51,49,Tyrone Mings,4-2-3-1,11,2,16.6,0,0,0,Kasper Schmeichel,4-2-3-1,16,7,20.7,1,0,0,Michael Oliver,2021-02-21,Sun,14:05
+268,2021,27,Aston Villa,Wolverhampton Wanderers,0,0,1,0,0,0.6,1.6,49,51,Tyrone Mings,4-3-3,9,1,18.0,0,0,0,Conor Coady,3-4-3,10,2,17.4,1,0,0,Andy Madley,2021-03-06,Sat,17:30
+290,2021,18,Aston Villa,Tottenham Hotspur,0,1,0,0,2,0.4,1.8,50,50,Tyrone Mings,4-2-3-1,8,1,19.9,0,0,0,Hugo Lloris,4-4-2,8,2,18.8,0,1,1,Mike Dean,2021-03-21,Sun,19:30
+297,2021,30,Aston Villa,Fulham,1,0,0,3,1,1.5,1.0,53,47,Tyrone Mings,4-2-3-1,14,4,19.7,0,0,0,Joachim Andersen,4-2-3-1,15,7,22.5,0,0,0,Andy Madley,2021-04-04,Sun,16:30
+319,2021,32,Aston Villa,Manchester City,0,1,0,1,2,0.7,1.2,28,72,Tyrone Mings,4-1-4-1,8,3,14.6,0,0,0,İlkay Gündoğan,4-3-3,13,3,19.3,2,0,0,Peter Bankes,2021-04-21,Wed,20:15
+327,2021,33,Aston Villa,West Bromwich Albion,0,0,1,2,2,3.2,1.5,70,30,Tyrone Mings,4-2-3-1,23,10,16.1,0,1,1,Kyle Bartley,4-1-4-1,9,3,22.4,2,1,1,Stuart Attwell,2021-04-25,Sun,19:00
+344,2021,35,Aston Villa,Manchester United,0,1,0,1,3,0.5,1.7,41,59,Tyrone Mings,4-2-3-1,11,5,20.5,0,0,0,Harry Maguire,4-2-3-1,17,6,21.5,0,1,1,Chris Kavanagh,2021-05-09,Sun,14:05
+351,2021,19,Aston Villa,Everton,0,0,1,0,0,0.6,1.0,58,42,Tyrone Mings,4-2-3-1,13,2,19.2,1,0,0,Séamus Coleman,4-4-2,15,5,14.6,1,0,0,Martin Atkinson,2021-05-13,Thu,18:00
+380,2021,38,Aston Villa,Chelsea,1,0,0,2,1,1.1,3.3,29,71,Jack Grealish,4-2-3-1,5,2,21.4,0,1,1,César Azpilicueta,3-4-3,23,7,15.9,0,0,0,Stuart Attwell,2021-05-23,Sun,16:00
+393,2022,2,Aston Villa,Newcastle United,1,0,0,2,0,1.2,0.7,47,53,Tyrone Mings,4-3-3,9,1,19.5,0,1,1,Jamaal Lascelles,5-3-2,9,1,16.1,0,0,0,David Coote,2021-08-21,Sat,15:00
+404,2022,3,Aston Villa,Brentford,0,0,1,1,1,0.7,0.9,46,54,Ezri Konsa,4-1-4-1,7,5,13.8,0,0,0,Pontus Jansson,3-4-1-2,9,2,15.6,0,0,0,Peter Bankes,2021-08-28,Sat,15:00
+427,2022,5,Aston Villa,Everton,1,0,0,3,0,0.8,0.7,55,45,Tyrone Mings,5-3-2,15,3,19.3,1,0,0,Lucas Digne,4-4-1-1,11,1,16.2,1,0,0,Craig Pawson,2021-09-18,Sat,17:30
+455,2022,8,Aston Villa,Wolverhampton Wanderers,0,1,0,2,3,1.0,2.0,48,52,Tyrone Mings,3-4-1-2,14,5,18.0,0,0,0,Conor Coady,3-4-3,9,4,14.4,1,0,0,Michael Oliver,2021-10-16,Sat,15:00
+479,2022,10,Aston Villa,West Ham United,0,1,0,1,4,0.7,2.3,43,57,John McGinn,4-3-3,9,3,16.4,0,0,0,Declan Rice,4-2-3-1,21,8,16.5,3,0,0,Chris Kavanagh,2021-10-31,Sun,16:30
+492,2022,12,Aston Villa,Brighton And Hove Albion,1,0,0,2,0,0.7,0.4,38,62,Tyrone Mings,4-3-3,9,5,16.5,0,0,0,Lewis Dunk,3-5-2,6,2,17.7,0,0,0,Anthony Taylor,2021-11-20,Sat,15:00
+516,2022,14,Aston Villa,Manchester City,0,1,0,1,2,0.8,1.0,36,64,Tyrone Mings,4-3-3,9,3,13.1,0,0,0,Fernandinho,4-2-3-1,17,7,19.2,1,0,0,Mike Dean,2021-12-01,Wed,20:15
+528,2022,15,Aston Villa,Leicester City,1,0,0,2,1,2.1,1.1,41,59,Tyrone Mings,4-3-3,13,4,13.9,0,0,0,Kasper Schmeichel,4-2-3-1,12,4,15.9,0,0,0,Michael Oliver,2021-12-05,Sun,16:30
+554,2022,19,Aston Villa,Chelsea,0,1,0,1,3,0.4,2.6,42,58,Tyrone Mings,4-3-1-2,8,1,18.8,0,0,0,Jorginho,3-4-3,8,2,17.6,1,2,2,Martin Atkinson,2021-12-26,Sun,17:30
+579,2022,22,Aston Villa,Manchester United,0,0,1,2,2,1.9,1.0,54,46,Tyrone Mings,4-3-3,13,9,12.7,0,0,0,Bruno Fernandes,4-3-3,13,6,17.5,1,0,0,David Coote,2022-01-15,Sat,17:30
+602,2022,24,Aston Villa,Leeds United,0,0,1,3,3,1.6,1.8,40,60,Tyrone Mings,4-3-3,12,4,15.7,0,0,0,Luke Ayling,4-2-3-1,16,7,13.9,0,0,0,Jarred Gillett,2022-02-09,Wed,20:00
+621,2022,26,Aston Villa,Watford,0,1,0,0,1,1.3,1.2,59,41,Tyrone Mings,4-3-3,20,1,21.0,1,0,0,Moussa Sissoko,4-3-3,8,4,18.1,0,0,0,Robert Jones,2022-02-19,Sat,15:00
+643,2022,28,Aston Villa,Southampton,1,0,0,4,0,2.5,1.1,38,62,Tyrone Mings,4-3-1-2,14,9,15.7,0,0,0,James Ward-Prowse,4-4-2,11,1,19.1,1,0,0,Peter Bankes,2022-03-05,Sat,15:00
+666,2022,30,Aston Villa,Arsenal,0,1,0,0,1,0.5,1.3,47,53,Tyrone Mings,4-3-2-1,8,1,16.8,2,0,0,Alexandre Lacazette,4-2-3-1,10,3,19.5,0,0,0,Andy Madley,2022-03-19,Sat,12:30
+685,2022,32,Aston Villa,Tottenham Hotspur,0,1,0,0,4,1.6,1.1,52,48,Tyrone Mings,4-3-1-2,19,8,16.3,1,0,0,Hugo Lloris,3-4-3,11,5,18.8,0,0,0,Graham Scott,2022-04-09,Sat,17:30
+716,2022,35,Aston Villa,Norwich City,1,0,0,2,0,1.8,0.5,45,55,Tyrone Mings,4-1-4-1,21,6,15.7,0,0,0,Grant Hanley,4-2-3-1,9,3,21.6,0,0,0,John Brooks,2022-04-30,Sat,15:00
+733,2022,33,Aston Villa,Liverpool,0,1,0,1,2,1.4,1.8,40,60,Tyrone Mings,4-3-1-2,9,4,13.7,0,0,0,Virgil van Dijk,4-3-3,17,5,17.0,2,0,0,Jonathan Moss,2022-05-10,Tue,20:00
+741,2022,37,Aston Villa,Crystal Palace,0,0,1,1,1,1.0,1.4,49,51,Tyrone Mings,4-3-1-2,13,4,18.7,0,0,0,Luka Milivojević,5-3-2,16,4,17.6,0,0,0,Chris Kavanagh,2022-05-15,Sun,14:00
+749,2022,18,Aston Villa,Burnley,0,0,1,1,1,1.5,1.6,71,29,Tyrone Mings,4-3-2-1,22,9,19.4,0,0,0,James Tarkowski,5-3-2,9,3,17.2,0,1,1,Paul Tierney,2022-05-19,Thu,20:00
+771,2023,2,Aston Villa,Everton,1,0,0,2,1,2.3,1.6,57,43,John McGinn,4-1-2-1-2◆,12,3,13.3,0,0,0,Jordan Pickford,3-4-3,15,4,14.8,0,0,0,Michael Oliver,2022-08-13,Sat,12:30
+798,2023,4,Aston Villa,West Ham United,0,1,0,0,1,0.5,0.6,58,42,John McGinn,4-3-1-2,9,3,20.5,0,0,0,Declan Rice,3-5-2,7,2,24.8,1,0,0,David Coote,2022-08-28,Sun,14:00
+818,2023,6,Aston Villa,Manchester City,0,0,1,1,1,0.3,2.1,29,71,John McGinn,4-3-2-1,3,1,16.8,0,0,0,İlkay Gündoğan,4-3-3,13,4,16.8,1,0,0,Simon Hooper,2022-09-03,Sat,17:30
+822,2023,8,Aston Villa,Southampton,1,0,0,1,0,1.5,0.3,53,47,John McGinn,4-3-2-1,11,3,20.7,1,0,0,James Ward-Prowse,4-2-3-1,7,1,20.2,0,0,0,Tony Harrington,2022-09-16,Fri,20:00
+856,2023,11,Aston Villa,Chelsea,0,1,0,0,2,1.8,0.9,42,58,John McGinn,4-3-3,18,7,15.3,1,0,0,Thiago Silva,3-4-3,8,4,18.0,1,0,0,Robert Jones,2022-10-16,Sun,14:00
+872,2023,13,Aston Villa,Brentford,1,0,0,4,0,2.8,0.9,45,55,Emiliano Martínez,4-2-3-1,18,10,18.7,0,1,1,Ivan Toney,3-5-2,12,3,16.8,0,0,0,Darren England,2022-10-23,Sun,14:00
+893,2023,15,Aston Villa,Manchester United,1,0,0,3,1,0.6,0.5,42,58,Emiliano Martínez,4-2-2-2,6,4,22.7,1,0,0,Cristiano Ronaldo,4-2-3-1,8,3,19.7,1,0,0,Anthony Taylor,2022-11-06,Sun,14:00
+912,2023,17,Aston Villa,Liverpool,0,1,0,1,3,1.4,2.7,48,52,John McGinn,4-4-2,12,6,15.3,0,0,0,Jordan Henderson,4-3-3,16,9,17.0,0,0,0,Paul Tierney,2022-12-26,Mon,17:30
+934,2023,19,Aston Villa,Wolverhampton Wanderers,0,0,1,1,1,1.8,0.9,56,44,Ashley Young,4-4-2,13,3,19.2,1,0,0,Rúben Neves,4-2-3-1,10,3,14.2,0,0,0,Jarred Gillett,2023-01-04,Wed,20:00
+938,2023,20,Aston Villa,Leeds United,1,0,0,2,1,1.2,2.4,52,48,Emiliano Martínez,4-4-2,11,5,16.9,0,0,0,Liam Cooper,4-2-3-1,16,3,12.7,0,0,0,Michael Oliver,2023-01-13,Fri,20:00
+965,2023,22,Aston Villa,Leicester City,0,1,0,2,4,1.7,2.6,62,38,Emiliano Martínez,4-4-2,19,4,17.5,0,0,0,Youri Tielemans,4-2-3-1,9,5,15.3,0,0,0,Darren England,2023-02-04,Sat,15:00
+982,2023,24,Aston Villa,Arsenal,0,1,0,2,4,0.5,3.2,33,67,John McGinn,4-4-2,7,5,23.3,1,0,0,Martin Ødegaard,4-3-3,20,5,15.7,0,0,0,Simon Hooper,2023-02-18,Sat,12:30
+1004,2023,26,Aston Villa,Crystal Palace,1,0,0,1,0,1.2,0.2,58,42,John McGinn,4-2-3-1,8,1,14.8,0,0,0,Marc Guéhi,4-2-3-1,3,0,16.9,0,0,0,Craig Pawson,2023-03-04,Sat,15:00
+1027,2023,28,Aston Villa,Bournemouth,1,0,0,3,0,3.5,1.3,56,44,John McGinn,4-2-3-1,20,9,13.9,0,0,0,Neto,4-4-1-1,10,3,12.6,1,0,0,Robert Jones,2023-03-18,Sat,15:00
+1048,2023,30,Aston Villa,Nottingham Forest,1,0,0,2,0,1.3,0.2,63,37,John McGinn,4-4-2,8,3,12.4,0,0,0,Joe Worrall,3-4-3,6,2,22.0,0,0,0,Anthony Taylor,2023-04-08,Sat,15:00
+1057,2023,31,Aston Villa,Newcastle United,1,0,0,3,0,1.9,0.5,52,48,John McGinn,4-2-3-1,16,6,18.3,0,0,0,Kieran Trippier,4-3-3,8,2,16.8,0,0,0,John Brooks,2023-04-15,Sat,12:30
+1076,2023,33,Aston Villa,Fulham,1,0,0,1,0,1.0,0.1,51,49,John McGinn,4-2-3-1,14,3,16.4,0,0,0,Tim Ream,4-2-3-1,1,0,14.7,0,0,0,Thomas Bramall,2023-04-25,Tue,19:45
+1112,2023,36,Aston Villa,Tottenham Hotspur,1,0,0,2,1,1.2,1.4,48,52,John McGinn,4-4-2,8,4,15.4,1,0,0,Harry Kane,3-4-3,4,1,20.3,0,1,1,Peter Bankes,2023-05-13,Sat,15:00
+1134,2023,38,Aston Villa,Brighton And Hove Albion,1,0,0,2,1,2.8,1.4,41,59,John McGinn,4-2-3-1,12,5,18.2,4,0,0,Pascal Groß,4-4-2,8,4,18.2,0,0,0,David Coote,2023-05-28,Sun,16:30
+1157,2024,2,Aston Villa,Everton,1,0,0,4,0,2.9,0.6,60,40,John McGinn,4-2-3-1,12,6,18.5,0,1,1,James Tarkowski,4-1-4-1,9,2,14.7,0,0,0,Anthony Taylor,2023-08-20,Sun,14:00
+1182,2024,5,Aston Villa,Crystal Palace,1,0,0,3,1,3.0,1.2,66,34,John McGinn,4-2-3-1,15,4,16.2,0,1,1,Joel Ward,4-4-1-1,6,3,16.1,0,0,0,Darren England,2023-09-16,Sat,15:00
+1200,2024,7,Aston Villa,Brighton And Hove Albion,1,0,0,6,1,1.6,1.7,39,61,John McGinn,4-2-3-1,19,9,17.9,1,0,0,Lewis Dunk,4-2-3-1,11,3,15.4,0,0,0,Andy Madley,2023-09-30,Sat,12:30
+1229,2024,9,Aston Villa,West Ham United,1,0,0,4,1,1.9,1.1,58,42,John McGinn,4-4-2,14,6,19.6,0,1,1,Kurt Zouma,4-2-3-1,14,4,15.2,1,0,0,David Coote,2023-10-22,Sun,16:30
+1238,2024,10,Aston Villa,Luton Town,1,0,0,3,1,2.3,0.5,70,30,John McGinn,4-4-2,17,6,14.5,0,0,0,Tom Lockyer,3-4-3,7,1,17.3,0,0,0,John Brooks,2023-10-29,Sun,14:00
+1259,2024,12,Aston Villa,Fulham,1,0,0,3,1,3.0,0.9,51,49,John McGinn,4-2-2-2,12,6,13.5,0,0,0,Tim Ream,4-2-3-1,9,5,19.5,0,0,0,Simon Hooper,2023-11-12,Sun,14:00
+1288,2024,15,Aston Villa,Manchester City,1,0,0,1,0,2.3,0.6,46,54,John McGinn,4-4-1-1,22,7,18.9,0,0,0,Kyle Walker,3-2-4-1,2,2,7.4,0,0,0,John Brooks,2023-12-06,Wed,20:15
+1296,2024,16,Aston Villa,Arsenal,1,0,0,1,0,0.6,1.4,39,61,John McGinn,4-4-1-1,10,3,20.8,1,0,0,Martin Ødegaard,4-3-3,12,3,14.8,1,0,0,Jarred Gillett,2023-12-09,Sat,17:30
+1311,2024,18,Aston Villa,Sheffield United,0,0,1,1,1,0.9,0.6,77,23,John McGinn,4-4-1-1,12,4,17.5,0,0,0,Jack Robinson,3-4-3,5,2,19.7,0,0,0,Anthony Taylor,2023-12-22,Fri,20:00
+1332,2024,20,Aston Villa,Burnley,1,0,0,3,2,3.2,1.2,64,36,John McGinn,4-4-1-1,18,6,16.9,1,1,1,Josh Brownhill,4-4-2,9,5,15.4,0,0,0,Stuart Attwell,2023-12-30,Sat,15:00
+1353,2024,22,Aston Villa,Newcastle United,0,1,0,1,3,1.4,2.6,61,39,John McGinn,4-4-2,12,5,14.3,0,0,0,Kieran Trippier,4-3-3,14,5,11.9,0,0,0,John Brooks,2024-01-30,Tue,20:15
+1377,2024,24,Aston Villa,Manchester United,0,1,0,1,2,2.4,1.8,56,44,John McGinn,4-2-3-1,23,9,16.7,1,0,0,Bruno Fernandes,4-2-3-1,17,5,14.6,0,0,0,Robert Jones,2024-02-11,Sun,16:30
+1393,2024,26,Aston Villa,Nottingham Forest,1,0,0,4,2,3.6,2.6,58,42,John McGinn,4-2-3-1,16,6,14.3,2,0,0,Morgan Gibbs-White,4-2-3-1,10,3,16.4,0,0,0,Samuel Barrott,2024-02-24,Sat,15:00
+1414,2024,28,Aston Villa,Tottenham Hotspur,0,1,0,0,4,0.8,1.5,32,68,John McGinn,5-3-2,10,1,14.1,0,0,0,Son Heung-min,4-2-3-1,9,5,14.9,0,0,0,Chris Kavanagh,2024-03-10,Sun,13:00
+1430,2024,30,Aston Villa,Wolverhampton Wanderers,1,0,0,2,0,1.0,1.5,48,52,Emiliano Martínez,4-4-2,11,5,14.7,0,0,0,Max Kilman,3-4-3,13,3,14.6,1,0,0,Paul Tierney,2024-03-30,Sat,17:30
+1447,2024,32,Aston Villa,Brentford,0,0,1,3,3,1.5,1.5,69,31,John McGinn,4-4-1-1,11,3,12.1,1,0,0,Mathias Jensen,3-5-2,8,3,16.5,2,0,0,Michael Salisbury,2024-04-06,Sat,15:00
+1469,2024,34,Aston Villa,Bournemouth,1,0,0,3,1,2.4,1.8,56,44,John McGinn,4-2-3-1,15,5,14.8,0,0,0,Neto,4-2-3-1,13,4,16.4,0,1,1,Tim Robinson,2024-04-21,Sun,15:00
+1483,2024,35,Aston Villa,Chelsea,0,0,1,2,2,1.1,1.6,29,71,John McGinn,4-4-1-1,9,4,15.0,0,0,0,Conor Gallagher,4-2-3-1,21,5,21.7,1,0,0,Craig Pawson,2024-04-27,Sat,20:00
+1507,2024,37,Aston Villa,Liverpool,0,0,1,3,3,3.1,1.7,41,59,John McGinn,4-2-3-1,19,5,15.2,0,0,0,Virgil van Dijk,4-3-3,14,7,17.1,0,0,0,Simon Hooper,2024-05-13,Mon,20:00
+1537,2025,2,Aston Villa,Arsenal,0,1,0,0,2,1.2,0.9,40,60,John McGinn,4-4-2,11,3,16.0,0,0,0,Martin Ødegaard,4-3-3,9,4,18.8,0,0,0,Michael Oliver,2024-08-24,Sat,17:30
+1557,2025,4,Aston Villa,Everton,1,0,0,3,2,2.1,0.9,72,28,John McGinn,4-2-3-1,17,7,14.0,0,0,0,James Tarkowski,4-2-3-1,6,2,12.6,0,0,0,Craig Pawson,2024-09-14,Sat,17:30
+1566,2025,5,Aston Villa,Wolverhampton Wanderers,1,0,0,3,1,1.7,0.5,53,47,John McGinn,4-2-3-1,9,3,13.7,1,0,0,Mario Lemina,4-1-4-1,10,4,14.9,0,0,0,Tim Robinson,2024-09-21,Sat,15:00
+1589,2025,7,Aston Villa,Manchester United,0,0,1,0,0,0.5,0.6,53,47,Emiliano Martínez,4-2-3-1,11,1,20.3,1,0,0,Bruno Fernandes,4-2-3-1,10,4,21.5,1,0,0,Robert Jones,2024-10-06,Sun,14:00
+1602,2025,9,Aston Villa,Bournemouth,0,0,1,1,1,1.8,0.3,57,43,John McGinn,4-4-1-1,18,8,15.1,0,0,0,Lewis Cook,4-2-3-1,10,3,21.6,0,0,0,Chris Kavanagh,2024-10-26,Sat,15:00
+1636,2025,12,Aston Villa,Crystal Palace,0,0,1,2,2,3.0,1.3,69,31,John McGinn,4-2-3-1,16,4,14.9,0,0,1,Marc Guéhi,3-4-3,13,6,18.3,1,0,0,Tim Robinson,2024-11-23,Sat,15:00
+1657,2025,14,Aston Villa,Brentford,1,0,0,3,1,2.4,0.9,49,51,John McGinn,4-2-3-1,19,9,15.0,0,1,1,Vitaly Janelt,4-3-3,9,1,14.0,0,0,0,Lewis Smith,2024-12-04,Wed,20:15
+1661,2025,15,Aston Villa,Southampton,1,0,0,1,0,2.3,0.3,47,53,John McGinn,4-2-3-1,18,4,14.2,0,0,0,Adam Armstrong,5-3-2,4,0,14.5,0,0,0,Darren Bond,2024-12-07,Sat,15:00
+1680,2025,17,Aston Villa,Manchester City,1,0,0,2,1,1.6,1.0,44,56,John McGinn,4-2-3-1,11,6,13.9,0,0,0,Bernardo Silva,4-2-3-1,12,6,18.4,0,0,0,Peter Bankes,2024-12-21,Sat,12:30
+1706,2025,19,Aston Villa,Brighton And Hove Albion,0,0,1,2,2,1.8,1.1,59,41,John McGinn,4-2-3-1,19,3,17.9,0,1,1,Lewis Dunk,4-2-3-1,13,4,19.1,0,0,0,Craig Pawson,2024-12-30,Mon,19:45
+1711,2025,20,Aston Villa,Leicester City,1,0,0,2,1,1.4,0.4,60,40,John McGinn,4-2-3-1,13,5,15.9,0,0,0,Jamie Vardy,4-2-3-1,4,2,12.5,0,0,0,Jarred Gillett,2025-01-04,Sat,15:00
+1748,2025,23,Aston Villa,West Ham United,0,0,1,1,1,0.9,1.3,46,54,Emiliano Martínez,4-2-3-1,14,4,18.0,1,0,0,Tomáš Souček,3-4-3,14,3,14.6,0,0,0,Peter Bankes,2025-01-26,Sun,16:30
+1766,2025,25,Aston Villa,Ipswich Town,0,0,1,1,1,2.4,0.4,75,25,John McGinn,4-2-3-1,25,6,18.6,2,0,0,Dara O'Shea,4-2-3-1,4,3,19.6,1,0,0,Robert Jones,2025-02-15,Sat,15:00
+1771,2025,29,Aston Villa,Liverpool,0,0,1,2,2,0.6,2.5,52,48,John McGinn,4-2-3-1,9,3,18.0,0,0,0,Virgil van Dijk,4-2-3-1,17,3,14.2,0,0,0,Craig Pawson,2025-02-19,Wed,19:30
+1779,2025,26,Aston Villa,Chelsea,1,0,0,2,1,2.3,2.3,52,48,John McGinn,4-2-3-1,12,6,13.2,0,0,0,Reece James,4-2-3-1,15,6,16.3,0,0,0,Michael Oliver,2025-02-22,Sat,17:30
+1824,2025,31,Aston Villa,Nottingham Forest,1,0,0,2,1,3.0,1.5,52,48,Emiliano Martínez,4-2-3-1,17,8,16.4,1,0,0,Ryan Yates,3-4-1-2,19,3,19.0,0,0,0,Simon Hooper,2025-04-05,Sat,17:30
+1845,2025,33,Aston Villa,Newcastle United,1,0,0,4,1,2.2,1.0,48,52,John McGinn,4-2-3-1,23,9,14.3,0,0,0,Bruno Guimarães,4-3-3,10,3,14.3,0,0,0,Jarred Gillett,2025-04-19,Sat,17:30
+1862,2025,35,Aston Villa,Fulham,1,0,0,1,0,1.0,0.9,52,48,John McGinn,4-2-3-1,10,3,15.8,0,0,0,Bernd Leno,4-2-3-1,11,3,14.9,0,0,0,Robert Jones,2025-05-03,Sat,12:30
+1881,2025,37,Aston Villa,Tottenham Hotspur,1,0,0,2,0,1.4,0.5,67,33,John McGinn,4-2-3-1,18,7,17.2,0,0,0,Son Heung-min,4-2-3-1,3,1,17.0,1,0,0,Peter Bankes,2025-05-16,Fri,19:30

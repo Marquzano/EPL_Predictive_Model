@@ -1,0 +1,77 @@
+ID,Season,Round,Home,Away,HomeWin,AwayWin,Draw,HomeGoal,AwayGoal,HomeXG,AwayXG,HomePoss,AwayPoss,HomeCaptain,HomeFormation,HomeSH,HomeSOT,HomeDist,HomeFK,HomePK,HomePKAtt,AwayCaptain,AwayFormation,AwaySH,AwaySOT,AwayDist,AwayFK,AwayPK,AwayPKAtt,Referee,Date,Day,Time
+7,2021,1,Sheffield United,Wolverhampton Wanderers,0,1,0,0,2,1.0,1.4,55,45,Billy Sharp,3-5-2,9,1,12.9,0,0,0,Conor Coady,3-4-3,11,4,17.2,0,0,0,Mike Dean,2020-09-14,Mon,18:00
+17,2021,2,Aston Villa,Sheffield United,1,0,0,1,0,1.0,0.9,71,29,Jack Grealish,4-3-3,18,2,17.4,0,0,0,John Egan,3-5-2,3,0,20.2,0,0,1,Graham Scott,2020-09-21,Mon,18:00
+23,2021,3,Sheffield United,Leeds United,0,1,0,0,1,1.4,1.2,36,64,David McGoldrick,3-5-2,14,4,16.7,0,0,0,Liam Cooper,3-1-4-2,17,8,19.0,0,0,0,Paul Tierney,2020-09-27,Sun,12:00
+36,2021,4,Arsenal,Sheffield United,1,0,0,2,1,0.6,0.2,64,36,Pierre-Emerick Aubameyang,4-3-3,6,5,16.3,0,0,0,John Egan,3-5-2,6,2,24.7,0,0,0,Lee Mason,2020-10-04,Sun,14:00
+43,2021,5,Sheffield United,Fulham,0,0,1,1,1,1.7,1.5,42,58,John Egan,3-5-2,9,5,20.1,0,1,1,Tom Cairney,3-4-3,14,6,18.8,1,0,1,Andre Marriner,2020-10-18,Sun,12:00
+53,2021,6,Liverpool,Sheffield United,1,0,0,2,1,2.3,1.6,62,38,Jordan Henderson,4-2-3-1,17,5,18.8,1,0,0,John Egan,3-5-2,12,1,18.5,0,1,1,Mike Dean,2020-10-24,Sat,20:00
+60,2021,7,Sheffield United,Manchester City,0,1,0,0,1,0.5,1.6,35,65,John Egan,5-3-2,3,1,18.3,0,0,0,Kevin De Bruyne,4-3-3,16,8,18.5,2,0,0,Michael Oliver,2020-10-31,Sat,12:30
+73,2021,8,Chelsea,Sheffield United,1,0,0,4,1,2.2,0.4,69,31,Thiago Silva,4-3-3,20,9,17.0,1,0,0,John Egan,3-5-2,6,3,18.0,0,0,0,Jonathan Moss,2020-11-07,Sat,17:30
+84,2021,9,Sheffield United,West Ham United,0,1,0,0,1,0.9,2.1,51,49,John Egan,3-5-2,9,5,17.6,0,0,0,Declan Rice,3-4-3,15,3,12.3,0,0,0,Martin Atkinson,2020-11-22,Sun,14:00
+93,2021,10,West Bromwich Albion,Sheffield United,1,0,0,1,0,1.2,2.9,49,51,Kyle Bartley,3-4-1-2,17,6,17.1,1,0,0,John Egan,3-5-2,21,5,15.0,0,0,0,Mike Dean,2020-11-28,Sat,20:00
+104,2021,11,Sheffield United,Leicester City,0,1,0,1,2,0.2,1.4,31,69,John Egan,5-3-2,4,1,14.9,0,0,0,Kasper Schmeichel,3-4-3,13,4,18.4,1,0,0,Stuart Attwell,2020-12-06,Sun,14:15
+113,2021,12,Southampton,Sheffield United,1,0,0,3,0,2.0,0.3,67,33,James Ward-Prowse,4-4-2,16,6,17.0,1,0,0,Billy Sharp,5-3-2,3,0,11.2,0,0,0,Andy Madley,2020-12-13,Sun,12:00
+127,2021,13,Sheffield United,Manchester United,0,1,0,2,3,1.5,1.9,40,60,John Egan,5-3-2,12,6,15.8,1,0,0,Harry Maguire,4-2-3-1,15,8,18.4,1,0,0,Michael Oliver,2020-12-17,Thu,20:00
+132,2021,14,Brighton And Hove Albion,Sheffield United,0,0,1,1,1,2.8,0.5,73,27,Lewis Dunk,3-4-3,21,4,14.0,0,0,0,John Egan,5-3-2,5,3,26.0,1,0,0,Peter Bankes,2020-12-20,Sun,12:00
+143,2021,15,Sheffield United,Everton,0,1,0,0,1,1.4,0.7,44,56,John Egan,3-4-3,10,1,12.6,0,0,0,Gylfi Sigurðsson,4-2-3-1,7,3,19.9,0,0,0,David Coote,2020-12-26,Sat,20:00
+151,2021,16,Burnley,Sheffield United,1,0,0,1,0,1.0,0.7,37,63,Ben Mee,4-4-2,5,3,11.8,1,0,0,John Egan,3-4-3,7,2,16.6,0,0,0,Chris Kavanagh,2020-12-29,Tue,18:00
+159,2021,17,Crystal Palace,Sheffield United,1,0,0,2,0,0.6,0.4,44,56,Luka Milivojević,4-4-2,9,4,17.9,0,0,0,John Egan,3-5-2,7,2,19.4,0,0,0,Stuart Attwell,2021-01-02,Sat,15:00
+165,2021,18,Sheffield United,Newcastle United,1,0,0,1,0,2.1,0.6,65,35,John Egan,3-5-2,16,3,17.0,0,1,1,Federico Fernández,5-4-1,7,3,22.6,2,0,0,Andy Madley,2021-01-12,Tue,18:00
+176,2021,19,Sheffield United,Tottenham Hotspur,0,1,0,1,3,0.9,1.0,43,57,John Egan,3-5-2,15,5,21.1,0,0,0,Hugo Lloris,3-4-3,14,5,22.1,0,0,0,Andre Marriner,2021-01-17,Sun,14:00
+194,2021,20,Manchester United,Sheffield United,0,1,0,1,2,1.1,1.0,75,25,Harry Maguire,4-2-3-1,16,4,18.9,2,0,0,Billy Sharp,3-5-2,5,3,13.4,0,0,0,Peter Bankes,2021-01-27,Wed,20:15
+198,2021,21,Manchester City,Sheffield United,1,0,0,1,0,1.5,0.2,75,25,Fernandinho,4-3-3,10,5,17.2,0,0,0,John Egan,5-3-2,4,1,23.2,0,0,0,David Coote,2021-01-30,Sat,15:00
+207,2021,22,Sheffield United,West Bromwich Albion,1,0,0,2,1,1.3,1.6,68,32,Billy Sharp,3-5-2,14,6,16.8,1,0,0,Jake Livermore,4-4-1-1,8,4,13.6,0,0,0,Paul Tierney,2021-02-02,Tue,18:00
+224,2021,23,Sheffield United,Chelsea,0,1,0,1,2,0.6,1.6,32,68,John Egan,3-5-2,8,3,20.8,0,0,0,César Azpilicueta,3-4-3,8,1,20.3,0,1,1,Kevin Friend,2021-02-07,Sun,19:15
+234,2021,24,West Ham United,Sheffield United,1,0,0,3,0,1.9,0.7,46,54,Declan Rice,3-4-3,12,8,19.0,2,1,1,Billy Sharp,3-5-2,8,5,15.4,0,0,0,Simon Hooper,2021-02-15,Mon,18:00
+242,2021,25,Fulham,Sheffield United,1,0,0,1,0,1.2,0.9,64,36,Joachim Andersen,4-2-3-1,15,5,21.0,0,0,0,Billy Sharp,3-5-2,4,2,9.8,0,0,0,Martin Atkinson,2021-02-20,Sat,20:00
+257,2021,26,Sheffield United,Liverpool,0,1,0,0,2,0.7,2.7,40,60,David McGoldrick,3-5-2,8,2,17.4,0,0,0,Georginio Wijnaldum,4-3-3,16,8,13.9,0,0,0,Jonathan Moss,2021-02-28,Sun,19:15
+261,2021,29,Sheffield United,Aston Villa,1,0,0,1,0,0.9,2.3,28,72,David McGoldrick,3-5-2,9,2,23.6,0,0,0,Tyrone Mings,4-3-3,16,4,16.1,1,0,0,Robert Jones,2021-03-03,Wed,18:00
+267,2021,27,Sheffield United,Southampton,0,1,0,0,2,0.7,1.9,51,49,David McGoldrick,3-5-2,8,2,16.7,0,0,0,James Ward-Prowse,4-4-2,14,6,22.2,0,1,1,Paul Tierney,2021-03-06,Sat,15:00
+283,2021,28,Leicester City,Sheffield United,1,0,0,5,0,4.0,0.1,71,29,Kasper Schmeichel,3-4-1-2,19,9,16.3,0,0,0,Billy Sharp,3-5-2,1,0,10.2,0,0,0,Peter Bankes,2021-03-14,Sun,14:00
+292,2021,30,Leeds United,Sheffield United,1,0,0,2,1,2.4,1.1,54,46,Liam Cooper,4-1-4-1,23,8,18.3,1,0,0,David McGoldrick,3-5-2,9,1,21.8,0,0,0,Graham Scott,2021-04-03,Sat,15:00
+308,2021,31,Sheffield United,Arsenal,0,1,0,0,3,0.3,1.7,45,55,John Egan,3-5-2,7,2,20.0,0,0,0,Alexandre Lacazette,4-2-3-1,14,5,18.3,1,0,0,Peter Bankes,2021-04-11,Sun,19:00
+313,2021,32,Wolverhampton Wanderers,Sheffield United,1,0,0,1,0,1.1,0.5,48,52,Conor Coady,3-4-3,10,4,13.6,0,0,0,John Egan,3-4-3,8,2,20.9,0,0,0,Robert Jones,2021-04-17,Sat,20:15
+324,2021,33,Sheffield United,Brighton And Hove Albion,1,0,0,1,0,0.7,2.0,32,68,John Egan,3-4-1-2,7,3,17.8,0,0,0,Lewis Dunk,3-4-1-2,17,4,16.7,0,0,0,Kevin Friend,2021-04-24,Sat,20:00
+335,2021,34,Tottenham Hotspur,Sheffield United,1,0,0,4,0,2.2,0.5,66,34,Hugo Lloris,4-2-3-1,20,10,19.6,2,0,0,John Egan,3-4-1-2,8,1,18.2,0,0,0,Andre Marriner,2021-05-02,Sun,19:15
+340,2021,35,Sheffield United,Crystal Palace,0,1,0,0,2,0.7,2.0,50,50,John Egan,3-5-2,7,0,13.4,1,0,0,Luka Milivojević,4-3-3,21,8,16.1,1,0,0,Simon Hooper,2021-05-08,Sat,15:00
+360,2021,36,Everton,Sheffield United,0,1,0,0,1,1.4,1.2,62,38,Séamus Coleman,4-2-3-1,16,6,15.9,0,0,0,John Egan,3-4-3,10,3,18.5,0,0,0,Jonathan Moss,2021-05-16,Sun,19:00
+367,2021,37,Newcastle United,Sheffield United,1,0,0,1,0,1.6,0.9,51,49,Jonjo Shelvey,5-3-2,16,5,19.2,2,0,0,John Egan,3-4-3,11,1,18.3,1,0,0,Robert Jones,2021-05-19,Wed,18:00
+376,2021,38,Sheffield United,Burnley,1,0,0,1,0,0.5,1.1,43,57,John Egan,3-4-3,12,3,17.4,0,0,0,James Tarkowski,4-4-1-1,10,3,13.4,0,0,0,Kevin Friend,2021-05-23,Sun,16:00
+1144,2024,1,Sheffield United,Crystal Palace,0,1,0,0,1,0.5,1.9,32,68,John Egan,3-4-3,8,1,19.4,0,0,0,Joel Ward,4-2-3-1,24,8,18.5,1,0,0,John Brooks,2023-08-12,Sat,15:00
+1151,2024,2,Nottingham Forest,Sheffield United,1,0,0,2,1,1.4,0.5,50,50,Joe Worrall,3-4-3,16,4,15.6,0,0,0,John Egan,3-4-3,7,3,18.8,0,0,0,Peter Bankes,2023-08-18,Fri,19:45
+1167,2024,3,Sheffield United,Manchester City,0,1,0,1,2,0.7,3.5,21,79,John Egan,3-5-2,6,1,16.1,0,0,0,Kyle Walker,4-2-3-1,29,9,17.3,2,0,1,Jarred Gillett,2023-08-27,Sun,14:00
+1171,2024,4,Sheffield United,Everton,0,0,1,2,2,1.2,2.5,46,54,John Egan,3-5-2,13,7,14.1,0,0,0,James Tarkowski,4-4-1-1,16,6,14.8,2,0,0,Andy Madley,2023-09-02,Sat,12:30
+1185,2024,5,Tottenham Hotspur,Sheffield United,1,0,0,2,1,2.1,0.7,70,30,Son Heung-min,4-2-3-1,28,10,16.4,0,0,0,Chris Basham,3-5-2,7,5,17.6,0,0,0,Peter Bankes,2023-09-16,Sat,15:00
+1199,2024,6,Sheffield United,Newcastle United,0,1,0,0,8,0.9,3.9,42,58,John Egan,3-4-3,9,1,13.7,0,0,0,Kieran Trippier,4-3-3,22,15,14.2,0,0,0,Stuart Attwell,2023-09-24,Sun,16:30
+1204,2024,7,West Ham United,Sheffield United,1,0,0,2,0,2.1,1.1,52,48,Kurt Zouma,4-2-3-1,20,8,12.6,1,0,0,John Egan,3-5-2,16,2,15.7,0,0,0,Graham Scott,2023-09-30,Sat,15:00
+1214,2024,8,Fulham,Sheffield United,1,0,0,3,1,2.2,0.6,60,40,Tim Ream,4-3-3,20,6,20.2,0,0,0,Chris Basham,3-5-2,5,2,16.6,0,0,0,Samuel Barrott,2023-10-07,Sat,15:00
+1228,2024,9,Sheffield United,Manchester United,0,1,0,1,2,1.4,1.1,38,62,Oliver Norwood,4-4-2,11,5,25.8,0,1,1,Bruno Fernandes,4-2-3-1,14,5,20.6,1,0,0,Michael Oliver,2023-10-21,Sat,20:00
+1234,2024,10,Arsenal,Sheffield United,1,0,0,5,0,2.8,0.0,67,33,Bukayo Saka,4-3-3,12,6,17.0,0,1,1,Oliver Norwood,4-4-2,2,0,39.9,0,0,0,Tim Robinson,2023-10-28,Sat,15:00
+1244,2024,11,Sheffield United,Wolverhampton Wanderers,1,0,0,2,1,1.0,1.2,39,61,Oliver Norwood,3-4-1-2,10,1,27.6,1,1,1,Max Kilman,4-4-1-1,10,3,17.5,1,0,0,Robert Jones,2023-11-04,Sat,15:00
+1256,2024,12,Brighton And Hove Albion,Sheffield United,0,0,1,1,1,1.5,1.1,61,39,Pascal Groß,4-2-3-1,11,6,16.5,0,0,0,Oliver Norwood,3-4-3,9,1,19.3,0,0,0,John Brooks,2023-11-12,Sun,14:00
+1262,2024,13,Sheffield United,Bournemouth,0,1,0,1,3,0.8,2.9,46,54,Oliver Norwood,3-4-3,10,2,14.9,0,0,0,Neto,4-2-3-1,23,11,15.7,0,0,0,Andy Madley,2023-11-25,Sat,15:00
+1272,2024,14,Burnley,Sheffield United,1,0,0,5,0,1.8,0.4,63,37,Josh Brownhill,4-4-2,19,7,15.9,0,0,0,Oliver Norwood,3-4-3,6,3,18.9,0,0,0,Chris Kavanagh,2023-12-02,Sat,15:00
+1286,2024,15,Sheffield United,Liverpool,0,1,0,0,2,1.0,1.7,25,75,Anel Ahmedhodžić,3-4-3,6,1,14.6,1,0,0,Virgil van Dijk,4-3-3,15,8,16.4,0,0,0,Simon Hooper,2023-12-06,Wed,19:30
+1295,2024,16,Sheffield United,Brentford,1,0,0,1,0,0.8,0.6,41,59,Anel Ahmedhodžić,4-1-4-1,9,4,21.7,0,0,0,Christian Nørgaard,4-3-3,10,4,16.7,0,0,0,Stuart Attwell,2023-12-09,Sat,15:00
+1302,2024,17,Chelsea,Sheffield United,1,0,0,2,0,3.1,0.4,78,22,Conor Gallagher,4-2-3-1,15,6,17.2,1,0,0,Anel Ahmedhodžić,4-1-4-1,6,1,19.7,1,0,0,Andy Madley,2023-12-16,Sat,15:00
+1311,2024,18,Aston Villa,Sheffield United,0,0,1,1,1,0.9,0.6,77,23,John McGinn,4-4-1-1,12,4,17.5,0,0,0,Jack Robinson,3-4-3,5,2,19.7,0,0,0,Anthony Taylor,2023-12-22,Fri,20:00
+1320,2024,19,Sheffield United,Luton Town,0,1,0,2,3,2.4,0.6,51,49,Anel Ahmedhodžić,4-4-2,21,4,16.3,1,0,0,Amari'i Bell,3-4-3,12,4,17.9,1,0,0,Samuel Allison,2023-12-26,Tue,15:00
+1330,2024,20,Manchester City,Sheffield United,1,0,0,2,0,2.2,0.3,80,20,Kyle Walker,4-2-3-1,18,4,17.4,0,0,0,Jack Robinson,3-4-3,4,2,14.9,0,0,0,David Coote,2023-12-30,Sat,15:00
+1346,2024,21,Sheffield United,West Ham United,0,0,1,2,2,2.5,2.3,57,43,Anel Ahmedhodžić,4-1-4-1,20,5,18.5,1,1,1,Kurt Zouma,4-4-1-1,15,4,14.9,0,1,1,Michael Salisbury,2024-01-21,Sun,14:00
+1352,2024,22,Crystal Palace,Sheffield United,1,0,0,3,2,1.1,0.8,53,47,Marc Guéhi,4-3-3,12,4,17.1,0,0,0,Anel Ahmedhodžić,4-1-4-1,9,5,16.5,0,0,0,Tony Harrington,2024-01-30,Tue,20:00
+1363,2024,23,Sheffield United,Aston Villa,0,1,0,0,5,1.4,2.2,37,63,Anel Ahmedhodžić,5-4-1,10,4,10.0,0,0,0,John McGinn,4-2-3-1,14,9,15.8,1,0,0,Paul Tierney,2024-02-03,Sat,17:30
+1370,2024,24,Luton Town,Sheffield United,0,1,0,1,3,1.8,1.7,74,26,Carlton Morris,3-4-3,19,4,17.3,0,1,1,Anel Ahmedhodžić,5-4-1,6,2,22.4,0,1,1,Chris Kavanagh,2024-02-10,Sat,15:00
+1386,2024,25,Sheffield United,Brighton And Hove Albion,0,1,0,0,5,0.6,2.9,21,79,Anel Ahmedhodžić,3-5-1-1,6,1,18.7,0,0,0,Lewis Dunk,4-2-3-1,24,9,15.1,0,0,0,Stuart Attwell,2024-02-18,Sun,14:00
+1397,2024,26,Wolverhampton Wanderers,Sheffield United,1,0,0,1,0,1.3,0.6,63,37,Max Kilman,3-4-3,13,2,14.6,0,0,0,Anel Ahmedhodžić,3-5-2,12,4,16.3,0,0,0,Darren Bond,2024-02-25,Sun,13:30
+1408,2024,27,Sheffield United,Arsenal,0,1,0,0,6,0.2,2.3,20,80,Anel Ahmedhodžić,4-5-1,4,0,21.8,0,0,0,Martin Ødegaard,4-3-3,22,9,15.6,1,0,0,Samuel Barrott,2024-03-04,Mon,20:00
+1410,2024,28,Bournemouth,Sheffield United,0,0,1,2,2,3.3,1.2,69,31,Neto,4-2-3-1,31,11,16.9,0,0,1,Jack Robinson,3-5-2,13,9,14.3,0,0,0,Anthony Taylor,2024-03-09,Sat,15:00
+1429,2024,30,Sheffield United,Fulham,0,0,1,3,3,1.9,1.3,27,73,Jack Robinson,3-5-2,8,4,15.7,0,0,0,Bernd Leno,4-2-3-1,24,9,17.6,0,0,0,Tim Robinson,2024-03-30,Sat,15:00
+1442,2024,31,Liverpool,Sheffield United,1,0,0,3,1,1.8,0.6,82,18,Virgil van Dijk,4-3-3,29,9,18.1,1,0,0,Jack Robinson,3-5-2,5,3,13.6,1,0,0,Stuart Attwell,2024-04-04,Thu,19:30
+1452,2024,32,Sheffield United,Chelsea,0,0,1,2,2,1.4,0.3,32,68,Jack Robinson,3-5-2,11,5,15.2,0,0,0,Conor Gallagher,4-2-3-1,6,3,18.5,0,0,0,Robert Jones,2024-04-07,Sun,17:30
+1457,2024,33,Brentford,Sheffield United,1,0,0,2,0,1.0,0.8,53,47,Mathias Jensen,4-3-3,9,5,18.7,0,0,0,Oliver McBurnie,3-5-2,8,2,15.1,0,0,0,Samuel Barrott,2024-04-13,Sat,15:00
+1464,2024,34,Sheffield United,Burnley,0,1,0,1,4,2.4,2.2,49,51,Oliver McBurnie,4-2-3-1,18,11,14.9,0,0,0,Josh Cullen,4-4-2,16,9,16.0,0,0,0,Andy Madley,2024-04-20,Sat,15:00
+1474,2024,29,Manchester United,Sheffield United,1,0,0,4,2,2.9,0.8,71,29,Bruno Fernandes,4-2-3-1,24,12,16.9,0,1,1,Oliver Arblaster,3-5-2,10,4,17.8,1,0,0,Michael Salisbury,2024-04-24,Wed,20:00
+1481,2024,35,Newcastle United,Sheffield United,1,0,0,5,1,3.1,1.5,60,40,Dan Burn,4-3-3,19,6,16.0,0,1,1,Oliver Arblaster,3-5-2,15,4,13.5,0,0,0,Tony Harrington,2024-04-27,Sat,15:00
+1491,2024,36,Sheffield United,Nottingham Forest,0,1,0,1,3,2.2,1.4,54,46,Jack Robinson,3-5-2,16,4,18.1,0,1,1,Ryan Yates,4-2-3-1,15,4,17.2,0,0,0,Chris Kavanagh,2024-05-04,Sat,15:00
+1503,2024,37,Everton,Sheffield United,1,0,0,1,0,2.3,0.6,58,42,Séamus Coleman,4-4-1-1,15,6,17.1,0,0,0,Jack Robinson,3-5-2,13,1,21.0,0,0,0,Stuart Attwell,2024-05-11,Sat,15:00
+1511,2024,38,Sheffield United,Tottenham Hotspur,0,1,0,0,3,1.0,3.1,25,75,Jack Robinson,5-3-2,6,1,18.0,1,0,0,Son Heung-min,4-2-3-1,18,9,14.4,1,0,0,Andy Madley,2024-05-19,Sun,16:00

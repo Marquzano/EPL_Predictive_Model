@@ -1,0 +1,153 @@
+ID,Season,Round,Home,Away,HomeWin,AwayWin,Draw,HomeGoal,AwayGoal,HomeXG,AwayXG,HomePoss,AwayPoss,HomeCaptain,HomeFormation,HomeSH,HomeSOT,HomeDist,HomeFK,HomePK,HomePKAtt,AwayCaptain,AwayFormation,AwaySH,AwaySOT,AwayDist,AwayFK,AwayPK,AwayPKAtt,Referee,Date,Day,Time
+2,2021,1,Crystal Palace,Southampton,1,0,0,1,0,1.1,0.9,31,69,Scott Dann,4-4-2,5,3,10.6,0,0,0,James Ward-Prowse,4-4-2,9,5,15.3,2,0,0,Jonathan Moss,2020-09-12,Sat,15:00
+13,2021,2,Southampton,Tottenham Hotspur,0,1,0,2,5,2.0,2.1,51,49,James Ward-Prowse,4-4-2,13,6,20.0,1,1,1,Hugo Lloris,4-3-3,9,6,17.4,0,0,0,David Coote,2020-09-20,Sun,12:00
+22,2021,3,Burnley,Southampton,0,1,0,0,1,0.5,0.6,53,47,Ashley Westwood,4-4-2,10,2,18.3,1,0,0,James Ward-Prowse,4-4-2,5,1,15.9,0,0,0,Andre Marriner,2020-09-26,Sat,20:00
+34,2021,4,Southampton,West Bromwich Albion,1,0,0,2,0,1.2,0.2,62,38,James Ward-Prowse,4-4-2,13,7,17.9,0,0,0,Jake Livermore,4-2-3-1,5,2,20.6,0,0,0,Chris Kavanagh,2020-10-04,Sun,12:00
+40,2021,5,Chelsea,Southampton,0,0,1,3,3,1.8,1.9,53,47,César Azpilicueta,4-2-3-1,11,5,11.3,0,0,0,James Ward-Prowse,4-4-2,13,6,17.1,0,0,0,Peter Bankes,2020-10-17,Sat,15:00
+54,2021,6,Southampton,Everton,1,0,0,2,0,0.7,0.4,54,46,James Ward-Prowse,4-4-2,13,6,17.4,0,0,0,Gylfi Sigurðsson,4-3-3,6,2,20.3,1,0,0,Kevin Friend,2020-10-25,Sun,14:00
+63,2021,7,Aston Villa,Southampton,0,1,0,3,4,1.9,0.7,56,44,Jack Grealish,4-2-3-1,18,9,15.9,1,1,1,James Ward-Prowse,4-4-2,9,4,18.4,2,0,0,Darren England,2020-11-01,Sun,12:00
+70,2021,8,Southampton,Newcastle United,1,0,0,2,0,0.7,0.3,61,39,James Ward-Prowse,4-4-2,15,7,18.9,0,0,0,Jamaal Lascelles,5-3-2,4,2,15.2,1,0,0,Peter Bankes,2020-11-06,Fri,20:00
+88,2021,9,Wolverhampton Wanderers,Southampton,0,0,1,1,1,1.5,1.0,46,54,Rúben Neves,4-3-3,20,9,16.5,1,0,0,James Ward-Prowse,4-4-2,7,2,15.9,0,0,0,Andre Marriner,2020-11-23,Mon,20:00
+94,2021,10,Southampton,Manchester United,0,1,0,2,3,0.5,2.1,50,50,James Ward-Prowse,4-4-2,10,5,19.4,1,0,0,Harry Maguire,4-3-1-2,15,6,16.2,0,0,0,Jonathan Moss,2020-11-29,Sun,14:00
+107,2021,11,Brighton And Hove Albion,Southampton,0,1,0,1,2,1.9,1.4,48,52,Lewis Dunk,3-4-1-2,11,3,15.8,0,1,1,James Ward-Prowse,4-4-2,9,2,19.2,0,1,1,David Coote,2020-12-07,Mon,20:00
+113,2021,12,Southampton,Sheffield United,1,0,0,3,0,2.0,0.3,67,33,James Ward-Prowse,4-4-2,16,6,17.0,1,0,0,Billy Sharp,5-3-2,3,0,11.2,0,0,0,Andy Madley,2020-12-13,Sun,12:00
+121,2021,13,Arsenal,Southampton,0,0,1,1,1,0.6,1.2,36,64,Pierre-Emerick Aubameyang,3-4-3,9,4,22.3,0,0,0,James Ward-Prowse,4-4-2,13,3,23.5,0,0,0,Paul Tierney,2020-12-16,Wed,18:00
+129,2021,14,Southampton,Manchester City,0,1,0,0,1,0.7,0.9,48,52,James Ward-Prowse,4-4-2,9,3,15.1,0,0,0,Kevin De Bruyne,4-2-3-1,11,5,20.1,0,0,0,Mike Dean,2020-12-19,Sat,15:00
+140,2021,15,Fulham,Southampton,0,0,1,0,0,0.7,0.2,47,53,Joachim Andersen,3-5-2,10,1,17.6,0,0,0,James Ward-Prowse,4-4-2,3,2,22.4,1,0,0,Darren England,2020-12-26,Sat,15:00
+150,2021,16,Southampton,West Ham United,0,0,1,0,0,0.6,1.2,62,38,James Ward-Prowse,4-4-2,8,3,20.7,1,0,0,Declan Rice,4-1-4-1,8,3,13.9,0,0,0,Andy Madley,2020-12-29,Tue,18:00
+164,2021,17,Southampton,Liverpool,1,0,0,1,0,0.4,1.5,34,66,James Ward-Prowse,4-4-2,7,2,25.1,0,0,0,Jordan Henderson,4-3-3,17,1,15.7,0,0,0,Andre Marriner,2021-01-04,Mon,20:00
+175,2021,19,Leicester City,Southampton,1,0,0,2,0,2.2,0.6,47,53,Kasper Schmeichel,4-2-3-1,16,4,15.1,0,0,0,James Ward-Prowse,4-4-2,8,3,17.3,0,0,0,Stuart Attwell,2021-01-16,Sat,20:00
+189,2021,20,Southampton,Arsenal,0,1,0,1,3,0.8,2.2,58,42,James Ward-Prowse,4-4-2,13,5,17.5,1,0,0,Héctor Bellerín,4-2-3-1,9,4,15.2,0,0,0,Kevin Friend,2021-01-26,Tue,20:15
+201,2021,21,Southampton,Aston Villa,0,1,0,0,1,1.9,0.6,59,41,James Ward-Prowse,4-4-2,20,4,18.0,1,0,0,Jack Grealish,4-2-3-1,8,4,16.2,0,0,0,Lee Mason,2021-01-30,Sat,20:00
+209,2021,22,Manchester United,Southampton,1,0,0,9,0,4.7,0.5,74,26,Harry Maguire,4-2-3-1,23,13,17.1,1,1,1,James Ward-Prowse,4-4-2,3,1,21.6,1,0,0,Mike Dean,2021-02-02,Tue,20:15
+218,2021,23,Newcastle United,Southampton,1,0,0,3,2,0.7,1.3,27,73,Jonjo Shelvey,4-3-1-2,6,4,16.1,1,0,0,James Ward-Prowse,4-4-2,14,5,16.1,1,0,0,Craig Pawson,2021-02-06,Sat,15:00
+230,2021,24,Southampton,Wolverhampton Wanderers,0,1,0,1,2,0.8,1.1,51,49,James Ward-Prowse,4-4-2,7,3,17.8,0,0,0,Conor Coady,3-4-3,9,3,19.2,0,1,1,Graham Scott,2021-02-14,Sun,12:00
+239,2021,25,Southampton,Chelsea,0,0,1,1,1,0.6,1.2,30,70,James Ward-Prowse,4-4-2,4,1,9.6,0,0,0,César Azpilicueta,3-4-3,8,2,19.6,1,1,1,Anthony Taylor,2021-02-20,Sat,12:30
+248,2021,18,Leeds United,Southampton,1,0,0,3,0,1.3,0.9,46,54,Liam Cooper,3-3-3-1,11,7,16.2,1,0,0,James Ward-Prowse,4-4-2,13,5,18.6,0,0,0,Andre Marriner,2021-02-23,Tue,18:00
+258,2021,26,Everton,Southampton,1,0,0,1,0,1.2,0.6,47,53,Gylfi Sigurðsson,4-3-1-2,7,1,13.8,1,0,0,James Ward-Prowse,4-4-2,9,1,16.7,0,0,0,Martin Atkinson,2021-03-01,Mon,20:00
+267,2021,27,Sheffield United,Southampton,0,1,0,0,2,0.7,1.9,51,49,David McGoldrick,3-5-2,8,2,16.7,0,0,0,James Ward-Prowse,4-4-2,14,6,22.2,0,1,1,Paul Tierney,2021-03-06,Sat,15:00
+276,2021,33,Manchester City,Southampton,1,0,0,5,2,2.6,1.6,58,42,Fernandinho,4-3-3,17,10,16.0,0,0,0,James Ward-Prowse,4-4-2,10,5,21.5,2,1,1,Jonathan Moss,2021-03-10,Wed,18:00
+282,2021,28,Southampton,Brighton And Hove Albion,0,1,0,1,2,0.6,0.8,59,41,James Ward-Prowse,4-4-2,9,4,19.2,1,0,0,Lewis Dunk,4-4-2,8,6,18.8,1,0,0,Stuart Attwell,2021-03-14,Sun,12:00
+295,2021,30,Southampton,Burnley,1,0,0,3,2,2.2,1.5,53,47,James Ward-Prowse,4-4-2,24,8,19.0,0,0,0,Ben Mee,4-4-2,6,4,16.7,0,1,1,Andre Marriner,2021-04-04,Sun,12:00
+309,2021,31,West Bromwich Albion,Southampton,1,0,0,3,0,3.0,1.5,40,60,Kyle Bartley,4-4-1-1,14,5,14.9,1,1,1,James Ward-Prowse,4-4-2,13,3,19.4,1,0,1,Simon Hooper,2021-04-12,Mon,18:00
+318,2021,29,Tottenham Hotspur,Southampton,1,0,0,2,1,1.4,0.8,62,38,Hugo Lloris,4-2-3-1,11,2,19.0,1,1,1,James Ward-Prowse,4-4-2,10,5,19.3,0,0,0,David Coote,2021-04-21,Wed,18:00
+329,2021,34,Southampton,Leicester City,0,0,1,1,1,0.9,1.9,30,70,James Ward-Prowse,4-4-2,4,2,24.4,0,1,1,Kasper Schmeichel,3-4-1-2,23,9,18.6,1,0,0,Robert Jones,2021-04-30,Fri,20:00
+342,2021,35,Liverpool,Southampton,1,0,0,2,0,1.7,1.1,54,46,Georginio Wijnaldum,4-3-3,14,6,13.6,0,0,0,James Ward-Prowse,4-4-2,12,6,20.3,0,0,0,Kevin Friend,2021-05-08,Sat,20:15
+349,2021,32,Southampton,Crystal Palace,1,0,0,3,1,1.2,1.5,62,38,James Ward-Prowse,4-4-2,13,6,15.8,1,0,0,Luka Milivojević,4-3-3,10,3,18.9,1,0,1,Andy Madley,2021-05-11,Tue,20:15
+355,2021,36,Southampton,Fulham,1,0,0,3,1,1.6,0.8,47,53,James Ward-Prowse,4-4-2,11,6,14.2,1,0,0,Joachim Andersen,3-4-3,10,3,16.8,0,0,0,Craig Pawson,2021-05-15,Sat,15:00
+362,2021,37,Southampton,Leeds United,0,1,0,0,2,1.6,1.7,51,49,James Ward-Prowse,4-4-2,18,3,21.4,1,0,0,Liam Cooper,3-3-3-1,15,7,18.8,0,0,0,Peter Bankes,2021-05-18,Tue,18:00
+377,2021,38,West Ham United,Southampton,1,0,0,3,0,1.3,1.5,38,62,Declan Rice,4-2-3-1,14,7,15.9,0,0,0,James Ward-Prowse,4-4-2,17,5,17.0,0,0,0,Martin Atkinson,2021-05-23,Sun,16:00
+383,2022,1,Everton,Southampton,1,0,0,3,1,2.4,0.8,48,52,Séamus Coleman,4-2-3-1,14,6,12.5,1,0,0,James Ward-Prowse,4-4-2,6,3,15.5,0,0,0,Andy Madley,2021-08-14,Sat,15:00
+397,2022,2,Southampton,Manchester United,0,0,1,1,1,0.7,1.8,37,63,James Ward-Prowse,4-4-2,8,3,21.5,2,0,0,Harry Maguire,4-2-3-1,15,3,15.1,1,0,0,Craig Pawson,2021-08-22,Sun,14:00
+403,2022,3,Newcastle United,Southampton,0,0,1,2,2,1.0,3.6,37,63,Jamaal Lascelles,3-5-2,10,4,16.5,1,0,0,James Ward-Prowse,4-4-2,21,5,19.2,1,1,1,Paul Tierney,2021-08-28,Sat,15:00
+413,2022,4,Southampton,West Ham United,0,0,1,0,0,0.7,0.7,42,58,James Ward-Prowse,4-1-4-1,11,2,14.2,0,0,0,Declan Rice,4-2-3-1,13,3,20.0,1,0,0,David Coote,2021-09-11,Sat,15:00
+425,2022,5,Manchester City,Southampton,0,0,1,0,0,1.0,0.4,64,36,Fernandinho,4-3-3,16,1,16.4,1,0,0,James Ward-Prowse,4-4-2,10,2,19.8,0,0,0,Jonathan Moss,2021-09-18,Sat,15:00
+438,2022,6,Southampton,Wolverhampton Wanderers,0,1,0,0,1,1.0,1.0,57,43,James Ward-Prowse,4-4-2,18,6,20.7,1,0,0,Conor Coady,3-4-3,5,3,13.5,0,0,0,Andy Madley,2021-09-26,Sun,14:00
+444,2022,7,Chelsea,Southampton,1,0,0,3,1,3.3,1.3,62,38,César Azpilicueta,3-4-3,20,9,12.8,0,0,0,James Ward-Prowse,4-4-2,5,1,24.0,0,1,1,Martin Atkinson,2021-10-02,Sat,15:00
+453,2022,8,Southampton,Leeds United,1,0,0,1,0,1.9,0.2,46,54,Oriol Romeu,4-4-2,19,4,18.7,1,0,0,Liam Cooper,3-3-3-1,3,0,21.7,0,0,0,David Coote,2021-10-16,Sat,15:00
+463,2022,9,Southampton,Burnley,0,0,1,2,2,1.6,0.7,61,39,Oriol Romeu,4-4-2,16,4,16.9,0,0,0,James Tarkowski,4-4-2,9,5,20.9,0,0,0,Chris Kavanagh,2021-10-23,Sat,15:00
+476,2022,10,Watford,Southampton,0,1,0,0,1,1.0,1.8,40,60,Moussa Sissoko,4-4-1-1,10,3,20.2,1,0,0,James Ward-Prowse,4-4-2,12,1,15.0,0,0,0,Peter Bankes,2021-10-30,Sat,15:00
+481,2022,11,Southampton,Aston Villa,1,0,0,1,0,0.6,0.6,56,44,James Ward-Prowse,4-4-2,9,3,15.6,0,0,0,Tyrone Mings,4-2-3-1,14,3,19.5,1,0,0,Andy Madley,2021-11-05,Fri,20:00
+494,2022,12,Norwich City,Southampton,1,0,0,2,1,0.5,1.0,38,62,Grant Hanley,4-3-3,8,4,16.3,0,0,0,James Ward-Prowse,4-4-2,17,5,18.8,0,0,0,Martin Atkinson,2021-11-20,Sat,15:00
+502,2022,13,Liverpool,Southampton,1,0,0,4,0,2.9,1.0,64,36,Jordan Henderson,4-3-3,20,6,15.5,0,0,0,James Ward-Prowse,3-4-3,7,3,10.5,0,0,0,Andre Marriner,2021-11-27,Sat,15:00
+515,2022,14,Southampton,Leicester City,0,0,1,2,2,1.5,1.5,45,55,James Ward-Prowse,4-4-2,15,7,14.9,0,0,0,Kasper Schmeichel,4-2-3-1,15,6,17.3,0,0,0,Robert Jones,2021-12-01,Wed,19:30
+521,2022,15,Southampton,Brighton And Hove Albion,0,0,1,1,1,1.6,1.6,44,56,James Ward-Prowse,4-4-2,14,4,17.6,1,0,0,Shane Duffy,3-5-2,14,4,18.7,1,0,0,Anthony Taylor,2021-12-04,Sat,15:00
+533,2022,16,Arsenal,Southampton,1,0,0,3,0,1.8,0.6,61,39,Alexandre Lacazette,4-4-1-1,15,5,15.7,0,0,0,James Ward-Prowse,4-4-2,11,6,22.1,3,0,0,Jarred Gillett,2021-12-11,Sat,15:00
+541,2022,17,Crystal Palace,Southampton,0,0,1,2,2,1.2,0.6,59,41,Joel Ward,4-3-3,9,6,10.9,0,0,0,James Ward-Prowse,4-4-2,15,4,21.3,1,0,0,Simon Hooper,2021-12-15,Wed,19:30
+553,2022,19,West Ham United,Southampton,0,1,0,2,3,1.6,1.2,56,44,Declan Rice,4-2-3-1,11,4,17.2,0,0,0,James Ward-Prowse,4-1-4-1,10,5,22.8,0,1,1,Kevin Friend,2021-12-26,Sun,15:00
+557,2022,20,Southampton,Tottenham Hotspur,0,0,1,1,1,0.4,2.3,35,65,James Ward-Prowse,5-3-2,9,2,20.7,0,0,0,Hugo Lloris,3-4-3,20,10,15.8,1,1,1,Anthony Taylor,2021-12-28,Tue,15:00
+572,2022,18,Southampton,Brentford,1,0,0,4,1,1.4,0.5,48,52,James Ward-Prowse,3-5-2,12,6,17.9,0,0,0,Pontus Jansson,3-5-2,5,4,12.8,0,0,0,Stuart Attwell,2022-01-11,Tue,19:45
+577,2022,22,Wolverhampton Wanderers,Southampton,1,0,0,3,1,2.5,0.8,43,57,Conor Coady,3-4-3,8,4,15.4,0,1,1,James Ward-Prowse,3-5-2,13,10,20.4,2,0,0,Michael Salisbury,2022-01-15,Sat,15:00
+590,2022,23,Southampton,Manchester City,0,0,1,1,1,0.8,1.8,26,74,James Ward-Prowse,4-4-2,7,3,11.0,0,0,0,Rúben Dias,4-3-3,20,5,17.5,0,0,0,Simon Hooper,2022-01-22,Sat,17:30
+600,2022,24,Tottenham Hotspur,Southampton,0,1,0,2,3,1.4,2.2,48,52,Hugo Lloris,3-4-3,8,3,15.3,0,0,0,James Ward-Prowse,4-4-2,23,9,16.8,0,0,0,David Coote,2022-02-09,Wed,19:45
+605,2022,25,Manchester United,Southampton,0,0,1,1,1,2.1,0.8,53,47,Harry Maguire,4-2-3-1,12,7,11.7,0,0,0,James Ward-Prowse,4-4-2,13,4,21.1,0,0,0,Stuart Attwell,2022-02-12,Sat,12:30
+616,2022,26,Southampton,Everton,1,0,0,2,0,2.5,0.3,55,45,James Ward-Prowse,4-4-2,19,11,15.4,1,0,0,Séamus Coleman,4-4-2,9,0,23.4,0,0,0,Andy Madley,2022-02-19,Sat,15:00
+629,2022,27,Southampton,Norwich City,1,0,0,2,0,2.6,0.6,58,42,James Ward-Prowse,4-4-2,27,9,15.9,1,0,0,Grant Hanley,4-1-4-1,8,1,18.1,0,0,0,Simon Hooper,2022-02-25,Fri,20:00
+643,2022,28,Aston Villa,Southampton,1,0,0,4,0,2.5,1.1,38,62,Tyrone Mings,4-3-1-2,14,9,15.7,0,0,0,James Ward-Prowse,4-4-2,11,1,19.1,1,0,0,Peter Bankes,2022-03-05,Sat,15:00
+649,2022,21,Southampton,Newcastle United,0,1,0,1,2,1.1,0.6,67,33,James Ward-Prowse,4-4-2,14,5,13.9,0,0,0,Jonjo Shelvey,4-3-3,8,3,16.4,0,0,0,Kevin Friend,2022-03-10,Thu,19:30
+656,2022,29,Southampton,Watford,0,1,0,1,2,1.4,1.7,63,37,James Ward-Prowse,4-4-2,13,6,12.8,1,0,0,Moussa Sissoko,4-3-3,9,5,16.9,0,0,0,Graham Scott,2022-03-13,Sun,14:00
+671,2022,31,Leeds United,Southampton,0,0,1,1,1,1.2,1.4,56,44,Liam Cooper,4-2-3-1,12,3,17.8,0,0,0,James Ward-Prowse,4-3-1-2,14,5,16.4,1,0,0,Anthony Taylor,2022-04-02,Sat,15:00
+684,2022,32,Southampton,Chelsea,0,1,0,0,6,0.5,4.2,30,70,James Ward-Prowse,4-4-2,4,1,17.0,0,0,0,N'Golo Kanté,3-4-1-2,24,14,15.3,0,0,0,Kevin Friend,2022-04-09,Sat,15:00
+692,2022,33,Southampton,Arsenal,1,0,0,1,0,0.8,1.7,25,75,James Ward-Prowse,3-4-3,9,3,15.9,1,0,0,Martin Ødegaard,4-2-3-1,23,6,18.3,1,0,0,Peter Bankes,2022-04-16,Sat,15:00
+701,2022,30,Burnley,Southampton,1,0,0,2,0,1.5,0.9,44,56,James Tarkowski,4-4-2,16,6,14.2,0,0,0,James Ward-Prowse,3-1-4-2,11,3,15.1,1,0,0,Stuart Attwell,2022-04-21,Thu,19:45
+709,2022,34,Brighton And Hove Albion,Southampton,0,0,1,2,2,1.7,0.9,48,52,Lewis Dunk,4-3-1-2,8,5,11.4,0,0,0,James Ward-Prowse,4-4-2,18,5,20.4,1,0,0,Robert Jones,2022-04-24,Sun,14:00
+715,2022,35,Southampton,Crystal Palace,0,1,0,1,2,0.6,1.1,38,62,James Ward-Prowse,4-4-2,8,3,16.4,0,0,0,James McArthur,4-3-3,14,5,13.9,0,0,0,Jarred Gillett,2022-04-30,Sat,15:00
+725,2022,36,Brentford,Southampton,1,0,0,3,0,2.6,1.4,41,59,Pontus Jansson,4-3-3,18,5,13.9,1,0,0,James Ward-Prowse,4-4-2,19,4,18.8,2,0,0,Michael Salisbury,2022-05-07,Sat,15:00
+747,2022,37,Southampton,Liverpool,0,1,0,1,2,0.1,1.3,30,70,James Ward-Prowse,5-4-1,4,2,25.2,1,0,0,James Milner,4-3-3,24,5,18.6,0,0,0,Martin Atkinson,2022-05-17,Tue,19:45
+755,2022,38,Leicester City,Southampton,1,0,0,4,1,3.4,1.1,51,49,Kasper Schmeichel,4-2-3-1,12,6,12.8,0,0,0,James Ward-Prowse,4-4-2,6,1,18.9,1,1,1,Jonathan Moss,2022-05-22,Sun,16:00
+763,2023,1,Tottenham Hotspur,Southampton,1,0,0,4,1,1.5,0.5,58,42,Hugo Lloris,3-4-3,18,8,16.5,0,0,0,James Ward-Prowse,5-3-2,10,2,17.1,0,0,0,Andre Marriner,2022-08-06,Sat,15:00
+776,2023,2,Southampton,Leeds United,0,0,1,2,2,1.2,1.8,43,57,James Ward-Prowse,3-4-3,14,4,18.1,1,0,0,Patrick Bamford,4-2-3-1,13,5,12.0,0,0,0,Tony Harrington,2022-08-13,Sat,15:00
+784,2023,3,Leicester City,Southampton,0,1,0,1,2,0.3,0.9,62,38,Jonny Evans,4-1-4-1,6,1,17.8,1,0,0,James Ward-Prowse,4-2-3-1,9,3,15.0,0,0,0,Michael Salisbury,2022-08-20,Sat,15:00
+791,2023,4,Southampton,Manchester United,0,1,0,0,1,1.4,1.1,49,51,James Ward-Prowse,4-2-3-1,17,4,13.8,0,0,0,Bruno Fernandes,4-2-3-1,11,4,15.5,1,0,0,Andy Madley,2022-08-27,Sat,12:30
+803,2023,5,Southampton,Chelsea,1,0,0,2,1,1.1,1.1,33,67,James Ward-Prowse,4-2-3-1,9,5,17.8,0,0,0,César Azpilicueta,4-2-2-2,10,4,14.5,0,0,0,Michael Oliver,2022-08-30,Tue,19:45
+813,2023,6,Wolverhampton Wanderers,Southampton,1,0,0,1,0,0.8,1.2,51,49,Rúben Neves,4-3-3,7,2,12.9,0,0,0,James Ward-Prowse,4-2-3-1,12,1,16.4,1,0,0,John Brooks,2022-09-03,Sat,15:00
+822,2023,8,Aston Villa,Southampton,1,0,0,1,0,1.5,0.3,53,47,John McGinn,4-3-2-1,11,3,20.7,1,0,0,James Ward-Prowse,4-2-3-1,7,1,20.2,0,0,0,Tony Harrington,2022-09-16,Fri,20:00
+829,2023,9,Southampton,Everton,0,1,0,1,2,1.7,2.0,55,45,James Ward-Prowse,4-4-2,22,6,16.4,1,0,0,Séamus Coleman,4-3-3,12,5,17.4,1,0,0,Andre Marriner,2022-10-01,Sat,15:00
+838,2023,10,Manchester City,Southampton,1,0,0,4,0,2.4,0.2,65,35,Kevin De Bruyne,4-2-3-1,21,8,13.9,0,0,0,James Ward-Prowse,4-4-2,5,0,28.1,0,0,0,Andy Madley,2022-10-08,Sat,15:00
+855,2023,11,Southampton,West Ham United,0,0,1,1,1,0.5,1.7,39,61,James Ward-Prowse,4-3-3,10,8,19.6,0,0,0,Declan Rice,3-4-3,25,4,18.8,0,0,0,Peter Bankes,2022-10-16,Sun,14:00
+861,2023,12,Bournemouth,Southampton,0,1,0,0,1,1.0,1.0,54,46,Adam Smith,3-4-3,15,3,17.6,1,0,0,James Ward-Prowse,4-4-2,9,3,13.0,0,0,0,John Brooks,2022-10-19,Wed,19:30
+874,2023,13,Southampton,Arsenal,0,0,1,1,1,0.7,1.0,41,59,James Ward-Prowse,4-4-2,10,3,19.4,0,0,0,Martin Ødegaard,4-3-3,12,3,17.2,0,0,0,Robert Jones,2022-10-23,Sun,14:00
+880,2023,14,Crystal Palace,Southampton,1,0,0,1,0,0.9,1.3,44,56,Luka Milivojević,4-3-3,12,3,20.0,1,0,0,James Ward-Prowse,3-5-2,14,4,18.1,0,0,0,Michael Salisbury,2022-10-29,Sat,15:00
+895,2023,15,Southampton,Newcastle United,0,1,0,1,4,1.7,0.9,55,45,James Ward-Prowse,4-2-3-1,16,5,17.6,1,0,0,Kieran Trippier,4-3-3,7,4,15.4,0,0,0,Stuart Attwell,2022-11-06,Sun,14:00
+902,2023,16,Liverpool,Southampton,1,0,0,3,1,1.9,1.1,60,40,Virgil van Dijk,4-3-3,15,7,12.4,0,0,0,James Ward-Prowse,5-3-2,9,5,11.9,0,0,0,Simon Hooper,2022-11-12,Sat,15:00
+911,2023,17,Southampton,Brighton And Hove Albion,0,1,0,1,3,1.9,0.6,34,66,James Ward-Prowse,4-2-3-1,13,3,16.1,1,0,1,Lewis Dunk,4-2-3-1,7,4,13.7,0,0,0,Robert Jones,2022-12-26,Mon,15:00
+922,2023,18,Fulham,Southampton,1,0,0,2,1,1.5,0.8,62,38,Tim Ream,4-2-3-1,7,1,18.8,0,0,1,James Ward-Prowse,3-4-3,9,3,24.5,1,0,0,Graham Scott,2022-12-31,Sat,15:00
+932,2023,19,Southampton,Nottingham Forest,0,1,0,0,1,0.5,1.4,63,37,James Ward-Prowse,3-1-4-2,8,0,14.5,1,0,0,Joe Worrall,4-3-1-2,11,1,22.3,0,0,0,Thomas Bramall,2023-01-04,Wed,19:30
+941,2023,20,Everton,Southampton,0,1,0,1,2,1.4,1.2,52,48,Séamus Coleman,3-4-3,12,4,16.0,0,0,0,James Ward-Prowse,4-2-3-1,13,5,20.7,2,0,0,John Brooks,2023-01-14,Sat,15:00
+952,2023,21,Southampton,Aston Villa,0,1,0,0,1,0.6,1.4,37,63,James Ward-Prowse,4-2-3-1,8,5,15.8,0,0,0,Emiliano Martínez,4-4-2,16,5,17.0,1,0,0,Michael Salisbury,2023-01-21,Sat,15:00
+964,2023,22,Brentford,Southampton,1,0,0,3,0,2.0,0.7,49,51,Christian Nørgaard,4-3-3,14,3,12.1,0,0,0,James Ward-Prowse,4-2-3-1,14,5,23.5,0,0,0,Darren Bond,2023-02-04,Sat,15:00
+973,2023,23,Southampton,Wolverhampton Wanderers,0,1,0,1,2,1.1,0.8,41,59,James Ward-Prowse,5-3-2,17,2,17.7,0,0,0,Rúben Neves,4-2-3-1,11,1,18.7,0,0,0,Jarred Gillett,2023-02-11,Sat,15:00
+985,2023,24,Chelsea,Southampton,0,1,0,0,1,1.6,0.6,62,38,César Azpilicueta,4-2-3-1,17,4,17.0,1,0,0,James Ward-Prowse,4-4-2,8,4,19.7,1,0,0,David Coote,2023-02-18,Sat,15:00
+996,2023,25,Leeds United,Southampton,1,0,0,1,0,0.9,0.4,61,39,Luke Ayling,4-2-3-1,14,4,16.2,0,0,0,James Ward-Prowse,4-4-2,8,2,18.8,0,0,0,Peter Bankes,2023-02-25,Sat,15:00
+1008,2023,26,Southampton,Leicester City,1,0,0,1,0,1.4,1.9,35,65,James Ward-Prowse,4-2-3-1,10,4,23.6,1,0,1,James Maddison,4-2-3-1,11,0,15.8,0,0,0,Robert Jones,2023-03-04,Sat,17:30
+1018,2023,27,Manchester United,Southampton,0,0,1,0,0,0.8,1.0,47,53,Bruno Fernandes,4-1-4-1,10,4,15.4,0,0,0,James Ward-Prowse,4-2-3-1,17,4,21.2,2,0,0,Anthony Taylor,2023-03-12,Sun,14:00
+1022,2023,7,Southampton,Brentford,0,1,0,0,2,0.5,1.9,66,34,James Ward-Prowse,4-2-3-1,7,0,19.2,1,0,0,Christian Nørgaard,4-3-3,11,4,18.3,0,0,0,Michael Salisbury,2023-03-15,Wed,19:30
+1028,2023,28,Southampton,Tottenham Hotspur,0,0,1,3,3,2.4,2.3,51,49,James Ward-Prowse,4-4-2,18,6,19.6,1,1,1,Harry Kane,3-4-3,17,3,15.8,0,0,0,Simon Hooper,2023-03-18,Sat,15:00
+1038,2023,29,West Ham United,Southampton,1,0,0,1,0,1.4,0.3,43,57,Declan Rice,4-3-3,12,2,14.2,1,0,0,James Ward-Prowse,4-4-2,9,3,21.1,0,0,0,Paul Tierney,2023-04-02,Sun,14:00
+1054,2023,30,Southampton,Manchester City,0,1,0,1,4,0.4,2.9,27,73,James Ward-Prowse,4-4-2,4,1,17.0,0,0,0,İlkay Gündoğan,3-2-4-1,12,7,13.2,0,1,1,Robert Jones,2023-04-08,Sat,17:30
+1060,2023,31,Southampton,Crystal Palace,0,1,0,0,2,0.8,0.9,58,42,James Ward-Prowse,4-4-2,11,4,18.0,0,0,0,Joel Ward,4-3-3,10,2,23.7,2,0,0,Michael Oliver,2023-04-15,Sat,15:00
+1067,2023,32,Arsenal,Southampton,0,0,1,3,3,2.4,1.3,74,26,Martin Ødegaard,4-3-3,25,5,15.3,0,0,0,James Ward-Prowse,4-4-2,8,6,12.4,0,0,0,Simon Hooper,2023-04-21,Fri,20:00
+1083,2023,33,Southampton,Bournemouth,0,1,0,0,1,0.5,0.9,57,43,James Ward-Prowse,4-4-2,11,2,19.9,0,0,0,Neto,3-4-3,16,2,17.6,0,0,0,Darren England,2023-04-27,Thu,19:45
+1088,2023,34,Newcastle United,Southampton,1,0,0,3,1,4.3,0.8,63,37,Kieran Trippier,4-3-3,22,5,13.3,0,0,0,James Ward-Prowse,4-4-2,4,3,17.3,0,0,0,Anthony Taylor,2023-04-30,Sun,14:00
+1107,2023,35,Nottingham Forest,Southampton,1,0,0,4,3,1.8,3.1,36,64,Ryan Yates,4-3-3,8,3,16.0,0,1,1,James Ward-Prowse,4-2-3-1,18,4,14.0,0,1,1,Michael Oliver,2023-05-08,Mon,20:00
+1113,2023,36,Southampton,Fulham,0,1,0,0,2,0.4,1.4,36,64,James Ward-Prowse,4-2-3-1,5,1,24.2,0,0,0,Tom Cairney,4-2-3-1,9,3,17.5,0,0,0,Thomas Bramall,2023-05-13,Sat,15:00
+1126,2023,37,Brighton And Hove Albion,Southampton,1,0,0,3,1,2.5,0.6,63,37,Lewis Dunk,4-2-3-1,26,8,17.4,0,0,0,James Ward-Prowse,4-1-4-1,5,1,13.8,1,0,0,Paul Tierney,2023-05-21,Sun,14:00
+1133,2023,38,Southampton,Liverpool,0,0,1,4,4,1.8,4.0,31,69,James Ward-Prowse,4-2-3-1,15,10,17.5,1,0,0,James Milner,4-3-3,30,8,18.5,0,0,0,Darren England,2023-05-28,Sun,16:30
+1523,2025,1,Newcastle United,Southampton,1,0,0,1,0,0.3,1.8,23,77,Bruno Guimarães,4-3-3,3,1,13.2,0,0,0,Jack Stephens,3-5-2,19,3,17.0,1,0,0,Craig Pawson,2024-08-17,Sat,15:00
+1536,2025,2,Southampton,Nottingham Forest,0,1,0,0,1,0.1,2.2,64,36,Jack Stephens,3-5-2,5,1,19.7,0,0,0,Morgan Gibbs-White,4-2-3-1,23,8,17.2,0,0,0,Samuel Barrott,2024-08-24,Sat,15:00
+1543,2025,3,Brentford,Southampton,1,0,0,3,1,2.8,1.5,37,63,Christian Nørgaard,4-3-3,20,7,14.5,0,0,0,Jack Stephens,3-5-2,18,6,18.1,1,0,0,Joshua Smith,2024-08-31,Sat,15:00
+1551,2025,4,Southampton,Manchester United,0,1,0,0,3,1.1,2.6,44,56,Jack Stephens,4-2-3-1,5,2,17.4,0,0,1,Bruno Fernandes,4-2-3-1,20,10,17.4,0,0,0,Stuart Attwell,2024-09-14,Sat,12:30
+1565,2025,5,Southampton,Ipswich Town,0,0,1,1,1,2.4,1.6,53,47,Flynn Downes,4-2-3-1,11,3,13.7,0,0,0,Sam Morsy,4-2-3-1,13,6,14.1,0,0,0,Samuel Allison,2024-09-21,Sat,15:00
+1580,2025,6,Bournemouth,Southampton,1,0,0,3,1,1.3,0.6,40,60,Adam Smith,4-2-3-1,14,6,18.8,0,0,0,Flynn Downes,4-2-3-1,9,3,18.4,0,0,0,Michael Oliver,2024-09-30,Mon,20:00
+1586,2025,7,Arsenal,Southampton,1,0,0,3,1,2.8,0.6,59,41,Jorginho,4-4-2,29,6,14.6,0,0,0,Flynn Downes,5-4-1,8,2,16.4,0,0,0,Tony Harrington,2024-10-05,Sat,15:00
+1592,2025,8,Southampton,Leicester City,0,1,0,2,3,2.1,3.1,42,58,Flynn Downes,4-5-1,14,7,9.6,0,0,0,Jamie Vardy,4-2-3-1,17,3,16.5,0,1,1,Anthony Taylor,2024-10-19,Sat,15:00
+1605,2025,9,Manchester City,Southampton,1,0,0,1,0,2.9,0.2,57,43,Rúben Dias,4-1-4-1,22,7,16.6,0,0,0,Jack Stephens,5-4-1,5,2,13.8,0,0,0,Tony Harrington,2024-10-26,Sat,15:00
+1612,2025,10,Southampton,Everton,1,0,0,1,0,0.7,1.6,65,35,Jack Stephens,5-4-1,9,2,13.4,0,0,0,James Tarkowski,4-2-3-1,16,5,17.9,2,0,0,Andy Madley,2024-11-02,Sat,15:00
+1624,2025,11,Wolverhampton Wanderers,Southampton,1,0,0,2,0,1.3,0.6,29,71,Mario Lemina,4-2-3-1,8,4,23.1,0,0,0,Jack Stephens,5-4-1,9,0,20.6,1,0,0,Thomas Bramall,2024-11-09,Sat,15:00
+1638,2025,12,Southampton,Liverpool,0,1,0,2,3,1.3,3.1,38,62,Jack Stephens,5-4-1,6,4,19.0,0,0,1,Virgil van Dijk,4-2-3-1,26,10,18.2,1,1,1,Samuel Barrott,2024-11-24,Sun,14:00
+1641,2025,13,Brighton And Hove Albion,Southampton,0,0,1,1,1,1.7,1.0,53,47,Danny Welbeck,4-4-2,22,5,16.5,0,0,0,Jack Stephens,5-4-1,10,2,16.8,0,0,0,Robert Jones,2024-11-29,Fri,20:00
+1656,2025,14,Southampton,Chelsea,0,1,0,1,5,1.6,5.2,45,55,Jack Stephens,5-3-2,6,4,9.7,0,0,0,Enzo Fernández,4-2-3-1,26,11,12.6,1,0,0,Tony Harrington,2024-12-04,Wed,19:30
+1661,2025,15,Aston Villa,Southampton,1,0,0,1,0,2.3,0.3,47,53,John McGinn,4-2-3-1,18,4,14.2,0,0,0,Adam Armstrong,5-3-2,4,0,14.5,0,0,0,Darren Bond,2024-12-07,Sat,15:00
+1677,2025,16,Southampton,Tottenham Hotspur,0,1,0,0,5,0.8,2.3,42,58,Adam Armstrong,4-3-1-2,9,3,18.1,0,0,0,Son Heung-min,4-2-3-1,18,9,13.1,0,0,0,Darren England,2024-12-15,Sun,19:00
+1688,2025,17,Fulham,Southampton,0,0,1,0,0,0.9,0.3,57,43,Tom Cairney,4-2-3-1,15,5,20.0,0,0,0,Jan Bednarek,3-4-1-2,5,1,20.1,1,0,0,Tim Robinson,2024-12-22,Sun,14:00
+1693,2025,18,Southampton,West Ham United,0,1,0,0,1,1.4,1.7,54,46,Jan Bednarek,3-4-1-2,18,5,12.8,0,0,0,Jarrod Bowen,4-1-4-1,16,2,15.3,1,0,0,Lewis Smith,2024-12-26,Thu,15:00
+1702,2025,19,Crystal Palace,Southampton,1,0,0,2,1,2.0,0.9,47,53,Will Hughes,3-4-3,19,9,17.4,2,0,0,Jan Bednarek,3-4-3,7,3,10.7,0,0,0,Michael Salisbury,2024-12-29,Sun,15:00
+1714,2025,20,Southampton,Brentford,0,1,0,0,5,0.3,4.4,50,50,Jan Bednarek,3-4-3,8,1,22.1,0,0,0,Christian Nørgaard,4-3-3,19,9,13.6,0,1,1,Stuart Attwell,2025-01-04,Sat,15:00
+1729,2025,21,Manchester United,Southampton,1,0,0,3,1,3.4,1.4,60,40,Bruno Fernandes,3-4-3,23,9,15.0,0,0,0,Jan Bednarek,3-4-1-2,13,5,17.0,1,0,0,John Brooks,2025-01-16,Thu,20:00
+1735,2025,22,Nottingham Forest,Southampton,1,0,0,3,2,1.8,0.9,45,55,Morgan Gibbs-White,4-2-3-1,14,4,16.0,1,0,0,Jan Bednarek,3-4-1-2,10,3,13.6,0,0,0,Anthony Taylor,2025-01-19,Sun,14:00
+1743,2025,23,Southampton,Newcastle United,0,1,0,1,3,0.8,2.9,53,47,Jan Bednarek,3-4-1-2,12,5,18.1,0,0,0,Bruno Guimarães,4-3-3,16,7,19.3,0,1,1,Samuel Barrott,2025-01-25,Sat,15:00
+1754,2025,24,Ipswich Town,Southampton,0,1,0,1,2,1.8,0.9,57,43,Sam Morsy,4-2-3-1,15,6,19.8,2,0,0,Jan Bednarek,3-4-3,9,4,14.8,0,0,0,Michael Oliver,2025-02-01,Sat,15:00
+1765,2025,25,Southampton,Bournemouth,0,1,0,1,3,0.8,1.2,44,56,Jan Bednarek,3-4-1-2,11,4,19.3,0,0,0,Lewis Cook,4-2-3-1,14,7,16.7,0,0,0,Jarred Gillett,2025-02-15,Sat,15:00
+1775,2025,26,Southampton,Brighton And Hove Albion,0,1,0,0,4,0.1,3.9,50,50,Jan Bednarek,3-4-3,6,1,24.5,0,0,0,Adam Webster,4-2-3-1,18,12,14.6,1,0,0,Darren Bond,2025-02-22,Sat,15:00
+1785,2025,27,Chelsea,Southampton,1,0,0,4,0,2.4,0.7,60,40,Enzo Fernández,4-2-3-1,19,10,15.6,1,0,0,Aaron Ramsdale,5-4-1,7,2,17.0,0,0,0,Thomas Bramall,2025-02-25,Tue,20:15
+1793,2025,28,Liverpool,Southampton,1,0,0,3,1,3.9,0.4,71,29,Virgil van Dijk,4-3-3,26,5,16.3,0,2,2,Jan Bednarek,4-2-3-1,6,4,17.5,0,0,0,Lewis Smith,2025-03-08,Sat,15:00
+1804,2025,29,Southampton,Wolverhampton Wanderers,0,1,0,1,2,1.3,0.4,60,40,Aaron Ramsdale,3-4-3,10,3,13.2,0,0,0,Nélson Semedo,3-4-3,5,3,18.5,0,0,0,Robert Jones,2025-03-15,Sat,15:00
+1813,2025,30,Southampton,Crystal Palace,0,0,1,1,1,0.7,0.7,43,57,Jack Stephens,3-4-3,8,2,13.6,0,0,0,Marc Guéhi,3-4-3,9,3,17.8,1,0,0,Andy Madley,2025-04-02,Wed,19:45
+1827,2025,31,Tottenham Hotspur,Southampton,1,0,0,3,1,2.1,1.0,51,49,Son Heung-min,4-3-3,12,7,14.0,0,1,1,Jan Bednarek,4-2-3-1,12,4,17.5,0,0,0,Michael Salisbury,2025-04-06,Sun,14:00
+1833,2025,32,Southampton,Aston Villa,0,1,0,0,3,0.3,3.0,40,60,Jack Stephens,3-4-3,7,2,17.7,0,0,0,Emiliano Martínez,4-2-3-1,23,8,21.1,1,0,2,Thomas Bramall,2025-04-12,Sat,15:00
+1841,2025,33,West Ham United,Southampton,0,0,1,1,1,0.9,0.6,52,48,Jarrod Bowen,4-2-3-1,12,4,17.6,0,0,0,Jack Stephens,3-4-3,15,4,20.1,1,0,0,Andrew Kitchen,2025-04-19,Sat,15:00
+1857,2025,34,Southampton,Fulham,0,1,0,1,2,0.6,2.4,35,65,Jack Stephens,3-4-3,7,3,16.6,0,0,0,Bernd Leno,4-3-3,26,5,14.3,0,0,0,Tony Harrington,2025-04-26,Sat,15:00
+1863,2025,35,Leicester City,Southampton,1,0,0,2,0,1.4,0.5,49,51,Jamie Vardy,4-2-3-1,14,4,17.4,2,0,0,Jack Stephens,3-4-3,8,2,14.4,0,0,0,David Webb,2025-05-03,Sat,15:00
+1874,2025,36,Southampton,Manchester City,0,0,1,0,0,0.1,1.7,28,72,Jack Stephens,3-4-3,2,0,17.2,0,0,0,Kevin De Bruyne,4-2-3-1,26,4,17.5,2,0,0,Tim Robinson,2025-05-10,Sat,15:00
+1883,2025,37,Everton,Southampton,1,0,0,2,0,2.7,1.2,50,50,Séamus Coleman,4-2-3-1,13,4,12.1,0,0,0,Jack Stephens,3-4-3,6,2,12.5,0,0,0,Michael Oliver,2025-05-18,Sun,12:00
+1894,2025,38,Southampton,Arsenal,0,1,0,1,2,0.6,2.3,38,62,Aaron Ramsdale,5-4-1,7,2,16.3,1,0,0,Declan Rice,4-2-3-1,23,7,15.9,0,0,0,Darren Bond,2025-05-25,Sun,16:00

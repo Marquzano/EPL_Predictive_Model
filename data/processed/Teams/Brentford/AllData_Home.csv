@@ -1,0 +1,77 @@
+ID,Season,Round,Home,Away,HomeWin,AwayWin,Draw,HomeGoal,AwayGoal,HomeXG,AwayXG,HomePoss,AwayPoss,HomeCaptain,HomeFormation,HomeSH,HomeSOT,HomeDist,HomeFK,HomePK,HomePKAtt,AwayCaptain,AwayFormation,AwaySH,AwaySOT,AwayDist,AwayFK,AwayPK,AwayPKAtt,Referee,Date,Day,Time
+381,2022,1,Brentford,Arsenal,1,0,0,2,0,1.2,1.3,36,64,Pontus Jansson,3-5-2,8,3,12.1,0,0,0,Granit Xhaka,4-2-3-1,22,4,19.0,1,0,0,Michael Oliver,2021-08-13,Fri,20:00
+414,2022,4,Brentford,Brighton And Hove Albion,0,1,0,0,1,0.4,0.3,41,59,Pontus Jansson,3-5-2,7,1,20.3,0,0,0,Lewis Dunk,3-4-1-2,4,2,19.0,0,0,0,Graham Scott,2021-09-11,Sat,15:00
+437,2022,6,Brentford,Liverpool,0,0,1,3,3,2.1,2.8,33,67,Pontus Jansson,3-5-2,12,3,12.0,0,0,0,Jordan Henderson,4-3-3,16,5,17.0,1,0,0,Stuart Attwell,2021-09-25,Sat,17:30
+457,2022,8,Brentford,Chelsea,0,1,0,0,1,1.4,0.3,45,55,Pontus Jansson,3-5-2,17,6,14.5,0,0,0,César Azpilicueta,3-5-2,5,1,24.7,2,0,0,Anthony Taylor,2021-10-16,Sat,17:30
+469,2022,9,Brentford,Leicester City,0,1,0,1,2,1.0,1.5,54,46,Pontus Jansson,3-5-2,15,5,16.3,0,0,0,Kasper Schmeichel,3-4-1-2,10,6,21.9,0,0,0,Simon Hooper,2021-10-24,Sun,14:00
+485,2022,11,Brentford,Norwich City,0,1,0,1,2,2.5,1.2,64,36,Pontus Jansson,3-5-2,19,7,10.8,0,0,0,Ben Gibson,4-2-3-1,8,4,25.6,1,1,1,Jarred Gillett,2021-11-06,Sat,15:00
+507,2022,13,Brentford,Everton,1,0,0,1,0,1.2,1.0,40,60,Pontus Jansson,3-5-2,5,3,18.9,0,1,1,Séamus Coleman,4-4-1-1,14,5,16.6,1,0,0,Darren England,2021-11-28,Sun,14:00
+530,2022,16,Brentford,Watford,1,0,0,2,1,1.6,0.5,63,37,Pontus Jansson,3-5-2,13,4,15.5,0,1,1,Moussa Sissoko,4-2-3-1,6,2,14.9,1,0,0,Michael Oliver,2021-12-10,Fri,20:00
+562,2022,20,Brentford,Manchester City,0,1,0,0,1,0.4,1.1,24,76,Pontus Jansson,3-5-2,6,2,24.6,0,0,0,Fernandinho,4-3-3,12,3,19.8,0,0,0,David Coote,2021-12-29,Wed,20:15
+567,2022,21,Brentford,Aston Villa,1,0,0,2,1,0.6,0.8,45,55,Pontus Jansson,3-5-2,10,4,17.7,0,0,0,John McGinn,4-3-3,16,5,17.1,0,0,0,Craig Pawson,2022-01-02,Sun,14:00
+584,2022,17,Brentford,Manchester United,0,1,0,1,3,2.3,2.3,44,56,Pontus Jansson,3-5-2,18,9,16.7,0,0,0,Bruno Fernandes,4-2-3-1,13,5,17.8,0,0,0,Andre Marriner,2022-01-19,Wed,20:00
+589,2022,23,Brentford,Wolverhampton Wanderers,0,1,0,1,2,1.1,0.2,50,50,Pontus Jansson,3-5-2,11,1,13.6,1,0,0,Conor Coady,3-5-2,7,2,21.7,0,0,0,Peter Bankes,2022-01-22,Sat,15:00
+608,2022,25,Brentford,Crystal Palace,0,0,1,0,0,1.6,0.3,42,58,Pontus Jansson,3-5-2,9,2,12.9,0,0,0,Joel Ward,4-3-3,6,3,21.6,0,0,0,Simon Hooper,2022-02-12,Sat,15:00
+634,2022,27,Brentford,Newcastle United,0,1,0,0,2,0.4,2.7,37,63,Pontus Jansson,4-3-3,6,1,16.5,0,0,0,Jonjo Shelvey,4-3-3,26,11,15.7,2,0,0,Mike Dean,2022-02-26,Sat,15:00
+653,2022,29,Brentford,Burnley,1,0,0,2,0,1.9,0.7,55,45,Pontus Jansson,4-5-1,12,2,21.5,0,1,1,James Tarkowski,4-4-2,7,1,21.4,1,0,0,Paul Tierney,2022-03-12,Sat,15:00
+686,2022,32,Brentford,West Ham United,1,0,0,2,0,1.4,0.3,47,53,Christian Nørgaard,4-3-3,15,7,15.8,0,0,0,Declan Rice,4-2-3-1,5,1,17.5,0,0,0,Martin Atkinson,2022-04-10,Sun,14:00
+706,2022,34,Brentford,Tottenham Hotspur,0,0,1,0,0,0.9,0.6,44,56,Pontus Jansson,5-3-2,15,1,15.3,1,0,0,Hugo Lloris,3-4-3,9,0,16.7,0,0,0,Martin Atkinson,2022-04-23,Sat,17:30
+725,2022,36,Brentford,Southampton,1,0,0,3,0,2.6,1.4,41,59,Pontus Jansson,4-3-3,18,5,13.9,1,0,0,James Ward-Prowse,4-4-2,19,4,18.8,2,0,0,Michael Salisbury,2022-05-07,Sat,15:00
+760,2022,38,Brentford,Leeds United,0,1,0,1,2,0.8,1.3,49,51,Pontus Jansson,4-3-3,14,5,13.7,0,0,0,Liam Cooper,4-4-1-1,13,5,24.7,0,1,1,Paul Tierney,2022-05-22,Sun,16:00
+777,2023,2,Brentford,Manchester United,1,0,0,4,0,1.6,0.9,34,66,Pontus Jansson,5-3-2,13,7,18.6,1,0,0,Harry Maguire,4-2-3-1,15,4,19.6,0,0,0,Stuart Attwell,2022-08-13,Sat,17:30
+793,2023,4,Brentford,Everton,0,0,1,1,1,2.1,1.1,58,42,Christian Nørgaard,4-3-3,20,5,14.8,0,0,0,Jordan Pickford,3-4-3,14,7,16.7,0,0,0,John Brooks,2022-08-27,Sat,15:00
+816,2023,6,Brentford,Leeds United,1,0,0,5,2,2.3,1.7,32,68,Pontus Jansson,4-3-3,13,7,18.8,2,1,1,Robin Koch,4-2-3-1,17,6,21.9,1,0,0,Robert Jones,2022-09-03,Sat,15:00
+826,2023,8,Brentford,Arsenal,0,1,0,0,3,0.5,1.5,37,63,Pontus Jansson,3-5-2,5,2,13.9,1,0,0,Granit Xhaka,4-3-3,13,7,18.2,0,0,0,David Coote,2022-09-18,Sun,12:00
+848,2023,11,Brentford,Brighton And Hove Albion,1,0,0,2,0,1.5,1.9,28,72,Ivan Toney,4-3-3,6,1,16.3,0,1,1,Lewis Dunk,4-4-2,21,7,17.2,0,0,0,Michael Salisbury,2022-10-14,Fri,20:00
+860,2023,12,Brentford,Chelsea,0,0,1,0,0,1.3,0.9,34,66,Ivan Toney,3-5-2,8,5,14.5,0,0,0,César Azpilicueta,3-5-1-1,14,5,21.4,0,0,0,Jarred Gillett,2022-10-19,Wed,19:30
+882,2023,14,Brentford,Wolverhampton Wanderers,0,0,1,1,1,1.4,0.6,58,42,Ivan Toney,4-3-3,12,3,15.4,0,0,0,Rúben Neves,4-2-3-1,13,4,20.4,0,0,0,Robert Madley,2022-10-29,Sat,15:00
+907,2023,17,Brentford,Tottenham Hotspur,0,0,1,2,2,2.0,1.1,39,61,Christian Nørgaard,3-5-2,9,4,10.2,0,0,0,Harry Kane,3-4-3,15,8,19.7,1,0,0,David Coote,2022-12-26,Mon,12:30
+927,2023,19,Brentford,Liverpool,1,0,0,3,1,1.6,0.9,28,72,Christian Nørgaard,3-5-2,10,7,10.5,0,0,0,Virgil van Dijk,4-3-3,16,5,15.3,0,0,0,Stuart Attwell,2023-01-02,Mon,17:30
+944,2023,20,Brentford,Bournemouth,1,0,0,2,0,1.4,0.6,50,50,Christian Nørgaard,4-3-3,11,3,23.3,0,1,1,Lloyd Kelly,4-4-1-1,7,2,18.1,0,0,0,Jarred Gillett,2023-01-14,Sat,17:30
+964,2023,22,Brentford,Southampton,1,0,0,3,0,2.0,0.7,49,51,Christian Nørgaard,4-3-3,14,3,12.1,0,0,0,James Ward-Prowse,4-2-3-1,14,5,23.5,0,0,0,Darren Bond,2023-02-04,Sat,15:00
+988,2023,24,Brentford,Crystal Palace,0,0,1,1,1,0.9,1.1,59,41,Christian Nørgaard,4-3-3,12,5,19.0,0,0,0,Marc Guéhi,4-2-3-1,10,4,14.4,0,0,0,Paul Tierney,2023-02-18,Sat,15:00
+1011,2023,26,Brentford,Fulham,1,0,0,3,2,2.1,1.4,37,63,Christian Nørgaard,4-3-3,13,5,19.8,2,1,1,Tim Ream,4-2-3-1,9,5,17.4,1,0,0,Anthony Taylor,2023-03-06,Mon,20:00
+1025,2023,28,Brentford,Leicester City,0,0,1,1,1,0.6,1.3,53,47,Christian Nørgaard,4-3-3,11,2,17.5,0,0,0,James Maddison,4-2-3-1,14,1,16.8,0,0,0,Darren Bond,2023-03-18,Sat,15:00
+1049,2023,30,Brentford,Newcastle United,0,1,0,1,2,2.6,1.3,42,58,Pontus Jansson,5-3-2,10,4,15.5,0,1,2,Kieran Trippier,4-3-3,10,4,14.8,0,0,0,Chris Kavanagh,2023-04-08,Sat,15:00
+1072,2023,32,Brentford,Aston Villa,0,0,1,1,1,2.7,1.5,44,56,Christian Nørgaard,4-3-3,16,5,16.0,1,0,0,John McGinn,4-2-3-1,14,2,18.6,0,0,0,Michael Salisbury,2023-04-22,Sat,15:00
+1087,2023,34,Brentford,Nottingham Forest,1,0,0,2,1,1.6,0.7,68,32,Ivan Toney,4-3-3,14,8,16.8,1,0,0,Joe Worrall,3-4-3,5,3,16.6,0,0,0,Peter Bankes,2023-04-29,Sat,15:00
+1115,2023,36,Brentford,West Ham United,1,0,0,2,0,3.4,0.2,53,47,David Raya,4-3-3,24,9,12.8,0,0,0,Angelo Ogbonna,4-2-3-1,4,4,19.0,0,0,0,Michael Oliver,2023-05-14,Sun,14:00
+1136,2023,38,Brentford,Manchester City,1,0,0,1,0,1.3,1.6,35,65,David Raya,5-3-2,11,4,14.0,0,0,0,Kyle Walker,3-2-4-1,17,2,16.8,0,0,0,John Brooks,2023-05-28,Sun,16:30
+1148,2024,1,Brentford,Tottenham Hotspur,0,0,1,2,2,2.2,1.3,31,69,Christian Nørgaard,5-3-2,10,5,18.0,0,1,1,Son Heung-min,4-2-3-1,18,6,19.6,0,0,0,Robert Jones,2023-08-13,Sun,14:00
+1164,2024,3,Brentford,Crystal Palace,0,0,1,1,1,1.0,0.8,60,40,Christian Nørgaard,4-3-3,12,1,13.7,0,0,0,Joel Ward,4-2-3-1,15,5,16.9,1,0,0,Peter Bankes,2023-08-26,Sat,15:00
+1174,2024,4,Brentford,Bournemouth,0,0,1,2,2,2.9,2.1,60,40,Christian Nørgaard,4-3-3,21,7,14.7,1,0,0,Neto,4-2-3-1,12,5,15.1,0,0,0,Robert Madley,2023-09-02,Sat,15:00
+1193,2024,6,Brentford,Everton,0,1,0,1,3,1.0,1.9,57,43,Christian Nørgaard,4-3-3,12,2,13.9,1,0,0,James Tarkowski,4-4-1-1,18,6,17.8,0,0,0,Michael Oliver,2023-09-23,Sat,17:30
+1222,2024,9,Brentford,Burnley,1,0,0,3,0,3.1,1.1,50,50,Christian Nørgaard,4-3-3,23,9,15.0,1,0,0,Josh Cullen,4-2-3-1,6,1,20.2,0,0,0,Joshua Smith,2023-10-21,Sat,15:00
+1245,2024,11,Brentford,West Ham United,1,0,0,3,2,1.5,1.8,58,42,Christian Nørgaard,4-3-3,16,4,15.7,1,0,0,James Ward-Prowse,4-4-2,12,2,15.3,0,0,0,Thomas Bramall,2023-11-04,Sat,15:00
+1267,2024,13,Brentford,Arsenal,0,1,0,0,1,1.1,1.6,37,63,Christian Nørgaard,5-3-2,9,1,13.9,0,0,0,Martin Ødegaard,4-3-3,15,4,15.2,0,0,0,Tim Robinson,2023-11-25,Sat,17:30
+1271,2024,14,Brentford,Luton Town,1,0,0,3,1,3.1,0.2,68,32,Christian Nørgaard,4-3-3,27,6,15.4,0,0,0,Tom Lockyer,3-4-3,7,1,23.8,0,0,0,Anthony Taylor,2023-12-02,Sat,15:00
+1307,2024,17,Brentford,Aston Villa,0,1,0,1,2,0.5,1.4,34,66,Christian Nørgaard,3-5-2,4,3,13.3,0,0,0,John McGinn,3-5-2,15,5,16.7,0,0,0,David Coote,2023-12-17,Sun,14:00
+1324,2024,19,Brentford,Wolverhampton Wanderers,0,1,0,1,4,2.2,2.4,60,40,Christian Nørgaard,4-3-3,14,4,13.8,0,0,0,Max Kilman,3-4-3,11,5,17.8,0,0,0,Andy Madley,2023-12-27,Wed,19:30
+1345,2024,21,Brentford,Nottingham Forest,1,0,0,3,2,1.2,1.2,48,52,Ivan Toney,3-5-2,11,5,14.8,1,0,0,Ryan Yates,4-2-3-1,12,3,20.5,0,0,0,Darren England,2024-01-20,Sat,17:30
+1368,2024,23,Brentford,Manchester City,0,1,0,1,3,1.0,2.1,28,72,Christian Nørgaard,3-5-2,9,2,15.3,0,0,0,Kyle Walker,4-1-4-1,25,15,19.2,0,0,0,Jarred Gillett,2024-02-05,Mon,20:00
+1379,2024,25,Brentford,Liverpool,0,1,0,1,4,1.6,2.8,38,62,Christian Nørgaard,3-5-2,15,6,19.8,3,0,0,Virgil van Dijk,4-3-3,15,8,15.9,1,0,0,Michael Oliver,2024-02-17,Sat,12:30
+1400,2024,27,Brentford,Chelsea,0,0,1,2,2,1.8,1.8,33,67,Christian Nørgaard,3-5-2,14,5,14.5,0,0,0,Ben Chilwell,3-5-2,17,5,19.5,0,0,0,Jarred Gillett,2024-03-02,Sat,15:00
+1431,2024,30,Brentford,Manchester United,0,0,1,1,1,3.2,0.6,47,53,Ivan Toney,3-5-2,31,5,15.0,1,0,0,Bruno Fernandes,4-2-3-1,11,5,22.5,0,0,0,Simon Hooper,2024-03-30,Sat,20:00
+1439,2024,31,Brentford,Brighton And Hove Albion,0,0,1,0,0,0.6,1.1,34,66,Ivan Toney,3-5-2,5,2,17.1,1,0,0,Lewis Dunk,4-2-3-1,24,6,20.1,0,0,0,Andy Madley,2024-04-03,Wed,19:30
+1457,2024,33,Brentford,Sheffield United,1,0,0,2,0,1.0,0.8,53,47,Mathias Jensen,4-3-3,9,5,18.7,0,0,0,Oliver McBurnie,3-5-2,8,2,15.1,0,0,0,Samuel Barrott,2024-04-13,Sat,15:00
+1492,2024,36,Brentford,Fulham,0,0,1,0,0,0.6,1.3,54,46,Christian Nørgaard,4-3-3,7,2,12.9,0,0,0,Bernd Leno,4-2-3-1,15,3,17.4,0,0,0,Graham Scott,2024-05-04,Sat,15:00
+1520,2024,38,Brentford,Newcastle United,0,1,0,2,4,1.1,3.4,54,46,Christian Nørgaard,4-3-3,10,5,15.9,1,0,0,Dan Burn,4-3-3,12,7,15.4,2,0,0,Simon Hooper,2024-05-19,Sun,16:00
+1528,2025,1,Brentford,Crystal Palace,1,0,0,2,1,1.6,1.2,46,54,Christian Nørgaard,4-3-3,9,5,12.5,0,0,0,Marc Guéhi,3-4-3,14,6,19.2,1,0,0,Samuel Barrott,2024-08-18,Sun,14:00
+1543,2025,3,Brentford,Southampton,1,0,0,3,1,2.8,1.5,37,63,Christian Nørgaard,4-3-3,20,7,14.5,0,0,0,Jack Stephens,3-5-2,18,6,18.1,1,0,0,Joshua Smith,2024-08-31,Sat,15:00
+1576,2025,6,Brentford,West Ham United,0,0,1,1,1,0.4,1.0,57,43,Vitaly Janelt,4-4-2,8,3,20.7,1,0,0,Jarrod Bowen,4-1-4-1,19,3,18.7,0,0,0,Simon Hooper,2024-09-28,Sat,15:00
+1582,2025,7,Brentford,Wolverhampton Wanderers,1,0,0,5,3,4.2,1.0,44,56,Christian Nørgaard,4-2-3-1,18,11,13.0,1,1,1,Mario Lemina,4-1-4-1,17,6,20.9,0,0,0,Andy Madley,2024-10-05,Sat,15:00
+1603,2025,9,Brentford,Ipswich Town,1,0,0,4,3,4.0,1.3,65,35,Christian Nørgaard,4-2-3-1,19,8,16.0,1,1,1,Conor Chaplin,4-2-3-1,11,5,17.4,0,0,0,Lewis Smith,2024-10-26,Sat,15:00
+1621,2025,11,Brentford,Bournemouth,1,0,0,3,2,1.5,2.6,51,49,Christian Nørgaard,4-3-3,12,6,14.6,0,0,0,Adam Smith,4-2-3-1,15,3,14.8,1,0,0,Darren Bond,2024-11-09,Sat,15:00
+1643,2025,13,Brentford,Leicester City,1,0,0,4,1,2.4,1.1,60,40,Christian Nørgaard,4-2-3-1,13,6,16.0,1,0,0,Jamie Vardy,3-4-3,7,3,16.9,0,0,0,Michael Oliver,2024-11-30,Sat,15:00
+1663,2025,15,Brentford,Newcastle United,1,0,0,4,2,1.2,1.5,43,57,Christian Nørgaard,3-4-3,11,7,17.6,0,0,0,Bruno Guimarães,4-3-3,16,3,16.2,0,0,0,Simon Hooper,2024-12-07,Sat,15:00
+1681,2025,17,Brentford,Nottingham Forest,0,1,0,0,2,0.7,0.9,64,36,Christian Nørgaard,4-3-3,7,3,10.8,0,0,0,Morgan Gibbs-White,3-4-3,10,6,17.4,0,0,0,Michael Oliver,2024-12-21,Sat,15:00
+1709,2025,19,Brentford,Arsenal,0,1,0,1,3,0.3,1.9,50,50,Christian Nørgaard,4-3-1-2,5,2,27.9,0,0,0,Martin Ødegaard,4-3-3,14,4,14.7,0,0,0,Peter Bankes,2025-01-01,Wed,17:30
+1720,2025,21,Brentford,Manchester City,0,0,1,2,2,2.5,2.2,45,55,Christian Nørgaard,4-3-3,18,5,14.2,0,0,0,Kevin De Bruyne,4-2-3-1,21,8,15.1,0,0,0,Anthony Taylor,2025-01-14,Tue,19:30
+1731,2025,22,Brentford,Liverpool,0,1,0,0,2,0.7,3.4,40,60,Christian Nørgaard,4-2-3-1,11,6,14.7,0,0,0,Virgil van Dijk,4-2-3-1,37,8,15.4,0,0,0,Andy Madley,2025-01-18,Sat,15:00
+1756,2025,24,Brentford,Tottenham Hotspur,0,1,0,0,2,2.1,0.8,54,46,Christian Nørgaard,4-2-3-1,20,3,15.6,1,0,0,Son Heung-min,4-2-3-1,13,2,18.8,0,0,0,Jarred Gillett,2025-02-02,Sun,14:00
+1789,2025,27,Brentford,Everton,0,0,1,1,1,1.4,1.5,52,48,Vitaly Janelt,4-2-3-1,12,3,14.8,0,0,0,James Tarkowski,4-2-3-1,14,4,20.7,0,0,0,Simon Hooper,2025-02-26,Wed,19:30
+1796,2025,28,Brentford,Aston Villa,0,1,0,0,1,0.8,1.3,59,41,Christian Nørgaard,4-2-3-1,13,3,17.0,0,0,0,John McGinn,4-2-3-1,12,4,16.9,1,0,0,Jarred Gillett,2025-03-08,Sat,17:30
+1826,2025,31,Brentford,Chelsea,0,0,1,0,0,1.1,1.2,42,58,Christian Nørgaard,4-2-3-1,9,2,14.2,1,0,0,Reece James,4-2-3-1,21,5,19.0,0,0,0,Michael Oliver,2025-04-06,Sun,14:00
+1844,2025,33,Brentford,Brighton And Hove Albion,1,0,0,4,2,2.1,1.4,47,53,Christian Nørgaard,4-2-3-1,16,8,12.3,0,0,0,Lewis Dunk,4-2-3-1,12,3,15.5,2,0,0,Tim Robinson,2025-04-19,Sat,15:00
+1866,2025,35,Brentford,Manchester United,1,0,0,4,3,2.8,1.5,47,53,Christian Nørgaard,4-2-3-1,12,6,10.3,0,0,0,Luke Shaw,3-4-3,14,5,18.2,0,0,0,Anthony Taylor,2025-05-04,Sun,14:00
+1886,2025,37,Brentford,Fulham,0,1,0,2,3,2.5,1.0,51,49,Christian Nørgaard,4-2-3-1,10,4,11.1,0,0,1,Bernd Leno,4-2-3-1,16,7,17.7,2,0,0,Jarred Gillett,2025-05-18,Sun,15:00

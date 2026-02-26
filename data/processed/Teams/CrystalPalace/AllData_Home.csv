@@ -1,0 +1,96 @@
+ID,Season,Round,Home,Away,HomeWin,AwayWin,Draw,HomeGoal,AwayGoal,HomeXG,AwayXG,HomePoss,AwayPoss,HomeCaptain,HomeFormation,HomeSH,HomeSOT,HomeDist,HomeFK,HomePK,HomePKAtt,AwayCaptain,AwayFormation,AwaySH,AwaySOT,AwayDist,AwayFK,AwayPK,AwayPKAtt,Referee,Date,Day,Time
+2,2021,1,Crystal Palace,Southampton,1,0,0,1,0,1.1,0.9,31,69,Scott Dann,4-4-2,5,3,10.6,0,0,0,James Ward-Prowse,4-4-2,9,5,15.3,2,0,0,Jonathan Moss,2020-09-12,Sat,15:00
+20,2021,3,Crystal Palace,Everton,0,1,0,1,2,0.4,1.9,42,58,Wilfried Zaha,4-4-2,8,1,18.3,0,0,0,Séamus Coleman,4-3-3,9,4,17.2,1,1,1,Kevin Friend,2020-09-26,Sat,15:00
+44,2021,5,Crystal Palace,Brighton And Hove Albion,0,0,1,1,1,0.8,1.7,34,66,Gary Cahill,4-4-2,0,0,0.0,0,1,1,Lewis Dunk,3-4-3,20,3,16.0,0,0,0,Stuart Attwell,2020-10-18,Sun,14:00
+72,2021,8,Crystal Palace,Leeds United,1,0,0,4,1,0.9,0.8,36,64,Scott Dann,4-4-2,10,6,17.2,1,0,0,Liam Cooper,3-3-3-1,9,3,18.9,1,0,0,Chris Kavanagh,2020-11-07,Sat,15:00
+89,2021,10,Crystal Palace,Newcastle United,0,1,0,0,2,0.6,1.3,57,43,Scott Dann,4-4-2,12,3,17.0,1,0,0,Jonjo Shelvey,4-4-2,14,7,19.5,2,0,0,Graham Scott,2020-11-27,Fri,20:00
+114,2021,12,Crystal Palace,Tottenham Hotspur,0,0,1,1,1,1.6,0.9,44,56,Luka Milivojević,4-4-2,16,5,16.0,2,0,0,Hugo Lloris,4-2-3-1,14,6,20.4,3,0,0,Kevin Friend,2020-12-13,Sun,14:15
+128,2021,14,Crystal Palace,Liverpool,0,1,0,0,7,0.3,2.5,36,64,Luka Milivojević,4-4-2,5,3,20.8,0,0,0,Jordan Henderson,4-3-3,14,7,14.1,1,0,0,Jonathan Moss,2020-12-19,Sat,12:30
+148,2021,16,Crystal Palace,Leicester City,0,0,1,1,1,0.5,1.9,34,66,Luka Milivojević,4-4-2,4,1,10.1,0,0,0,Kasper Schmeichel,4-2-3-1,16,2,20.4,2,0,1,Graham Scott,2020-12-28,Mon,15:00
+159,2021,17,Crystal Palace,Sheffield United,1,0,0,2,0,0.6,0.4,44,56,Luka Milivojević,4-4-2,9,4,17.9,0,0,0,John Egan,3-5-2,7,2,19.4,0,0,0,Stuart Attwell,2021-01-02,Sat,15:00
+187,2021,20,Crystal Palace,West Ham United,0,1,0,2,3,0.7,2.8,54,46,Luka Milivojević,4-4-2,6,3,21.8,0,0,0,Declan Rice,4-2-3-1,17,7,15.5,0,0,0,Stuart Attwell,2021-01-26,Tue,18:00
+199,2021,21,Crystal Palace,Wolverhampton Wanderers,1,0,0,1,0,1.4,0.4,48,52,Luka Milivojević,4-2-3-1,11,2,20.0,2,0,0,Conor Coady,3-4-3,6,4,15.7,0,0,0,Simon Hooper,2021-01-30,Sat,15:00
+227,2021,24,Crystal Palace,Burnley,0,1,0,0,3,0.5,1.4,54,46,Luka Milivojević,4-4-2,13,3,18.6,0,0,0,Ben Mee,4-4-2,16,4,17.7,0,0,0,Michael Oliver,2021-02-13,Sat,15:00
+253,2021,26,Crystal Palace,Fulham,0,0,1,0,0,0.1,1.4,40,60,Luka Milivojević,4-2-3-1,3,0,15.8,0,0,0,Joachim Andersen,4-2-3-1,16,4,18.6,1,0,0,Anthony Taylor,2021-02-28,Sun,12:00
+262,2021,29,Crystal Palace,Manchester United,0,0,1,0,0,0.9,0.9,37,63,Luka Milivojević,4-4-2,8,2,18.3,1,0,0,Harry Maguire,4-2-3-1,11,1,18.4,0,0,0,Andre Marriner,2021-03-03,Wed,20:15
+279,2021,28,Crystal Palace,West Bromwich Albion,1,0,0,1,0,1.2,0.8,45,55,Luka Milivojević,4-4-2,5,3,23.0,0,1,1,Kyle Bartley,4-1-4-1,12,1,18.0,1,0,0,Simon Hooper,2021-03-13,Sat,15:00
+304,2021,31,Crystal Palace,Chelsea,0,1,0,1,4,0.4,3.1,36,64,Luka Milivojević,4-4-2,1,1,5.9,0,0,0,César Azpilicueta,3-4-3,23,9,13.6,0,0,0,Michael Oliver,2021-04-10,Sat,17:30
+330,2021,34,Crystal Palace,Manchester City,0,1,0,0,2,0.9,1.7,32,68,Luka Milivojević,4-3-3,9,4,19.6,0,0,0,Fernandinho,4-4-1-1,20,3,14.6,1,0,0,David Coote,2021-05-01,Sat,12:30
+357,2021,36,Crystal Palace,Aston Villa,1,0,0,3,2,1.9,1.4,45,55,Gary Cahill,4-3-3,23,8,18.0,2,0,0,John McGinn,4-3-3,19,5,17.9,2,0,0,David Coote,2021-05-16,Sun,12:00
+368,2021,37,Crystal Palace,Arsenal,0,1,0,1,3,1.0,1.8,32,68,Gary Cahill,4-3-3,12,6,13.6,0,0,0,Pierre-Emerick Aubameyang,4-2-3-1,6,3,14.2,0,0,0,Anthony Taylor,2021-05-19,Wed,19:00
+395,2022,2,Crystal Palace,Brentford,0,0,1,0,0,0.5,0.9,53,47,James McArthur,4-3-3,7,2,15.9,0,0,0,Pontus Jansson,3-5-2,14,3,18.0,1,0,0,Martin Atkinson,2021-08-21,Sat,15:00
+411,2022,4,Crystal Palace,Tottenham Hotspur,1,0,0,3,0,2.1,0.1,62,38,James McArthur,4-3-3,17,3,17.5,1,1,1,Hugo Lloris,4-1-2-1-2◆,2,1,19.1,0,0,0,Jonathan Moss,2021-09-11,Sat,12:30
+440,2022,6,Crystal Palace,Brighton And Hove Albion,0,0,1,1,1,1.4,0.8,47,53,Luka Milivojević,4-3-3,7,2,24.1,1,1,1,Lewis Dunk,3-4-3,8,4,15.8,0,0,0,Andre Marriner,2021-09-27,Mon,20:00
+447,2022,7,Crystal Palace,Leicester City,0,0,1,2,2,1.5,1.2,60,40,Luka Milivojević,4-3-3,18,4,15.3,0,0,0,Kasper Schmeichel,4-4-2,9,5,17.9,0,0,0,Anthony Taylor,2021-10-03,Sun,14:00
+464,2022,9,Crystal Palace,Newcastle United,0,0,1,1,1,1.9,0.3,74,26,Luka Milivojević,4-3-3,15,3,15.6,0,0,0,Jamaal Lascelles,5-3-2,6,1,14.2,0,0,0,Darren England,2021-10-23,Sat,15:00
+484,2022,11,Crystal Palace,Wolverhampton Wanderers,1,0,0,2,0,1.9,0.3,60,40,James McArthur,4-3-3,13,6,13.2,0,0,0,Conor Coady,3-4-3,4,2,18.8,1,0,0,Graham Scott,2021-11-06,Sat,15:00
+503,2022,13,Crystal Palace,Aston Villa,0,1,0,1,2,1.0,0.5,64,36,Luka Milivojević,4-2-3-1,8,3,13.9,0,0,0,Tyrone Mings,4-3-3,10,3,20.5,2,0,0,Michael Salisbury,2021-11-27,Sat,15:00
+538,2022,16,Crystal Palace,Everton,1,0,0,3,1,1.8,1.0,61,39,Joel Ward,4-3-3,17,6,16.8,1,0,0,Séamus Coleman,4-1-4-1,12,6,20.5,1,0,0,Andy Madley,2021-12-12,Sun,16:30
+541,2022,17,Crystal Palace,Southampton,0,0,1,2,2,1.2,0.6,59,41,Joel Ward,4-3-3,9,6,10.9,0,0,0,James Ward-Prowse,4-4-2,15,4,21.3,1,0,0,Simon Hooper,2021-12-15,Wed,19:30
+559,2022,20,Crystal Palace,Norwich City,1,0,0,3,0,1.9,0.9,51,49,Joel Ward,4-3-3,18,5,13.3,0,1,1,Ben Gibson,4-2-3-1,12,2,17.7,0,0,0,Paul Tierney,2021-12-28,Tue,15:00
+566,2022,21,Crystal Palace,West Ham United,0,1,0,2,3,2.4,2.2,62,38,Luka Milivojević,4-3-3,22,6,15.8,2,0,0,Declan Rice,4-2-3-1,9,4,14.5,0,1,1,Darren England,2022-01-01,Sat,17:30
+592,2022,23,Crystal Palace,Liverpool,0,1,0,1,3,2.2,1.9,43,57,Joel Ward,4-3-3,8,5,12.2,0,0,0,Jordan Henderson,4-3-3,13,6,21.6,0,1,1,Kevin Friend,2022-01-23,Sun,14:00
+617,2022,26,Crystal Palace,Chelsea,0,1,0,0,1,0.5,0.9,42,58,James McArthur,4-2-3-1,7,0,14.6,0,0,0,Jorginho,4-3-3,9,3,17.0,1,0,0,David Coote,2022-02-19,Sat,15:00
+632,2022,27,Crystal Palace,Burnley,0,0,1,1,1,1.0,0.2,59,41,Luka Milivojević,4-3-3,11,4,18.7,2,0,0,Ben Mee,4-4-2,5,1,19.2,0,0,0,Jonathan Moss,2022-02-26,Sat,15:00
+661,2022,29,Crystal Palace,Manchester City,0,0,1,0,0,0.6,2.8,27,73,Marc Guéhi,4-3-3,7,1,14.7,0,0,0,Kevin De Bruyne,4-3-3,19,4,17.2,0,0,0,Martin Atkinson,2022-03-14,Mon,20:00
+678,2022,31,Crystal Palace,Arsenal,1,0,0,3,0,1.5,0.8,32,68,Marc Guéhi,4-2-3-1,5,4,21.0,1,1,1,Alexandre Lacazette,4-2-3-1,12,3,18.5,0,0,0,Paul Tierney,2022-04-04,Mon,20:00
+711,2022,34,Crystal Palace,Leeds United,0,0,1,0,0,1.9,0.5,53,47,James McArthur,4-3-3,17,7,13.6,0,0,0,Liam Cooper,4-2-3-1,9,2,17.4,0,0,0,Darren England,2022-04-25,Mon,20:00
+724,2022,36,Crystal Palace,Watford,1,0,0,1,0,2.2,0.4,67,33,Joel Ward,4-3-3,14,6,15.8,1,1,1,Moussa Sissoko,4-3-3,6,1,17.7,0,0,0,Graham Scott,2022-05-07,Sat,15:00
+757,2022,38,Crystal Palace,Manchester United,1,0,0,1,0,0.6,0.7,39,61,Joel Ward,4-3-3,6,3,14.1,0,0,0,Harry Maguire,4-2-3-1,10,4,19.8,1,0,0,Martin Atkinson,2022-05-22,Sun,16:00
+761,2023,1,Crystal Palace,Arsenal,0,1,0,0,2,1.2,1.0,56,44,Marc Guéhi,4-2-3-1,10,2,14.2,0,0,0,Martin Ødegaard,4-3-3,10,2,14.6,1,0,0,Anthony Taylor,2022-08-05,Fri,20:00
+783,2023,3,Crystal Palace,Aston Villa,1,0,0,3,1,2.6,0.9,51,49,Joel Ward,4-3-3,16,8,15.6,1,0,1,John McGinn,4-3-3,13,5,17.8,0,0,0,Andy Madley,2022-08-20,Sat,15:00
+801,2023,5,Crystal Palace,Brentford,0,0,1,1,1,1.0,1.4,49,51,Joel Ward,4-1-4-1,13,4,19.2,0,0,0,Ivan Toney,4-3-3,9,3,10.7,0,0,0,Simon Hooper,2022-08-30,Tue,19:30
+831,2023,9,Crystal Palace,Chelsea,0,1,0,1,2,0.4,1.1,36,64,Joel Ward,4-3-3,7,3,20.1,0,0,0,Jorginho,4-2-2-2,13,3,14.8,0,0,0,Chris Kavanagh,2022-10-01,Sat,15:00
+844,2023,10,Crystal Palace,Leeds United,1,0,0,2,1,1.1,1.0,54,46,Joel Ward,4-3-3,13,5,17.7,2,0,0,Liam Cooper,4-2-3-1,10,4,18.1,0,0,0,Paul Tierney,2022-10-09,Sun,14:00
+859,2023,12,Crystal Palace,Wolverhampton Wanderers,1,0,0,2,1,1.2,0.8,51,49,Joel Ward,4-3-3,14,4,17.3,1,0,0,Rúben Neves,4-2-3-1,10,4,16.3,1,0,0,David Coote,2022-10-18,Tue,20:15
+880,2023,14,Crystal Palace,Southampton,1,0,0,1,0,0.9,1.3,44,56,Luka Milivojević,4-3-3,12,3,20.0,1,0,0,James Ward-Prowse,3-5-2,14,4,18.1,0,0,0,Michael Salisbury,2022-10-29,Sat,15:00
+908,2023,17,Crystal Palace,Fulham,0,1,0,0,3,0.4,2.5,36,64,Joachim Andersen,4-3-3,4,0,13.0,0,0,0,Tim Ream,4-2-3-1,23,10,13.4,1,0,0,Andy Madley,2022-12-26,Mon,15:00
+935,2023,19,Crystal Palace,Tottenham Hotspur,0,1,0,0,4,0.8,1.4,47,53,Joel Ward,4-2-3-1,19,4,20.1,0,0,0,Hugo Lloris,3-4-3,14,6,16.2,0,0,0,Michael Oliver,2023-01-04,Wed,20:00
+948,2023,7,Crystal Palace,Manchester United,0,0,1,1,1,0.5,2.1,40,60,Marc Guéhi,4-2-3-1,10,5,18.2,2,0,0,Bruno Fernandes,4-2-3-1,15,4,19.5,1,0,0,Robert Jones,2023-01-18,Wed,20:00
+955,2023,21,Crystal Palace,Newcastle United,0,0,1,0,0,0.3,1.2,40,60,Joel Ward,4-2-3-1,6,1,19.9,0,0,0,Kieran Trippier,4-3-3,16,7,13.1,0,0,0,Craig Pawson,2023-01-21,Sat,17:30
+974,2023,23,Crystal Palace,Brighton And Hove Albion,0,0,1,1,1,1.1,2.5,27,73,Marc Guéhi,4-4-2,6,1,12.4,0,0,0,Lewis Dunk,4-2-3-1,17,7,13.6,1,0,0,Michael Oliver,2023-02-11,Sat,15:00
+998,2023,25,Crystal Palace,Liverpool,0,0,1,0,0,0.7,0.9,37,63,Marc Guéhi,4-2-3-1,6,0,15.0,0,0,0,Jordan Henderson,4-3-3,12,4,16.0,1,0,0,Darren England,2023-02-25,Sat,19:45
+1017,2023,27,Crystal Palace,Manchester City,0,1,0,0,1,0.2,2.1,33,67,Luka Milivojević,4-3-3,4,0,17.5,0,0,0,İlkay Gündoğan,4-2-3-1,13,3,19.0,1,1,1,Robert Jones,2023-03-11,Sat,17:30
+1036,2023,29,Crystal Palace,Leicester City,1,0,0,2,1,2.3,0.2,52,48,Wilfried Zaha,4-3-3,31,9,19.0,2,0,0,James Maddison,4-2-3-1,3,2,13.8,0,0,0,Tim Robinson,2023-04-01,Sat,15:00
+1070,2023,32,Crystal Palace,Everton,0,0,1,0,0,0.5,0.4,56,44,Joel Ward,4-3-3,12,2,19.8,0,0,0,Jordan Pickford,4-2-3-1,10,5,22.4,0,0,0,John Brooks,2023-04-22,Sat,15:00
+1085,2023,34,Crystal Palace,West Ham United,1,0,0,4,3,2.1,1.7,59,41,Wilfried Zaha,4-3-3,15,5,18.1,1,1,1,Declan Rice,4-2-3-1,8,4,16.1,0,0,0,Craig Pawson,2023-04-29,Sat,12:30
+1110,2023,36,Crystal Palace,Bournemouth,1,0,0,2,0,1.5,0.3,59,41,Wilfried Zaha,4-2-3-1,17,5,15.2,0,0,0,Neto,4-2-3-1,5,0,19.4,1,0,0,Michael Salisbury,2023-05-13,Sat,15:00
+1140,2023,38,Crystal Palace,Nottingham Forest,0,0,1,1,1,1.4,0.5,66,34,Joel Ward,4-2-3-1,15,3,17.3,1,0,0,Joe Worrall,3-4-3,7,4,17.0,0,0,0,Thomas Bramall,2023-05-28,Sun,16:30
+1159,2024,2,Crystal Palace,Arsenal,0,1,0,0,1,1.0,2.0,47,53,Joel Ward,4-2-3-1,14,2,16.4,1,0,0,Martin Ødegaard,4-3-3,13,2,16.4,0,1,1,David Coote,2023-08-21,Mon,20:00
+1177,2024,4,Crystal Palace,Wolverhampton Wanderers,1,0,0,3,2,2.1,1.2,43,57,Joel Ward,4-3-3,16,10,13.8,1,0,0,Max Kilman,4-4-2,12,4,16.2,0,0,0,Robert Jones,2023-09-03,Sun,14:00
+1192,2024,6,Crystal Palace,Fulham,0,0,1,0,0,0.3,0.6,51,49,Joel Ward,4-2-3-1,7,3,18.9,1,0,0,Tim Ream,4-3-3,10,5,18.7,1,0,0,Paul Tierney,2023-09-23,Sat,15:00
+1216,2024,8,Crystal Palace,Nottingham Forest,0,0,1,0,0,0.8,1.0,52,48,Marc Guéhi,4-3-3,8,2,15.2,0,0,0,Serge Aurier,4-3-3,16,5,18.4,0,0,0,Craig Pawson,2023-10-07,Sat,17:30
+1231,2024,10,Crystal Palace,Tottenham Hotspur,0,1,0,1,2,0.6,1.1,25,75,Joel Ward,4-2-3-1,13,3,17.2,0,0,0,Son Heung-min,4-2-3-1,10,1,19.5,1,0,0,Andy Madley,2023-10-27,Fri,20:00
+1254,2024,12,Crystal Palace,Everton,0,1,0,2,3,2.2,1.5,67,33,Joel Ward,4-2-3-1,12,3,17.9,0,1,1,James Tarkowski,4-4-1-1,8,4,14.5,0,0,0,Samuel Barrott,2023-11-11,Sat,15:00
+1283,2024,15,Crystal Palace,Bournemouth,0,1,0,0,2,1.0,1.8,59,41,Joel Ward,4-2-3-1,16,3,18.9,1,0,0,Neto,4-2-3-1,11,4,11.5,0,0,0,Craig Pawson,2023-12-06,Wed,19:30
+1291,2024,16,Crystal Palace,Liverpool,0,1,0,1,2,1.7,1.2,24,76,Joel Ward,4-3-3,7,3,17.4,0,1,1,Virgil van Dijk,4-3-3,14,2,17.4,0,0,0,Andy Madley,2023-12-09,Sat,12:30
+1310,2024,18,Crystal Palace,Brighton And Hove Albion,0,0,1,1,1,1.3,1.2,35,65,Marc Guéhi,4-3-3,11,3,13.4,0,0,0,Lewis Dunk,4-2-3-1,18,6,17.6,0,0,0,John Brooks,2023-12-21,Thu,20:00
+1331,2024,20,Crystal Palace,Brentford,1,0,0,3,1,1.0,1.4,46,54,Marc Guéhi,4-3-3,13,6,16.2,0,0,0,Christian Nørgaard,3-5-2,9,4,16.0,0,0,0,Robert Jones,2023-12-30,Sat,15:00
+1352,2024,22,Crystal Palace,Sheffield United,1,0,0,3,2,1.1,0.8,53,47,Marc Guéhi,4-3-3,12,4,17.1,0,0,0,Anel Ahmedhodžić,4-1-4-1,9,5,16.5,0,0,0,Tony Harrington,2024-01-30,Tue,20:00
+1378,2024,24,Crystal Palace,Chelsea,0,1,0,1,3,0.6,1.4,23,77,Joachim Andersen,4-1-4-1,13,4,18.7,0,0,0,Ben Chilwell,4-2-3-1,14,5,15.3,0,0,0,Michael Oliver,2024-02-12,Mon,20:00
+1391,2024,26,Crystal Palace,Burnley,1,0,0,3,0,2.4,0.1,56,44,Joel Ward,3-4-3,14,5,15.3,1,1,1,Josh Brownhill,4-4-2,2,0,12.0,0,0,0,Lewis Smith,2024-02-24,Sat,15:00
+1411,2024,28,Crystal Palace,Luton Town,0,0,1,1,1,2.7,0.8,49,51,Joel Ward,3-4-3,21,4,16.5,0,0,0,Carlton Morris,3-4-3,8,2,11.9,0,0,0,Sunny Singh,2024-03-09,Sat,15:00
+1444,2024,32,Crystal Palace,Manchester City,0,1,0,2,4,1.1,1.9,25,75,Joel Ward,3-4-3,7,4,16.8,0,0,0,Kevin De Bruyne,3-2-4-1,18,8,16.1,0,0,0,Paul Tierney,2024-04-06,Sat,12:30
+1468,2024,34,Crystal Palace,West Ham United,1,0,0,5,2,2.4,1.3,60,40,Joachim Andersen,3-4-3,18,7,16.6,1,0,0,Kurt Zouma,4-2-3-1,4,1,10.8,0,0,0,Graham Scott,2024-04-21,Sun,15:00
+1475,2024,29,Crystal Palace,Newcastle United,1,0,0,2,0,0.9,0.4,47,53,Joachim Andersen,3-4-3,20,7,21.2,3,0,0,Dan Burn,3-4-3,7,2,14.2,0,0,0,Thomas Bramall,2024-04-24,Wed,20:00
+1497,2024,36,Crystal Palace,Manchester United,1,0,0,4,0,1.7,0.4,43,57,Joachim Andersen,3-4-3,18,10,16.8,0,0,0,Casemiro,4-2-3-1,7,2,16.7,1,0,0,Jarred Gillett,2024-05-06,Mon,20:00
+1515,2024,38,Crystal Palace,Aston Villa,1,0,0,5,0,2.5,0.9,54,46,Marc Guéhi,3-4-3,15,9,16.8,0,0,0,John McGinn,4-4-2,8,2,13.8,0,0,0,Darren Bond,2024-05-19,Sun,16:00
+1534,2025,2,Crystal Palace,West Ham United,0,1,0,0,2,1.3,1.4,58,42,Marc Guéhi,3-4-3,14,2,19.5,0,0,0,Jarrod Bowen,4-1-4-1,18,3,17.2,0,0,0,Robert Jones,2024-08-24,Sat,15:00
+1556,2025,4,Crystal Palace,Leicester City,0,0,1,2,2,2.5,1.2,66,34,Marc Guéhi,3-4-3,19,3,15.4,1,1,1,Jamie Vardy,4-2-3-1,9,4,19.2,0,0,0,Tony Harrington,2024-09-14,Sat,15:00
+1568,2025,5,Crystal Palace,Manchester United,0,0,1,0,0,1.0,1.6,33,67,Marc Guéhi,3-4-3,9,4,14.6,0,0,0,Bruno Fernandes,4-2-3-1,15,6,13.9,0,0,0,David Coote,2024-09-21,Sat,17:30
+1581,2025,7,Crystal Palace,Liverpool,0,1,0,0,1,0.6,1.4,32,68,Marc Guéhi,3-4-3,9,5,21.9,0,0,0,Virgil van Dijk,4-2-3-1,16,4,18.9,0,0,0,Simon Hooper,2024-10-05,Sat,12:30
+1607,2025,9,Crystal Palace,Tottenham Hotspur,1,0,0,1,0,0.8,0.7,34,66,Marc Guéhi,3-4-3,14,6,19.6,1,0,0,Cristian Romero,4-3-3,11,3,12.9,0,0,0,Darren Bond,2024-10-27,Sun,14:00
+1622,2025,11,Crystal Palace,Fulham,0,1,0,0,2,1.5,1.8,36,64,Marc Guéhi,3-4-3,13,4,17.1,0,0,0,Bernd Leno,4-2-3-1,17,7,17.0,0,0,0,Michael Salisbury,2024-11-09,Sat,15:00
+1642,2025,13,Crystal Palace,Newcastle United,0,0,1,1,1,1.7,0.0,49,51,Marc Guéhi,3-4-3,16,3,13.6,0,0,0,Bruno Guimarães,4-3-3,1,0,6.9,0,0,0,Darren England,2024-11-30,Sat,15:00
+1662,2025,15,Crystal Palace,Manchester City,0,0,1,2,2,1.3,1.4,32,68,Marc Guéhi,3-4-3,12,3,19.1,0,0,0,Kyle Walker,4-2-3-1,12,4,15.1,0,0,0,Robert Jones,2024-12-07,Sat,15:00
+1684,2025,17,Crystal Palace,Arsenal,0,1,0,1,5,1.6,2.5,42,58,Marc Guéhi,3-4-3,15,6,16.3,0,0,0,Martin Ødegaard,4-3-3,14,6,11.5,0,0,0,Simon Hooper,2024-12-21,Sat,17:30
+1702,2025,19,Crystal Palace,Southampton,1,0,0,2,1,2.0,0.9,47,53,Will Hughes,3-4-3,19,9,17.4,2,0,0,Jan Bednarek,3-4-3,7,3,10.7,0,0,0,Michael Salisbury,2024-12-29,Sun,15:00
+1715,2025,20,Crystal Palace,Chelsea,0,0,1,1,1,1.1,1.2,39,61,Marc Guéhi,3-4-3,13,6,17.0,1,0,0,Enzo Fernández,4-2-3-1,15,1,16.2,0,0,0,Tim Robinson,2025-01-04,Sat,15:00
+1747,2025,23,Crystal Palace,Brentford,0,1,0,1,2,1.1,1.3,47,53,Marc Guéhi,3-4-3,16,5,19.5,2,0,0,Christian Nørgaard,4-2-3-1,11,5,20.4,1,1,1,Tony Harrington,2025-01-26,Sun,14:00
+1768,2025,25,Crystal Palace,Everton,0,1,0,1,2,1.6,0.9,58,42,Marc Guéhi,3-4-3,17,6,18.0,0,0,0,James Tarkowski,4-2-3-1,11,6,17.6,0,0,0,Anthony Taylor,2025-02-15,Sat,17:30
+1784,2025,27,Crystal Palace,Aston Villa,1,0,0,4,1,4.3,0.4,36,64,Marc Guéhi,3-4-3,19,6,14.6,1,0,0,John McGinn,3-4-3,6,2,10.0,0,0,0,Samuel Barrott,2025-02-25,Tue,19:30
+1795,2025,28,Crystal Palace,Ipswich Town,1,0,0,1,0,3.2,1.5,55,45,Marc Guéhi,3-4-3,19,4,14.6,1,0,0,Dara O'Shea,4-2-3-1,15,7,15.8,0,0,0,Simon Hooper,2025-03-08,Sat,15:00
+1821,2025,31,Crystal Palace,Brighton And Hove Albion,1,0,0,2,1,0.6,1.0,38,62,Marc Guéhi,3-4-3,8,3,18.5,1,0,0,Lewis Dunk,4-2-3-1,11,5,16.7,0,0,0,Anthony Taylor,2025-04-05,Sat,15:00
+1842,2025,33,Crystal Palace,Bournemouth,0,0,1,0,0,0.4,0.7,29,71,Marc Guéhi,3-4-3,5,0,17.7,1,0,0,Adam Smith,4-2-3-1,15,4,18.6,0,0,0,Samuel Barrott,2025-04-19,Sat,15:00
+1870,2025,35,Crystal Palace,Nottingham Forest,0,0,1,1,1,2.3,0.7,50,50,Marc Guéhi,3-4-3,19,2,15.2,0,1,1,Morgan Gibbs-White,4-2-3-1,12,4,19.2,1,0,0,Andy Madley,2025-05-05,Mon,20:00
+1889,2025,37,Crystal Palace,Wolverhampton Wanderers,1,0,0,4,2,1.7,1.4,31,69,Joel Ward,3-4-3,14,10,17.0,1,0,0,Toti Gomes,3-4-3,12,3,15.1,0,0,0,David Webb,2025-05-20,Tue,20:00
