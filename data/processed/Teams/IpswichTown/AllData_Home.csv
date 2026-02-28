@@ -1,20 +1,20 @@
-ID,Season,Round,Home,Away,HomeWin,AwayWin,Draw,HomeGoal,AwayGoal,HomeXG,AwayXG,HomePoss,AwayPoss,HomeCaptain,HomeFormation,HomeSH,HomeSOT,HomeDist,HomeFK,HomePK,HomePKAtt,AwayCaptain,AwayFormation,AwaySH,AwaySOT,AwayDist,AwayFK,AwayPK,AwayPKAtt,Referee,Date,Day,Time
-1522,2025,1,Ipswich Town,Liverpool,0,1,0,0,2,0.5,2.6,38,62,Sam Morsy,4-2-3-1,7,2,16.0,0,0,0,Virgil van Dijk,4-2-3-1,18,5,14.8,0,0,0,Tim Robinson,2024-08-17,Sat,12:30
-1544,2025,3,Ipswich Town,Fulham,0,0,1,1,1,0.4,0.9,48,52,Sam Morsy,4-2-3-1,11,4,18.0,1,0,0,Bernd Leno,4-3-3,9,4,13.1,0,0,0,Lewis Smith,2024-08-31,Sat,15:00
-1578,2025,6,Ipswich Town,Aston Villa,0,0,1,2,2,1.2,0.8,44,56,Sam Morsy,4-2-3-1,15,5,18.4,0,0,0,Emiliano Martínez,4-2-3-1,7,3,19.0,1,0,0,Stuart Attwell,2024-09-29,Sun,14:00
-1594,2025,8,Ipswich Town,Everton,0,1,0,0,2,1.3,1.7,55,45,Sam Morsy,4-2-3-1,13,2,16.6,2,0,0,James Tarkowski,4-2-3-1,11,8,16.4,1,0,0,Michael Oliver,2024-10-19,Sat,15:00
-1615,2025,10,Ipswich Town,Leicester City,0,0,1,1,1,1.0,1.5,43,57,Sam Morsy,4-2-3-1,14,2,16.9,1,0,0,Jamie Vardy,4-2-3-1,20,5,16.7,0,0,0,Tim Robinson,2024-11-02,Sat,15:00
-1639,2025,12,Ipswich Town,Manchester United,0,0,1,1,1,1.6,0.8,40,60,Sam Morsy,4-2-3-1,11,6,19.5,1,0,0,Bruno Fernandes,3-4-3,11,4,17.6,1,0,0,Anthony Taylor,2024-11-24,Sun,16:30
-1651,2025,14,Ipswich Town,Crystal Palace,0,1,0,0,1,0.5,1.6,54,46,Sam Morsy,4-2-3-1,9,2,17.6,0,0,0,Marc Guéhi,3-4-3,13,3,15.2,0,0,0,Craig Pawson,2024-12-03,Tue,19:30
-1666,2025,15,Ipswich Town,Bournemouth,0,1,0,1,2,1.3,3.2,44,56,Sam Morsy,4-2-3-1,18,5,18.4,0,0,0,Adam Smith,4-2-3-1,22,6,16.4,0,0,0,Michael Salisbury,2024-12-08,Sun,14:00
-1683,2025,17,Ipswich Town,Newcastle United,0,1,0,0,4,0.7,2.3,42,58,Sam Morsy,4-2-3-1,10,2,17.8,0,0,0,Bruno Guimarães,4-3-3,15,7,14.1,0,0,0,Stuart Attwell,2024-12-21,Sat,15:00
-1707,2025,19,Ipswich Town,Chelsea,1,0,0,2,0,1.6,2.0,24,76,Sam Morsy,5-4-1,8,5,16.1,0,1,1,Enzo Fernández,4-2-3-1,20,4,17.1,0,0,0,John Brooks,2024-12-30,Mon,19:45
-1728,2025,21,Ipswich Town,Brighton And Hove Albion,0,1,0,0,2,0.3,1.0,47,53,Dara O'Shea,4-2-3-1,5,3,21.3,0,0,0,Adam Webster,4-1-4-1,11,5,14.1,0,0,0,Tony Harrington,2025-01-16,Thu,19:30
-1738,2025,22,Ipswich Town,Manchester City,0,1,0,0,6,0.5,3.0,33,67,Sam Morsy,5-4-1,8,4,16.7,0,0,0,Kevin De Bruyne,4-2-3-1,17,9,14.9,0,0,0,Samuel Barrott,2025-01-19,Sun,16:30
-1754,2025,24,Ipswich Town,Southampton,0,1,0,1,2,1.8,0.9,57,43,Sam Morsy,4-2-3-1,15,6,19.8,2,0,0,Jan Bednarek,3-4-3,9,4,14.8,0,0,0,Michael Oliver,2025-02-01,Sat,15:00
-1778,2025,26,Ipswich Town,Tottenham Hotspur,0,1,0,1,4,1.1,1.7,42,58,Dara O'Shea,4-2-3-1,17,5,17.8,1,0,0,Son Heung-min,4-3-3,10,6,13.4,0,0,0,Tim Robinson,2025-02-22,Sat,15:00
-1803,2025,29,Ipswich Town,Nottingham Forest,0,1,0,2,4,0.4,1.5,55,45,Dara O'Shea,4-2-3-1,11,3,21.6,1,0,0,Morgan Gibbs-White,4-2-3-1,11,6,18.2,0,0,0,Michael Salisbury,2025-03-15,Sat,15:00
-1822,2025,31,Ipswich Town,Wolverhampton Wanderers,0,1,0,1,2,0.8,2.6,45,55,Sam Morsy,4-2-3-1,6,2,15.2,0,0,0,Nélson Semedo,3-4-3,22,6,13.2,0,0,0,Peter Bankes,2025-04-05,Sat,15:00
-1847,2025,33,Ipswich Town,Arsenal,0,1,0,0,4,0.2,2.4,25,75,Sam Morsy,4-4-1-1,4,0,19.7,0,0,0,Martin Ødegaard,4-3-3,24,7,15.2,1,0,0,Chris Kavanagh,2025-04-20,Sun,14:00
-1873,2025,36,Ipswich Town,Brentford,0,1,0,0,1,0.9,1.4,49,51,Sam Morsy,4-2-3-1,11,4,21.4,0,0,0,Christian Nørgaard,4-2-3-1,15,5,14.8,0,0,0,Samuel Barrott,2025-05-10,Sat,15:00
-1899,2025,38,Ipswich Town,West Ham United,0,1,0,1,3,0.7,1.1,42,58,Sam Morsy,4-2-3-1,14,4,17.7,0,0,0,Jarrod Bowen,3-1-4-2,10,6,17.3,0,0,0,Tim Robinson,2025-05-25,Sun,16:00
+ID,Season,Round,Home,Away,HomeWin,AwayWin,Draw,HomeGoal,AwayGoal,HomeXG,AwayXG,HomePoss,AwayPoss,HomeCaptain,HomeFormation,HomeSH,HomeSOT,HomeAcc,HomeDef,HomeDist,HomeFK,HomePK,HomePKAtt,AwayCaptain,AwayFormation,AwaySH,AwaySOT,AwayAcc,AwayDef,AwayDist,AwayFK,AwayPK,AwayPKAtt,Referee,Date,Day,Time
+1522,2025,1,Ipswich Town,Liverpool,0,1,0,0,2,0.5,2.6,38,62,Sam Morsy,4-2-3-1,7,2,0.2857142857142857,0.6,16.0,0,0,0,Virgil van Dijk,4-2-3-1,18,5,0.2777777777777778,1.0,14.8,0,0,0,Tim Robinson,2024-08-17,Sat,12:30
+1544,2025,3,Ipswich Town,Fulham,0,0,1,1,1,0.4,0.9,48,52,Sam Morsy,4-2-3-1,11,4,0.3636363636363636,0.75,18.0,1,0,0,Bernd Leno,4-3-3,9,4,0.4444444444444444,0.75,13.1,0,0,0,Lewis Smith,2024-08-31,Sat,15:00
+1578,2025,6,Ipswich Town,Aston Villa,0,0,1,2,2,1.2,0.8,44,56,Sam Morsy,4-2-3-1,15,5,0.3333333333333333,0.3333333333333333,18.4,0,0,0,Emiliano Martínez,4-2-3-1,7,3,0.4285714285714285,0.6,19.0,1,0,0,Stuart Attwell,2024-09-29,Sun,14:00
+1594,2025,8,Ipswich Town,Everton,0,1,0,0,2,1.3,1.7,55,45,Sam Morsy,4-2-3-1,13,2,0.1538461538461538,0.75,16.6,2,0,0,James Tarkowski,4-2-3-1,11,8,0.7272727272727273,1.0,16.4,1,0,0,Michael Oliver,2024-10-19,Sat,15:00
+1615,2025,10,Ipswich Town,Leicester City,0,0,1,1,1,1.0,1.5,43,57,Sam Morsy,4-2-3-1,14,2,0.1428571428571428,0.8,16.9,1,0,0,Jamie Vardy,4-2-3-1,20,5,0.25,0.5,16.7,0,0,0,Tim Robinson,2024-11-02,Sat,15:00
+1639,2025,12,Ipswich Town,Manchester United,0,0,1,1,1,1.6,0.8,40,60,Sam Morsy,4-2-3-1,11,6,0.5454545454545454,0.75,19.5,1,0,0,Bruno Fernandes,3-4-3,11,4,0.3636363636363636,0.8333333333333334,17.6,1,0,0,Anthony Taylor,2024-11-24,Sun,16:30
+1651,2025,14,Ipswich Town,Crystal Palace,0,1,0,0,1,0.5,1.6,54,46,Sam Morsy,4-2-3-1,9,2,0.2222222222222222,0.6666666666666666,17.6,0,0,0,Marc Guéhi,3-4-3,13,3,0.2307692307692307,1.0,15.2,0,0,0,Craig Pawson,2024-12-03,Tue,19:30
+1666,2025,15,Ipswich Town,Bournemouth,0,1,0,1,2,1.3,3.2,44,56,Sam Morsy,4-2-3-1,18,5,0.2777777777777778,0.6666666666666666,18.4,0,0,0,Adam Smith,4-2-3-1,22,6,0.2727272727272727,0.8,16.4,0,0,0,Michael Salisbury,2024-12-08,Sun,14:00
+1683,2025,17,Ipswich Town,Newcastle United,0,1,0,0,4,0.7,2.3,42,58,Sam Morsy,4-2-3-1,10,2,0.2,0.4285714285714285,17.8,0,0,0,Bruno Guimarães,4-3-3,15,7,0.4666666666666667,1.0,14.1,0,0,0,Stuart Attwell,2024-12-21,Sat,15:00
+1707,2025,19,Ipswich Town,Chelsea,1,0,0,2,0,1.6,2.0,24,76,Sam Morsy,5-4-1,8,5,0.625,1.0,16.1,0,1,1,Enzo Fernández,4-2-3-1,20,4,0.2,0.6,17.1,0,0,0,John Brooks,2024-12-30,Mon,19:45
+1728,2025,21,Ipswich Town,Brighton And Hove Albion,0,1,0,0,2,0.3,1.0,47,53,Dara O'Shea,4-2-3-1,5,3,0.6,0.6,21.3,0,0,0,Adam Webster,4-1-4-1,11,5,0.4545454545454545,1.0,14.1,0,0,0,Tony Harrington,2025-01-16,Thu,19:30
+1738,2025,22,Ipswich Town,Manchester City,0,1,0,0,6,0.5,3.0,33,67,Sam Morsy,5-4-1,8,4,0.5,0.3333333333333333,16.7,0,0,0,Kevin De Bruyne,4-2-3-1,17,9,0.5294117647058824,1.0,14.9,0,0,0,Samuel Barrott,2025-01-19,Sun,16:30
+1754,2025,24,Ipswich Town,Southampton,0,1,0,1,2,1.8,0.9,57,43,Sam Morsy,4-2-3-1,15,6,0.4,0.5,19.8,2,0,0,Jan Bednarek,3-4-3,9,4,0.4444444444444444,0.8333333333333334,14.8,0,0,0,Michael Oliver,2025-02-01,Sat,15:00
+1778,2025,26,Ipswich Town,Tottenham Hotspur,0,1,0,1,4,1.1,1.7,42,58,Dara O'Shea,4-2-3-1,17,5,0.2941176470588235,0.3333333333333333,17.8,1,0,0,Son Heung-min,4-3-3,10,6,0.6,0.8,13.4,0,0,0,Tim Robinson,2025-02-22,Sat,15:00
+1803,2025,29,Ipswich Town,Nottingham Forest,0,1,0,2,4,0.4,1.5,55,45,Dara O'Shea,4-2-3-1,11,3,0.2727272727272727,0.3333333333333333,21.6,1,0,0,Morgan Gibbs-White,4-2-3-1,11,6,0.5454545454545454,0.3333333333333333,18.2,0,0,0,Michael Salisbury,2025-03-15,Sat,15:00
+1822,2025,31,Ipswich Town,Wolverhampton Wanderers,0,1,0,1,2,0.8,2.6,45,55,Sam Morsy,4-2-3-1,6,2,0.3333333333333333,0.6666666666666666,15.2,0,0,0,Nélson Semedo,3-4-3,22,6,0.2727272727272727,0.5,13.2,0,0,0,Peter Bankes,2025-04-05,Sat,15:00
+1847,2025,33,Ipswich Town,Arsenal,0,1,0,0,4,0.2,2.4,25,75,Sam Morsy,4-4-1-1,4,0,0.0,0.4285714285714285,19.7,0,0,0,Martin Ødegaard,4-3-3,24,7,0.2916666666666667,0.0,15.2,1,0,0,Chris Kavanagh,2025-04-20,Sun,14:00
+1873,2025,36,Ipswich Town,Brentford,0,1,0,0,1,0.9,1.4,49,51,Sam Morsy,4-2-3-1,11,4,0.3636363636363636,0.8,21.4,0,0,0,Christian Nørgaard,4-2-3-1,15,5,0.3333333333333333,1.0,14.8,0,0,0,Samuel Barrott,2025-05-10,Sat,15:00
+1899,2025,38,Ipswich Town,West Ham United,0,1,0,1,3,0.7,1.1,42,58,Sam Morsy,4-2-3-1,14,4,0.2857142857142857,0.5,17.7,0,0,0,Jarrod Bowen,3-1-4-2,10,6,0.6,0.75,17.3,0,0,0,Tim Robinson,2025-05-25,Sun,16:00

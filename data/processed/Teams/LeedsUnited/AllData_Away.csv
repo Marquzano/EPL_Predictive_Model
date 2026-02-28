@@ -1,58 +1,58 @@
-ID,Season,Round,Home,Away,HomeWin,AwayWin,Draw,HomeGoal,AwayGoal,HomeXG,AwayXG,HomePoss,AwayPoss,HomeCaptain,HomeFormation,HomeSH,HomeSOT,HomeDist,HomeFK,HomePK,HomePKAtt,AwayCaptain,AwayFormation,AwaySH,AwaySOT,AwayDist,AwayFK,AwayPK,AwayPKAtt,Referee,Date,Day,Time
-3,2021,1,Liverpool,Leeds United,1,0,0,4,3,2.7,0.3,49,51,Jordan Henderson,4-3-3,20,4,18.4,0,2,2,Luke Ayling,4-1-4-1,6,3,19.9,1,0,0,Michael Oliver,2020-09-12,Sat,17:30
-23,2021,3,Sheffield United,Leeds United,0,1,0,0,1,1.4,1.2,36,64,David McGoldrick,3-5-2,14,4,16.7,0,0,0,Liam Cooper,3-1-4-2,17,8,19.0,0,0,0,Paul Tierney,2020-09-27,Sun,12:00
-49,2021,6,Aston Villa,Leeds United,0,1,0,0,3,1.4,2.7,41,59,Jack Grealish,4-2-3-1,12,3,18.5,0,0,0,Luke Ayling,4-4-1-1,27,9,16.9,1,0,0,Paul Tierney,2020-10-23,Fri,20:00
-72,2021,8,Crystal Palace,Leeds United,1,0,0,4,1,0.9,0.8,36,64,Scott Dann,4-4-2,10,6,17.2,1,0,0,Liam Cooper,3-3-3-1,9,3,18.9,1,0,0,Chris Kavanagh,2020-11-07,Sat,15:00
-92,2021,10,Everton,Leeds United,0,1,0,0,1,1.2,2.9,41,59,Mason Holgate,3-4-3,15,8,17.7,0,0,0,Liam Cooper,4-4-1-1,23,6,16.5,0,0,0,Chris Kavanagh,2020-11-28,Sat,17:30
-102,2021,11,Chelsea,Leeds United,1,0,0,3,1,4.1,0.8,46,54,Thiago Silva,4-3-3,23,10,11.6,0,0,0,Liam Cooper,4-4-1-1,8,3,16.8,0,0,0,Kevin Friend,2020-12-05,Sat,20:00
-134,2021,14,Manchester United,Leeds United,1,0,0,6,2,3.6,1.8,41,59,Harry Maguire,4-2-3-1,25,13,15.9,0,1,1,Liam Cooper,4-1-4-1,17,4,13.9,0,0,0,Anthony Taylor,2020-12-20,Sun,16:30
-152,2021,16,West Bromwich Albion,Leeds United,0,1,0,0,5,0.5,1.2,25,75,Matt Phillips,4-1-4-1,4,1,20.3,0,0,0,Luke Ayling,4-1-4-1,14,6,18.6,0,0,0,Lee Mason,2020-12-29,Tue,18:00
-158,2021,17,Tottenham Hotspur,Leeds United,1,0,0,3,0,2.6,1.1,37,63,Hugo Lloris,4-2-3-1,19,6,19.0,0,1,1,Luke Ayling,4-1-4-1,18,5,18.5,0,0,0,David Coote,2021-01-02,Sat,12:30
-186,2021,20,Newcastle United,Leeds United,0,1,0,1,2,1.4,0.7,42,58,Jamaal Lascelles,4-4-1-1,22,5,22.0,4,0,0,Liam Cooper,4-1-4-1,9,2,13.6,0,0,0,Anthony Taylor,2021-01-26,Tue,18:00
-203,2021,21,Leicester City,Leeds United,0,1,0,1,3,1.8,2.1,51,49,Kasper Schmeichel,4-2-3-1,18,8,19.3,1,0,0,Liam Cooper,4-1-4-1,8,6,13.3,0,0,0,Chris Kavanagh,2021-01-31,Sun,14:00
-232,2021,24,Arsenal,Leeds United,1,0,0,4,2,2.3,0.9,46,54,Pierre-Emerick Aubameyang,4-2-3-1,12,4,19.1,0,1,1,Liam Cooper,4-1-4-1,9,5,17.6,0,0,0,Stuart Attwell,2021-02-14,Sun,16:30
-238,2021,25,Wolverhampton Wanderers,Leeds United,1,0,0,1,0,0.6,1.7,42,58,Conor Coady,3-4-3,15,5,23.1,0,0,0,Liam Cooper,4-4-1-1,18,7,13.2,0,0,0,David Coote,2021-02-19,Fri,20:00
-275,2021,27,West Ham United,Leeds United,1,0,0,2,0,1.8,1.4,35,65,Declan Rice,4-2-3-1,15,4,21.2,1,0,1,Liam Cooper,4-1-4-1,17,2,18.4,0,0,0,Mike Dean,2021-03-08,Mon,20:00
-287,2021,29,Fulham,Leeds United,0,1,0,1,2,1.6,1.3,51,49,Joachim Andersen,4-2-3-1,13,6,13.0,0,0,0,Luke Ayling,4-1-4-1,13,4,17.5,1,0,0,David Coote,2021-03-19,Fri,20:00
-302,2021,31,Manchester City,Leeds United,0,1,0,1,2,2.1,0.1,71,29,Fernandinho,4-3-3,29,7,18.9,1,0,0,Liam Cooper,4-1-4-1,2,2,20.5,0,0,0,Andre Marriner,2021-04-10,Sat,12:30
-331,2021,34,Brighton And Hove Albion,Leeds United,1,0,0,2,0,2.3,0.6,42,58,Lewis Dunk,3-4-1-2,16,4,18.4,0,1,1,Luke Ayling,4-1-4-1,11,2,21.6,0,0,0,Chris Kavanagh,2021-05-01,Sat,15:00
-354,2021,36,Burnley,Leeds United,0,1,0,0,4,1.3,1.5,48,52,Ben Mee,4-4-2,16,4,17.9,1,0,0,Luke Ayling,3-3-3-1,16,6,16.8,0,0,0,Graham Scott,2021-05-15,Sat,12:30
-362,2021,37,Southampton,Leeds United,0,1,0,0,2,1.6,1.7,51,49,James Ward-Prowse,4-4-2,18,3,21.4,1,0,0,Liam Cooper,3-3-3-1,15,7,18.8,0,0,0,Peter Bankes,2021-05-18,Tue,18:00
-382,2022,1,Manchester United,Leeds United,1,0,0,5,1,1.5,0.5,49,51,Harry Maguire,4-2-3-1,16,8,18.2,0,0,0,Liam Cooper,4-1-4-1,10,3,21.3,0,0,0,Paul Tierney,2021-08-14,Sat,12:30
-409,2022,3,Burnley,Leeds United,0,0,1,1,1,1.0,1.2,36,64,Ben Mee,4-4-2,12,3,16.5,0,0,0,Liam Cooper,3-3-3-1,12,2,16.1,0,0,0,Michael Oliver,2021-08-29,Sun,14:00
-421,2022,5,Newcastle United,Leeds United,0,0,1,1,1,1.3,1.5,35,65,Jamaal Lascelles,5-4-1,17,7,19.2,0,0,0,Liam Cooper,4-1-4-1,22,9,20.4,0,0,0,Mike Dean,2021-09-17,Fri,20:00
-453,2022,8,Southampton,Leeds United,1,0,0,1,0,1.9,0.2,46,54,Oriol Romeu,4-4-2,19,4,18.7,1,0,0,Liam Cooper,3-3-3-1,3,0,21.7,0,0,0,David Coote,2021-10-16,Sat,15:00
-478,2022,10,Norwich City,Leeds United,0,1,0,1,2,0.8,0.7,48,52,Grant Hanley,4-4-2,14,3,21.8,3,0,0,Liam Cooper,3-3-3-1,13,5,20.9,0,0,0,Anthony Taylor,2021-10-31,Sun,14:00
-500,2022,12,Tottenham Hotspur,Leeds United,1,0,0,2,1,2.1,1.4,43,57,Hugo Lloris,3-4-3,13,4,17.5,1,0,0,Liam Cooper,3-3-3-1,18,7,21.4,1,0,0,Andre Marriner,2021-11-21,Sun,16:30
-505,2022,13,Brighton And Hove Albion,Leeds United,0,0,1,0,0,2.1,0.6,57,43,Lewis Dunk,4-2-3-1,20,4,16.6,0,0,0,Liam Cooper,4-2-3-1,11,4,17.4,1,0,0,Craig Pawson,2021-11-27,Sat,17:30
-532,2022,16,Chelsea,Leeds United,1,0,0,3,2,2.5,1.4,57,43,César Azpilicueta,3-4-3,14,4,20.0,2,2,2,Luke Ayling,4-3-1-2,11,4,19.4,2,1,1,Chris Kavanagh,2021-12-11,Sat,15:00
-540,2022,17,Manchester City,Leeds United,1,0,0,7,0,3.1,0.3,63,37,Rúben Dias,4-2-3-1,31,15,17.3,2,0,0,Luke Ayling,4-2-3-1,6,3,25.3,1,0,0,Paul Tierney,2021-12-14,Tue,20:00
-581,2022,22,West Ham United,Leeds United,0,1,0,2,3,2.4,2.2,48,52,Declan Rice,4-2-3-1,15,5,12.6,0,0,0,Luke Ayling,4-1-4-1,18,5,16.8,2,0,0,Mike Dean,2022-01-16,Sun,14:00
-602,2022,24,Aston Villa,Leeds United,0,0,1,3,3,1.6,1.8,40,60,Tyrone Mings,4-3-3,12,4,15.7,0,0,0,Luke Ayling,4-2-3-1,16,7,13.9,0,0,0,Jarred Gillett,2022-02-09,Wed,20:00
-606,2022,25,Everton,Leeds United,1,0,0,3,0,2.7,0.3,42,58,Séamus Coleman,4-4-2,21,10,18.2,0,0,0,Luke Ayling,3-3-3-1,7,0,24.1,0,0,0,Graham Scott,2022-02-12,Sat,15:00
-627,2022,19,Liverpool,Leeds United,1,0,0,6,0,5.9,0.2,63,37,Virgil van Dijk,4-3-3,21,12,17.7,0,2,2,Luke Ayling,4-1-4-1,3,2,21.1,0,0,0,Michael Oliver,2022-02-23,Wed,19:45
-638,2022,28,Leicester City,Leeds United,1,0,0,1,0,0.4,1.7,51,49,Kasper Schmeichel,4-3-3,7,4,19.1,0,0,0,Luke Ayling,4-2-3-1,19,4,13.3,0,0,0,David Coote,2022-03-05,Sat,12:30
-665,2022,30,Wolverhampton Wanderers,Leeds United,0,1,0,2,3,1.2,2.0,48,52,Conor Coady,3-4-3,14,8,20.9,0,0,0,Luke Ayling,4-2-3-1,15,5,13.8,1,0,0,Kevin Friend,2022-03-18,Fri,20:00
-682,2022,32,Watford,Leeds United,0,1,0,0,3,1.1,0.7,49,51,Moussa Sissoko,4-3-3,8,1,26.0,1,0,0,Liam Cooper,4-2-3-1,10,5,17.9,0,0,0,Andre Marriner,2022-04-09,Sat,15:00
-711,2022,34,Crystal Palace,Leeds United,0,0,1,0,0,1.9,0.5,53,47,James McArthur,4-3-3,17,7,13.6,0,0,0,Liam Cooper,4-2-3-1,9,2,17.4,0,0,0,Darren England,2022-04-25,Mon,20:00
-729,2022,36,Arsenal,Leeds United,1,0,0,2,1,2.0,0.3,64,36,Martin Ødegaard,4-2-3-1,19,9,14.3,2,0,0,Luke Ayling,4-2-3-1,3,2,11.0,0,0,0,Chris Kavanagh,2022-05-08,Sun,14:00
-760,2022,38,Brentford,Leeds United,0,1,0,1,2,0.8,1.3,49,51,Pontus Jansson,4-3-3,14,5,13.7,0,0,0,Liam Cooper,4-4-1-1,13,5,24.7,0,1,1,Paul Tierney,2022-05-22,Sun,16:00
-776,2023,2,Southampton,Leeds United,0,0,1,2,2,1.2,1.8,43,57,James Ward-Prowse,3-4-3,14,4,18.1,1,0,0,Patrick Bamford,4-2-3-1,13,5,12.0,0,0,0,Tony Harrington,2022-08-13,Sat,15:00
-794,2023,4,Brighton And Hove Albion,Leeds United,1,0,0,1,0,2.0,1.8,44,56,Lewis Dunk,4-4-2,13,4,13.6,0,0,0,Rodrigo,4-2-3-1,10,2,18.0,1,0,0,Michael Salisbury,2022-08-27,Sat,15:00
-816,2023,6,Brentford,Leeds United,1,0,0,5,2,2.3,1.7,32,68,Pontus Jansson,4-3-3,13,7,18.8,2,1,1,Robin Koch,4-2-3-1,17,6,21.9,1,0,0,Robert Jones,2022-09-03,Sat,15:00
-844,2023,10,Crystal Palace,Leeds United,1,0,0,2,1,1.1,1.0,54,46,Joel Ward,4-3-3,13,5,17.7,2,0,0,Liam Cooper,4-2-3-1,10,4,18.1,0,0,0,Paul Tierney,2022-10-09,Sun,14:00
-866,2023,12,Leicester City,Leeds United,1,0,0,2,0,0.8,1.3,46,54,Youri Tielemans,4-1-4-1,5,1,17.7,0,0,0,Patrick Bamford,4-2-3-1,14,2,18.3,0,0,0,Peter Bankes,2022-10-20,Thu,20:15
-884,2023,14,Liverpool,Leeds United,0,1,0,1,2,1.7,1.8,68,32,Virgil van Dijk,4-1-2-1-2◆,22,10,16.4,0,0,0,Liam Cooper,4-2-3-1,14,6,19.4,3,0,0,Michael Oliver,2022-10-29,Sat,19:45
-901,2023,16,Tottenham Hotspur,Leeds United,1,0,0,4,3,1.8,1.1,55,45,Hugo Lloris,3-4-3,14,7,14.5,0,0,0,Liam Cooper,4-2-3-1,12,5,16.2,2,0,0,Michael Salisbury,2022-11-12,Sat,15:00
-923,2023,18,Newcastle United,Leeds United,0,0,1,0,0,2.2,0.4,60,40,Kieran Trippier,4-3-3,16,5,15.4,1,0,0,Liam Cooper,4-2-3-1,8,1,17.9,1,0,0,Simon Hooper,2022-12-31,Sat,15:00
-938,2023,20,Aston Villa,Leeds United,1,0,0,2,1,1.2,2.4,52,48,Emiliano Martínez,4-4-2,11,5,16.9,0,0,0,Liam Cooper,4-2-3-1,16,3,12.7,0,0,0,Michael Oliver,2023-01-13,Fri,20:00
-968,2023,22,Nottingham Forest,Leeds United,1,0,0,1,0,0.4,0.9,30,70,Remo Freuler,4-3-1-2,6,2,18.9,0,0,0,Liam Cooper,4-2-3-1,10,4,17.1,0,0,0,Robert Jones,2023-02-05,Sun,14:00
-970,2023,8,Manchester United,Leeds United,0,0,1,2,2,2.0,0.6,66,34,Bruno Fernandes,4-2-3-1,24,6,16.7,0,0,0,Luke Ayling,4-2-3-1,8,2,18.4,1,0,0,Simon Hooper,2023-02-08,Wed,20:00
-983,2023,24,Everton,Leeds United,1,0,0,1,0,1.4,0.5,51,49,Séamus Coleman,4-5-1,15,4,15.7,0,0,0,Luke Ayling,4-2-3-1,8,0,18.4,0,0,0,Andy Madley,2023-02-18,Sat,15:00
-1005,2023,26,Chelsea,Leeds United,1,0,0,1,0,1.5,1.0,57,43,Mateo Kovačić,3-4-3,13,3,15.8,1,0,0,Luke Ayling,4-2-3-1,11,2,13.7,1,0,0,Michael Oliver,2023-03-04,Sat,15:00
-1026,2023,28,Wolverhampton Wanderers,Leeds United,0,1,0,2,4,2.7,1.6,65,35,Rúben Neves,4-3-3,23,8,16.1,1,0,0,Luke Ayling,4-2-3-1,11,4,17.7,2,0,0,Michael Salisbury,2023-03-18,Sat,15:00
-1033,2023,29,Arsenal,Leeds United,1,0,0,4,1,3.8,0.7,66,34,Martin Ødegaard,4-3-3,12,4,13.9,0,1,1,Luke Ayling,4-3-3,7,5,14.3,0,0,0,Darren England,2023-04-01,Sat,15:00
-1068,2023,32,Fulham,Leeds United,1,0,0,2,1,1.7,0.8,50,50,Tim Ream,4-2-3-1,12,5,24.4,3,0,0,Liam Cooper,4-2-3-1,10,2,16.6,1,0,0,Peter Bankes,2023-04-22,Sat,12:30
-1089,2023,34,Bournemouth,Leeds United,1,0,0,4,1,1.9,1.6,42,58,Neto,4-2-3-1,12,7,12.5,0,0,0,Liam Cooper,3-4-3,15,6,14.8,1,0,0,Chris Kavanagh,2023-04-30,Sun,14:00
-1098,2023,35,Manchester City,Leeds United,1,0,0,2,1,2.6,0.2,80,20,İlkay Gündoğan,3-2-4-1,17,6,18.7,2,0,1,Luke Ayling,4-2-3-1,4,2,12.1,0,0,0,Andy Madley,2023-05-06,Sat,15:00
-1125,2023,37,West Ham United,Leeds United,1,0,0,3,1,2.1,0.9,59,41,Declan Rice,4-2-3-1,19,9,14.6,0,0,0,Luke Ayling,4-3-3,12,3,15.6,0,0,0,Peter Bankes,2023-05-21,Sun,13:30
+ID,Season,Round,Home,Away,HomeWin,AwayWin,Draw,HomeGoal,AwayGoal,HomeXG,AwayXG,HomePoss,AwayPoss,HomeCaptain,HomeFormation,HomeSH,HomeSOT,HomeAcc,HomeDef,HomeDist,HomeFK,HomePK,HomePKAtt,AwayCaptain,AwayFormation,AwaySH,AwaySOT,AwayAcc,AwayDef,AwayDist,AwayFK,AwayPK,AwayPKAtt,Referee,Date,Day,Time
+3,2021,1,Liverpool,Leeds United,1,0,0,4,3,2.7,0.3,49,51,Jordan Henderson,4-3-3,20,4,0.2,0.0,18.4,0,2,2,Luke Ayling,4-1-4-1,6,3,0.5,0.0,19.9,1,0,0,Michael Oliver,2020-09-12,Sat,17:30
+23,2021,3,Sheffield United,Leeds United,0,1,0,0,1,1.4,1.2,36,64,David McGoldrick,3-5-2,14,4,0.2857142857142857,0.875,16.7,0,0,0,Liam Cooper,3-1-4-2,17,8,0.4705882352941176,1.0,19.0,0,0,0,Paul Tierney,2020-09-27,Sun,12:00
+49,2021,6,Aston Villa,Leeds United,0,1,0,0,3,1.4,2.7,41,59,Jack Grealish,4-2-3-1,12,3,0.25,0.6666666666666666,18.5,0,0,0,Luke Ayling,4-4-1-1,27,9,0.3333333333333333,1.0,16.9,1,0,0,Paul Tierney,2020-10-23,Fri,20:00
+72,2021,8,Crystal Palace,Leeds United,1,0,0,4,1,0.9,0.8,36,64,Scott Dann,4-4-2,10,6,0.6,0.6666666666666666,17.2,1,0,0,Liam Cooper,3-3-3-1,9,3,0.3333333333333333,0.3333333333333333,18.9,1,0,0,Chris Kavanagh,2020-11-07,Sat,15:00
+92,2021,10,Everton,Leeds United,0,1,0,0,1,1.2,2.9,41,59,Mason Holgate,3-4-3,15,8,0.5333333333333333,0.8333333333333334,17.7,0,0,0,Liam Cooper,4-4-1-1,23,6,0.2608695652173913,1.0,16.5,0,0,0,Chris Kavanagh,2020-11-28,Sat,17:30
+102,2021,11,Chelsea,Leeds United,1,0,0,3,1,4.1,0.8,46,54,Thiago Silva,4-3-3,23,10,0.4347826086956521,0.6666666666666666,11.6,0,0,0,Liam Cooper,4-4-1-1,8,3,0.375,0.7,16.8,0,0,0,Kevin Friend,2020-12-05,Sat,20:00
+134,2021,14,Manchester United,Leeds United,1,0,0,6,2,3.6,1.8,41,59,Harry Maguire,4-2-3-1,25,13,0.52,0.5,15.9,0,1,1,Liam Cooper,4-1-4-1,17,4,0.2352941176470588,0.5384615384615384,13.9,0,0,0,Anthony Taylor,2020-12-20,Sun,16:30
+152,2021,16,West Bromwich Albion,Leeds United,0,1,0,0,5,0.5,1.2,25,75,Matt Phillips,4-1-4-1,4,1,0.25,0.1666666666666666,20.3,0,0,0,Luke Ayling,4-1-4-1,14,6,0.4285714285714285,1.0,18.6,0,0,0,Lee Mason,2020-12-29,Tue,18:00
+158,2021,17,Tottenham Hotspur,Leeds United,1,0,0,3,0,2.6,1.1,37,63,Hugo Lloris,4-2-3-1,19,6,0.3157894736842105,1.0,19.0,0,1,1,Luke Ayling,4-1-4-1,18,5,0.2777777777777778,0.5,18.5,0,0,0,David Coote,2021-01-02,Sat,12:30
+186,2021,20,Newcastle United,Leeds United,0,1,0,1,2,1.4,0.7,42,58,Jamaal Lascelles,4-4-1-1,22,5,0.2272727272727272,0.0,22.0,4,0,0,Liam Cooper,4-1-4-1,9,2,0.2222222222222222,0.8,13.6,0,0,0,Anthony Taylor,2021-01-26,Tue,18:00
+203,2021,21,Leicester City,Leeds United,0,1,0,1,3,1.8,2.1,51,49,Kasper Schmeichel,4-2-3-1,18,8,0.4444444444444444,0.5,19.3,1,0,0,Liam Cooper,4-1-4-1,8,6,0.75,0.875,13.3,0,0,0,Chris Kavanagh,2021-01-31,Sun,14:00
+232,2021,24,Arsenal,Leeds United,1,0,0,4,2,2.3,0.9,46,54,Pierre-Emerick Aubameyang,4-2-3-1,12,4,0.3333333333333333,0.6,19.1,0,1,1,Liam Cooper,4-1-4-1,9,5,0.5555555555555556,0.0,17.6,0,0,0,Stuart Attwell,2021-02-14,Sun,16:30
+238,2021,25,Wolverhampton Wanderers,Leeds United,1,0,0,1,0,0.6,1.7,42,58,Conor Coady,3-4-3,15,5,0.3333333333333333,1.0,23.1,0,0,0,Liam Cooper,4-4-1-1,18,7,0.3888888888888889,0.8,13.2,0,0,0,David Coote,2021-02-19,Fri,20:00
+275,2021,27,West Ham United,Leeds United,1,0,0,2,0,1.8,1.4,35,65,Declan Rice,4-2-3-1,15,4,0.2666666666666666,1.0,21.2,1,0,1,Liam Cooper,4-1-4-1,17,2,0.1176470588235294,0.5,18.4,0,0,0,Mike Dean,2021-03-08,Mon,20:00
+287,2021,29,Fulham,Leeds United,0,1,0,1,2,1.6,1.3,51,49,Joachim Andersen,4-2-3-1,13,6,0.4615384615384615,0.5,13.0,0,0,0,Luke Ayling,4-1-4-1,13,4,0.3076923076923077,0.8333333333333334,17.5,1,0,0,David Coote,2021-03-19,Fri,20:00
+302,2021,31,Manchester City,Leeds United,0,1,0,1,2,2.1,0.1,71,29,Fernandinho,4-3-3,29,7,0.2413793103448276,0.0,18.9,1,0,0,Liam Cooper,4-1-4-1,2,2,1.0,0.8571428571428571,20.5,0,0,0,Andre Marriner,2021-04-10,Sat,12:30
+331,2021,34,Brighton And Hove Albion,Leeds United,1,0,0,2,0,2.3,0.6,42,58,Lewis Dunk,3-4-1-2,16,4,0.25,1.0,18.4,0,1,1,Luke Ayling,4-1-4-1,11,2,0.1818181818181818,0.5,21.6,0,0,0,Chris Kavanagh,2021-05-01,Sat,15:00
+354,2021,36,Burnley,Leeds United,0,1,0,0,4,1.3,1.5,48,52,Ben Mee,4-4-2,16,4,0.25,0.3333333333333333,17.9,1,0,0,Luke Ayling,3-3-3-1,16,6,0.375,1.0,16.8,0,0,0,Graham Scott,2021-05-15,Sat,12:30
+362,2021,37,Southampton,Leeds United,0,1,0,0,2,1.6,1.7,51,49,James Ward-Prowse,4-4-2,18,3,0.1666666666666666,0.7142857142857143,21.4,1,0,0,Liam Cooper,3-3-3-1,15,7,0.4666666666666667,1.0,18.8,0,0,0,Peter Bankes,2021-05-18,Tue,18:00
+382,2022,1,Manchester United,Leeds United,1,0,0,5,1,1.5,0.5,49,51,Harry Maguire,4-2-3-1,16,8,0.5,0.6666666666666666,18.2,0,0,0,Liam Cooper,4-1-4-1,10,3,0.3,0.375,21.3,0,0,0,Paul Tierney,2021-08-14,Sat,12:30
+409,2022,3,Burnley,Leeds United,0,0,1,1,1,1.0,1.2,36,64,Ben Mee,4-4-2,12,3,0.25,0.5,16.5,0,0,0,Liam Cooper,3-3-3-1,12,2,0.1666666666666666,0.6666666666666666,16.1,0,0,0,Michael Oliver,2021-08-29,Sun,14:00
+421,2022,5,Newcastle United,Leeds United,0,0,1,1,1,1.3,1.5,35,65,Jamaal Lascelles,5-4-1,17,7,0.4117647058823529,0.8888888888888888,19.2,0,0,0,Liam Cooper,4-1-4-1,22,9,0.4090909090909091,0.8571428571428571,20.4,0,0,0,Mike Dean,2021-09-17,Fri,20:00
+453,2022,8,Southampton,Leeds United,1,0,0,1,0,1.9,0.2,46,54,Oriol Romeu,4-4-2,19,4,0.2105263157894736,0.0,18.7,1,0,0,Liam Cooper,3-3-3-1,3,0,0.0,0.75,21.7,0,0,0,David Coote,2021-10-16,Sat,15:00
+478,2022,10,Norwich City,Leeds United,0,1,0,1,2,0.8,0.7,48,52,Grant Hanley,4-4-2,14,3,0.2142857142857142,0.6,21.8,3,0,0,Liam Cooper,3-3-3-1,13,5,0.3846153846153846,0.6666666666666666,20.9,0,0,0,Anthony Taylor,2021-10-31,Sun,14:00
+500,2022,12,Tottenham Hotspur,Leeds United,1,0,0,2,1,2.1,1.4,43,57,Hugo Lloris,3-4-3,13,4,0.3076923076923077,0.8571428571428571,17.5,1,0,0,Liam Cooper,3-3-3-1,18,7,0.3888888888888889,0.5,21.4,1,0,0,Andre Marriner,2021-11-21,Sun,16:30
+505,2022,13,Brighton And Hove Albion,Leeds United,0,0,1,0,0,2.1,0.6,57,43,Lewis Dunk,4-2-3-1,20,4,0.2,1.0,16.6,0,0,0,Liam Cooper,4-2-3-1,11,4,0.3636363636363636,1.0,17.4,1,0,0,Craig Pawson,2021-11-27,Sat,17:30
+532,2022,16,Chelsea,Leeds United,1,0,0,3,2,2.5,1.4,57,43,César Azpilicueta,3-4-3,14,4,0.2857142857142857,0.5,20.0,2,2,2,Luke Ayling,4-3-1-2,11,4,0.3636363636363636,0.25,19.4,2,1,1,Chris Kavanagh,2021-12-11,Sat,15:00
+540,2022,17,Manchester City,Leeds United,1,0,0,7,0,3.1,0.3,63,37,Rúben Dias,4-2-3-1,31,15,0.4838709677419355,1.0,17.3,2,0,0,Luke Ayling,4-2-3-1,6,3,0.5,0.5333333333333333,25.3,1,0,0,Paul Tierney,2021-12-14,Tue,20:00
+581,2022,22,West Ham United,Leeds United,0,1,0,2,3,2.4,2.2,48,52,Declan Rice,4-2-3-1,15,5,0.3333333333333333,0.4,12.6,0,0,0,Luke Ayling,4-1-4-1,18,5,0.2777777777777778,0.6,16.8,2,0,0,Mike Dean,2022-01-16,Sun,14:00
+602,2022,24,Aston Villa,Leeds United,0,0,1,3,3,1.6,1.8,40,60,Tyrone Mings,4-3-3,12,4,0.3333333333333333,0.5714285714285714,15.7,0,0,0,Luke Ayling,4-2-3-1,16,7,0.4375,0.25,13.9,0,0,0,Jarred Gillett,2022-02-09,Wed,20:00
+606,2022,25,Everton,Leeds United,1,0,0,3,0,2.7,0.3,42,58,Séamus Coleman,4-4-2,21,10,0.4761904761904761,0.0,18.2,0,0,0,Luke Ayling,3-3-3-1,7,0,0.0,0.7,24.1,0,0,0,Graham Scott,2022-02-12,Sat,15:00
+627,2022,19,Liverpool,Leeds United,1,0,0,6,0,5.9,0.2,63,37,Virgil van Dijk,4-3-3,21,12,0.5714285714285714,1.0,17.7,0,2,2,Luke Ayling,4-1-4-1,3,2,0.6666666666666666,0.5,21.1,0,0,0,Michael Oliver,2022-02-23,Wed,19:45
+638,2022,28,Leicester City,Leeds United,1,0,0,1,0,0.4,1.7,51,49,Kasper Schmeichel,4-3-3,7,4,0.5714285714285714,1.0,19.1,0,0,0,Luke Ayling,4-2-3-1,19,4,0.2105263157894736,0.75,13.3,0,0,0,David Coote,2022-03-05,Sat,12:30
+665,2022,30,Wolverhampton Wanderers,Leeds United,0,1,0,2,3,1.2,2.0,48,52,Conor Coady,3-4-3,14,8,0.5714285714285714,0.4,20.9,0,0,0,Luke Ayling,4-2-3-1,15,5,0.3333333333333333,0.75,13.8,1,0,0,Kevin Friend,2022-03-18,Fri,20:00
+682,2022,32,Watford,Leeds United,0,1,0,0,3,1.1,0.7,49,51,Moussa Sissoko,4-3-3,8,1,0.125,0.4,26.0,1,0,0,Liam Cooper,4-2-3-1,10,5,0.5,1.0,17.9,0,0,0,Andre Marriner,2022-04-09,Sat,15:00
+711,2022,34,Crystal Palace,Leeds United,0,0,1,0,0,1.9,0.5,53,47,James McArthur,4-3-3,17,7,0.4117647058823529,1.0,13.6,0,0,0,Liam Cooper,4-2-3-1,9,2,0.2222222222222222,1.0,17.4,0,0,0,Darren England,2022-04-25,Mon,20:00
+729,2022,36,Arsenal,Leeds United,1,0,0,2,1,2.0,0.3,64,36,Martin Ødegaard,4-2-3-1,19,9,0.4736842105263157,0.5,14.3,2,0,0,Luke Ayling,4-2-3-1,3,2,0.6666666666666666,0.7777777777777778,11.0,0,0,0,Chris Kavanagh,2022-05-08,Sun,14:00
+760,2022,38,Brentford,Leeds United,0,1,0,1,2,0.8,1.3,49,51,Pontus Jansson,4-3-3,14,5,0.3571428571428571,0.6,13.7,0,0,0,Liam Cooper,4-4-1-1,13,5,0.3846153846153846,0.8,24.7,0,1,1,Paul Tierney,2022-05-22,Sun,16:00
+776,2023,2,Southampton,Leeds United,0,0,1,2,2,1.2,1.8,43,57,James Ward-Prowse,3-4-3,14,4,0.2857142857142857,0.6,18.1,1,0,0,Patrick Bamford,4-2-3-1,13,5,0.3846153846153846,0.5,12.0,0,0,0,Tony Harrington,2022-08-13,Sat,15:00
+794,2023,4,Brighton And Hove Albion,Leeds United,1,0,0,1,0,2.0,1.8,44,56,Lewis Dunk,4-4-2,13,4,0.3076923076923077,1.0,13.6,0,0,0,Rodrigo,4-2-3-1,10,2,0.2,0.75,18.0,1,0,0,Michael Salisbury,2022-08-27,Sat,15:00
+816,2023,6,Brentford,Leeds United,1,0,0,5,2,2.3,1.7,32,68,Pontus Jansson,4-3-3,13,7,0.5384615384615384,0.6666666666666666,18.8,2,1,1,Robin Koch,4-2-3-1,17,6,0.3529411764705882,0.2857142857142857,21.9,1,0,0,Robert Jones,2022-09-03,Sat,15:00
+844,2023,10,Crystal Palace,Leeds United,1,0,0,2,1,1.1,1.0,54,46,Joel Ward,4-3-3,13,5,0.3846153846153846,0.75,17.7,2,0,0,Liam Cooper,4-2-3-1,10,4,0.4,0.6,18.1,0,0,0,Paul Tierney,2022-10-09,Sun,14:00
+866,2023,12,Leicester City,Leeds United,1,0,0,2,0,0.8,1.3,46,54,Youri Tielemans,4-1-4-1,5,1,0.2,1.0,17.7,0,0,0,Patrick Bamford,4-2-3-1,14,2,0.1428571428571428,-1.0,18.3,0,0,0,Peter Bankes,2022-10-20,Thu,20:15
+884,2023,14,Liverpool,Leeds United,0,1,0,1,2,1.7,1.8,68,32,Virgil van Dijk,4-1-2-1-2◆,22,10,0.4545454545454545,0.6666666666666666,16.4,0,0,0,Liam Cooper,4-2-3-1,14,6,0.4285714285714285,0.9,19.4,3,0,0,Michael Oliver,2022-10-29,Sat,19:45
+901,2023,16,Tottenham Hotspur,Leeds United,1,0,0,4,3,1.8,1.1,55,45,Hugo Lloris,3-4-3,14,7,0.5,0.4,14.5,0,0,0,Liam Cooper,4-2-3-1,12,5,0.4166666666666667,0.4285714285714285,16.2,2,0,0,Michael Salisbury,2022-11-12,Sat,15:00
+923,2023,18,Newcastle United,Leeds United,0,0,1,0,0,2.2,0.4,60,40,Kieran Trippier,4-3-3,16,5,0.3125,1.0,15.4,1,0,0,Liam Cooper,4-2-3-1,8,1,0.125,1.0,17.9,1,0,0,Simon Hooper,2022-12-31,Sat,15:00
+938,2023,20,Aston Villa,Leeds United,1,0,0,2,1,1.2,2.4,52,48,Emiliano Martínez,4-4-2,11,5,0.4545454545454545,0.6666666666666666,16.9,0,0,0,Liam Cooper,4-2-3-1,16,3,0.1875,0.6,12.7,0,0,0,Michael Oliver,2023-01-13,Fri,20:00
+968,2023,22,Nottingham Forest,Leeds United,1,0,0,1,0,0.4,0.9,30,70,Remo Freuler,4-3-1-2,6,2,0.3333333333333333,1.0,18.9,0,0,0,Liam Cooper,4-2-3-1,10,4,0.4,0.5,17.1,0,0,0,Robert Jones,2023-02-05,Sun,14:00
+970,2023,8,Manchester United,Leeds United,0,0,1,2,2,2.0,0.6,66,34,Bruno Fernandes,4-2-3-1,24,6,0.25,0.0,16.7,0,0,0,Luke Ayling,4-2-3-1,8,2,0.25,0.6666666666666666,18.4,1,0,0,Simon Hooper,2023-02-08,Wed,20:00
+983,2023,24,Everton,Leeds United,1,0,0,1,0,1.4,0.5,51,49,Séamus Coleman,4-5-1,15,4,0.2666666666666666,0.0,15.7,0,0,0,Luke Ayling,4-2-3-1,8,0,0.0,0.75,18.4,0,0,0,Andy Madley,2023-02-18,Sat,15:00
+1005,2023,26,Chelsea,Leeds United,1,0,0,1,0,1.5,1.0,57,43,Mateo Kovačić,3-4-3,13,3,0.2307692307692307,1.0,15.8,1,0,0,Luke Ayling,4-2-3-1,11,2,0.1818181818181818,0.6666666666666666,13.7,1,0,0,Michael Oliver,2023-03-04,Sat,15:00
+1026,2023,28,Wolverhampton Wanderers,Leeds United,0,1,0,2,4,2.7,1.6,65,35,Rúben Neves,4-3-3,23,8,0.3478260869565217,0.0,16.1,1,0,0,Luke Ayling,4-2-3-1,11,4,0.3636363636363636,0.75,17.7,2,0,0,Michael Salisbury,2023-03-18,Sat,15:00
+1033,2023,29,Arsenal,Leeds United,1,0,0,4,1,3.8,0.7,66,34,Martin Ødegaard,4-3-3,12,4,0.3333333333333333,0.8,13.9,0,1,1,Luke Ayling,4-3-3,7,5,0.7142857142857143,0.0,14.3,0,0,0,Darren England,2023-04-01,Sat,15:00
+1068,2023,32,Fulham,Leeds United,1,0,0,2,1,1.7,0.8,50,50,Tim Ream,4-2-3-1,12,5,0.4166666666666667,0.5,24.4,3,0,0,Liam Cooper,4-2-3-1,10,2,0.2,0.6,16.6,1,0,0,Peter Bankes,2023-04-22,Sat,12:30
+1089,2023,34,Bournemouth,Leeds United,1,0,0,4,1,1.9,1.6,42,58,Neto,4-2-3-1,12,7,0.5833333333333334,0.8333333333333334,12.5,0,0,0,Liam Cooper,3-4-3,15,6,0.4,0.4285714285714285,14.8,1,0,0,Chris Kavanagh,2023-04-30,Sun,14:00
+1098,2023,35,Manchester City,Leeds United,1,0,0,2,1,2.6,0.2,80,20,İlkay Gündoğan,3-2-4-1,17,6,0.3529411764705882,0.5,18.7,2,0,1,Luke Ayling,4-2-3-1,4,2,0.5,0.6666666666666666,12.1,0,0,0,Andy Madley,2023-05-06,Sat,15:00
+1125,2023,37,West Ham United,Leeds United,1,0,0,3,1,2.1,0.9,59,41,Declan Rice,4-2-3-1,19,9,0.4736842105263157,0.6666666666666666,14.6,0,0,0,Luke Ayling,4-3-3,12,3,0.25,0.6666666666666666,15.6,0,0,0,Peter Bankes,2023-05-21,Sun,13:30

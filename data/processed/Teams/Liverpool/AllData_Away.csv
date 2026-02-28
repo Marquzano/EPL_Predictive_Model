@@ -1,96 +1,96 @@
-ID,Season,Round,Home,Away,HomeWin,AwayWin,Draw,HomeGoal,AwayGoal,HomeXG,AwayXG,HomePoss,AwayPoss,HomeCaptain,HomeFormation,HomeSH,HomeSOT,HomeDist,HomeFK,HomePK,HomePKAtt,AwayCaptain,AwayFormation,AwaySH,AwaySOT,AwayDist,AwayFK,AwayPK,AwayPKAtt,Referee,Date,Day,Time
-15,2021,2,Chelsea,Liverpool,0,1,0,0,2,0.9,2.1,39,61,Jorginho,4-3-3,4,2,22.7,0,0,1,Jordan Henderson,4-3-3,18,5,18.2,1,0,0,Paul Tierney,2020-09-20,Sun,16:30
-38,2021,4,Aston Villa,Liverpool,1,0,0,7,2,2.7,1.8,31,69,Jack Grealish,4-2-3-1,18,11,16.7,0,0,0,Virgil van Dijk,4-3-3,14,8,16.3,1,0,0,Martin Atkinson,2020-10-04,Sun,19:15
-39,2021,5,Everton,Liverpool,0,0,1,2,2,1.2,2.6,42,58,Séamus Coleman,4-3-3,11,5,17.4,0,0,0,Jordan Henderson,4-3-3,22,8,16.0,2,0,0,Michael Oliver,2020-10-17,Sat,12:30
-77,2021,8,Manchester City,Liverpool,0,0,1,1,1,1.4,1.2,54,46,Kevin De Bruyne,4-2-3-1,6,2,20.6,0,0,1,Jordan Henderson,4-2-3-1,9,2,22.1,1,1,1,Craig Pawson,2020-11-08,Sun,16:30
-90,2021,10,Brighton And Hove Albion,Liverpool,0,0,1,1,1,2.3,0.2,40,60,Lewis Dunk,3-4-1-2,9,2,20.9,1,1,2,James Milner,4-3-3,6,2,21.1,0,0,0,Stuart Attwell,2020-11-28,Sat,12:30
-115,2021,12,Fulham,Liverpool,0,0,1,1,1,1.5,1.8,26,74,Joachim Andersen,3-4-3,10,5,16.9,0,0,0,Jordan Henderson,4-3-3,11,5,21.7,1,1,1,Andre Marriner,2020-12-13,Sun,16:30
-128,2021,14,Crystal Palace,Liverpool,0,1,0,0,7,0.3,2.5,36,64,Luka Milivojević,4-4-2,5,3,20.8,0,0,0,Jordan Henderson,4-3-3,14,7,14.1,1,0,0,Jonathan Moss,2020-12-19,Sat,12:30
-155,2021,16,Newcastle United,Liverpool,0,0,1,0,0,0.5,1.4,28,72,Federico Fernández,5-4-1,8,2,17.0,0,0,0,Jordan Henderson,4-3-3,11,4,18.3,0,0,0,Paul Tierney,2020-12-30,Wed,20:00
-164,2021,17,Southampton,Liverpool,1,0,0,1,0,0.4,1.5,34,66,James Ward-Prowse,4-4-2,7,2,25.1,0,0,0,Jordan Henderson,4-3-3,17,1,15.7,0,0,0,Andre Marriner,2021-01-04,Mon,20:00
-195,2021,20,Tottenham Hotspur,Liverpool,0,1,0,1,3,0.1,2.5,50,50,Hugo Lloris,3-4-3,3,2,35.0,0,0,0,Jordan Henderson,4-3-3,14,7,15.5,0,0,0,Martin Atkinson,2021-01-28,Thu,20:00
-204,2021,21,West Ham United,Liverpool,0,1,0,1,3,0.8,2.0,33,67,Declan Rice,4-2-3-1,8,2,14.7,0,0,0,Jordan Henderson,4-3-1-2,14,5,15.7,0,0,0,Jonathan Moss,2021-01-31,Sun,16:30
-226,2021,24,Leicester City,Liverpool,1,0,0,3,1,1.9,1.7,38,62,Kasper Schmeichel,4-2-3-1,11,6,18.4,1,0,0,Jordan Henderson,4-3-3,15,4,15.4,2,0,0,Anthony Taylor,2021-02-13,Sat,12:30
-257,2021,26,Sheffield United,Liverpool,0,1,0,0,2,0.7,2.7,40,60,David McGoldrick,3-5-2,8,2,17.4,0,0,0,Georginio Wijnaldum,4-3-3,16,8,13.9,0,0,0,Jonathan Moss,2021-02-28,Sun,19:15
-286,2021,28,Wolverhampton Wanderers,Liverpool,0,1,0,0,1,1.1,0.9,53,47,Conor Coady,3-4-1-2,10,5,15.1,1,0,0,Georginio Wijnaldum,4-3-3,12,4,16.2,0,0,0,Craig Pawson,2021-03-15,Mon,20:00
-294,2021,30,Arsenal,Liverpool,0,1,0,0,3,0.1,2.4,36,64,Pierre-Emerick Aubameyang,4-2-3-1,3,2,18.9,0,0,0,James Milner,4-3-3,16,7,18.2,0,0,0,Stuart Attwell,2021-04-03,Sat,20:00
-316,2021,32,Leeds United,Liverpool,0,0,1,1,1,2.3,1.4,61,39,Luke Ayling,4-1-4-1,12,5,12.0,0,0,0,James Milner,4-3-3,17,7,17.1,0,0,0,Anthony Taylor,2021-04-19,Mon,20:00
-352,2021,34,Manchester United,Liverpool,0,1,0,2,4,1.9,2.7,53,47,Bruno Fernandes,4-2-3-1,18,2,15.5,1,0,0,Georginio Wijnaldum,4-3-3,17,8,14.9,0,0,0,Anthony Taylor,2021-05-13,Thu,20:15
-359,2021,36,West Bromwich Albion,Liverpool,0,1,0,1,2,1.0,1.9,24,76,Kyle Bartley,4-4-1-1,9,3,15.6,1,0,0,Roberto Firmino,4-3-3,26,6,18.3,1,0,0,Mike Dean,2021-05-16,Sun,16:30
-369,2021,37,Burnley,Liverpool,0,1,0,0,3,0.8,2.6,41,59,Ben Mee,4-4-1-1,10,3,15.3,0,0,0,Georginio Wijnaldum,4-3-3,20,3,16.2,1,0,0,Chris Kavanagh,2021-05-19,Wed,20:15
-388,2022,1,Norwich City,Liverpool,0,1,0,0,3,1.4,1.6,50,50,Grant Hanley,4-3-3,14,3,17.1,0,0,0,James Milner,4-3-3,19,6,17.3,1,0,0,Andre Marriner,2021-08-14,Sat,17:30
-419,2022,4,Leeds United,Liverpool,0,1,0,0,3,1.2,4.3,44,56,Liam Cooper,4-1-4-1,9,4,15.2,0,0,0,Virgil van Dijk,4-3-3,30,8,16.1,1,0,0,Craig Pawson,2021-09-12,Sun,16:30
-437,2022,6,Brentford,Liverpool,0,0,1,3,3,2.1,2.8,33,67,Pontus Jansson,3-5-2,12,3,12.0,0,0,0,Jordan Henderson,4-3-3,16,5,17.0,1,0,0,Stuart Attwell,2021-09-25,Sat,17:30
-451,2022,8,Watford,Liverpool,0,1,0,0,5,0.5,3.3,25,75,Moussa Sissoko,5-4-1,6,2,18.2,0,0,0,Jordan Henderson,4-3-3,19,8,16.0,0,0,0,Jonathan Moss,2021-10-16,Sat,12:30
-470,2022,9,Manchester United,Liverpool,0,1,0,0,5,1.6,3.4,38,62,Harry Maguire,4-2-3-1,12,3,15.5,0,0,0,Jordan Henderson,4-3-3,19,8,16.6,0,0,0,Anthony Taylor,2021-10-24,Sun,16:30
-490,2022,11,West Ham United,Liverpool,1,0,0,3,2,1.0,1.2,31,69,Declan Rice,4-2-3-1,7,3,14.5,0,0,0,Jordan Henderson,4-3-3,16,5,16.7,1,0,0,Craig Pawson,2021-11-07,Sun,16:30
-517,2022,14,Everton,Liverpool,0,1,0,1,4,0.7,2.4,33,67,Séamus Coleman,4-4-2,8,2,20.8,1,0,0,Jordan Henderson,4-3-3,16,7,16.5,1,0,0,Paul Tierney,2021-12-01,Wed,20:15
-522,2022,15,Wolverhampton Wanderers,Liverpool,0,1,0,0,1,0.1,2.7,34,66,Conor Coady,3-4-3,3,1,23.7,0,0,0,Jordan Henderson,4-3-3,17,4,13.6,0,0,0,Chris Kavanagh,2021-12-04,Sat,15:00
-549,2022,18,Tottenham Hotspur,Liverpool,0,0,1,2,2,3.0,1.1,44,56,Hugo Lloris,5-3-2,10,5,10.4,0,0,0,James Milner,4-3-3,18,6,16.7,0,0,0,Paul Tierney,2021-12-19,Sun,16:30
-560,2022,20,Leicester City,Liverpool,1,0,0,1,0,0.4,2.3,37,63,Kasper Schmeichel,4-3-1-2,6,1,14.9,0,0,0,Jordan Henderson,4-3-3,20,3,15.0,0,0,1,Michael Oliver,2021-12-28,Tue,20:00
-570,2022,21,Chelsea,Liverpool,0,0,1,2,2,1.2,1.3,54,46,César Azpilicueta,3-4-3,15,6,18.0,3,0,0,Jordan Henderson,4-3-3,10,6,17.9,0,0,0,Anthony Taylor,2022-01-02,Sun,16:30
-592,2022,23,Crystal Palace,Liverpool,0,1,0,1,3,2.2,1.9,43,57,Joel Ward,4-3-3,8,5,12.2,0,0,0,Jordan Henderson,4-3-3,13,6,21.6,0,1,1,Kevin Friend,2022-01-23,Sun,14:00
-612,2022,25,Burnley,Liverpool,0,1,0,0,1,1.5,1.7,34,66,Ben Mee,4-4-2,8,5,19.3,0,0,0,Jordan Henderson,4-3-3,12,4,14.4,0,0,0,Martin Atkinson,2022-02-13,Sun,14:00
-652,2022,29,Brighton And Hove Albion,Liverpool,0,1,0,0,2,0.5,2.2,52,48,Lewis Dunk,4-2-3-1,8,3,18.4,0,0,0,Jordan Henderson,4-3-3,17,8,15.2,0,1,1,Mike Dean,2022-03-12,Sat,12:30
-663,2022,27,Arsenal,Liverpool,0,1,0,0,2,0.5,0.8,49,51,Alexandre Lacazette,4-2-3-1,9,2,22.5,0,0,0,Jordan Henderson,4-3-3,9,3,14.4,0,0,0,Andre Marriner,2022-03-16,Wed,20:15
-689,2022,32,Manchester City,Liverpool,0,0,1,2,2,1.3,1.3,55,45,Kevin De Bruyne,4-2-3-1,11,4,17.8,1,0,0,Jordan Henderson,4-3-3,6,4,22.9,0,0,0,Anthony Taylor,2022-04-10,Sun,16:30
-713,2022,35,Newcastle United,Liverpool,0,1,0,0,1,0.2,2.3,36,64,Jonjo Shelvey,4-3-3,4,2,28.3,1,0,0,Jordan Henderson,4-3-3,24,10,17.7,2,0,0,Andre Marriner,2022-04-30,Sat,12:30
-733,2022,33,Aston Villa,Liverpool,0,1,0,1,2,1.4,1.8,40,60,Tyrone Mings,4-3-1-2,9,4,13.7,0,0,0,Virgil van Dijk,4-3-3,17,5,17.0,2,0,0,Jonathan Moss,2022-05-10,Tue,20:00
-747,2022,37,Southampton,Liverpool,0,1,0,1,2,0.1,1.3,30,70,James Ward-Prowse,5-4-1,4,2,25.2,1,0,0,James Milner,4-3-3,24,5,18.6,0,0,0,Martin Atkinson,2022-05-17,Tue,19:45
-762,2023,1,Fulham,Liverpool,0,0,1,2,2,1.2,1.2,33,67,Tim Ream,4-2-3-1,8,2,18.4,0,1,1,Jordan Henderson,4-3-3,11,3,12.4,0,0,0,Andy Madley,2022-08-06,Sat,12:30
-790,2023,3,Manchester United,Liverpool,1,0,0,2,1,1.8,1.3,30,70,Bruno Fernandes,4-2-3-1,13,5,19.5,2,0,0,Jordan Henderson,4-3-3,17,5,14.4,0,0,0,Michael Oliver,2022-08-22,Mon,20:00
-811,2023,6,Everton,Liverpool,0,0,1,0,0,1.7,2.1,39,61,Jordan Pickford,4-3-3,14,3,15.5,0,0,0,Virgil van Dijk,4-3-3,23,8,13.1,0,0,0,Anthony Taylor,2022-09-03,Sat,12:30
-845,2023,10,Arsenal,Liverpool,1,0,0,3,2,2.7,1.1,43,57,Martin Ødegaard,4-3-3,10,6,14.3,0,1,1,Jordan Henderson,4-2-3-1,8,3,18.0,0,0,0,Michael Oliver,2022-10-09,Sun,16:30
-867,2023,13,Nottingham Forest,Liverpool,1,0,0,1,0,1.9,1.6,25,75,Ryan Yates,4-3-3,10,7,15.9,0,0,0,James Milner,4-4-2,15,7,10.4,0,0,0,Paul Tierney,2022-10-22,Sat,12:30
-896,2023,15,Tottenham Hotspur,Liverpool,0,1,0,1,2,1.2,1.2,47,53,Hugo Lloris,5-3-2,14,5,14.4,0,0,0,Virgil van Dijk,4-1-2-1-2◆,13,6,21.2,0,0,0,Andy Madley,2022-11-06,Sun,16:30
-912,2023,17,Aston Villa,Liverpool,0,1,0,1,3,1.4,2.7,48,52,John McGinn,4-4-2,12,6,15.3,0,0,0,Jordan Henderson,4-3-3,16,9,17.0,0,0,0,Paul Tierney,2022-12-26,Mon,17:30
-927,2023,19,Brentford,Liverpool,1,0,0,3,1,1.6,0.9,28,72,Christian Nørgaard,3-5-2,10,7,10.5,0,0,0,Virgil van Dijk,4-3-3,16,5,15.3,0,0,0,Stuart Attwell,2023-01-02,Mon,17:30
-940,2023,20,Brighton And Hove Albion,Liverpool,1,0,0,3,0,1.9,1.0,61,39,Lewis Dunk,4-2-3-1,16,8,16.3,0,0,0,Jordan Henderson,4-1-2-1-2◆,6,2,12.8,0,0,0,Darren England,2023-01-14,Sat,15:00
-966,2023,22,Wolverhampton Wanderers,Liverpool,1,0,0,3,0,2.0,1.8,41,59,Rúben Neves,4-4-2,12,5,18.3,0,0,0,Andrew Robertson,4-3-3,22,2,19.5,1,0,0,Paul Tierney,2023-02-04,Sat,15:00
-989,2023,24,Newcastle United,Liverpool,0,1,0,0,2,2.0,1.9,38,62,Kieran Trippier,4-3-3,14,4,12.9,0,0,0,Jordan Henderson,4-3-3,13,7,16.4,1,0,0,Anthony Taylor,2023-02-18,Sat,17:30
-998,2023,25,Crystal Palace,Liverpool,0,0,1,0,0,0.7,0.9,37,63,Marc Guéhi,4-2-3-1,6,0,15.0,0,0,0,Jordan Henderson,4-3-3,12,4,16.0,1,0,0,Darren England,2023-02-25,Sat,19:45
-1012,2023,27,Bournemouth,Liverpool,1,0,0,1,0,0.9,1.7,31,69,Neto,4-4-1-1,5,2,12.3,0,0,0,Virgil van Dijk,4-3-3,14,5,18.5,0,0,1,John Brooks,2023-03-11,Sat,12:30
-1031,2023,29,Manchester City,Liverpool,1,0,0,4,1,2.9,0.3,68,32,İlkay Gündoğan,3-2-4-1,17,8,14.5,1,0,0,Jordan Henderson,4-3-3,4,1,15.9,0,0,0,Simon Hooper,2023-04-01,Sat,12:30
-1044,2023,8,Chelsea,Liverpool,0,0,1,0,0,2.2,0.3,49,51,N'Golo Kanté,3-5-2,12,2,16.1,0,0,0,Jordan Henderson,4-3-3,7,3,25.4,0,0,0,Anthony Taylor,2023-04-04,Tue,20:00
-1066,2023,31,Leeds United,Liverpool,0,1,0,1,6,1.4,2.7,27,73,Rodrigo,4-2-3-1,13,3,17.6,0,0,0,Jordan Henderson,4-3-3,13,7,12.9,0,0,0,Craig Pawson,2023-04-17,Mon,20:00
-1080,2023,33,West Ham United,Liverpool,0,1,0,1,2,0.8,1.9,28,72,Declan Rice,4-2-3-1,7,2,15.5,0,0,0,Jordan Henderson,4-3-3,20,4,16.8,0,0,0,Chris Kavanagh,2023-04-26,Wed,19:45
-1117,2023,36,Leicester City,Liverpool,0,1,0,0,3,0.4,2.2,34,66,Jonny Evans,4-2-3-1,4,4,13.4,0,0,0,Jordan Henderson,4-3-3,16,5,17.5,1,0,0,Craig Pawson,2023-05-15,Mon,20:00
-1133,2023,38,Southampton,Liverpool,0,0,1,4,4,1.8,4.0,31,69,James Ward-Prowse,4-2-3-1,15,10,17.5,1,0,0,James Milner,4-3-3,30,8,18.5,0,0,0,Darren England,2023-05-28,Sun,16:30
-1149,2024,1,Chelsea,Liverpool,0,0,1,1,1,1.4,1.3,65,35,Reece James,3-4-3,10,4,13.2,1,0,0,Virgil van Dijk,4-3-3,13,1,17.8,0,0,0,Anthony Taylor,2023-08-13,Sun,16:30
-1169,2024,3,Newcastle United,Liverpool,0,1,0,1,2,2.0,0.9,59,41,Kieran Trippier,4-3-3,23,8,18.3,1,0,0,Virgil van Dijk,4-3-3,9,4,17.2,1,0,0,John Brooks,2023-08-27,Sun,16:30
-1180,2024,5,Wolverhampton Wanderers,Liverpool,0,1,0,1,3,0.6,2.5,35,65,Max Kilman,4-2-3-1,11,2,18.7,0,0,0,Andrew Robertson,4-3-3,16,5,15.8,0,0,0,Michael Oliver,2023-09-16,Sat,12:30
-1207,2024,7,Tottenham Hotspur,Liverpool,1,0,0,2,1,2.2,1.3,64,36,Son Heung-min,4-2-3-1,24,8,19.8,0,0,0,Virgil van Dijk,4-3-3,12,4,14.9,0,0,0,Simon Hooper,2023-09-30,Sat,17:30
-1217,2024,8,Brighton And Hove Albion,Liverpool,0,0,1,2,2,2.3,2.3,46,54,Lewis Dunk,4-2-3-1,14,3,16.9,2,0,0,Virgil van Dijk,4-3-3,13,3,18.8,0,1,1,Anthony Taylor,2023-10-08,Sun,14:00
-1249,2024,11,Luton Town,Liverpool,0,0,1,1,1,0.8,2.6,27,73,Tom Lockyer,3-4-3,8,5,17.9,0,0,0,Virgil van Dijk,4-3-3,24,6,17.5,0,0,0,Andy Madley,2023-11-05,Sun,16:30
-1261,2024,13,Manchester City,Liverpool,0,0,1,1,1,1.3,0.6,59,41,Kyle Walker,3-2-4-1,16,5,16.3,1,0,0,Virgil van Dijk,4-3-3,8,3,15.9,0,0,0,Chris Kavanagh,2023-11-25,Sat,12:30
-1286,2024,15,Sheffield United,Liverpool,0,1,0,0,2,1.0,1.7,25,75,Anel Ahmedhodžić,3-4-3,6,1,14.6,1,0,0,Virgil van Dijk,4-3-3,15,8,16.4,0,0,0,Simon Hooper,2023-12-06,Wed,19:30
-1291,2024,16,Crystal Palace,Liverpool,0,1,0,1,2,1.7,1.2,24,76,Joel Ward,4-3-3,7,3,17.4,0,1,1,Virgil van Dijk,4-3-3,14,2,17.4,0,0,0,Andy Madley,2023-12-09,Sat,12:30
-1322,2024,19,Burnley,Liverpool,0,1,0,0,2,0.8,1.8,32,68,Josh Brownhill,4-4-2,9,0,16.7,0,0,0,Virgil van Dijk,4-3-3,19,10,17.4,0,0,0,Paul Tierney,2023-12-26,Tue,17:30
-1347,2024,21,Bournemouth,Liverpool,0,1,0,0,4,1.4,1.5,40,60,Neto,4-2-3-1,11,1,19.8,0,0,0,Virgil van Dijk,4-3-3,14,7,19.2,0,0,0,Andy Madley,2024-01-21,Sun,16:30
-1367,2024,23,Arsenal,Liverpool,1,0,0,3,1,3.5,0.4,43,57,Martin Ødegaard,4-3-3,15,7,14.2,0,0,0,Virgil van Dijk,4-3-3,10,1,19.7,0,0,0,Anthony Taylor,2024-02-04,Sun,16:30
-1379,2024,25,Brentford,Liverpool,0,1,0,1,4,1.6,2.8,38,62,Christian Nørgaard,3-5-2,15,6,19.8,3,0,0,Virgil van Dijk,4-3-3,15,8,15.9,1,0,0,Michael Oliver,2024-02-17,Sat,12:30
-1402,2024,27,Nottingham Forest,Liverpool,0,1,0,0,1,1.0,2.0,31,69,Ryan Yates,4-2-3-1,8,2,19.3,0,0,0,Virgil van Dijk,4-3-3,22,1,14.6,0,0,0,Paul Tierney,2024-03-02,Sat,15:00
-1451,2024,32,Manchester United,Liverpool,0,0,1,2,2,0.7,3.6,38,62,Bruno Fernandes,4-2-3-1,9,5,18.1,0,0,0,Virgil van Dijk,4-3-3,27,6,17.5,0,1,1,Anthony Taylor,2024-04-07,Sun,15:30
-1470,2024,34,Fulham,Liverpool,0,1,0,1,3,0.8,1.0,40,60,Bobby De Cordova-Reid,4-2-3-1,12,5,17.1,1,0,0,Virgil van Dijk,4-3-3,14,7,18.8,2,0,0,Craig Pawson,2024-04-21,Sun,16:30
-1473,2024,29,Everton,Liverpool,1,0,0,2,0,1.2,2.1,25,75,James Tarkowski,4-4-1-1,16,6,14.9,0,0,0,Virgil van Dijk,4-3-3,23,7,16.8,0,0,0,Andy Madley,2024-04-24,Wed,20:00
-1477,2024,35,West Ham United,Liverpool,0,0,1,2,2,0.7,1.7,29,71,Kurt Zouma,4-2-3-1,11,8,17.0,0,0,0,Virgil van Dijk,4-3-3,28,8,16.6,1,0,0,Anthony Taylor,2024-04-27,Sat,12:30
-1507,2024,37,Aston Villa,Liverpool,0,0,1,3,3,3.1,1.7,41,59,John McGinn,4-2-3-1,19,5,15.2,0,0,0,Virgil van Dijk,4-3-3,14,7,17.1,0,0,0,Simon Hooper,2024-05-13,Mon,20:00
-1522,2025,1,Ipswich Town,Liverpool,0,1,0,0,2,0.5,2.6,38,62,Sam Morsy,4-2-3-1,7,2,16.0,0,0,0,Virgil van Dijk,4-2-3-1,18,5,14.8,0,0,0,Tim Robinson,2024-08-17,Sat,12:30
-1550,2025,3,Manchester United,Liverpool,0,1,0,0,3,1.4,1.8,53,47,Bruno Fernandes,4-2-3-1,8,3,15.6,0,0,0,Virgil van Dijk,4-2-3-1,11,3,13.4,0,0,0,Anthony Taylor,2024-09-01,Sun,16:00
-1577,2025,6,Wolverhampton Wanderers,Liverpool,0,1,0,1,2,0.6,2.5,45,55,Mario Lemina,4-1-4-1,8,3,22.9,0,0,0,Virgil van Dijk,4-2-3-1,9,5,18.0,1,1,1,Anthony Taylor,2024-09-28,Sat,17:30
-1581,2025,7,Crystal Palace,Liverpool,0,1,0,0,1,0.6,1.4,32,68,Marc Guéhi,3-4-3,9,5,21.9,0,0,0,Virgil van Dijk,4-2-3-1,16,4,18.9,0,0,0,Simon Hooper,2024-10-05,Sat,12:30
-1610,2025,9,Arsenal,Liverpool,0,0,1,2,2,0.9,0.8,45,55,Bukayo Saka,4-4-2,9,3,14.1,0,0,0,Virgil van Dijk,4-2-3-1,9,4,17.8,0,0,0,Anthony Taylor,2024-10-27,Sun,16:30
-1638,2025,12,Southampton,Liverpool,0,1,0,2,3,1.3,3.1,38,62,Jack Stephens,5-4-1,6,4,19.0,0,0,1,Virgil van Dijk,4-2-3-1,26,10,18.2,1,1,1,Samuel Barrott,2024-11-24,Sun,14:00
-1653,2025,14,Newcastle United,Liverpool,0,0,1,3,3,2.1,1.9,42,58,Bruno Guimarães,4-3-3,17,6,19.1,1,0,0,Virgil van Dijk,4-2-3-1,16,5,12.7,0,0,0,Andy Madley,2024-12-04,Wed,19:30
-1689,2025,17,Tottenham Hotspur,Liverpool,0,1,0,3,6,1.3,5.6,52,48,Son Heung-min,4-2-3-1,9,5,17.1,0,0,0,Virgil van Dijk,4-2-3-1,24,11,13.3,0,0,0,Samuel Barrott,2024-12-22,Sun,16:30
-1705,2025,19,West Ham United,Liverpool,0,1,0,0,5,0.4,3.1,46,54,Jarrod Bowen,4-2-3-1,7,0,17.5,0,0,0,Virgil van Dijk,4-2-3-1,22,13,15.8,0,0,0,Anthony Taylor,2024-12-29,Sun,17:15
-1723,2025,21,Nottingham Forest,Liverpool,0,0,1,1,1,0.3,2.0,30,70,Ryan Yates,4-2-3-1,6,3,26.8,1,0,0,Virgil van Dijk,4-2-3-1,23,6,17.0,0,0,0,Chris Kavanagh,2025-01-14,Tue,20:00
-1731,2025,22,Brentford,Liverpool,0,1,0,0,2,0.7,3.4,40,60,Christian Nørgaard,4-2-3-1,11,6,14.7,0,0,0,Virgil van Dijk,4-2-3-1,37,8,15.4,0,0,0,Andy Madley,2025-01-18,Sat,15:00
-1753,2025,24,Bournemouth,Liverpool,0,1,0,0,2,1.6,2.5,49,51,Lewis Cook,4-2-3-1,14,3,17.4,0,0,0,Virgil van Dijk,4-2-3-1,18,6,18.5,0,1,1,Darren England,2025-02-01,Sat,15:00
-1760,2025,15,Everton,Liverpool,0,0,1,2,2,1.0,0.6,37,63,James Tarkowski,4-2-3-1,10,3,18.3,0,0,0,Virgil van Dijk,4-2-3-1,6,4,15.4,0,0,0,Michael Oliver,2025-02-12,Wed,19:30
-1771,2025,29,Aston Villa,Liverpool,0,0,1,2,2,0.6,2.5,52,48,John McGinn,4-2-3-1,9,3,18.0,0,0,0,Virgil van Dijk,4-2-3-1,17,3,14.2,0,0,0,Craig Pawson,2025-02-19,Wed,19:30
-1781,2025,26,Manchester City,Liverpool,0,1,0,0,2,0.6,0.7,66,34,Kevin De Bruyne,4-1-4-1,16,5,21.4,1,0,0,Virgil van Dijk,4-2-2-2,8,4,16.4,0,0,0,Anthony Taylor,2025-02-23,Sun,16:30
-1825,2025,31,Fulham,Liverpool,1,0,0,3,2,0.7,1.5,37,63,Antonee Robinson,4-2-3-1,12,6,17.0,0,0,0,Virgil van Dijk,4-2-3-1,14,6,16.4,0,0,0,Chris Kavanagh,2025-04-06,Sun,14:00
-1849,2025,33,Leicester City,Liverpool,0,1,0,0,1,0.3,2.5,42,58,Jamie Vardy,4-2-3-1,5,0,18.7,0,0,0,Virgil van Dijk,4-2-3-1,28,8,12.6,1,0,0,Stuart Attwell,2025-04-20,Sun,16:30
-1869,2025,35,Chelsea,Liverpool,1,0,0,3,1,3.1,1.0,36,64,Enzo Fernández,4-2-3-1,16,5,14.3,0,1,1,Virgil van Dijk,4-2-3-1,11,2,13.5,1,0,0,Simon Hooper,2025-05-04,Sun,16:30
-1888,2025,37,Brighton And Hove Albion,Liverpool,1,0,0,3,2,2.2,2.2,49,51,Danny Welbeck,4-2-3-1,25,12,17.5,1,0,0,Mohamed Salah,4-2-3-1,18,5,16.1,1,0,0,Andy Madley,2025-05-19,Mon,20:00
+ID,Season,Round,Home,Away,HomeWin,AwayWin,Draw,HomeGoal,AwayGoal,HomeXG,AwayXG,HomePoss,AwayPoss,HomeCaptain,HomeFormation,HomeSH,HomeSOT,HomeAcc,HomeDef,HomeDist,HomeFK,HomePK,HomePKAtt,AwayCaptain,AwayFormation,AwaySH,AwaySOT,AwayAcc,AwayDef,AwayDist,AwayFK,AwayPK,AwayPKAtt,Referee,Date,Day,Time
+15,2021,2,Chelsea,Liverpool,0,1,0,0,2,0.9,2.1,39,61,Jorginho,4-3-3,4,2,0.5,0.6,22.7,0,0,1,Jordan Henderson,4-3-3,18,5,0.2777777777777778,1.0,18.2,1,0,0,Paul Tierney,2020-09-20,Sun,16:30
+38,2021,4,Aston Villa,Liverpool,1,0,0,7,2,2.7,1.8,31,69,Jack Grealish,4-2-3-1,18,11,0.6111111111111112,0.75,16.7,0,0,0,Virgil van Dijk,4-3-3,14,8,0.5714285714285714,0.3636363636363636,16.3,1,0,0,Martin Atkinson,2020-10-04,Sun,19:15
+39,2021,5,Everton,Liverpool,0,0,1,2,2,1.2,2.6,42,58,Séamus Coleman,4-3-3,11,5,0.4545454545454545,0.75,17.4,0,0,0,Jordan Henderson,4-3-3,22,8,0.3636363636363636,0.6,16.0,2,0,0,Michael Oliver,2020-10-17,Sat,12:30
+77,2021,8,Manchester City,Liverpool,0,0,1,1,1,1.4,1.2,54,46,Kevin De Bruyne,4-2-3-1,6,2,0.3333333333333333,0.5,20.6,0,0,1,Jordan Henderson,4-2-3-1,9,2,0.2222222222222222,0.5,22.1,1,1,1,Craig Pawson,2020-11-08,Sun,16:30
+90,2021,10,Brighton And Hove Albion,Liverpool,0,0,1,1,1,2.3,0.2,40,60,Lewis Dunk,3-4-1-2,9,2,0.2222222222222222,0.5,20.9,1,1,2,James Milner,4-3-3,6,2,0.3333333333333333,0.5,21.1,0,0,0,Stuart Attwell,2020-11-28,Sat,12:30
+115,2021,12,Fulham,Liverpool,0,0,1,1,1,1.5,1.8,26,74,Joachim Andersen,3-4-3,10,5,0.5,0.8,16.9,0,0,0,Jordan Henderson,4-3-3,11,5,0.4545454545454545,0.8,21.7,1,1,1,Andre Marriner,2020-12-13,Sun,16:30
+128,2021,14,Crystal Palace,Liverpool,0,1,0,0,7,0.3,2.5,36,64,Luka Milivojević,4-4-2,5,3,0.6,0.0,20.8,0,0,0,Jordan Henderson,4-3-3,14,7,0.5,1.0,14.1,1,0,0,Jonathan Moss,2020-12-19,Sat,12:30
+155,2021,16,Newcastle United,Liverpool,0,0,1,0,0,0.5,1.4,28,72,Federico Fernández,5-4-1,8,2,0.25,1.0,17.0,0,0,0,Jordan Henderson,4-3-3,11,4,0.3636363636363636,1.0,18.3,0,0,0,Paul Tierney,2020-12-30,Wed,20:00
+164,2021,17,Southampton,Liverpool,1,0,0,1,0,0.4,1.5,34,66,James Ward-Prowse,4-4-2,7,2,0.2857142857142857,1.0,25.1,0,0,0,Jordan Henderson,4-3-3,17,1,0.0588235294117647,0.5,15.7,0,0,0,Andre Marriner,2021-01-04,Mon,20:00
+195,2021,20,Tottenham Hotspur,Liverpool,0,1,0,1,3,0.1,2.5,50,50,Hugo Lloris,3-4-3,3,2,0.6666666666666666,0.5714285714285714,35.0,0,0,0,Jordan Henderson,4-3-3,14,7,0.5,0.5,15.5,0,0,0,Martin Atkinson,2021-01-28,Thu,20:00
+204,2021,21,West Ham United,Liverpool,0,1,0,1,3,0.8,2.0,33,67,Declan Rice,4-2-3-1,8,2,0.25,0.4,14.7,0,0,0,Jordan Henderson,4-3-1-2,14,5,0.3571428571428571,0.5,15.7,0,0,0,Jonathan Moss,2021-01-31,Sun,16:30
+226,2021,24,Leicester City,Liverpool,1,0,0,3,1,1.9,1.7,38,62,Kasper Schmeichel,4-2-3-1,11,6,0.5454545454545454,0.75,18.4,1,0,0,Jordan Henderson,4-3-3,15,4,0.2666666666666666,0.5,15.4,2,0,0,Anthony Taylor,2021-02-13,Sat,12:30
+257,2021,26,Sheffield United,Liverpool,0,1,0,0,2,0.7,2.7,40,60,David McGoldrick,3-5-2,8,2,0.25,0.75,17.4,0,0,0,Georginio Wijnaldum,4-3-3,16,8,0.5,1.0,13.9,0,0,0,Jonathan Moss,2021-02-28,Sun,19:15
+286,2021,28,Wolverhampton Wanderers,Liverpool,0,1,0,0,1,1.1,0.9,53,47,Conor Coady,3-4-1-2,10,5,0.5,0.75,15.1,1,0,0,Georginio Wijnaldum,4-3-3,12,4,0.3333333333333333,1.0,16.2,0,0,0,Craig Pawson,2021-03-15,Mon,20:00
+294,2021,30,Arsenal,Liverpool,0,1,0,0,3,0.1,2.4,36,64,Pierre-Emerick Aubameyang,4-2-3-1,3,2,0.6666666666666666,0.5714285714285714,18.9,0,0,0,James Milner,4-3-3,16,7,0.4375,1.0,18.2,0,0,0,Stuart Attwell,2021-04-03,Sat,20:00
+316,2021,32,Leeds United,Liverpool,0,0,1,1,1,2.3,1.4,61,39,Luke Ayling,4-1-4-1,12,5,0.4166666666666667,0.8571428571428571,12.0,0,0,0,James Milner,4-3-3,17,7,0.4117647058823529,0.8,17.1,0,0,0,Anthony Taylor,2021-04-19,Mon,20:00
+352,2021,34,Manchester United,Liverpool,0,1,0,2,4,1.9,2.7,53,47,Bruno Fernandes,4-2-3-1,18,2,0.1111111111111111,0.5,15.5,1,0,0,Georginio Wijnaldum,4-3-3,17,8,0.4705882352941176,0.0,14.9,0,0,0,Anthony Taylor,2021-05-13,Thu,20:15
+359,2021,36,West Bromwich Albion,Liverpool,0,1,0,1,2,1.0,1.9,24,76,Kyle Bartley,4-4-1-1,9,3,0.3333333333333333,0.6666666666666666,15.6,1,0,0,Roberto Firmino,4-3-3,26,6,0.2307692307692307,0.6666666666666666,18.3,1,0,0,Mike Dean,2021-05-16,Sun,16:30
+369,2021,37,Burnley,Liverpool,0,1,0,0,3,0.8,2.6,41,59,Ben Mee,4-4-1-1,10,3,0.3,0.0,15.3,0,0,0,Georginio Wijnaldum,4-3-3,20,3,0.15,1.0,16.2,1,0,0,Chris Kavanagh,2021-05-19,Wed,20:15
+388,2022,1,Norwich City,Liverpool,0,1,0,0,3,1.4,1.6,50,50,Grant Hanley,4-3-3,14,3,0.2142857142857142,0.5,17.1,0,0,0,James Milner,4-3-3,19,6,0.3157894736842105,1.0,17.3,1,0,0,Andre Marriner,2021-08-14,Sat,17:30
+419,2022,4,Leeds United,Liverpool,0,1,0,0,3,1.2,4.3,44,56,Liam Cooper,4-1-4-1,9,4,0.4444444444444444,0.625,15.2,0,0,0,Virgil van Dijk,4-3-3,30,8,0.2666666666666666,1.0,16.1,1,0,0,Craig Pawson,2021-09-12,Sun,16:30
+437,2022,6,Brentford,Liverpool,0,0,1,3,3,2.1,2.8,33,67,Pontus Jansson,3-5-2,12,3,0.25,0.4,12.0,0,0,0,Jordan Henderson,4-3-3,16,5,0.3125,0.0,17.0,1,0,0,Stuart Attwell,2021-09-25,Sat,17:30
+451,2022,8,Watford,Liverpool,0,1,0,0,5,0.5,3.3,25,75,Moussa Sissoko,5-4-1,6,2,0.3333333333333333,0.375,18.2,0,0,0,Jordan Henderson,4-3-3,19,8,0.4210526315789473,1.0,16.0,0,0,0,Jonathan Moss,2021-10-16,Sat,12:30
+470,2022,9,Manchester United,Liverpool,0,1,0,0,5,1.6,3.4,38,62,Harry Maguire,4-2-3-1,12,3,0.25,0.375,15.5,0,0,0,Jordan Henderson,4-3-3,19,8,0.4210526315789473,1.0,16.6,0,0,0,Anthony Taylor,2021-10-24,Sun,16:30
+490,2022,11,West Ham United,Liverpool,1,0,0,3,2,1.0,1.2,31,69,Declan Rice,4-2-3-1,7,3,0.4285714285714285,0.6,14.5,0,0,0,Jordan Henderson,4-3-3,16,5,0.3125,0.0,16.7,1,0,0,Craig Pawson,2021-11-07,Sun,16:30
+517,2022,14,Everton,Liverpool,0,1,0,1,4,0.7,2.4,33,67,Séamus Coleman,4-4-2,8,2,0.25,0.4285714285714285,20.8,1,0,0,Jordan Henderson,4-3-3,16,7,0.4375,0.5,16.5,1,0,0,Paul Tierney,2021-12-01,Wed,20:15
+522,2022,15,Wolverhampton Wanderers,Liverpool,0,1,0,0,1,0.1,2.7,34,66,Conor Coady,3-4-3,3,1,0.3333333333333333,0.75,23.7,0,0,0,Jordan Henderson,4-3-3,17,4,0.2352941176470588,1.0,13.6,0,0,0,Chris Kavanagh,2021-12-04,Sat,15:00
+549,2022,18,Tottenham Hotspur,Liverpool,0,0,1,2,2,3.0,1.1,44,56,Hugo Lloris,5-3-2,10,5,0.5,0.6666666666666666,10.4,0,0,0,James Milner,4-3-3,18,6,0.3333333333333333,0.6,16.7,0,0,0,Paul Tierney,2021-12-19,Sun,16:30
+560,2022,20,Leicester City,Liverpool,1,0,0,1,0,0.4,2.3,37,63,Kasper Schmeichel,4-3-1-2,6,1,0.1666666666666666,1.0,14.9,0,0,0,Jordan Henderson,4-3-3,20,3,0.15,0.0,15.0,0,0,1,Michael Oliver,2021-12-28,Tue,20:00
+570,2022,21,Chelsea,Liverpool,0,0,1,2,2,1.2,1.3,54,46,César Azpilicueta,3-4-3,15,6,0.4,0.6666666666666666,18.0,3,0,0,Jordan Henderson,4-3-3,10,6,0.6,0.6666666666666666,17.9,0,0,0,Anthony Taylor,2022-01-02,Sun,16:30
+592,2022,23,Crystal Palace,Liverpool,0,1,0,1,3,2.2,1.9,43,57,Joel Ward,4-3-3,8,5,0.625,0.5,12.2,0,0,0,Jordan Henderson,4-3-3,13,6,0.4615384615384615,0.8,21.6,0,1,1,Kevin Friend,2022-01-23,Sun,14:00
+612,2022,25,Burnley,Liverpool,0,1,0,0,1,1.5,1.7,34,66,Ben Mee,4-4-2,8,5,0.625,0.75,19.3,0,0,0,Jordan Henderson,4-3-3,12,4,0.3333333333333333,1.0,14.4,0,0,0,Martin Atkinson,2022-02-13,Sun,14:00
+652,2022,29,Brighton And Hove Albion,Liverpool,0,1,0,0,2,0.5,2.2,52,48,Lewis Dunk,4-2-3-1,8,3,0.375,0.75,18.4,0,0,0,Jordan Henderson,4-3-3,17,8,0.4705882352941176,1.0,15.2,0,1,1,Mike Dean,2022-03-12,Sat,12:30
+663,2022,27,Arsenal,Liverpool,0,1,0,0,2,0.5,0.8,49,51,Alexandre Lacazette,4-2-3-1,9,2,0.2222222222222222,0.3333333333333333,22.5,0,0,0,Jordan Henderson,4-3-3,9,3,0.3333333333333333,1.0,14.4,0,0,0,Andre Marriner,2022-03-16,Wed,20:15
+689,2022,32,Manchester City,Liverpool,0,0,1,2,2,1.3,1.3,55,45,Kevin De Bruyne,4-2-3-1,11,4,0.3636363636363636,0.5,17.8,1,0,0,Jordan Henderson,4-3-3,6,4,0.6666666666666666,0.5,22.9,0,0,0,Anthony Taylor,2022-04-10,Sun,16:30
+713,2022,35,Newcastle United,Liverpool,0,1,0,0,1,0.2,2.3,36,64,Jonjo Shelvey,4-3-3,4,2,0.5,0.9,28.3,1,0,0,Jordan Henderson,4-3-3,24,10,0.4166666666666667,1.0,17.7,2,0,0,Andre Marriner,2022-04-30,Sat,12:30
+733,2022,33,Aston Villa,Liverpool,0,1,0,1,2,1.4,1.8,40,60,Tyrone Mings,4-3-1-2,9,4,0.4444444444444444,0.6,13.7,0,0,0,Virgil van Dijk,4-3-3,17,5,0.2941176470588235,0.75,17.0,2,0,0,Jonathan Moss,2022-05-10,Tue,20:00
+747,2022,37,Southampton,Liverpool,0,1,0,1,2,0.1,1.3,30,70,James Ward-Prowse,5-4-1,4,2,0.5,0.6,25.2,1,0,0,James Milner,4-3-3,24,5,0.2083333333333333,0.5,18.6,0,0,0,Martin Atkinson,2022-05-17,Tue,19:45
+762,2023,1,Fulham,Liverpool,0,0,1,2,2,1.2,1.2,33,67,Tim Ream,4-2-3-1,8,2,0.25,0.3333333333333333,18.4,0,1,1,Jordan Henderson,4-3-3,11,3,0.2727272727272727,0.0,12.4,0,0,0,Andy Madley,2022-08-06,Sat,12:30
+790,2023,3,Manchester United,Liverpool,1,0,0,2,1,1.8,1.3,30,70,Bruno Fernandes,4-2-3-1,13,5,0.3846153846153846,0.8,19.5,2,0,0,Jordan Henderson,4-3-3,17,5,0.2941176470588235,0.6,14.4,0,0,0,Michael Oliver,2022-08-22,Mon,20:00
+811,2023,6,Everton,Liverpool,0,0,1,0,0,1.7,2.1,39,61,Jordan Pickford,4-3-3,14,3,0.2142857142857142,1.0,15.5,0,0,0,Virgil van Dijk,4-3-3,23,8,0.3478260869565217,1.0,13.1,0,0,0,Anthony Taylor,2022-09-03,Sat,12:30
+845,2023,10,Arsenal,Liverpool,1,0,0,3,2,2.7,1.1,43,57,Martin Ødegaard,4-3-3,10,6,0.6,0.3333333333333333,14.3,0,1,1,Jordan Henderson,4-2-3-1,8,3,0.375,0.5,18.0,0,0,0,Michael Oliver,2022-10-09,Sun,16:30
+867,2023,13,Nottingham Forest,Liverpool,1,0,0,1,0,1.9,1.6,25,75,Ryan Yates,4-3-3,10,7,0.7,1.0,15.9,0,0,0,James Milner,4-4-2,15,7,0.4666666666666667,0.8571428571428571,10.4,0,0,0,Paul Tierney,2022-10-22,Sat,12:30
+896,2023,15,Tottenham Hotspur,Liverpool,0,1,0,1,2,1.2,1.2,47,53,Hugo Lloris,5-3-2,14,5,0.3571428571428571,0.6666666666666666,14.4,0,0,0,Virgil van Dijk,4-1-2-1-2◆,13,6,0.4615384615384615,0.8,21.2,0,0,0,Andy Madley,2022-11-06,Sun,16:30
+912,2023,17,Aston Villa,Liverpool,0,1,0,1,3,1.4,2.7,48,52,John McGinn,4-4-2,12,6,0.5,0.6666666666666666,15.3,0,0,0,Jordan Henderson,4-3-3,16,9,0.5625,0.8333333333333334,17.0,0,0,0,Paul Tierney,2022-12-26,Mon,17:30
+927,2023,19,Brentford,Liverpool,1,0,0,3,1,1.6,0.9,28,72,Christian Nørgaard,3-5-2,10,7,0.7,0.8,10.5,0,0,0,Virgil van Dijk,4-3-3,16,5,0.3125,0.5714285714285714,15.3,0,0,0,Stuart Attwell,2023-01-02,Mon,17:30
+940,2023,20,Brighton And Hove Albion,Liverpool,1,0,0,3,0,1.9,1.0,61,39,Lewis Dunk,4-2-3-1,16,8,0.5,1.0,16.3,0,0,0,Jordan Henderson,4-1-2-1-2◆,6,2,0.3333333333333333,0.625,12.8,0,0,0,Darren England,2023-01-14,Sat,15:00
+966,2023,22,Wolverhampton Wanderers,Liverpool,1,0,0,3,0,2.0,1.8,41,59,Rúben Neves,4-4-2,12,5,0.4166666666666667,1.0,18.3,0,0,0,Andrew Robertson,4-3-3,22,2,0.0909090909090909,0.4,19.5,1,0,0,Paul Tierney,2023-02-04,Sat,15:00
+989,2023,24,Newcastle United,Liverpool,0,1,0,0,2,2.0,1.9,38,62,Kieran Trippier,4-3-3,14,4,0.2857142857142857,0.7142857142857143,12.9,0,0,0,Jordan Henderson,4-3-3,13,7,0.5384615384615384,1.0,16.4,1,0,0,Anthony Taylor,2023-02-18,Sat,17:30
+998,2023,25,Crystal Palace,Liverpool,0,0,1,0,0,0.7,0.9,37,63,Marc Guéhi,4-2-3-1,6,0,0.0,1.0,15.0,0,0,0,Jordan Henderson,4-3-3,12,4,0.3333333333333333,0.0,16.0,1,0,0,Darren England,2023-02-25,Sat,19:45
+1012,2023,27,Bournemouth,Liverpool,1,0,0,1,0,0.9,1.7,31,69,Neto,4-4-1-1,5,2,0.4,1.0,12.3,0,0,0,Virgil van Dijk,4-3-3,14,5,0.3571428571428571,0.5,18.5,0,0,1,John Brooks,2023-03-11,Sat,12:30
+1031,2023,29,Manchester City,Liverpool,1,0,0,4,1,2.9,0.3,68,32,İlkay Gündoğan,3-2-4-1,17,8,0.4705882352941176,0.0,14.5,1,0,0,Jordan Henderson,4-3-3,4,1,0.25,0.5,15.9,0,0,0,Simon Hooper,2023-04-01,Sat,12:30
+1044,2023,8,Chelsea,Liverpool,0,0,1,0,0,2.2,0.3,49,51,N'Golo Kanté,3-5-2,12,2,0.1666666666666666,1.0,16.1,0,0,0,Jordan Henderson,4-3-3,7,3,0.4285714285714285,1.0,25.4,0,0,0,Anthony Taylor,2023-04-04,Tue,20:00
+1066,2023,31,Leeds United,Liverpool,0,1,0,1,6,1.4,2.7,27,73,Rodrigo,4-2-3-1,13,3,0.2307692307692307,0.1428571428571428,17.6,0,0,0,Jordan Henderson,4-3-3,13,7,0.5384615384615384,0.6666666666666666,12.9,0,0,0,Craig Pawson,2023-04-17,Mon,20:00
+1080,2023,33,West Ham United,Liverpool,0,1,0,1,2,0.8,1.9,28,72,Declan Rice,4-2-3-1,7,2,0.2857142857142857,0.5,15.5,0,0,0,Jordan Henderson,4-3-3,20,4,0.2,0.5,16.8,0,0,0,Chris Kavanagh,2023-04-26,Wed,19:45
+1117,2023,36,Leicester City,Liverpool,0,1,0,0,3,0.4,2.2,34,66,Jonny Evans,4-2-3-1,4,4,1.0,0.4,13.4,0,0,0,Jordan Henderson,4-3-3,16,5,0.3125,1.0,17.5,1,0,0,Craig Pawson,2023-05-15,Mon,20:00
+1133,2023,38,Southampton,Liverpool,0,0,1,4,4,1.8,4.0,31,69,James Ward-Prowse,4-2-3-1,15,10,0.6666666666666666,0.5,17.5,1,0,0,James Milner,4-3-3,30,8,0.2666666666666666,0.6,18.5,0,0,0,Darren England,2023-05-28,Sun,16:30
+1149,2024,1,Chelsea,Liverpool,0,0,1,1,1,1.4,1.3,65,35,Reece James,3-4-3,10,4,0.4,0.0,13.2,1,0,0,Virgil van Dijk,4-3-3,13,1,0.0769230769230769,0.75,17.8,0,0,0,Anthony Taylor,2023-08-13,Sun,16:30
+1169,2024,3,Newcastle United,Liverpool,0,1,0,1,2,2.0,0.9,59,41,Kieran Trippier,4-3-3,23,8,0.3478260869565217,0.5,18.3,1,0,0,Virgil van Dijk,4-3-3,9,4,0.4444444444444444,0.875,17.2,1,0,0,John Brooks,2023-08-27,Sun,16:30
+1180,2024,5,Wolverhampton Wanderers,Liverpool,0,1,0,1,3,0.6,2.5,35,65,Max Kilman,4-2-3-1,11,2,0.1818181818181818,0.4,18.7,0,0,0,Andrew Robertson,4-3-3,16,5,0.3125,0.5,15.8,0,0,0,Michael Oliver,2023-09-16,Sat,12:30
+1207,2024,7,Tottenham Hotspur,Liverpool,1,0,0,2,1,2.2,1.3,64,36,Son Heung-min,4-2-3-1,24,8,0.3333333333333333,0.75,19.8,0,0,0,Virgil van Dijk,4-3-3,12,4,0.3333333333333333,0.75,14.9,0,0,0,Simon Hooper,2023-09-30,Sat,17:30
+1217,2024,8,Brighton And Hove Albion,Liverpool,0,0,1,2,2,2.3,2.3,46,54,Lewis Dunk,4-2-3-1,14,3,0.2142857142857142,0.3333333333333333,16.9,2,0,0,Virgil van Dijk,4-3-3,13,3,0.2307692307692307,0.3333333333333333,18.8,0,1,1,Anthony Taylor,2023-10-08,Sun,14:00
+1249,2024,11,Luton Town,Liverpool,0,0,1,1,1,0.8,2.6,27,73,Tom Lockyer,3-4-3,8,5,0.625,0.8333333333333334,17.9,0,0,0,Virgil van Dijk,4-3-3,24,6,0.25,0.8,17.5,0,0,0,Andy Madley,2023-11-05,Sun,16:30
+1261,2024,13,Manchester City,Liverpool,0,0,1,1,1,1.3,0.6,59,41,Kyle Walker,3-2-4-1,16,5,0.3125,0.6666666666666666,16.3,1,0,0,Virgil van Dijk,4-3-3,8,3,0.375,0.8,15.9,0,0,0,Chris Kavanagh,2023-11-25,Sat,12:30
+1286,2024,15,Sheffield United,Liverpool,0,1,0,0,2,1.0,1.7,25,75,Anel Ahmedhodžić,3-4-3,6,1,0.1666666666666666,0.75,14.6,1,0,0,Virgil van Dijk,4-3-3,15,8,0.5333333333333333,1.0,16.4,0,0,0,Simon Hooper,2023-12-06,Wed,19:30
+1291,2024,16,Crystal Palace,Liverpool,0,1,0,1,2,1.7,1.2,24,76,Joel Ward,4-3-3,7,3,0.4285714285714285,0.0,17.4,0,1,1,Virgil van Dijk,4-3-3,14,2,0.1428571428571428,0.6666666666666666,17.4,0,0,0,Andy Madley,2023-12-09,Sat,12:30
+1322,2024,19,Burnley,Liverpool,0,1,0,0,2,0.8,1.8,32,68,Josh Brownhill,4-4-2,9,0,0.0,0.8,16.7,0,0,0,Virgil van Dijk,4-3-3,19,10,0.5263157894736842,0.0,17.4,0,0,0,Paul Tierney,2023-12-26,Tue,17:30
+1347,2024,21,Bournemouth,Liverpool,0,1,0,0,4,1.4,1.5,40,60,Neto,4-2-3-1,11,1,0.0909090909090909,0.4285714285714285,19.8,0,0,0,Virgil van Dijk,4-3-3,14,7,0.5,1.0,19.2,0,0,0,Andy Madley,2024-01-21,Sun,16:30
+1367,2024,23,Arsenal,Liverpool,1,0,0,3,1,3.5,0.4,43,57,Martin Ødegaard,4-3-3,15,7,0.4666666666666667,0.0,14.2,0,0,0,Virgil van Dijk,4-3-3,10,1,0.1,0.5714285714285714,19.7,0,0,0,Anthony Taylor,2024-02-04,Sun,16:30
+1379,2024,25,Brentford,Liverpool,0,1,0,1,4,1.6,2.8,38,62,Christian Nørgaard,3-5-2,15,6,0.4,0.5,19.8,3,0,0,Virgil van Dijk,4-3-3,15,8,0.5333333333333333,0.8333333333333334,15.9,1,0,0,Michael Oliver,2024-02-17,Sat,12:30
+1402,2024,27,Nottingham Forest,Liverpool,0,1,0,0,1,1.0,2.0,31,69,Ryan Yates,4-2-3-1,8,2,0.25,0.0,19.3,0,0,0,Virgil van Dijk,4-3-3,22,1,0.0454545454545454,1.0,14.6,0,0,0,Paul Tierney,2024-03-02,Sat,15:00
+1451,2024,32,Manchester United,Liverpool,0,0,1,2,2,0.7,3.6,38,62,Bruno Fernandes,4-2-3-1,9,5,0.5555555555555556,0.6666666666666666,18.1,0,0,0,Virgil van Dijk,4-3-3,27,6,0.2222222222222222,0.6,17.5,0,1,1,Anthony Taylor,2024-04-07,Sun,15:30
+1470,2024,34,Fulham,Liverpool,0,1,0,1,3,0.8,1.0,40,60,Bobby De Cordova-Reid,4-2-3-1,12,5,0.4166666666666667,0.5714285714285714,17.1,1,0,0,Virgil van Dijk,4-3-3,14,7,0.5,0.8,18.8,2,0,0,Craig Pawson,2024-04-21,Sun,16:30
+1473,2024,29,Everton,Liverpool,1,0,0,2,0,1.2,2.1,25,75,James Tarkowski,4-4-1-1,16,6,0.375,1.0,14.9,0,0,0,Virgil van Dijk,4-3-3,23,7,0.3043478260869565,0.6666666666666666,16.8,0,0,0,Andy Madley,2024-04-24,Wed,20:00
+1477,2024,35,West Ham United,Liverpool,0,0,1,2,2,0.7,1.7,29,71,Kurt Zouma,4-2-3-1,11,8,0.7272727272727273,0.75,17.0,0,0,0,Virgil van Dijk,4-3-3,28,8,0.2857142857142857,0.75,16.6,1,0,0,Anthony Taylor,2024-04-27,Sat,12:30
+1507,2024,37,Aston Villa,Liverpool,0,0,1,3,3,3.1,1.7,41,59,John McGinn,4-2-3-1,19,5,0.2631578947368421,0.5714285714285714,15.2,0,0,0,Virgil van Dijk,4-3-3,14,7,0.5,0.4,17.1,0,0,0,Simon Hooper,2024-05-13,Mon,20:00
+1522,2025,1,Ipswich Town,Liverpool,0,1,0,0,2,0.5,2.6,38,62,Sam Morsy,4-2-3-1,7,2,0.2857142857142857,0.6,16.0,0,0,0,Virgil van Dijk,4-2-3-1,18,5,0.2777777777777778,1.0,14.8,0,0,0,Tim Robinson,2024-08-17,Sat,12:30
+1550,2025,3,Manchester United,Liverpool,0,1,0,0,3,1.4,1.8,53,47,Bruno Fernandes,4-2-3-1,8,3,0.375,0.0,15.6,0,0,0,Virgil van Dijk,4-2-3-1,11,3,0.2727272727272727,1.0,13.4,0,0,0,Anthony Taylor,2024-09-01,Sun,16:00
+1577,2025,6,Wolverhampton Wanderers,Liverpool,0,1,0,1,2,0.6,2.5,45,55,Mario Lemina,4-1-4-1,8,3,0.375,0.6,22.9,0,0,0,Virgil van Dijk,4-2-3-1,9,5,0.5555555555555556,0.6666666666666666,18.0,1,1,1,Anthony Taylor,2024-09-28,Sat,17:30
+1581,2025,7,Crystal Palace,Liverpool,0,1,0,0,1,0.6,1.4,32,68,Marc Guéhi,3-4-3,9,5,0.5555555555555556,0.75,21.9,0,0,0,Virgil van Dijk,4-2-3-1,16,4,0.25,1.0,18.9,0,0,0,Simon Hooper,2024-10-05,Sat,12:30
+1610,2025,9,Arsenal,Liverpool,0,0,1,2,2,0.9,0.8,45,55,Bukayo Saka,4-4-2,9,3,0.3333333333333333,0.5,14.1,0,0,0,Virgil van Dijk,4-2-3-1,9,4,0.4444444444444444,0.3333333333333333,17.8,0,0,0,Anthony Taylor,2024-10-27,Sun,16:30
+1638,2025,12,Southampton,Liverpool,0,1,0,2,3,1.3,3.1,38,62,Jack Stephens,5-4-1,6,4,0.6666666666666666,0.7,19.0,0,0,1,Virgil van Dijk,4-2-3-1,26,10,0.3846153846153846,0.5,18.2,1,1,1,Samuel Barrott,2024-11-24,Sun,14:00
+1653,2025,14,Newcastle United,Liverpool,0,0,1,3,3,2.1,1.9,42,58,Bruno Guimarães,4-3-3,17,6,0.3529411764705882,0.4,19.1,1,0,0,Virgil van Dijk,4-2-3-1,16,5,0.3125,0.5,12.7,0,0,0,Andy Madley,2024-12-04,Wed,19:30
+1689,2025,17,Tottenham Hotspur,Liverpool,0,1,0,3,6,1.3,5.6,52,48,Son Heung-min,4-2-3-1,9,5,0.5555555555555556,0.4545454545454545,17.1,0,0,0,Virgil van Dijk,4-2-3-1,24,11,0.4583333333333333,0.4,13.3,0,0,0,Samuel Barrott,2024-12-22,Sun,16:30
+1705,2025,19,West Ham United,Liverpool,0,1,0,0,5,0.4,3.1,46,54,Jarrod Bowen,4-2-3-1,7,0,0.0,0.6153846153846154,17.5,0,0,0,Virgil van Dijk,4-2-3-1,22,13,0.5909090909090909,0.0,15.8,0,0,0,Anthony Taylor,2024-12-29,Sun,17:15
+1723,2025,21,Nottingham Forest,Liverpool,0,0,1,1,1,0.3,2.0,30,70,Ryan Yates,4-2-3-1,6,3,0.5,0.8333333333333334,26.8,1,0,0,Virgil van Dijk,4-2-3-1,23,6,0.2608695652173913,0.6666666666666666,17.0,0,0,0,Chris Kavanagh,2025-01-14,Tue,20:00
+1731,2025,22,Brentford,Liverpool,0,1,0,0,2,0.7,3.4,40,60,Christian Nørgaard,4-2-3-1,11,6,0.5454545454545454,0.75,14.7,0,0,0,Virgil van Dijk,4-2-3-1,37,8,0.2162162162162162,1.0,15.4,0,0,0,Andy Madley,2025-01-18,Sat,15:00
+1753,2025,24,Bournemouth,Liverpool,0,1,0,0,2,1.6,2.5,49,51,Lewis Cook,4-2-3-1,14,3,0.2142857142857142,0.6666666666666666,17.4,0,0,0,Virgil van Dijk,4-2-3-1,18,6,0.3333333333333333,1.0,18.5,0,1,1,Darren England,2025-02-01,Sat,15:00
+1760,2025,15,Everton,Liverpool,0,0,1,2,2,1.0,0.6,37,63,James Tarkowski,4-2-3-1,10,3,0.3,0.5,18.3,0,0,0,Virgil van Dijk,4-2-3-1,6,4,0.6666666666666666,0.3333333333333333,15.4,0,0,0,Michael Oliver,2025-02-12,Wed,19:30
+1771,2025,29,Aston Villa,Liverpool,0,0,1,2,2,0.6,2.5,52,48,John McGinn,4-2-3-1,9,3,0.3333333333333333,0.3333333333333333,18.0,0,0,0,Virgil van Dijk,4-2-3-1,17,3,0.1764705882352941,0.3333333333333333,14.2,0,0,0,Craig Pawson,2025-02-19,Wed,19:30
+1781,2025,26,Manchester City,Liverpool,0,1,0,0,2,0.6,0.7,66,34,Kevin De Bruyne,4-1-4-1,16,5,0.3125,0.5,21.4,1,0,0,Virgil van Dijk,4-2-2-2,8,4,0.5,1.0,16.4,0,0,0,Anthony Taylor,2025-02-23,Sun,16:30
+1825,2025,31,Fulham,Liverpool,1,0,0,3,2,0.7,1.5,37,63,Antonee Robinson,4-2-3-1,12,6,0.5,0.6666666666666666,17.0,0,0,0,Virgil van Dijk,4-2-3-1,14,6,0.4285714285714285,0.5,16.4,0,0,0,Chris Kavanagh,2025-04-06,Sun,14:00
+1849,2025,33,Leicester City,Liverpool,0,1,0,0,1,0.3,2.5,42,58,Jamie Vardy,4-2-3-1,5,0,0.0,0.875,18.7,0,0,0,Virgil van Dijk,4-2-3-1,28,8,0.2857142857142857,0.0,12.6,1,0,0,Stuart Attwell,2025-04-20,Sun,16:30
+1869,2025,35,Chelsea,Liverpool,1,0,0,3,1,3.1,1.0,36,64,Enzo Fernández,4-2-3-1,16,5,0.3125,0.5,14.3,0,1,1,Virgil van Dijk,4-2-3-1,11,2,0.1818181818181818,0.4,13.5,1,0,0,Simon Hooper,2025-05-04,Sun,16:30
+1888,2025,37,Brighton And Hove Albion,Liverpool,1,0,0,3,2,2.2,2.2,49,51,Danny Welbeck,4-2-3-1,25,12,0.48,0.6,17.5,1,0,0,Mohamed Salah,4-2-3-1,18,5,0.2777777777777778,0.75,16.1,1,0,0,Andy Madley,2025-05-19,Mon,20:00

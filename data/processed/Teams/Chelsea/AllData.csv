@@ -1,191 +1,191 @@
-ID,Season,Round,Home,Away,HomeWin,AwayWin,Draw,HomeGoal,AwayGoal,HomeXG,AwayXG,HomePoss,AwayPoss,HomeCaptain,HomeFormation,HomeSH,HomeSOT,HomeDist,HomeFK,HomePK,HomePKAtt,AwayCaptain,AwayFormation,AwaySH,AwaySOT,AwayDist,AwayFK,AwayPK,AwayPKAtt,Referee,Date,Day,Time
-8,2021,1,Brighton And Hove Albion,Chelsea,0,1,0,1,3,1.1,1.2,52,48,Lewis Dunk,3-5-2,13,3,17.6,0,0,0,Jorginho,4-2-2-2,9,4,21.3,0,1,1,Craig Pawson,2020-09-14,Mon,20:15
-15,2021,2,Chelsea,Liverpool,0,1,0,0,2,0.9,2.1,39,61,Jorginho,4-3-3,4,2,22.7,0,0,1,Jordan Henderson,4-3-3,18,5,18.2,1,0,0,Paul Tierney,2020-09-20,Sun,16:30
-21,2021,3,West Bromwich Albion,Chelsea,0,0,1,3,3,0.6,2.0,25,75,Jake Livermore,5-4-1,9,3,20.7,0,0,0,Thiago Silva,4-2-3-1,22,10,19.4,1,0,0,Jonathan Moss,2020-09-26,Sat,17:30
-29,2021,4,Chelsea,Crystal Palace,1,0,0,4,0,2.7,0.2,70,30,César Azpilicueta,4-2-3-1,15,4,17.2,0,2,2,Wilfried Zaha,4-4-2,4,0,22.5,0,0,0,Michael Oliver,2020-10-03,Sat,12:30
-40,2021,5,Chelsea,Southampton,0,0,1,3,3,1.8,1.9,53,47,César Azpilicueta,4-2-3-1,11,5,11.3,0,0,0,James Ward-Prowse,4-4-2,13,6,17.1,0,0,0,Peter Bankes,2020-10-17,Sat,15:00
-52,2021,6,Manchester United,Chelsea,0,0,1,0,0,0.6,0.2,51,49,Harry Maguire,4-2-3-1,14,4,17.9,0,0,0,César Azpilicueta,3-4-3,6,1,20.3,0,0,0,Martin Atkinson,2020-10-24,Sat,17:30
-61,2021,7,Burnley,Chelsea,0,1,0,0,3,0.5,0.9,37,63,Ashley Westwood,4-4-2,5,0,24.4,0,0,0,Thiago Silva,4-3-3,14,9,18.9,1,0,0,David Coote,2020-10-31,Sat,15:00
-73,2021,8,Chelsea,Sheffield United,1,0,0,4,1,2.2,0.4,69,31,Thiago Silva,4-3-3,20,9,17.0,1,0,0,John Egan,3-5-2,6,3,18.0,0,0,0,Jonathan Moss,2020-11-07,Sat,17:30
-79,2021,9,Newcastle United,Chelsea,0,1,0,0,2,0.3,1.5,30,70,Jamaal Lascelles,5-4-1,8,1,23.7,0,0,0,N'Golo Kanté,4-3-3,14,3,18.5,0,0,0,Craig Pawson,2020-11-21,Sat,12:30
-95,2021,10,Chelsea,Tottenham Hotspur,0,0,1,0,0,0.8,0.2,60,40,Thiago Silva,4-3-3,13,3,17.3,0,0,0,Hugo Lloris,4-2-3-1,5,1,23.8,1,0,0,Paul Tierney,2020-11-29,Sun,16:30
-102,2021,11,Chelsea,Leeds United,1,0,0,3,1,4.1,0.8,46,54,Thiago Silva,4-3-3,23,10,11.6,0,0,0,Liam Cooper,4-4-1-1,8,3,16.8,0,0,0,Kevin Friend,2020-12-05,Sat,20:00
-112,2021,12,Everton,Chelsea,1,0,0,1,0,1.2,0.7,29,71,Gylfi Sigurðsson,4-3-3,8,3,17.1,1,1,1,Thiago Silva,4-3-3,10,3,20.3,2,0,0,Jonathan Moss,2020-12-12,Sat,20:00
-118,2021,13,Wolverhampton Wanderers,Chelsea,1,0,0,2,1,0.5,1.0,45,55,Conor Coady,3-4-1-2,12,4,21.9,0,0,0,Thiago Silva,4-3-3,13,3,18.5,1,0,0,Stuart Attwell,2020-12-15,Tue,18:00
-137,2021,14,Chelsea,West Ham United,1,0,0,3,0,2.0,0.4,53,47,César Azpilicueta,4-3-3,11,7,14.1,0,0,0,Mark Noble,4-2-3-1,6,0,12.8,0,0,0,Chris Kavanagh,2020-12-21,Mon,20:00
-141,2021,15,Arsenal,Chelsea,1,0,0,3,1,2.0,2.6,40,60,Héctor Bellerín,4-2-3-1,14,6,17.9,1,1,1,Thiago Silva,4-3-3,18,2,16.8,1,0,1,Michael Oliver,2020-12-26,Sat,17:30
-149,2021,16,Chelsea,Aston Villa,0,0,1,1,1,1.7,0.7,63,37,César Azpilicueta,4-3-3,16,5,17.1,0,0,0,Jack Grealish,4-2-3-1,10,2,17.5,0,0,0,Stuart Attwell,2020-12-28,Mon,17:30
-163,2021,17,Chelsea,Manchester City,0,1,0,1,3,0.8,2.7,54,46,César Azpilicueta,4-3-3,9,2,17.0,1,0,0,Kevin De Bruyne,4-3-3,18,6,15.1,1,0,0,Anthony Taylor,2021-01-03,Sun,16:30
-174,2021,19,Fulham,Chelsea,0,1,0,0,1,0.7,1.6,31,69,Joachim Andersen,5-4-1,10,2,20.1,1,0,0,César Azpilicueta,4-3-3,21,6,18.6,0,0,0,Peter Bankes,2021-01-16,Sat,17:30
-181,2021,18,Leicester City,Chelsea,1,0,0,2,0,1.4,0.7,36,64,Kasper Schmeichel,4-1-4-1,8,6,17.1,0,0,0,Thiago Silva,4-2-3-1,9,5,12.7,1,0,0,Craig Pawson,2021-01-19,Tue,20:15
-190,2021,20,Chelsea,Wolverhampton Wanderers,0,0,1,0,0,0.7,0.5,78,22,César Azpilicueta,3-4-3,14,5,16.5,0,0,0,Conor Coady,3-4-1-2,4,0,19.9,1,0,0,Andy Madley,2021-01-27,Wed,18:00
-202,2021,21,Chelsea,Burnley,1,0,0,2,0,1.2,0.2,70,30,César Azpilicueta,3-4-3,19,8,16.7,0,0,0,Ben Mee,4-4-2,1,0,5.3,0,0,0,Graham Scott,2021-01-31,Sun,12:00
-215,2021,22,Tottenham Hotspur,Chelsea,0,1,0,0,1,0.6,1.6,43,58,Hugo Lloris,4-2-2-2,7,2,20.9,1,0,0,César Azpilicueta,3-4-1-2,15,1,18.0,0,1,1,Andre Marriner,2021-02-04,Thu,20:00
-224,2021,23,Sheffield United,Chelsea,0,1,0,1,2,0.6,1.6,32,68,John Egan,3-5-2,8,3,20.8,0,0,0,César Azpilicueta,3-4-3,8,1,20.3,0,1,1,Kevin Friend,2021-02-07,Sun,19:15
-235,2021,24,Chelsea,Newcastle United,1,0,0,2,0,2.2,0.6,64,36,César Azpilicueta,3-4-3,18,5,14.2,0,0,0,Jamaal Lascelles,4-3-3,10,4,20.5,1,0,0,Peter Bankes,2021-02-15,Mon,20:00
-239,2021,25,Southampton,Chelsea,0,0,1,1,1,0.6,1.2,30,70,James Ward-Prowse,4-4-2,4,1,9.6,0,0,0,César Azpilicueta,3-4-3,8,2,19.6,1,1,1,Anthony Taylor,2021-02-20,Sat,12:30
-256,2021,26,Chelsea,Manchester United,0,0,1,0,0,1.1,0.4,57,43,César Azpilicueta,3-4-3,18,6,21.9,0,0,0,Harry Maguire,4-2-3-1,11,4,25.2,1,0,0,Stuart Attwell,2021-02-28,Sun,16:30
-265,2021,29,Liverpool,Chelsea,0,1,0,0,1,0.3,1.0,54,46,Georginio Wijnaldum,4-3-3,7,1,19.7,0,0,0,César Azpilicueta,3-4-3,11,4,17.7,0,0,0,Martin Atkinson,2021-03-04,Thu,20:15
-274,2021,27,Chelsea,Everton,1,0,0,2,0,2.4,0.3,65,35,César Azpilicueta,3-4-3,18,8,20.2,1,1,1,Gylfi Sigurðsson,3-4-1-2,7,1,24.0,1,0,0,David Coote,2021-03-08,Mon,18:00
-278,2021,28,Leeds United,Chelsea,0,0,1,0,0,0.4,1.0,38,62,Luke Ayling,4-1-4-1,7,4,16.0,0,0,0,César Azpilicueta,4-2-3-1,15,8,17.6,0,0,0,Kevin Friend,2021-03-13,Sat,12:30
-291,2021,30,Chelsea,West Bromwich Albion,0,1,0,2,5,2.1,1.6,65,35,César Azpilicueta,3-4-3,18,7,16.1,2,0,0,Kyle Bartley,5-4-1,14,7,19.4,2,0,0,David Coote,2021-04-03,Sat,12:30
-304,2021,31,Crystal Palace,Chelsea,0,1,0,1,4,0.4,3.1,36,64,Luka Milivojević,4-4-2,1,1,5.9,0,0,0,César Azpilicueta,3-4-3,23,9,13.6,0,0,0,Michael Oliver,2021-04-10,Sat,17:30
-317,2021,32,Chelsea,Brighton And Hove Albion,0,0,1,0,0,0.7,0.5,64,36,Jorginho,3-4-3,7,4,16.9,0,0,0,Lewis Dunk,3-1-4-2,11,2,23.6,1,0,0,Stuart Attwell,2021-04-20,Tue,20:15
-323,2021,33,West Ham United,Chelsea,0,1,0,0,1,0.4,2.5,45,55,Mark Noble,3-4-1-2,9,2,23.2,1,0,0,César Azpilicueta,3-4-3,17,6,18.8,1,0,0,Chris Kavanagh,2021-04-24,Sat,17:30
-332,2021,34,Chelsea,Fulham,1,0,0,2,0,1.7,0.3,49,51,Thiago Silva,3-5-2,9,5,14.4,1,0,0,Joachim Andersen,4-2-3-1,10,3,20.6,0,0,0,Kevin Friend,2021-05-01,Sat,17:30
-341,2021,35,Manchester City,Chelsea,0,1,0,1,2,1.8,0.7,48,52,Raheem Sterling,3-1-4-2,15,3,20.0,0,0,1,César Azpilicueta,3-4-3,12,5,22.3,1,0,0,Anthony Taylor,2021-05-08,Sat,17:30
-350,2021,36,Chelsea,Arsenal,0,1,0,0,1,1.8,0.6,67,33,César Azpilicueta,3-4-3,19,4,15.0,0,0,0,Pierre-Emerick Aubameyang,3-4-3,5,2,20.7,0,0,0,Andre Marriner,2021-05-12,Wed,20:15
-364,2021,37,Chelsea,Leicester City,1,0,0,2,1,3.1,0.8,58,42,César Azpilicueta,3-4-3,16,5,13.8,0,1,1,Kasper Schmeichel,3-4-3,7,3,19.0,0,0,0,Mike Dean,2021-05-18,Tue,20:15
-380,2021,38,Aston Villa,Chelsea,1,0,0,2,1,1.1,3.3,29,71,Jack Grealish,4-2-3-1,5,2,21.4,0,1,1,César Azpilicueta,3-4-3,23,7,15.9,0,0,0,Stuart Attwell,2021-05-23,Sun,16:00
-386,2022,1,Chelsea,Crystal Palace,1,0,0,3,0,0.7,0.2,62,38,César Azpilicueta,3-4-3,13,6,21.0,4,0,0,James McArthur,4-4-2,4,1,10.8,0,0,0,Jonathan Moss,2021-08-14,Sat,15:00
-399,2022,2,Arsenal,Chelsea,0,1,0,0,2,0.3,3.1,35,65,Granit Xhaka,4-2-3-1,6,3,18.7,0,0,0,César Azpilicueta,3-4-3,22,5,16.0,0,0,0,Paul Tierney,2021-08-22,Sun,16:30
-407,2022,3,Liverpool,Chelsea,0,0,1,1,1,2.5,0.6,65,35,Jordan Henderson,4-3-3,23,6,16.2,0,1,1,César Azpilicueta,3-4-3,6,3,12.5,0,0,0,Anthony Taylor,2021-08-28,Sat,17:30
-418,2022,4,Chelsea,Aston Villa,1,0,0,3,0,1.3,1.2,57,43,Marcos Alonso,3-4-3,12,4,22.6,0,0,0,Tyrone Mings,5-3-2,18,6,18.6,0,0,0,Stuart Attwell,2021-09-11,Sat,17:30
-430,2022,5,Tottenham Hotspur,Chelsea,0,1,0,0,3,0.5,2.1,47,53,Hugo Lloris,4-3-2-1,8,2,20.0,1,0,0,César Azpilicueta,3-4-3,20,9,14.5,0,0,0,Paul Tierney,2021-09-19,Sun,16:30
-431,2022,6,Chelsea,Manchester City,0,1,0,0,1,0.2,1.7,41,59,César Azpilicueta,3-5-2,5,0,27.9,1,0,0,Rúben Dias,4-3-3,15,3,17.1,0,0,0,Michael Oliver,2021-09-25,Sat,12:30
-444,2022,7,Chelsea,Southampton,1,0,0,3,1,3.3,1.3,62,38,César Azpilicueta,3-4-3,20,9,12.8,0,0,0,James Ward-Prowse,4-4-2,5,1,24.0,0,1,1,Martin Atkinson,2021-10-02,Sat,15:00
-457,2022,8,Brentford,Chelsea,0,1,0,0,1,1.4,0.3,45,55,Pontus Jansson,3-5-2,17,6,14.5,0,0,0,César Azpilicueta,3-5-2,5,1,24.7,2,0,0,Anthony Taylor,2021-10-16,Sat,17:30
-462,2022,9,Chelsea,Norwich City,1,0,0,7,0,3.1,0.1,62,38,Jorginho,3-4-3,22,12,19.8,0,1,1,Grant Hanley,3-5-2,3,1,20.8,0,0,0,Andy Madley,2021-10-23,Sat,12:30
-475,2022,10,Newcastle United,Chelsea,0,1,0,0,3,0.2,2.2,21,79,Jamaal Lascelles,5-3-2,6,1,19.7,0,0,0,Jorginho,3-4-3,18,5,20.5,1,1,1,Paul Tierney,2021-10-30,Sat,15:00
-483,2022,11,Chelsea,Burnley,0,0,1,1,1,1.8,0.7,70,30,Jorginho,3-4-1-2,25,4,16.0,0,0,0,Ben Mee,4-4-2,5,2,15.9,0,0,0,Andre Marriner,2021-11-06,Sat,15:00
-491,2022,12,Leicester City,Chelsea,0,1,0,0,3,0.4,2.0,39,61,Kasper Schmeichel,3-4-3,4,3,24.4,0,0,0,Jorginho,3-4-3,16,7,16.7,2,0,0,Paul Tierney,2021-11-20,Sat,12:30
-509,2022,13,Chelsea,Manchester United,0,0,1,1,1,2.7,0.9,65,35,Jorginho,3-4-3,23,5,16.8,0,1,1,Bruno Fernandes,4-3-1-2,3,2,20.7,0,0,0,Anthony Taylor,2021-11-28,Sun,16:30
-513,2022,14,Watford,Chelsea,0,1,0,1,2,1.0,0.9,51,49,Moussa Sissoko,4-1-4-1,14,6,21.4,2,0,0,César Azpilicueta,3-4-3,8,4,15.1,0,0,0,David Coote,2021-12-01,Wed,19:30
-520,2022,15,West Ham United,Chelsea,1,0,0,3,2,1.8,1.1,37,63,Declan Rice,3-4-3,10,3,20.1,0,1,1,Jorginho,3-4-3,19,7,17.5,0,0,0,Andre Marriner,2021-12-04,Sat,12:30
-532,2022,16,Chelsea,Leeds United,1,0,0,3,2,2.5,1.4,57,43,César Azpilicueta,3-4-3,14,4,20.0,2,2,2,Luke Ayling,4-3-1-2,11,4,19.4,2,1,1,Chris Kavanagh,2021-12-11,Sat,15:00
-544,2022,17,Chelsea,Everton,0,0,1,1,1,2.9,0.6,80,20,César Azpilicueta,3-4-3,23,10,14.7,2,0,0,Michael Keane,5-4-1,5,3,21.1,0,0,0,Michael Oliver,2021-12-16,Thu,19:45
-547,2022,18,Wolverhampton Wanderers,Chelsea,0,0,1,0,0,0.2,0.9,37,63,Conor Coady,3-5-2,4,1,27.4,0,0,0,César Azpilicueta,3-4-3,8,1,14.9,0,0,0,David Coote,2021-12-19,Sun,14:00
-554,2022,19,Aston Villa,Chelsea,0,1,0,1,3,0.4,2.6,42,58,Tyrone Mings,4-3-1-2,8,1,18.8,0,0,0,Jorginho,3-4-3,8,2,17.6,1,2,2,Martin Atkinson,2021-12-26,Sun,17:30
-561,2022,20,Chelsea,Brighton And Hove Albion,0,0,1,1,1,0.7,0.9,47,53,César Azpilicueta,3-4-3,11,5,13.6,0,0,0,Adam Lallana,3-4-3,18,6,20.2,1,0,0,Mike Dean,2021-12-29,Wed,19:30
-570,2022,21,Chelsea,Liverpool,0,0,1,2,2,1.2,1.3,54,46,César Azpilicueta,3-4-3,15,6,18.0,3,0,0,Jordan Henderson,4-3-3,10,6,17.9,0,0,0,Anthony Taylor,2022-01-02,Sun,16:30
-575,2022,22,Manchester City,Chelsea,1,0,0,1,0,1.0,0.3,56,44,Kevin De Bruyne,4-2-3-1,11,6,16.5,1,0,0,César Azpilicueta,3-4-3,4,1,19.1,0,0,0,Craig Pawson,2022-01-15,Sat,12:30
-582,2022,24,Brighton And Hove Albion,Chelsea,0,0,1,1,1,0.7,0.7,44,56,Adam Webster,4-1-4-1,10,2,16.2,0,0,0,César Azpilicueta,4-2-2-2,15,3,21.1,1,0,0,Kevin Friend,2022-01-18,Tue,20:00
-594,2022,23,Chelsea,Tottenham Hotspur,1,0,0,2,0,1.2,0.5,64,36,César Azpilicueta,4-3-3,15,7,15.9,0,0,0,Hugo Lloris,4-4-2,6,3,16.6,0,0,0,Paul Tierney,2022-01-23,Sun,16:30
-617,2022,26,Crystal Palace,Chelsea,0,1,0,0,1,0.5,0.9,42,58,James McArthur,4-2-3-1,7,0,14.6,0,0,0,Jorginho,4-3-3,9,3,17.0,1,0,0,David Coote,2022-02-19,Sat,15:00
-639,2022,28,Burnley,Chelsea,0,1,0,0,4,0.7,2.3,28,72,James Tarkowski,4-4-2,6,0,17.2,1,0,0,Jorginho,3-4-3,11,5,18.1,0,0,0,Andre Marriner,2022-03-05,Sat,15:00
-650,2022,30,Norwich City,Chelsea,0,1,0,1,3,1.0,1.8,34,66,Grant Hanley,5-3-2,7,2,25.7,0,1,1,César Azpilicueta,3-4-3,15,7,12.7,1,0,0,Martin Atkinson,2022-03-10,Thu,19:30
-655,2022,29,Chelsea,Newcastle United,1,0,0,1,0,1.1,0.3,71,29,Jorginho,4-3-3,8,3,16.4,1,0,0,Jamaal Lascelles,5-4-1,7,2,18.2,0,0,0,David Coote,2022-03-13,Sun,14:00
-670,2022,31,Chelsea,Brentford,0,1,0,1,4,1.3,1.8,70,30,César Azpilicueta,4-3-3,21,8,20.1,0,0,0,Pontus Jansson,5-3-2,17,6,13.5,1,0,0,Andy Madley,2022-04-02,Sat,15:00
-684,2022,32,Southampton,Chelsea,0,1,0,0,6,0.5,4.2,30,70,James Ward-Prowse,4-4-2,4,1,17.0,0,0,0,N'Golo Kanté,3-4-1-2,24,14,15.3,0,0,0,Kevin Friend,2022-04-09,Sat,15:00
-698,2022,25,Chelsea,Arsenal,0,1,0,2,4,0.7,2.0,67,33,César Azpilicueta,3-4-1-2,11,2,15.9,0,0,0,Martin Ødegaard,4-2-3-1,13,3,19.5,0,1,1,Jonathan Moss,2022-04-20,Wed,19:45
-708,2022,34,Chelsea,West Ham United,1,0,0,1,0,3.0,0.5,66,34,César Azpilicueta,3-4-1-2,25,4,19.0,0,0,1,Mark Noble,3-4-3,6,2,13.4,0,0,0,Michael Oliver,2022-04-24,Sun,14:00
-712,2022,37,Manchester United,Chelsea,0,0,1,1,1,0.5,1.9,36,64,Bruno Fernandes,4-2-3-1,6,3,15.9,0,0,0,César Azpilicueta,3-4-1-2,21,6,17.4,0,0,0,Mike Dean,2022-04-28,Thu,19:45
-720,2022,35,Everton,Chelsea,1,0,0,1,0,0.8,0.8,23,77,Séamus Coleman,5-4-1,9,4,17.8,1,0,0,César Azpilicueta,3-4-1-2,17,5,17.9,0,0,0,Kevin Friend,2022-05-01,Sun,14:00
-726,2022,36,Chelsea,Wolverhampton Wanderers,0,0,1,2,2,1.7,2.0,59,41,César Azpilicueta,3-4-1-2,18,5,18.2,2,1,1,Conor Coady,3-5-2,14,4,15.6,0,0,0,Peter Bankes,2022-05-07,Sat,15:00
-734,2022,33,Leeds United,Chelsea,0,1,0,0,3,0.4,1.3,33,67,Liam Cooper,5-4-1,5,0,19.3,0,0,0,Jorginho,3-4-3,17,3,16.9,0,0,0,Anthony Taylor,2022-05-11,Wed,19:30
-750,2022,27,Chelsea,Leicester City,0,0,1,1,1,1.6,0.1,67,33,Jorginho,3-4-3,20,7,20.0,2,0,0,Kasper Schmeichel,3-1-4-2,2,1,25.1,0,0,0,Stuart Attwell,2022-05-19,Thu,20:00
-759,2022,38,Chelsea,Watford,1,0,0,2,1,2.2,0.6,71,29,César Azpilicueta,3-4-3,19,8,16.9,0,0,0,Moussa Sissoko,4-3-3,8,3,21.9,1,0,0,Mike Dean,2022-05-22,Sun,16:00
-767,2023,1,Everton,Chelsea,0,1,0,0,1,0.7,1.5,38,62,Jordan Pickford,5-4-1,8,3,13.5,0,0,0,César Azpilicueta,3-4-3,14,5,16.1,1,1,1,Craig Pawson,2022-08-06,Sat,17:30
-779,2023,2,Chelsea,Tottenham Hotspur,0,0,1,2,2,1.6,1.0,63,37,Jorginho,3-5-2,16,3,17.2,0,0,0,Hugo Lloris,3-4-3,10,5,13.4,0,0,0,Anthony Taylor,2022-08-14,Sun,16:30
-788,2023,3,Leeds United,Chelsea,1,0,0,3,0,2.1,0.9,39,61,Rodrigo,4-2-3-1,12,6,16.3,0,0,0,Jorginho,3-5-2,14,3,19.8,0,0,0,Stuart Attwell,2022-08-21,Sun,14:00
-795,2023,4,Chelsea,Leicester City,1,0,0,2,1,1.8,2.5,45,55,Jorginho,4-4-2,7,4,14.6,0,0,0,Jonny Evans,4-1-4-1,17,5,17.9,0,0,0,Paul Tierney,2022-08-27,Sat,15:00
-803,2023,5,Southampton,Chelsea,1,0,0,2,1,1.1,1.1,33,67,James Ward-Prowse,4-2-3-1,9,5,17.8,0,0,0,César Azpilicueta,4-2-2-2,10,4,14.5,0,0,0,Michael Oliver,2022-08-30,Tue,19:45
-812,2023,6,Chelsea,West Ham United,1,0,0,2,1,0.9,1.1,67,33,Thiago Silva,3-1-4-2,8,3,17.2,0,0,0,Declan Rice,3-4-1-2,6,3,15.9,0,0,0,Andy Madley,2022-09-03,Sat,15:00
-831,2023,9,Crystal Palace,Chelsea,0,1,0,1,2,0.4,1.1,36,64,Joel Ward,4-3-3,7,3,20.1,0,0,0,Jorginho,4-2-2-2,13,3,14.8,0,0,0,Chris Kavanagh,2022-10-01,Sat,15:00
-841,2023,10,Chelsea,Wolverhampton Wanderers,1,0,0,3,0,1.9,1.1,57,43,César Azpilicueta,4-2-3-1,20,7,14.7,0,0,0,João Moutinho,4-2-3-1,8,2,14.5,1,0,0,Simon Hooper,2022-10-08,Sat,15:00
-856,2023,11,Aston Villa,Chelsea,0,1,0,0,2,1.8,0.9,42,58,John McGinn,4-3-3,18,7,15.3,1,0,0,Thiago Silva,3-4-3,8,4,18.0,1,0,0,Robert Jones,2022-10-16,Sun,14:00
-860,2023,12,Brentford,Chelsea,0,0,1,0,0,1.3,0.9,34,66,Ivan Toney,3-5-2,8,5,14.5,0,0,0,César Azpilicueta,3-5-1-1,14,5,21.4,0,0,0,Jarred Gillett,2022-10-19,Wed,19:30
-870,2023,13,Chelsea,Manchester United,0,0,1,1,1,1.1,0.8,48,52,César Azpilicueta,3-4-3,5,1,19.7,0,1,1,Bruno Fernandes,4-1-4-1,13,6,22.1,1,0,0,Stuart Attwell,2022-10-22,Sat,17:30
-878,2023,14,Brighton And Hove Albion,Chelsea,1,0,0,4,1,2.4,1.4,41,59,Lewis Dunk,4-2-3-1,19,7,15.9,0,0,0,Thiago Silva,3-4-3,15,7,18.3,0,0,0,Andy Madley,2022-10-29,Sat,15:00
-892,2023,15,Chelsea,Arsenal,0,1,0,0,1,0.3,2.1,45,55,César Azpilicueta,4-2-3-1,5,1,16.0,0,0,0,Martin Ødegaard,4-3-3,14,2,14.5,0,0,0,Michael Oliver,2022-11-06,Sun,12:00
-903,2023,16,Newcastle United,Chelsea,1,0,0,1,0,1.0,0.3,49,51,Kieran Trippier,4-3-3,10,3,15.4,0,0,0,César Azpilicueta,3-4-3,5,2,14.0,0,0,0,Robert Jones,2022-11-12,Sat,17:30
-914,2023,17,Chelsea,Bournemouth,1,0,0,2,0,1.8,0.5,60,40,Jorginho,4-3-3,15,5,15.7,0,0,0,Lloyd Kelly,5-3-2,9,4,21.0,2,0,0,Simon Hooper,2022-12-27,Tue,17:30
-926,2023,18,Nottingham Forest,Chelsea,0,0,1,1,1,1.4,0.9,29,71,Joe Worrall,4-3-3,12,5,15.5,0,0,0,César Azpilicueta,4-3-3,7,2,11.6,0,0,0,Peter Bankes,2023-01-01,Sun,16:30
-936,2023,19,Chelsea,Manchester City,0,1,0,0,1,0.4,2.0,48,52,César Azpilicueta,4-2-3-1,8,2,17.2,0,0,0,İlkay Gündoğan,3-2-4-1,12,3,16.0,0,0,0,Paul Tierney,2023-01-05,Thu,20:00
-937,2023,7,Fulham,Chelsea,1,0,0,2,1,1.0,2.1,48,52,Tim Ream,4-2-3-1,8,3,15.3,0,0,0,César Azpilicueta,3-5-2,20,10,16.6,1,0,0,David Coote,2023-01-12,Thu,20:00
-945,2023,20,Chelsea,Crystal Palace,1,0,0,1,0,1.5,0.7,61,39,Jorginho,4-2-3-1,15,5,14.8,0,0,0,Marc Guéhi,4-2-3-1,10,5,17.9,0,0,0,Peter Bankes,2023-01-15,Sun,14:00
-950,2023,21,Liverpool,Chelsea,0,0,1,0,0,1.4,1.6,48,52,James Milner,4-3-3,15,3,15.5,0,0,0,Jorginho,3-4-3,11,2,13.8,0,0,0,Michael Oliver,2023-01-21,Sat,12:30
-960,2023,22,Chelsea,Fulham,0,0,1,0,0,1.3,0.6,66,34,Thiago Silva,4-3-3,12,2,17.0,0,0,0,Tim Ream,4-2-3-1,10,4,23.0,0,0,0,Stuart Attwell,2023-02-03,Fri,20:00
-971,2023,23,West Ham United,Chelsea,0,0,1,1,1,1.3,1.1,29,71,Declan Rice,3-4-3,10,2,13.8,1,0,0,Thiago Silva,4-2-3-1,12,4,18.0,2,0,0,Craig Pawson,2023-02-11,Sat,12:30
-985,2023,24,Chelsea,Southampton,0,1,0,0,1,1.6,0.6,62,38,César Azpilicueta,4-2-3-1,17,4,17.0,1,0,0,James Ward-Prowse,4-4-2,8,4,19.7,1,0,0,David Coote,2023-02-18,Sat,15:00
-999,2023,25,Tottenham Hotspur,Chelsea,1,0,0,2,0,0.8,0.4,41,59,Harry Kane,3-4-3,8,3,16.5,0,0,0,Thiago Silva,4-2-3-1,10,2,23.8,0,0,0,Stuart Attwell,2023-02-26,Sun,13:30
-1005,2023,26,Chelsea,Leeds United,1,0,0,1,0,1.5,1.0,57,43,Mateo Kovačić,3-4-3,13,3,15.8,1,0,0,Luke Ayling,4-2-3-1,11,2,13.7,1,0,0,Michael Oliver,2023-03-04,Sat,15:00
-1013,2023,27,Leicester City,Chelsea,0,1,0,1,3,2.4,1.6,48,52,James Maddison,3-4-3,17,6,18.3,1,0,0,Mateo Kovačić,3-4-3,12,6,15.1,0,0,0,Andre Marriner,2023-03-11,Sat,15:00
-1029,2023,28,Chelsea,Everton,0,0,1,2,2,2.3,1.2,68,32,Mateo Kovačić,3-4-3,19,6,17.1,0,1,1,Séamus Coleman,4-5-1,12,3,18.9,1,0,0,Darren England,2023-03-18,Sat,17:30
-1037,2023,29,Chelsea,Aston Villa,0,1,0,0,2,2.1,0.9,69,31,Mateo Kovačić,3-4-3,27,7,16.3,0,0,0,John McGinn,4-4-2,5,2,22.5,0,0,0,Andy Madley,2023-04-01,Sat,17:30
-1044,2023,8,Chelsea,Liverpool,0,0,1,0,0,2.2,0.3,49,51,N'Golo Kanté,3-5-2,12,2,16.1,0,0,0,Jordan Henderson,4-3-3,7,3,25.4,0,0,0,Anthony Taylor,2023-04-04,Tue,20:00
-1052,2023,30,Wolverhampton Wanderers,Chelsea,1,0,0,1,0,0.6,1.1,38,62,Max Kilman,4-4-2,9,4,24.2,0,0,0,Mateo Kovačić,4-3-3,13,1,16.7,0,0,0,Peter Bankes,2023-04-08,Sat,15:00
-1062,2023,31,Chelsea,Brighton And Hove Albion,0,1,0,1,2,0.5,2.9,43,57,Kepa Arrizabalaga,4-2-3-1,8,2,18.9,0,0,0,Lewis Dunk,4-2-3-1,26,10,17.2,0,0,0,Robert Jones,2023-04-15,Sat,15:00
-1079,2023,33,Chelsea,Brentford,0,1,0,0,2,1.3,1.1,71,29,César Azpilicueta,3-4-3,15,4,16.5,0,0,0,Ivan Toney,5-3-2,7,1,11.5,0,0,0,Andy Madley,2023-04-26,Wed,19:45
-1094,2023,34,Arsenal,Chelsea,1,0,0,3,1,1.7,0.8,55,45,Martin Ødegaard,4-3-3,16,9,13.0,0,0,0,César Azpilicueta,4-3-3,7,4,17.2,0,0,0,Robert Jones,2023-05-02,Tue,20:00
-1100,2023,35,Bournemouth,Chelsea,0,1,0,1,3,1.2,1.3,35,65,Neto,4-2-3-1,10,4,14.5,0,0,0,Thiago Silva,4-3-3,11,5,16.9,0,0,0,John Brooks,2023-05-06,Sat,15:00
-1111,2023,36,Chelsea,Nottingham Forest,0,0,1,2,2,1.2,1.3,75,25,Thiago Silva,4-3-3,14,6,17.4,1,0,0,Joe Worrall,3-4-3,11,2,11.2,0,0,0,Paul Tierney,2023-05-13,Sat,15:00
-1127,2023,37,Manchester City,Chelsea,1,0,0,1,0,1.2,1.2,64,36,Kyle Walker,3-4-3◆,15,2,18.8,0,0,0,César Azpilicueta,3-4-1-2,13,6,15.7,1,0,0,Michael Oliver,2023-05-21,Sun,16:00
-1130,2023,32,Manchester United,Chelsea,1,0,0,4,1,5.2,1.9,42,58,Bruno Fernandes,4-2-3-1,17,8,15.3,0,1,1,César Azpilicueta,4-3-3,14,5,19.2,0,0,0,Stuart Attwell,2023-05-25,Thu,20:00
-1135,2023,38,Chelsea,Newcastle United,0,0,1,1,1,2.2,1.7,64,36,César Azpilicueta,4-2-3-1,22,4,17.8,1,0,0,Kieran Trippier,4-3-3,13,4,17.1,0,0,0,Jarred Gillett,2023-05-28,Sun,16:30
-1149,2024,1,Chelsea,Liverpool,0,0,1,1,1,1.4,1.3,65,35,Reece James,3-4-3,10,4,13.2,1,0,0,Virgil van Dijk,4-3-3,13,1,17.8,0,0,0,Anthony Taylor,2023-08-13,Sun,16:30
-1158,2024,2,West Ham United,Chelsea,1,0,0,3,1,1.8,2.5,25,75,Kurt Zouma,4-2-3-1,11,5,19.6,0,1,1,Ben Chilwell,3-4-3,16,3,17.1,0,0,1,John Brooks,2023-08-20,Sun,16:30
-1160,2024,3,Chelsea,Luton Town,1,0,0,3,0,2.2,0.4,67,33,Ben Chilwell,3-4-3,19,8,14.2,1,0,0,Tom Lockyer,5-3-2,11,1,19.0,1,0,0,Robert Jones,2023-08-25,Fri,20:00
-1175,2024,4,Chelsea,Nottingham Forest,0,1,0,0,1,2.3,0.8,75,25,Ben Chilwell,3-4-3,21,2,17.7,2,0,0,Joe Worrall,3-4-3,7,3,19.0,0,0,0,Tim Robinson,2023-09-02,Sat,15:00
-1187,2024,5,Bournemouth,Chelsea,0,0,1,0,0,1.0,1.8,36,64,Neto,4-2-3-1,13,4,16.7,1,0,0,Conor Gallagher,4-2-3-1,14,6,15.0,1,0,0,David Coote,2023-09-17,Sun,14:00
-1196,2024,6,Chelsea,Aston Villa,0,1,0,0,1,1.3,1.0,53,47,Conor Gallagher,4-2-3-1,10,4,17.8,0,0,0,John McGinn,4-2-3-1,15,7,18.2,1,0,0,Jarred Gillett,2023-09-24,Sun,14:00
-1209,2024,7,Fulham,Chelsea,0,1,0,0,2,1.1,1.7,56,44,Tim Ream,4-3-3,10,3,13.2,0,0,0,Conor Gallagher,4-3-3,11,4,19.8,1,0,0,Tim Robinson,2023-10-02,Mon,20:00
-1215,2024,8,Burnley,Chelsea,0,1,0,1,4,0.7,1.9,38,62,Josh Brownhill,4-3-3,10,3,18.2,1,0,0,Conor Gallagher,4-3-3,8,4,18.1,0,1,1,Stuart Attwell,2023-10-07,Sat,15:00
-1227,2024,9,Chelsea,Arsenal,0,0,1,2,2,1.3,1.0,44,56,Conor Gallagher,4-2-3-1,10,4,20.4,0,1,1,Martin Ødegaard,4-3-3,13,3,14.3,0,0,0,Chris Kavanagh,2023-10-21,Sat,17:30
-1232,2024,10,Chelsea,Brentford,0,1,0,0,2,1.9,2.2,68,32,Conor Gallagher,4-2-3-1,17,2,16.1,1,0,0,Christian Nørgaard,3-5-2,7,5,12.7,0,0,0,Simon Hooper,2023-10-28,Sat,12:30
-1250,2024,11,Tottenham Hotspur,Chelsea,0,1,0,1,4,0.9,4.1,40,60,Son Heung-min,4-2-3-1,8,5,23.5,1,0,0,Reece James,4-2-3-1,16,6,16.8,0,1,1,Michael Oliver,2023-11-06,Mon,20:00
-1260,2024,12,Chelsea,Manchester City,0,0,1,4,4,2.9,2.9,45,55,Reece James,4-2-3-1,16,8,19.1,1,1,1,Kyle Walker,3-2-4-1,14,9,16.6,1,1,1,Anthony Taylor,2023-11-12,Sun,16:30
-1266,2024,13,Newcastle United,Chelsea,1,0,0,4,1,2.4,0.5,54,46,Jamaal Lascelles,4-3-3,14,5,17.0,1,0,0,Reece James,4-2-3-1,7,4,18.4,2,0,0,Simon Hooper,2023-11-25,Sat,15:00
-1276,2024,14,Chelsea,Brighton And Hove Albion,1,0,0,3,2,2.1,1.1,32,68,Conor Gallagher,4-2-3-1,7,3,19.6,0,1,1,Adam Lallana,4-2-3-1,18,9,18.6,1,0,0,Craig Pawson,2023-12-03,Sun,14:00
-1287,2024,15,Manchester United,Chelsea,1,0,0,2,1,4.1,1.5,45,55,Bruno Fernandes,4-2-3-1,27,8,15.4,1,0,1,Levi Colwill,4-2-3-1,13,3,15.0,0,0,0,Chris Kavanagh,2023-12-06,Wed,20:15
-1297,2024,16,Everton,Chelsea,1,0,0,2,0,1.2,0.9,29,71,James Tarkowski,4-4-1-1,9,5,16.4,0,0,0,Reece James,4-2-3-1,16,4,18.5,1,0,0,Michael Oliver,2023-12-10,Sun,14:00
-1302,2024,17,Chelsea,Sheffield United,1,0,0,2,0,3.1,0.4,78,22,Conor Gallagher,4-2-3-1,15,6,17.2,1,0,0,Anel Ahmedhodžić,4-1-4-1,6,1,19.7,1,0,0,Andy Madley,2023-12-16,Sat,15:00
-1318,2024,18,Wolverhampton Wanderers,Chelsea,1,0,0,2,1,1.3,2.0,32,68,Max Kilman,3-4-3,14,6,16.7,1,0,0,Conor Gallagher,4-2-3-1,16,4,17.4,1,0,0,David Coote,2023-12-24,Sun,13:00
-1325,2024,19,Chelsea,Crystal Palace,1,0,0,2,1,2.6,1.1,63,37,Conor Gallagher,4-2-3-1,8,2,15.3,0,1,1,Marc Guéhi,4-3-3,13,5,19.6,2,0,0,Michael Salisbury,2023-12-27,Wed,19:30
-1329,2024,20,Luton Town,Chelsea,0,1,0,2,3,2.3,1.5,52,48,Amari'i Bell,3-4-3,15,6,11.6,1,0,0,Conor Gallagher,4-2-3-1,12,8,17.5,0,0,0,Paul Tierney,2023-12-30,Sat,12:30
-1340,2024,21,Chelsea,Fulham,1,0,0,1,0,2.2,0.8,55,45,Conor Gallagher,4-2-3-1,16,2,17.5,0,1,1,Tom Cairney,4-2-3-1,14,4,22.0,2,0,0,Anthony Taylor,2024-01-13,Sat,12:30
-1356,2024,22,Liverpool,Chelsea,1,0,0,4,1,2.9,0.6,50,50,Virgil van Dijk,4-3-3,27,13,19.9,2,0,1,Ben Chilwell,4-2-3-1,4,3,18.8,0,0,0,Paul Tierney,2024-01-31,Wed,20:15
-1366,2024,23,Chelsea,Wolverhampton Wanderers,0,1,0,2,4,1.7,2.0,64,36,Ben Chilwell,4-2-3-1,15,4,14.5,0,0,0,Max Kilman,3-4-3,13,6,16.6,2,1,1,Tim Robinson,2024-02-04,Sun,14:00
-1378,2024,24,Crystal Palace,Chelsea,0,1,0,1,3,0.6,1.4,23,77,Joachim Andersen,4-1-4-1,13,4,18.7,0,0,0,Ben Chilwell,4-2-3-1,14,5,15.3,0,0,0,Michael Oliver,2024-02-12,Mon,20:00
-1385,2024,25,Manchester City,Chelsea,0,0,1,1,1,2.6,1.4,70,30,Kyle Walker,4-1-4-1,31,5,15.9,1,0,0,Ben Chilwell,4-2-3-1,9,6,12.8,0,0,0,Andy Madley,2024-02-17,Sat,17:30
-1400,2024,27,Brentford,Chelsea,0,0,1,2,2,1.8,1.8,33,67,Christian Nørgaard,3-5-2,14,5,14.5,0,0,0,Ben Chilwell,3-5-2,17,5,19.5,0,0,0,Jarred Gillett,2024-03-02,Sat,15:00
-1418,2024,28,Chelsea,Newcastle United,1,0,0,3,2,1.6,0.7,44,56,Conor Gallagher,4-2-3-1,12,7,19.7,0,0,0,Dan Burn,4-3-3,11,3,16.0,0,0,0,John Brooks,2024-03-11,Mon,20:00
-1426,2024,30,Chelsea,Burnley,0,0,1,2,2,4.2,1.6,69,31,Conor Gallagher,4-2-3-1,32,12,17.8,0,1,1,Josh Cullen,4-4-2,18,6,14.4,2,0,0,Darren England,2024-03-30,Sat,15:00
-1443,2024,31,Chelsea,Manchester United,1,0,0,4,3,3.0,1.5,57,43,Conor Gallagher,4-2-3-1,26,8,19.0,1,2,2,Bruno Fernandes,4-2-3-1,19,5,16.8,0,0,0,Jarred Gillett,2024-04-04,Thu,20:15
-1452,2024,32,Sheffield United,Chelsea,0,0,1,2,2,1.4,0.3,32,68,Jack Robinson,3-5-2,11,5,15.2,0,0,0,Conor Gallagher,4-2-3-1,6,3,18.5,0,0,0,Robert Jones,2024-04-07,Sun,17:30
-1463,2024,33,Chelsea,Everton,1,0,0,6,0,3.1,1.5,58,42,Conor Gallagher,4-2-3-1,13,9,18.8,0,1,1,Séamus Coleman,4-4-1-1,10,2,13.7,0,0,0,Paul Tierney,2024-04-15,Mon,20:00
-1471,2024,29,Arsenal,Chelsea,1,0,0,5,0,3.3,1.6,45,55,Martin Ødegaard,4-3-3,27,10,16.3,0,0,0,Conor Gallagher,4-2-3-1,7,1,13.0,1,0,0,Simon Hooper,2024-04-23,Tue,20:00
-1483,2024,35,Aston Villa,Chelsea,0,0,1,2,2,1.1,1.6,29,71,John McGinn,4-4-1-1,9,4,15.0,0,0,0,Conor Gallagher,4-2-3-1,21,5,21.7,1,0,0,Craig Pawson,2024-04-27,Sat,20:00
-1487,2024,26,Chelsea,Tottenham Hotspur,1,0,0,2,0,2.2,1.6,37,63,Conor Gallagher,4-2-3-1,16,4,16.1,2,0,0,Son Heung-min,4-2-3-1,19,3,16.9,0,0,0,Robert Jones,2024-05-02,Thu,19:30
-1494,2024,36,Chelsea,West Ham United,1,0,0,5,0,4.1,0.9,69,31,Conor Gallagher,4-2-3-1,25,14,15.7,1,0,0,Kurt Zouma,4-2-3-1,13,2,17.6,2,0,0,Andy Madley,2024-05-05,Sun,14:00
-1505,2024,37,Nottingham Forest,Chelsea,0,1,0,2,3,1.5,1.6,33,67,Ryan Yates,5-4-1,20,4,17.2,0,0,0,Conor Gallagher,4-2-3-1,12,5,12.0,1,0,0,Tony Harrington,2024-05-11,Sat,17:30
-1509,2024,34,Brighton And Hove Albion,Chelsea,0,1,0,1,2,1.3,1.5,55,45,Lewis Dunk,4-2-3-1,12,2,15.3,0,0,0,Conor Gallagher,4-2-3-1,14,6,20.3,2,0,0,Michael Salisbury,2024-05-15,Wed,19:45
-1512,2024,38,Chelsea,Bournemouth,1,0,0,2,1,1.1,2.2,61,39,Conor Gallagher,4-2-3-1,16,6,18.2,0,0,0,Neto,4-2-3-1,22,5,16.8,0,0,0,Anthony Taylor,2024-05-19,Sun,16:00
-1529,2025,1,Chelsea,Manchester City,0,1,0,0,2,1.0,0.8,48,52,Enzo Fernández,4-2-3-1,10,3,17.1,0,0,0,Kevin De Bruyne,3-2-4-1,11,5,19.1,0,0,0,Anthony Taylor,2024-08-18,Sun,16:30
-1538,2025,2,Wolverhampton Wanderers,Chelsea,0,1,0,2,6,1.9,1.6,40,60,Mario Lemina,4-2-3-1,12,4,19.1,1,0,0,Enzo Fernández,4-2-3-1,14,8,15.4,1,0,0,Darren England,2024-08-25,Sun,14:00
-1548,2025,3,Chelsea,Crystal Palace,0,0,1,1,1,2.4,0.5,62,38,Enzo Fernández,4-2-3-1,13,7,15.9,1,0,0,Marc Guéhi,3-4-3,9,3,20.6,1,0,0,Jarred Gillett,2024-09-01,Sun,13:30
-1558,2025,4,Bournemouth,Chelsea,0,1,0,0,1,1.7,0.8,34,66,Adam Smith,4-2-3-1,18,6,22.4,0,0,1,Moisés Caicedo,4-2-3-1,10,3,18.2,0,0,0,Anthony Taylor,2024-09-14,Sat,20:00
-1561,2025,5,West Ham United,Chelsea,0,1,0,0,3,0.9,2.2,53,47,Jarrod Bowen,3-4-3,15,7,18.0,1,0,0,Enzo Fernández,4-2-3-1,12,5,15.0,0,0,0,Samuel Barrott,2024-09-21,Sat,12:30
-1574,2025,6,Chelsea,Brighton And Hove Albion,1,0,0,4,2,4.2,1.1,41,59,Enzo Fernández,4-2-3-1,14,5,15.7,1,1,1,Lewis Dunk,4-3-3,15,5,20.1,2,0,0,Peter Bankes,2024-09-28,Sat,15:00
-1588,2025,7,Chelsea,Nottingham Forest,0,0,1,1,1,2.3,0.9,65,35,Enzo Fernández,4-2-3-1,22,8,17.2,0,0,0,Ryan Yates,4-2-3-1,16,9,20.2,2,0,0,Chris Kavanagh,2024-10-06,Sun,14:00
-1599,2025,8,Liverpool,Chelsea,1,0,0,2,1,1.9,1.0,43,57,Virgil van Dijk,4-2-3-1,8,4,22.7,1,1,1,Reece James,4-2-3-1,12,2,16.1,1,0,0,John Brooks,2024-10-20,Sun,16:30
-1609,2025,9,Chelsea,Newcastle United,1,0,0,2,1,1.6,1.8,50,50,Reece James,4-2-3-1,17,7,16.7,0,0,0,Bruno Guimarães,4-3-3,11,2,14.0,1,0,0,Simon Hooper,2024-10-27,Sun,14:00
-1619,2025,10,Manchester United,Chelsea,0,0,1,1,1,2.0,1.1,46,54,Bruno Fernandes,4-2-3-1,10,3,18.3,1,1,1,Reece James,4-2-3-1,12,3,16.0,0,0,0,Robert Jones,2024-11-03,Sun,16:30
-1630,2025,11,Chelsea,Arsenal,0,0,1,1,1,1.5,1.5,49,51,Moisés Caicedo,4-2-3-1,17,3,20.8,3,0,0,Martin Ødegaard,4-3-3,13,3,16.3,0,0,0,Michael Oliver,2024-11-10,Sun,16:30
-1631,2025,12,Leicester City,Chelsea,0,1,0,1,2,1.1,2.7,37,63,Jamie Vardy,4-4-1-1,3,0,18.8,0,1,1,Enzo Fernández,4-2-3-1,16,6,14.2,0,0,0,Andy Madley,2024-11-23,Sat,12:30
-1649,2025,13,Chelsea,Aston Villa,1,0,0,3,0,1.6,1.2,64,36,Enzo Fernández,4-2-3-1,17,8,15.8,0,0,0,John McGinn,4-2-3-1,10,3,13.4,0,0,0,Stuart Attwell,2024-12-01,Sun,13:30
-1656,2025,14,Southampton,Chelsea,0,1,0,1,5,1.6,5.2,45,55,Jack Stephens,5-3-2,6,4,9.7,0,0,0,Enzo Fernández,4-2-3-1,26,11,12.6,1,0,0,Tony Harrington,2024-12-04,Wed,19:30
-1668,2025,15,Tottenham Hotspur,Chelsea,0,1,0,3,4,2.8,2.8,39,61,Son Heung-min,4-3-3,13,5,13.7,1,0,0,Enzo Fernández,4-2-3-1,15,6,17.9,0,2,2,Anthony Taylor,2024-12-08,Sun,16:30
-1678,2025,16,Chelsea,Brentford,1,0,0,2,1,2.2,1.6,62,38,Enzo Fernández,4-2-3-1,26,8,16.2,0,0,0,Christian Nørgaard,3-5-2,9,4,11.9,0,0,0,Peter Bankes,2024-12-15,Sun,19:00
-1686,2025,17,Everton,Chelsea,0,0,1,0,0,1.0,1.2,25,75,James Tarkowski,4-3-3,5,4,19.8,1,0,0,Enzo Fernández,4-2-3-1,12,4,16.8,2,0,0,Chris Kavanagh,2024-12-22,Sun,14:00
-1694,2025,18,Chelsea,Fulham,0,1,0,1,2,1.1,1.8,47,53,Enzo Fernández,4-2-3-1,12,8,18.7,1,0,0,Antonee Robinson,4-5-1,14,7,16.2,1,0,0,Samuel Barrott,2024-12-26,Thu,15:00
-1707,2025,19,Ipswich Town,Chelsea,1,0,0,2,0,1.6,2.0,24,76,Sam Morsy,5-4-1,8,5,16.1,0,1,1,Enzo Fernández,4-2-3-1,20,4,17.1,0,0,0,John Brooks,2024-12-30,Mon,19:45
-1715,2025,20,Crystal Palace,Chelsea,0,0,1,1,1,1.1,1.2,39,61,Marc Guéhi,3-4-3,13,6,17.0,1,0,0,Enzo Fernández,4-2-3-1,15,1,16.2,0,0,0,Tim Robinson,2025-01-04,Sat,15:00
-1722,2025,21,Chelsea,Bournemouth,0,0,1,2,2,2.5,1.2,57,43,Enzo Fernández,4-2-3-1,26,10,16.6,2,0,0,Lewis Cook,4-2-3-1,6,2,18.6,0,1,1,Robert Jones,2025-01-14,Tue,19:30
-1739,2025,22,Chelsea,Wolverhampton Wanderers,1,0,0,3,1,3.1,0.8,63,37,Reece James,4-2-3-1,19,6,14.0,0,0,0,Nélson Semedo,3-4-3,9,4,16.7,0,0,0,Simon Hooper,2025-01-20,Mon,20:00
-1745,2025,23,Manchester City,Chelsea,1,0,0,3,1,2.2,1.8,56,44,Bernardo Silva,4-3-3,15,6,17.1,1,0,0,Reece James,4-2-3-1,10,4,16.5,0,0,0,John Brooks,2025-01-25,Sat,17:30
-1759,2025,24,Chelsea,West Ham United,1,0,0,2,1,1.6,1.2,68,32,Reece James,4-2-3-1,22,3,17.0,1,0,0,Jarrod Bowen,3-4-3,14,5,20.4,1,0,0,Stuart Attwell,2025-02-03,Mon,20:00
-1761,2025,25,Brighton And Hove Albion,Chelsea,1,0,0,3,0,1.4,0.5,31,69,Danny Welbeck,5-4-1,13,5,16.2,0,0,0,Enzo Fernández,4-2-3-1,8,0,16.9,0,0,0,Chris Kavanagh,2025-02-14,Fri,20:00
-1779,2025,26,Aston Villa,Chelsea,1,0,0,2,1,2.3,2.3,52,48,John McGinn,4-2-3-1,12,6,13.2,0,0,0,Reece James,4-2-3-1,15,6,16.3,0,0,0,Michael Oliver,2025-02-22,Sat,17:30
-1785,2025,27,Chelsea,Southampton,1,0,0,4,0,2.4,0.7,60,40,Enzo Fernández,4-2-3-1,19,10,15.6,1,0,0,Aaron Ramsdale,5-4-1,7,2,17.0,0,0,0,Thomas Bramall,2025-02-25,Tue,20:15
-1799,2025,28,Chelsea,Leicester City,1,0,0,1,0,1.7,0.1,56,44,Enzo Fernández,4-2-3-1,19,6,20.0,0,0,1,Jamie Vardy,3-4-3,3,3,21.3,0,0,0,Tim Robinson,2025-03-09,Sun,14:00
-1808,2025,29,Arsenal,Chelsea,1,0,0,1,0,0.7,0.4,42,58,Martin Ødegaard,4-3-3,12,4,16.2,1,0,0,Reece James,4-2-3-1,8,2,21.8,0,0,0,Chris Kavanagh,2025-03-16,Sun,13:30
-1819,2025,30,Chelsea,Tottenham Hotspur,1,0,0,1,0,1.0,0.9,51,49,Enzo Fernández,4-2-3-1,11,5,17.3,0,0,0,Son Heung-min,4-3-3,8,2,15.6,1,0,0,Craig Pawson,2025-04-03,Thu,20:00
-1826,2025,31,Brentford,Chelsea,0,0,1,0,0,1.1,1.2,42,58,Christian Nørgaard,4-2-3-1,9,2,14.2,1,0,0,Reece James,4-2-3-1,21,5,19.0,0,0,0,Michael Oliver,2025-04-06,Sun,14:00
-1837,2025,32,Chelsea,Ipswich Town,0,0,1,2,2,2.2,1.1,73,27,Enzo Fernández,4-2-3-1,34,9,18.0,0,0,0,Sam Morsy,4-2-3-1,13,4,21.0,0,0,0,Stuart Attwell,2025-04-13,Sun,14:00
-1846,2025,33,Fulham,Chelsea,0,1,0,1,2,0.3,0.9,41,59,Antonee Robinson,4-2-3-1,6,1,19.7,1,0,0,Reece James,4-2-3-1,13,7,17.5,1,0,0,Anthony Taylor,2025-04-20,Sun,14:00
-1853,2025,34,Chelsea,Everton,1,0,0,1,0,0.8,0.4,55,45,Enzo Fernández,4-2-3-1,10,7,18.3,0,0,0,Jordan Pickford,4-2-3-1,6,3,16.9,0,0,0,Chris Kavanagh,2025-04-26,Sat,12:30
-1869,2025,35,Chelsea,Liverpool,1,0,0,3,1,3.1,1.0,36,64,Enzo Fernández,4-2-3-1,16,5,14.3,0,1,1,Virgil van Dijk,4-2-3-1,11,2,13.5,1,0,0,Simon Hooper,2025-05-04,Sun,16:30
-1876,2025,36,Newcastle United,Chelsea,1,0,0,2,0,1.6,0.7,45,55,Bruno Guimarães,3-4-3,15,6,12.3,0,0,0,Enzo Fernández,4-2-3-1,10,3,17.3,0,0,0,John Brooks,2025-05-11,Sun,12:00
-1882,2025,37,Chelsea,Manchester United,1,0,0,1,0,0.8,0.3,47,53,Reece James,4-2-3-1,11,3,19.3,1,0,0,Bruno Fernandes,3-4-3,4,1,15.3,0,0,0,Chris Kavanagh,2025-05-16,Fri,20:15
-1892,2025,38,Nottingham Forest,Chelsea,0,1,0,0,1,1.2,1.1,52,48,Morgan Gibbs-White,4-3-1-2,10,2,14.0,1,0,0,Reece James,4-2-3-1,6,2,14.3,0,0,0,Anthony Taylor,2025-05-25,Sun,16:00
+ID,Season,Round,Home,Away,HomeWin,AwayWin,Draw,HomeGoal,AwayGoal,HomeXG,AwayXG,HomePoss,AwayPoss,HomeCaptain,HomeFormation,HomeSH,HomeSOT,HomeAcc,HomeDef,HomeDist,HomeFK,HomePK,HomePKAtt,AwayCaptain,AwayFormation,AwaySH,AwaySOT,AwayAcc,AwayDef,AwayDist,AwayFK,AwayPK,AwayPKAtt,Referee,Date,Day,Time
+8,2021,1,Brighton And Hove Albion,Chelsea,0,1,0,1,3,1.1,1.2,52,48,Lewis Dunk,3-5-2,13,3,0.2307692307692307,0.25,17.6,0,0,0,Jorginho,4-2-2-2,9,4,0.4444444444444444,0.6666666666666666,21.3,0,1,1,Craig Pawson,2020-09-14,Mon,20:15
+15,2021,2,Chelsea,Liverpool,0,1,0,0,2,0.9,2.1,39,61,Jorginho,4-3-3,4,2,0.5,0.6,22.7,0,0,1,Jordan Henderson,4-3-3,18,5,0.2777777777777778,1.0,18.2,1,0,0,Paul Tierney,2020-09-20,Sun,16:30
+21,2021,3,West Bromwich Albion,Chelsea,0,0,1,3,3,0.6,2.0,25,75,Jake Livermore,5-4-1,9,3,0.3333333333333333,0.7,20.7,0,0,0,Thiago Silva,4-2-3-1,22,10,0.4545454545454545,0.0,19.4,1,0,0,Jonathan Moss,2020-09-26,Sat,17:30
+29,2021,4,Chelsea,Crystal Palace,1,0,0,4,0,2.7,0.2,70,30,César Azpilicueta,4-2-3-1,15,4,0.2666666666666666,0.0,17.2,0,2,2,Wilfried Zaha,4-4-2,4,0,0.0,0.0,22.5,0,0,0,Michael Oliver,2020-10-03,Sat,12:30
+40,2021,5,Chelsea,Southampton,0,0,1,3,3,1.8,1.9,53,47,César Azpilicueta,4-2-3-1,11,5,0.4545454545454545,0.5,11.3,0,0,0,James Ward-Prowse,4-4-2,13,6,0.4615384615384615,0.4,17.1,0,0,0,Peter Bankes,2020-10-17,Sat,15:00
+52,2021,6,Manchester United,Chelsea,0,0,1,0,0,0.6,0.2,51,49,Harry Maguire,4-2-3-1,14,4,0.2857142857142857,1.0,17.9,0,0,0,César Azpilicueta,3-4-3,6,1,0.1666666666666666,1.0,20.3,0,0,0,Martin Atkinson,2020-10-24,Sat,17:30
+61,2021,7,Burnley,Chelsea,0,1,0,0,3,0.5,0.9,37,63,Ashley Westwood,4-4-2,5,0,0.0,0.6666666666666666,24.4,0,0,0,Thiago Silva,4-3-3,14,9,0.6428571428571429,0.0,18.9,1,0,0,David Coote,2020-10-31,Sat,15:00
+73,2021,8,Chelsea,Sheffield United,1,0,0,4,1,2.2,0.4,69,31,Thiago Silva,4-3-3,20,9,0.45,0.6666666666666666,17.0,1,0,0,John Egan,3-5-2,6,3,0.5,0.5555555555555556,18.0,0,0,0,Jonathan Moss,2020-11-07,Sat,17:30
+79,2021,9,Newcastle United,Chelsea,0,1,0,0,2,0.3,1.5,30,70,Jamaal Lascelles,5-4-1,8,1,0.125,0.3333333333333333,23.7,0,0,0,N'Golo Kanté,4-3-3,14,3,0.2142857142857142,1.0,18.5,0,0,0,Craig Pawson,2020-11-21,Sat,12:30
+95,2021,10,Chelsea,Tottenham Hotspur,0,0,1,0,0,0.8,0.2,60,40,Thiago Silva,4-3-3,13,3,0.2307692307692307,1.0,17.3,0,0,0,Hugo Lloris,4-2-3-1,5,1,0.2,1.0,23.8,1,0,0,Paul Tierney,2020-11-29,Sun,16:30
+102,2021,11,Chelsea,Leeds United,1,0,0,3,1,4.1,0.8,46,54,Thiago Silva,4-3-3,23,10,0.4347826086956521,0.6666666666666666,11.6,0,0,0,Liam Cooper,4-4-1-1,8,3,0.375,0.7,16.8,0,0,0,Kevin Friend,2020-12-05,Sat,20:00
+112,2021,12,Everton,Chelsea,1,0,0,1,0,1.2,0.7,29,71,Gylfi Sigurðsson,4-3-3,8,3,0.375,1.0,17.1,1,1,1,Thiago Silva,4-3-3,10,3,0.3,0.6666666666666666,20.3,2,0,0,Jonathan Moss,2020-12-12,Sat,20:00
+118,2021,13,Wolverhampton Wanderers,Chelsea,1,0,0,2,1,0.5,1.0,45,55,Conor Coady,3-4-1-2,12,4,0.3333333333333333,0.6666666666666666,21.9,0,0,0,Thiago Silva,4-3-3,13,3,0.2307692307692307,0.5,18.5,1,0,0,Stuart Attwell,2020-12-15,Tue,18:00
+137,2021,14,Chelsea,West Ham United,1,0,0,3,0,2.0,0.4,53,47,César Azpilicueta,4-3-3,11,7,0.6363636363636364,0.0,14.1,0,0,0,Mark Noble,4-2-3-1,6,0,0.0,0.5714285714285714,12.8,0,0,0,Chris Kavanagh,2020-12-21,Mon,20:00
+141,2021,15,Arsenal,Chelsea,1,0,0,3,1,2.0,2.6,40,60,Héctor Bellerín,4-2-3-1,14,6,0.4285714285714285,0.5,17.9,1,1,1,Thiago Silva,4-3-3,18,2,0.1111111111111111,0.5,16.8,1,0,1,Michael Oliver,2020-12-26,Sat,17:30
+149,2021,16,Chelsea,Aston Villa,0,0,1,1,1,1.7,0.7,63,37,César Azpilicueta,4-3-3,16,5,0.3125,0.5,17.1,0,0,0,Jack Grealish,4-2-3-1,10,2,0.2,0.8,17.5,0,0,0,Stuart Attwell,2020-12-28,Mon,17:30
+163,2021,17,Chelsea,Manchester City,0,1,0,1,3,0.8,2.7,54,46,César Azpilicueta,4-3-3,9,2,0.2222222222222222,0.5,17.0,1,0,0,Kevin De Bruyne,4-3-3,18,6,0.3333333333333333,0.5,15.1,1,0,0,Anthony Taylor,2021-01-03,Sun,16:30
+174,2021,19,Fulham,Chelsea,0,1,0,0,1,0.7,1.6,31,69,Joachim Andersen,5-4-1,10,2,0.2,0.8333333333333334,20.1,1,0,0,César Azpilicueta,4-3-3,21,6,0.2857142857142857,1.0,18.6,0,0,0,Peter Bankes,2021-01-16,Sat,17:30
+181,2021,18,Leicester City,Chelsea,1,0,0,2,0,1.4,0.7,36,64,Kasper Schmeichel,4-1-4-1,8,6,0.75,1.0,17.1,0,0,0,Thiago Silva,4-2-3-1,9,5,0.5555555555555556,0.6666666666666666,12.7,1,0,0,Craig Pawson,2021-01-19,Tue,20:15
+190,2021,20,Chelsea,Wolverhampton Wanderers,0,0,1,0,0,0.7,0.5,78,22,César Azpilicueta,3-4-3,14,5,0.3571428571428571,0.0,16.5,0,0,0,Conor Coady,3-4-1-2,4,0,0.0,1.0,19.9,1,0,0,Andy Madley,2021-01-27,Wed,18:00
+202,2021,21,Chelsea,Burnley,1,0,0,2,0,1.2,0.2,70,30,César Azpilicueta,3-4-3,19,8,0.4210526315789473,0.0,16.7,0,0,0,Ben Mee,4-4-2,1,0,0.0,0.75,5.3,0,0,0,Graham Scott,2021-01-31,Sun,12:00
+215,2021,22,Tottenham Hotspur,Chelsea,0,1,0,0,1,0.6,1.6,43,58,Hugo Lloris,4-2-2-2,7,2,0.2857142857142857,0.0,20.9,1,0,0,César Azpilicueta,3-4-1-2,15,1,0.0666666666666666,1.0,18.0,0,1,1,Andre Marriner,2021-02-04,Thu,20:00
+224,2021,23,Sheffield United,Chelsea,0,1,0,1,2,0.6,1.6,32,68,John Egan,3-5-2,8,3,0.375,-1.0,20.8,0,0,0,César Azpilicueta,3-4-3,8,1,0.125,0.6666666666666666,20.3,0,1,1,Kevin Friend,2021-02-07,Sun,19:15
+235,2021,24,Chelsea,Newcastle United,1,0,0,2,0,2.2,0.6,64,36,César Azpilicueta,3-4-3,18,5,0.2777777777777778,1.0,14.2,0,0,0,Jamaal Lascelles,4-3-3,10,4,0.4,0.6,20.5,1,0,0,Peter Bankes,2021-02-15,Mon,20:00
+239,2021,25,Southampton,Chelsea,0,0,1,1,1,0.6,1.2,30,70,James Ward-Prowse,4-4-2,4,1,0.25,0.5,9.6,0,0,0,César Azpilicueta,3-4-3,8,2,0.25,0.0,19.6,1,1,1,Anthony Taylor,2021-02-20,Sat,12:30
+256,2021,26,Chelsea,Manchester United,0,0,1,0,0,1.1,0.4,57,43,César Azpilicueta,3-4-3,18,6,0.3333333333333333,1.0,21.9,0,0,0,Harry Maguire,4-2-3-1,11,4,0.3636363636363636,1.0,25.2,1,0,0,Stuart Attwell,2021-02-28,Sun,16:30
+265,2021,29,Liverpool,Chelsea,0,1,0,0,1,0.3,1.0,54,46,Georginio Wijnaldum,4-3-3,7,1,0.1428571428571428,0.75,19.7,0,0,0,César Azpilicueta,3-4-3,11,4,0.3636363636363636,1.0,17.7,0,0,0,Martin Atkinson,2021-03-04,Thu,20:15
+274,2021,27,Chelsea,Everton,1,0,0,2,0,2.4,0.3,65,35,César Azpilicueta,3-4-3,18,8,0.4444444444444444,1.0,20.2,1,1,1,Gylfi Sigurðsson,3-4-1-2,7,1,0.1428571428571428,0.75,24.0,1,0,0,David Coote,2021-03-08,Mon,18:00
+278,2021,28,Leeds United,Chelsea,0,0,1,0,0,0.4,1.0,38,62,Luke Ayling,4-1-4-1,7,4,0.5714285714285714,1.0,16.0,0,0,0,César Azpilicueta,4-2-3-1,15,8,0.5333333333333333,1.0,17.6,0,0,0,Kevin Friend,2021-03-13,Sat,12:30
+291,2021,30,Chelsea,West Bromwich Albion,0,1,0,2,5,2.1,1.6,65,35,César Azpilicueta,3-4-3,18,7,0.3888888888888889,0.2857142857142857,16.1,2,0,0,Kyle Bartley,5-4-1,14,7,0.5,0.7142857142857143,19.4,2,0,0,David Coote,2021-04-03,Sat,12:30
+304,2021,31,Crystal Palace,Chelsea,0,1,0,1,4,0.4,3.1,36,64,Luka Milivojević,4-4-2,1,1,1.0,0.5555555555555556,5.9,0,0,0,César Azpilicueta,3-4-3,23,9,0.391304347826087,0.0,13.6,0,0,0,Michael Oliver,2021-04-10,Sat,17:30
+317,2021,32,Chelsea,Brighton And Hove Albion,0,0,1,0,0,0.7,0.5,64,36,Jorginho,3-4-3,7,4,0.5714285714285714,1.0,16.9,0,0,0,Lewis Dunk,3-1-4-2,11,2,0.1818181818181818,1.0,23.6,1,0,0,Stuart Attwell,2021-04-20,Tue,20:15
+323,2021,33,West Ham United,Chelsea,0,1,0,0,1,0.4,2.5,45,55,Mark Noble,3-4-1-2,9,2,0.2222222222222222,0.8333333333333334,23.2,1,0,0,César Azpilicueta,3-4-3,17,6,0.3529411764705882,1.0,18.8,1,0,0,Chris Kavanagh,2021-04-24,Sat,17:30
+332,2021,34,Chelsea,Fulham,1,0,0,2,0,1.7,0.3,49,51,Thiago Silva,3-5-2,9,5,0.5555555555555556,1.0,14.4,1,0,0,Joachim Andersen,4-2-3-1,10,3,0.3,0.6,20.6,0,0,0,Kevin Friend,2021-05-01,Sat,17:30
+341,2021,35,Manchester City,Chelsea,0,1,0,1,2,1.8,0.7,48,52,Raheem Sterling,3-1-4-2,15,3,0.2,0.6,20.0,0,0,1,César Azpilicueta,3-4-3,12,5,0.4166666666666667,0.6666666666666666,22.3,1,0,0,Anthony Taylor,2021-05-08,Sat,17:30
+350,2021,36,Chelsea,Arsenal,0,1,0,0,1,1.8,0.6,67,33,César Azpilicueta,3-4-3,19,4,0.2105263157894736,0.5,15.0,0,0,0,Pierre-Emerick Aubameyang,3-4-3,5,2,0.4,1.0,20.7,0,0,0,Andre Marriner,2021-05-12,Wed,20:15
+364,2021,37,Chelsea,Leicester City,1,0,0,2,1,3.1,0.8,58,42,César Azpilicueta,3-4-3,16,5,0.3125,0.6666666666666666,13.8,0,1,1,Kasper Schmeichel,3-4-3,7,3,0.4285714285714285,0.6,19.0,0,0,0,Mike Dean,2021-05-18,Tue,20:15
+380,2021,38,Aston Villa,Chelsea,1,0,0,2,1,1.1,3.3,29,71,Jack Grealish,4-2-3-1,5,2,0.4,0.8571428571428571,21.4,0,1,1,César Azpilicueta,3-4-3,23,7,0.3043478260869565,0.0,15.9,0,0,0,Stuart Attwell,2021-05-23,Sun,16:00
+386,2022,1,Chelsea,Crystal Palace,1,0,0,3,0,0.7,0.2,62,38,César Azpilicueta,3-4-3,13,6,0.4615384615384615,1.0,21.0,4,0,0,James McArthur,4-4-2,4,1,0.25,0.5,10.8,0,0,0,Jonathan Moss,2021-08-14,Sat,15:00
+399,2022,2,Arsenal,Chelsea,0,1,0,0,2,0.3,3.1,35,65,Granit Xhaka,4-2-3-1,6,3,0.5,0.6,18.7,0,0,0,César Azpilicueta,3-4-3,22,5,0.2272727272727272,1.0,16.0,0,0,0,Paul Tierney,2021-08-22,Sun,16:30
+407,2022,3,Liverpool,Chelsea,0,0,1,1,1,2.5,0.6,65,35,Jordan Henderson,4-3-3,23,6,0.2608695652173913,0.6666666666666666,16.2,0,1,1,César Azpilicueta,3-4-3,6,3,0.5,0.8333333333333334,12.5,0,0,0,Anthony Taylor,2021-08-28,Sat,17:30
+418,2022,4,Chelsea,Aston Villa,1,0,0,3,0,1.3,1.2,57,43,Marcos Alonso,3-4-3,12,4,0.3333333333333333,1.0,22.6,0,0,0,Tyrone Mings,5-3-2,18,6,0.3333333333333333,0.25,18.6,0,0,0,Stuart Attwell,2021-09-11,Sat,17:30
+430,2022,5,Tottenham Hotspur,Chelsea,0,1,0,0,3,0.5,2.1,47,53,Hugo Lloris,4-3-2-1,8,2,0.25,0.6666666666666666,20.0,1,0,0,César Azpilicueta,3-4-3,20,9,0.45,1.0,14.5,0,0,0,Paul Tierney,2021-09-19,Sun,16:30
+431,2022,6,Chelsea,Manchester City,0,1,0,0,1,0.2,1.7,41,59,César Azpilicueta,3-5-2,5,0,0.0,0.6666666666666666,27.9,1,0,0,Rúben Dias,4-3-3,15,3,0.2,0.0,17.1,0,0,0,Michael Oliver,2021-09-25,Sat,12:30
+444,2022,7,Chelsea,Southampton,1,0,0,3,1,3.3,1.3,62,38,César Azpilicueta,3-4-3,20,9,0.45,0.0,12.8,0,0,0,James Ward-Prowse,4-4-2,5,1,0.2,0.6666666666666666,24.0,0,1,1,Martin Atkinson,2021-10-02,Sat,15:00
+457,2022,8,Brentford,Chelsea,0,1,0,0,1,1.4,0.3,45,55,Pontus Jansson,3-5-2,17,6,0.3529411764705882,0.0,14.5,0,0,0,César Azpilicueta,3-5-2,5,1,0.2,1.0,24.7,2,0,0,Anthony Taylor,2021-10-16,Sat,17:30
+462,2022,9,Chelsea,Norwich City,1,0,0,7,0,3.1,0.1,62,38,Jorginho,3-4-3,22,12,0.5454545454545454,1.0,19.8,0,1,1,Grant Hanley,3-5-2,3,1,0.3333333333333333,0.4166666666666667,20.8,0,0,0,Andy Madley,2021-10-23,Sat,12:30
+475,2022,10,Newcastle United,Chelsea,0,1,0,0,3,0.2,2.2,21,79,Jamaal Lascelles,5-3-2,6,1,0.1666666666666666,0.4,19.7,0,0,0,Jorginho,3-4-3,18,5,0.2777777777777778,1.0,20.5,1,1,1,Paul Tierney,2021-10-30,Sat,15:00
+483,2022,11,Chelsea,Burnley,0,0,1,1,1,1.8,0.7,70,30,Jorginho,3-4-1-2,25,4,0.16,0.5,16.0,0,0,0,Ben Mee,4-4-2,5,2,0.4,0.75,15.9,0,0,0,Andre Marriner,2021-11-06,Sat,15:00
+491,2022,12,Leicester City,Chelsea,0,1,0,0,3,0.4,2.0,39,61,Kasper Schmeichel,3-4-3,4,3,0.75,0.5714285714285714,24.4,0,0,0,Jorginho,3-4-3,16,7,0.4375,1.0,16.7,2,0,0,Paul Tierney,2021-11-20,Sat,12:30
+509,2022,13,Chelsea,Manchester United,0,0,1,1,1,2.7,0.9,65,35,Jorginho,3-4-3,23,5,0.217391304347826,0.5,16.8,0,1,1,Bruno Fernandes,4-3-1-2,3,2,0.6666666666666666,0.8,20.7,0,0,0,Anthony Taylor,2021-11-28,Sun,16:30
+513,2022,14,Watford,Chelsea,0,1,0,1,2,1.0,0.9,51,49,Moussa Sissoko,4-1-4-1,14,6,0.4285714285714285,0.5,21.4,2,0,0,César Azpilicueta,3-4-3,8,4,0.5,0.8333333333333334,15.1,0,0,0,David Coote,2021-12-01,Wed,19:30
+520,2022,15,West Ham United,Chelsea,1,0,0,3,2,1.8,1.1,37,63,Declan Rice,3-4-3,10,3,0.3,0.7142857142857143,20.1,0,1,1,Jorginho,3-4-3,19,7,0.3684210526315789,0.0,17.5,0,0,0,Andre Marriner,2021-12-04,Sat,12:30
+532,2022,16,Chelsea,Leeds United,1,0,0,3,2,2.5,1.4,57,43,César Azpilicueta,3-4-3,14,4,0.2857142857142857,0.5,20.0,2,2,2,Luke Ayling,4-3-1-2,11,4,0.3636363636363636,0.25,19.4,2,1,1,Chris Kavanagh,2021-12-11,Sat,15:00
+544,2022,17,Chelsea,Everton,0,0,1,1,1,2.9,0.6,80,20,César Azpilicueta,3-4-3,23,10,0.4347826086956521,0.6666666666666666,14.7,2,0,0,Michael Keane,5-4-1,5,3,0.6,0.9,21.1,0,0,0,Michael Oliver,2021-12-16,Thu,19:45
+547,2022,18,Wolverhampton Wanderers,Chelsea,0,0,1,0,0,0.2,0.9,37,63,Conor Coady,3-5-2,4,1,0.25,1.0,27.4,0,0,0,César Azpilicueta,3-4-3,8,1,0.125,1.0,14.9,0,0,0,David Coote,2021-12-19,Sun,14:00
+554,2022,19,Aston Villa,Chelsea,0,1,0,1,3,0.4,2.6,42,58,Tyrone Mings,4-3-1-2,8,1,0.125,-0.5,18.8,0,0,0,Jorginho,3-4-3,8,2,0.25,0.0,17.6,1,2,2,Martin Atkinson,2021-12-26,Sun,17:30
+561,2022,20,Chelsea,Brighton And Hove Albion,0,0,1,1,1,0.7,0.9,47,53,César Azpilicueta,3-4-3,11,5,0.4545454545454545,0.8333333333333334,13.6,0,0,0,Adam Lallana,3-4-3,18,6,0.3333333333333333,0.8,20.2,1,0,0,Mike Dean,2021-12-29,Wed,19:30
+570,2022,21,Chelsea,Liverpool,0,0,1,2,2,1.2,1.3,54,46,César Azpilicueta,3-4-3,15,6,0.4,0.6666666666666666,18.0,3,0,0,Jordan Henderson,4-3-3,10,6,0.6,0.6666666666666666,17.9,0,0,0,Anthony Taylor,2022-01-02,Sun,16:30
+575,2022,22,Manchester City,Chelsea,1,0,0,1,0,1.0,0.3,56,44,Kevin De Bruyne,4-2-3-1,11,6,0.5454545454545454,1.0,16.5,1,0,0,César Azpilicueta,3-4-3,4,1,0.25,0.8333333333333334,19.1,0,0,0,Craig Pawson,2022-01-15,Sat,12:30
+582,2022,24,Brighton And Hove Albion,Chelsea,0,0,1,1,1,0.7,0.7,44,56,Adam Webster,4-1-4-1,10,2,0.2,0.6666666666666666,16.2,0,0,0,César Azpilicueta,4-2-2-2,15,3,0.2,0.5,21.1,1,0,0,Kevin Friend,2022-01-18,Tue,20:00
+594,2022,23,Chelsea,Tottenham Hotspur,1,0,0,2,0,1.2,0.5,64,36,César Azpilicueta,4-3-3,15,7,0.4666666666666667,1.0,15.9,0,0,0,Hugo Lloris,4-4-2,6,3,0.5,0.7142857142857143,16.6,0,0,0,Paul Tierney,2022-01-23,Sun,16:30
+617,2022,26,Crystal Palace,Chelsea,0,1,0,0,1,0.5,0.9,42,58,James McArthur,4-2-3-1,7,0,0.0,0.6666666666666666,14.6,0,0,0,Jorginho,4-3-3,9,3,0.3333333333333333,0.0,17.0,1,0,0,David Coote,2022-02-19,Sat,15:00
+639,2022,28,Burnley,Chelsea,0,1,0,0,4,0.7,2.3,28,72,James Tarkowski,4-4-2,6,0,0.0,0.2,17.2,1,0,0,Jorginho,3-4-3,11,5,0.4545454545454545,0.0,18.1,0,0,0,Andre Marriner,2022-03-05,Sat,15:00
+650,2022,30,Norwich City,Chelsea,0,1,0,1,3,1.0,1.8,34,66,Grant Hanley,5-3-2,7,2,0.2857142857142857,0.5714285714285714,25.7,0,1,1,César Azpilicueta,3-4-3,15,7,0.4666666666666667,0.5,12.7,1,0,0,Martin Atkinson,2022-03-10,Thu,19:30
+655,2022,29,Chelsea,Newcastle United,1,0,0,1,0,1.1,0.3,71,29,Jorginho,4-3-3,8,3,0.375,1.0,16.4,1,0,0,Jamaal Lascelles,5-4-1,7,2,0.2857142857142857,0.6666666666666666,18.2,0,0,0,David Coote,2022-03-13,Sun,14:00
+670,2022,31,Chelsea,Brentford,0,1,0,1,4,1.3,1.8,70,30,César Azpilicueta,4-3-3,21,8,0.3809523809523809,0.3333333333333333,20.1,0,0,0,Pontus Jansson,5-3-2,17,6,0.3529411764705882,0.875,13.5,1,0,0,Andy Madley,2022-04-02,Sat,15:00
+684,2022,32,Southampton,Chelsea,0,1,0,0,6,0.5,4.2,30,70,James Ward-Prowse,4-4-2,4,1,0.25,0.5714285714285714,17.0,0,0,0,N'Golo Kanté,3-4-1-2,24,14,0.5833333333333334,1.0,15.3,0,0,0,Kevin Friend,2022-04-09,Sat,15:00
+698,2022,25,Chelsea,Arsenal,0,1,0,2,4,0.7,2.0,67,33,César Azpilicueta,3-4-1-2,11,2,0.1818181818181818,-0.3333333333333333,15.9,0,0,0,Martin Ødegaard,4-2-3-1,13,3,0.2307692307692307,0.0,19.5,0,1,1,Jonathan Moss,2022-04-20,Wed,19:45
+708,2022,34,Chelsea,West Ham United,1,0,0,1,0,3.0,0.5,66,34,César Azpilicueta,3-4-1-2,25,4,0.16,1.0,19.0,0,0,1,Mark Noble,3-4-3,6,2,0.3333333333333333,0.75,13.4,0,0,0,Michael Oliver,2022-04-24,Sun,14:00
+712,2022,37,Manchester United,Chelsea,0,0,1,1,1,0.5,1.9,36,64,Bruno Fernandes,4-2-3-1,6,3,0.5,0.8333333333333334,15.9,0,0,0,César Azpilicueta,3-4-1-2,21,6,0.2857142857142857,0.6666666666666666,17.4,0,0,0,Mike Dean,2022-04-28,Thu,19:45
+720,2022,35,Everton,Chelsea,1,0,0,1,0,0.8,0.8,23,77,Séamus Coleman,5-4-1,9,4,0.4444444444444444,1.0,17.8,1,0,0,César Azpilicueta,3-4-1-2,17,5,0.2941176470588235,0.75,17.9,0,0,0,Kevin Friend,2022-05-01,Sun,14:00
+726,2022,36,Chelsea,Wolverhampton Wanderers,0,0,1,2,2,1.7,2.0,59,41,César Azpilicueta,3-4-1-2,18,5,0.2777777777777778,0.5,18.2,2,1,1,Conor Coady,3-5-2,14,4,0.2857142857142857,0.6,15.6,0,0,0,Peter Bankes,2022-05-07,Sat,15:00
+734,2022,33,Leeds United,Chelsea,0,1,0,0,3,0.4,1.3,33,67,Liam Cooper,5-4-1,5,0,0.0,0.0,19.3,0,0,0,Jorginho,3-4-3,17,3,0.1764705882352941,0.0,16.9,0,0,0,Anthony Taylor,2022-05-11,Wed,19:30
+750,2022,27,Chelsea,Leicester City,0,0,1,1,1,1.6,0.1,67,33,Jorginho,3-4-3,20,7,0.35,0.0,20.0,2,0,0,Kasper Schmeichel,3-1-4-2,2,1,0.5,0.8571428571428571,25.1,0,0,0,Stuart Attwell,2022-05-19,Thu,20:00
+759,2022,38,Chelsea,Watford,1,0,0,2,1,2.2,0.6,71,29,César Azpilicueta,3-4-3,19,8,0.4210526315789473,0.6666666666666666,16.9,0,0,0,Moussa Sissoko,4-3-3,8,3,0.375,0.75,21.9,1,0,0,Mike Dean,2022-05-22,Sun,16:00
+767,2023,1,Everton,Chelsea,0,1,0,0,1,0.7,1.5,38,62,Jordan Pickford,5-4-1,8,3,0.375,0.8,13.5,0,0,0,César Azpilicueta,3-4-3,14,5,0.3571428571428571,1.0,16.1,1,1,1,Craig Pawson,2022-08-06,Sat,17:30
+779,2023,2,Chelsea,Tottenham Hotspur,0,0,1,2,2,1.6,1.0,63,37,Jorginho,3-5-2,16,3,0.1875,0.6,17.2,0,0,0,Hugo Lloris,3-4-3,10,5,0.5,0.3333333333333333,13.4,0,0,0,Anthony Taylor,2022-08-14,Sun,16:30
+788,2023,3,Leeds United,Chelsea,1,0,0,3,0,2.1,0.9,39,61,Rodrigo,4-2-3-1,12,6,0.5,1.0,16.3,0,0,0,Jorginho,3-5-2,14,3,0.2142857142857142,0.5,19.8,0,0,0,Stuart Attwell,2022-08-21,Sun,14:00
+795,2023,4,Chelsea,Leicester City,1,0,0,2,1,1.8,2.5,45,55,Jorginho,4-4-2,7,4,0.5714285714285714,0.8,14.6,0,0,0,Jonny Evans,4-1-4-1,17,5,0.2941176470588235,0.5,17.9,0,0,0,Paul Tierney,2022-08-27,Sat,15:00
+803,2023,5,Southampton,Chelsea,1,0,0,2,1,1.1,1.1,33,67,James Ward-Prowse,4-2-3-1,9,5,0.5555555555555556,0.75,17.8,0,0,0,César Azpilicueta,4-2-2-2,10,4,0.4,0.6,14.5,0,0,0,Michael Oliver,2022-08-30,Tue,19:45
+812,2023,6,Chelsea,West Ham United,1,0,0,2,1,0.9,1.1,67,33,Thiago Silva,3-1-4-2,8,3,0.375,0.6666666666666666,17.2,0,0,0,Declan Rice,3-4-1-2,6,3,0.5,0.3333333333333333,15.9,0,0,0,Andy Madley,2022-09-03,Sat,15:00
+831,2023,9,Crystal Palace,Chelsea,0,1,0,1,2,0.4,1.1,36,64,Joel Ward,4-3-3,7,3,0.4285714285714285,0.3333333333333333,20.1,0,0,0,Jorginho,4-2-2-2,13,3,0.2307692307692307,0.6666666666666666,14.8,0,0,0,Chris Kavanagh,2022-10-01,Sat,15:00
+841,2023,10,Chelsea,Wolverhampton Wanderers,1,0,0,3,0,1.9,1.1,57,43,César Azpilicueta,4-2-3-1,20,7,0.35,1.0,14.7,0,0,0,João Moutinho,4-2-3-1,8,2,0.25,0.5714285714285714,14.5,1,0,0,Simon Hooper,2022-10-08,Sat,15:00
+856,2023,11,Aston Villa,Chelsea,0,1,0,0,2,1.8,0.9,42,58,John McGinn,4-3-3,18,7,0.3888888888888889,0.5,15.3,1,0,0,Thiago Silva,3-4-3,8,4,0.5,1.0,18.0,1,0,0,Robert Jones,2022-10-16,Sun,14:00
+860,2023,12,Brentford,Chelsea,0,0,1,0,0,1.3,0.9,34,66,Ivan Toney,3-5-2,8,5,0.625,1.0,14.5,0,0,0,César Azpilicueta,3-5-1-1,14,5,0.3571428571428571,1.0,21.4,0,0,0,Jarred Gillett,2022-10-19,Wed,19:30
+870,2023,13,Chelsea,Manchester United,0,0,1,1,1,1.1,0.8,48,52,César Azpilicueta,3-4-3,5,1,0.2,0.8333333333333334,19.7,0,1,1,Bruno Fernandes,4-1-4-1,13,6,0.4615384615384615,0.0,22.1,1,0,0,Stuart Attwell,2022-10-22,Sat,17:30
+878,2023,14,Brighton And Hove Albion,Chelsea,1,0,0,4,1,2.4,1.4,41,59,Lewis Dunk,4-2-3-1,19,7,0.3684210526315789,0.8571428571428571,15.9,0,0,0,Thiago Silva,3-4-3,15,7,0.4666666666666667,0.4285714285714285,18.3,0,0,0,Andy Madley,2022-10-29,Sat,15:00
+892,2023,15,Chelsea,Arsenal,0,1,0,0,1,0.3,2.1,45,55,César Azpilicueta,4-2-3-1,5,1,0.2,0.5,16.0,0,0,0,Martin Ødegaard,4-3-3,14,2,0.1428571428571428,1.0,14.5,0,0,0,Michael Oliver,2022-11-06,Sun,12:00
+903,2023,16,Newcastle United,Chelsea,1,0,0,1,0,1.0,0.3,49,51,Kieran Trippier,4-3-3,10,3,0.3,1.0,15.4,0,0,0,César Azpilicueta,3-4-3,5,2,0.4,0.6666666666666666,14.0,0,0,0,Robert Jones,2022-11-12,Sat,17:30
+914,2023,17,Chelsea,Bournemouth,1,0,0,2,0,1.8,0.5,60,40,Jorginho,4-3-3,15,5,0.3333333333333333,1.0,15.7,0,0,0,Lloyd Kelly,5-3-2,9,4,0.4444444444444444,0.6,21.0,2,0,0,Simon Hooper,2022-12-27,Tue,17:30
+926,2023,18,Nottingham Forest,Chelsea,0,0,1,1,1,1.4,0.9,29,71,Joe Worrall,4-3-3,12,5,0.4166666666666667,0.5,15.5,0,0,0,César Azpilicueta,4-3-3,7,2,0.2857142857142857,0.8,11.6,0,0,0,Peter Bankes,2023-01-01,Sun,16:30
+936,2023,19,Chelsea,Manchester City,0,1,0,0,1,0.4,2.0,48,52,César Azpilicueta,4-2-3-1,8,2,0.25,0.6666666666666666,17.2,0,0,0,İlkay Gündoğan,3-2-4-1,12,3,0.25,1.0,16.0,0,0,0,Paul Tierney,2023-01-05,Thu,20:00
+937,2023,7,Fulham,Chelsea,1,0,0,2,1,1.0,2.1,48,52,Tim Ream,4-2-3-1,8,3,0.375,0.9,15.3,0,0,0,César Azpilicueta,3-5-2,20,10,0.5,0.3333333333333333,16.6,1,0,0,David Coote,2023-01-12,Thu,20:00
+945,2023,20,Chelsea,Crystal Palace,1,0,0,1,0,1.5,0.7,61,39,Jorginho,4-2-3-1,15,5,0.3333333333333333,1.0,14.8,0,0,0,Marc Guéhi,4-2-3-1,10,5,0.5,0.8,17.9,0,0,0,Peter Bankes,2023-01-15,Sun,14:00
+950,2023,21,Liverpool,Chelsea,0,0,1,0,0,1.4,1.6,48,52,James Milner,4-3-3,15,3,0.2,1.0,15.5,0,0,0,Jorginho,3-4-3,11,2,0.1818181818181818,1.0,13.8,0,0,0,Michael Oliver,2023-01-21,Sat,12:30
+960,2023,22,Chelsea,Fulham,0,0,1,0,0,1.3,0.6,66,34,Thiago Silva,4-3-3,12,2,0.1666666666666666,1.0,17.0,0,0,0,Tim Ream,4-2-3-1,10,4,0.4,1.0,23.0,0,0,0,Stuart Attwell,2023-02-03,Fri,20:00
+971,2023,23,West Ham United,Chelsea,0,0,1,1,1,1.3,1.1,29,71,Declan Rice,3-4-3,10,2,0.2,0.75,13.8,1,0,0,Thiago Silva,4-2-3-1,12,4,0.3333333333333333,0.5,18.0,2,0,0,Craig Pawson,2023-02-11,Sat,12:30
+985,2023,24,Chelsea,Southampton,0,1,0,0,1,1.6,0.6,62,38,César Azpilicueta,4-2-3-1,17,4,0.2352941176470588,0.75,17.0,1,0,0,James Ward-Prowse,4-4-2,8,4,0.5,1.0,19.7,1,0,0,David Coote,2023-02-18,Sat,15:00
+999,2023,25,Tottenham Hotspur,Chelsea,1,0,0,2,0,0.8,0.4,41,59,Harry Kane,3-4-3,8,3,0.375,1.0,16.5,0,0,0,Thiago Silva,4-2-3-1,10,2,0.2,0.3333333333333333,23.8,0,0,0,Stuart Attwell,2023-02-26,Sun,13:30
+1005,2023,26,Chelsea,Leeds United,1,0,0,1,0,1.5,1.0,57,43,Mateo Kovačić,3-4-3,13,3,0.2307692307692307,1.0,15.8,1,0,0,Luke Ayling,4-2-3-1,11,2,0.1818181818181818,0.6666666666666666,13.7,1,0,0,Michael Oliver,2023-03-04,Sat,15:00
+1013,2023,27,Leicester City,Chelsea,0,1,0,1,3,2.4,1.6,48,52,James Maddison,3-4-3,17,6,0.3529411764705882,0.5,18.3,1,0,0,Mateo Kovačić,3-4-3,12,6,0.5,0.8333333333333334,15.1,0,0,0,Andre Marriner,2023-03-11,Sat,15:00
+1029,2023,28,Chelsea,Everton,0,0,1,2,2,2.3,1.2,68,32,Mateo Kovačić,3-4-3,19,6,0.3157894736842105,0.3333333333333333,17.1,0,1,1,Séamus Coleman,4-5-1,12,3,0.25,0.6666666666666666,18.9,1,0,0,Darren England,2023-03-18,Sat,17:30
+1037,2023,29,Chelsea,Aston Villa,0,1,0,0,2,2.1,0.9,69,31,Mateo Kovačić,3-4-3,27,7,0.2592592592592592,0.0,16.3,0,0,0,John McGinn,4-4-2,5,2,0.4,1.0,22.5,0,0,0,Andy Madley,2023-04-01,Sat,17:30
+1044,2023,8,Chelsea,Liverpool,0,0,1,0,0,2.2,0.3,49,51,N'Golo Kanté,3-5-2,12,2,0.1666666666666666,1.0,16.1,0,0,0,Jordan Henderson,4-3-3,7,3,0.4285714285714285,1.0,25.4,0,0,0,Anthony Taylor,2023-04-04,Tue,20:00
+1052,2023,30,Wolverhampton Wanderers,Chelsea,1,0,0,1,0,0.6,1.1,38,62,Max Kilman,4-4-2,9,4,0.4444444444444444,1.0,24.2,0,0,0,Mateo Kovačić,4-3-3,13,1,0.0769230769230769,0.75,16.7,0,0,0,Peter Bankes,2023-04-08,Sat,15:00
+1062,2023,31,Chelsea,Brighton And Hove Albion,0,1,0,1,2,0.5,2.9,43,57,Kepa Arrizabalaga,4-2-3-1,8,2,0.25,0.8,18.9,0,0,0,Lewis Dunk,4-2-3-1,26,10,0.3846153846153846,0.5,17.2,0,0,0,Robert Jones,2023-04-15,Sat,15:00
+1079,2023,33,Chelsea,Brentford,0,1,0,0,2,1.3,1.1,71,29,César Azpilicueta,3-4-3,15,4,0.2666666666666666,-1.0,16.5,0,0,0,Ivan Toney,5-3-2,7,1,0.1428571428571428,1.0,11.5,0,0,0,Andy Madley,2023-04-26,Wed,19:45
+1094,2023,34,Arsenal,Chelsea,1,0,0,3,1,1.7,0.8,55,45,Martin Ødegaard,4-3-3,16,9,0.5625,0.75,13.0,0,0,0,César Azpilicueta,4-3-3,7,4,0.5714285714285714,0.6666666666666666,17.2,0,0,0,Robert Jones,2023-05-02,Tue,20:00
+1100,2023,35,Bournemouth,Chelsea,0,1,0,1,3,1.2,1.3,35,65,Neto,4-2-3-1,10,4,0.4,0.4,14.5,0,0,0,Thiago Silva,4-3-3,11,5,0.4545454545454545,0.75,16.9,0,0,0,John Brooks,2023-05-06,Sat,15:00
+1111,2023,36,Chelsea,Nottingham Forest,0,0,1,2,2,1.2,1.3,75,25,Thiago Silva,4-3-3,14,6,0.4285714285714285,0.0,17.4,1,0,0,Joe Worrall,3-4-3,11,2,0.1818181818181818,0.6666666666666666,11.2,0,0,0,Paul Tierney,2023-05-13,Sat,15:00
+1127,2023,37,Manchester City,Chelsea,1,0,0,1,0,1.2,1.2,64,36,Kyle Walker,3-4-3◆,15,2,0.1333333333333333,1.0,18.8,0,0,0,César Azpilicueta,3-4-1-2,13,6,0.4615384615384615,0.5,15.7,1,0,0,Michael Oliver,2023-05-21,Sun,16:00
+1130,2023,32,Manchester United,Chelsea,1,0,0,4,1,5.2,1.9,42,58,Bruno Fernandes,4-2-3-1,17,8,0.4705882352941176,0.8,15.3,0,1,1,César Azpilicueta,4-3-3,14,5,0.3571428571428571,0.5,19.2,0,0,0,Stuart Attwell,2023-05-25,Thu,20:00
+1135,2023,38,Chelsea,Newcastle United,0,0,1,1,1,2.2,1.7,64,36,César Azpilicueta,4-2-3-1,22,4,0.1818181818181818,0.75,17.8,1,0,0,Kieran Trippier,4-3-3,13,4,0.3076923076923077,0.75,17.1,0,0,0,Jarred Gillett,2023-05-28,Sun,16:30
+1149,2024,1,Chelsea,Liverpool,0,0,1,1,1,1.4,1.3,65,35,Reece James,3-4-3,10,4,0.4,0.0,13.2,1,0,0,Virgil van Dijk,4-3-3,13,1,0.0769230769230769,0.75,17.8,0,0,0,Anthony Taylor,2023-08-13,Sun,16:30
+1158,2024,2,West Ham United,Chelsea,1,0,0,3,1,1.8,2.5,25,75,Kurt Zouma,4-2-3-1,11,5,0.4545454545454545,0.6666666666666666,19.6,0,1,1,Ben Chilwell,3-4-3,16,3,0.1875,0.4,17.1,0,0,1,John Brooks,2023-08-20,Sun,16:30
+1160,2024,3,Chelsea,Luton Town,1,0,0,3,0,2.2,0.4,67,33,Ben Chilwell,3-4-3,19,8,0.4210526315789473,1.0,14.2,1,0,0,Tom Lockyer,5-3-2,11,1,0.0909090909090909,0.625,19.0,1,0,0,Robert Jones,2023-08-25,Fri,20:00
+1175,2024,4,Chelsea,Nottingham Forest,0,1,0,0,1,2.3,0.8,75,25,Ben Chilwell,3-4-3,21,2,0.0952380952380952,0.6666666666666666,17.7,2,0,0,Joe Worrall,3-4-3,7,3,0.4285714285714285,1.0,19.0,0,0,0,Tim Robinson,2023-09-02,Sat,15:00
+1187,2024,5,Bournemouth,Chelsea,0,0,1,0,0,1.0,1.8,36,64,Neto,4-2-3-1,13,4,0.3076923076923077,1.0,16.7,1,0,0,Conor Gallagher,4-2-3-1,14,6,0.4285714285714285,1.0,15.0,1,0,0,David Coote,2023-09-17,Sun,14:00
+1196,2024,6,Chelsea,Aston Villa,0,1,0,0,1,1.3,1.0,53,47,Conor Gallagher,4-2-3-1,10,4,0.4,0.8571428571428571,17.8,0,0,0,John McGinn,4-2-3-1,15,7,0.4666666666666667,1.0,18.2,1,0,0,Jarred Gillett,2023-09-24,Sun,14:00
+1209,2024,7,Fulham,Chelsea,0,1,0,0,2,1.1,1.7,56,44,Tim Ream,4-3-3,10,3,0.3,0.5,13.2,0,0,0,Conor Gallagher,4-3-3,11,4,0.3636363636363636,1.0,19.8,1,0,0,Tim Robinson,2023-10-02,Mon,20:00
+1215,2024,8,Burnley,Chelsea,0,1,0,1,4,0.7,1.9,38,62,Josh Brownhill,4-3-3,10,3,0.3,0.0,18.2,1,0,0,Conor Gallagher,4-3-3,8,4,0.5,0.6666666666666666,18.1,0,1,1,Stuart Attwell,2023-10-07,Sat,15:00
+1227,2024,9,Chelsea,Arsenal,0,0,1,2,2,1.3,1.0,44,56,Conor Gallagher,4-2-3-1,10,4,0.4,0.3333333333333333,20.4,0,1,1,Martin Ødegaard,4-3-3,13,3,0.2307692307692307,0.5,14.3,0,0,0,Chris Kavanagh,2023-10-21,Sat,17:30
+1232,2024,10,Chelsea,Brentford,0,1,0,0,2,1.9,2.2,68,32,Conor Gallagher,4-2-3-1,17,2,0.1176470588235294,0.6,16.1,1,0,0,Christian Nørgaard,3-5-2,7,5,0.7142857142857143,1.0,12.7,0,0,0,Simon Hooper,2023-10-28,Sat,12:30
+1250,2024,11,Tottenham Hotspur,Chelsea,0,1,0,1,4,0.9,4.1,40,60,Son Heung-min,4-2-3-1,8,5,0.625,0.3333333333333333,23.5,1,0,0,Reece James,4-2-3-1,16,6,0.375,0.8,16.8,0,1,1,Michael Oliver,2023-11-06,Mon,20:00
+1260,2024,12,Chelsea,Manchester City,0,0,1,4,4,2.9,2.9,45,55,Reece James,4-2-3-1,16,8,0.5,0.5555555555555556,19.1,1,1,1,Kyle Walker,3-2-4-1,14,9,0.6428571428571429,0.5,16.6,1,1,1,Anthony Taylor,2023-11-12,Sun,16:30
+1266,2024,13,Newcastle United,Chelsea,1,0,0,4,1,2.4,0.5,54,46,Jamaal Lascelles,4-3-3,14,5,0.3571428571428571,0.75,17.0,1,0,0,Reece James,4-2-3-1,7,4,0.5714285714285714,0.2,18.4,2,0,0,Simon Hooper,2023-11-25,Sat,15:00
+1276,2024,14,Chelsea,Brighton And Hove Albion,1,0,0,3,2,2.1,1.1,32,68,Conor Gallagher,4-2-3-1,7,3,0.4285714285714285,0.7777777777777778,19.6,0,1,1,Adam Lallana,4-2-3-1,18,9,0.5,0.0,18.6,1,0,0,Craig Pawson,2023-12-03,Sun,14:00
+1287,2024,15,Manchester United,Chelsea,1,0,0,2,1,4.1,1.5,45,55,Bruno Fernandes,4-2-3-1,27,8,0.2962962962962963,0.6666666666666666,15.4,1,0,1,Levi Colwill,4-2-3-1,13,3,0.2307692307692307,0.75,15.0,0,0,0,Chris Kavanagh,2023-12-06,Wed,20:15
+1297,2024,16,Everton,Chelsea,1,0,0,2,0,1.2,0.9,29,71,James Tarkowski,4-4-1-1,9,5,0.5555555555555556,1.0,16.4,0,0,0,Reece James,4-2-3-1,16,4,0.25,0.6,18.5,1,0,0,Michael Oliver,2023-12-10,Sun,14:00
+1302,2024,17,Chelsea,Sheffield United,1,0,0,2,0,3.1,0.4,78,22,Conor Gallagher,4-2-3-1,15,6,0.4,1.0,17.2,1,0,0,Anel Ahmedhodžić,4-1-4-1,6,1,0.1666666666666666,0.6666666666666666,19.7,1,0,0,Andy Madley,2023-12-16,Sat,15:00
+1318,2024,18,Wolverhampton Wanderers,Chelsea,1,0,0,2,1,1.3,2.0,32,68,Max Kilman,3-4-3,14,6,0.4285714285714285,0.75,16.7,1,0,0,Conor Gallagher,4-2-3-1,16,4,0.25,0.6666666666666666,17.4,1,0,0,David Coote,2023-12-24,Sun,13:00
+1325,2024,19,Chelsea,Crystal Palace,1,0,0,2,1,2.6,1.1,63,37,Conor Gallagher,4-2-3-1,8,2,0.25,0.8,15.3,0,1,1,Marc Guéhi,4-3-3,13,5,0.3846153846153846,0.0,19.6,2,0,0,Michael Salisbury,2023-12-27,Wed,19:30
+1329,2024,20,Luton Town,Chelsea,0,1,0,2,3,2.3,1.5,52,48,Amari'i Bell,3-4-3,15,6,0.4,0.625,11.6,1,0,0,Conor Gallagher,4-2-3-1,12,8,0.6666666666666666,0.6666666666666666,17.5,0,0,0,Paul Tierney,2023-12-30,Sat,12:30
+1340,2024,21,Chelsea,Fulham,1,0,0,1,0,2.2,0.8,55,45,Conor Gallagher,4-2-3-1,16,2,0.125,1.0,17.5,0,1,1,Tom Cairney,4-2-3-1,14,4,0.2857142857142857,0.5,22.0,2,0,0,Anthony Taylor,2024-01-13,Sat,12:30
+1356,2024,22,Liverpool,Chelsea,1,0,0,4,1,2.9,0.6,50,50,Virgil van Dijk,4-3-3,27,13,0.4814814814814814,0.6666666666666666,19.9,2,0,1,Ben Chilwell,4-2-3-1,4,3,0.75,0.6923076923076923,18.8,0,0,0,Paul Tierney,2024-01-31,Wed,20:15
+1366,2024,23,Chelsea,Wolverhampton Wanderers,0,1,0,2,4,1.7,2.0,64,36,Ben Chilwell,4-2-3-1,15,4,0.2666666666666666,0.3333333333333333,14.5,0,0,0,Max Kilman,3-4-3,13,6,0.4615384615384615,0.5,16.6,2,1,1,Tim Robinson,2024-02-04,Sun,14:00
+1378,2024,24,Crystal Palace,Chelsea,0,1,0,1,3,0.6,1.4,23,77,Joachim Andersen,4-1-4-1,13,4,0.3076923076923077,0.4,18.7,0,0,0,Ben Chilwell,4-2-3-1,14,5,0.3571428571428571,0.75,15.3,0,0,0,Michael Oliver,2024-02-12,Mon,20:00
+1385,2024,25,Manchester City,Chelsea,0,0,1,1,1,2.6,1.4,70,30,Kyle Walker,4-1-4-1,31,5,0.1612903225806451,0.8333333333333334,15.9,1,0,0,Ben Chilwell,4-2-3-1,9,6,0.6666666666666666,0.8,12.8,0,0,0,Andy Madley,2024-02-17,Sat,17:30
+1400,2024,27,Brentford,Chelsea,0,0,1,2,2,1.8,1.8,33,67,Christian Nørgaard,3-5-2,14,5,0.3571428571428571,0.6,14.5,0,0,0,Ben Chilwell,3-5-2,17,5,0.2941176470588235,0.6,19.5,0,0,0,Jarred Gillett,2024-03-02,Sat,15:00
+1418,2024,28,Chelsea,Newcastle United,1,0,0,3,2,1.6,0.7,44,56,Conor Gallagher,4-2-3-1,12,7,0.5833333333333334,0.3333333333333333,19.7,0,0,0,Dan Burn,4-3-3,11,3,0.2727272727272727,0.5714285714285714,16.0,0,0,0,John Brooks,2024-03-11,Mon,20:00
+1426,2024,30,Chelsea,Burnley,0,0,1,2,2,4.2,1.6,69,31,Conor Gallagher,4-2-3-1,32,12,0.375,0.6666666666666666,17.8,0,1,1,Josh Cullen,4-4-2,18,6,0.3333333333333333,0.8333333333333334,14.4,2,0,0,Darren England,2024-03-30,Sat,15:00
+1443,2024,31,Chelsea,Manchester United,1,0,0,4,3,3.0,1.5,57,43,Conor Gallagher,4-2-3-1,26,8,0.3076923076923077,0.4,19.0,1,2,2,Bruno Fernandes,4-2-3-1,19,5,0.2631578947368421,0.5,16.8,0,0,0,Jarred Gillett,2024-04-04,Thu,20:15
+1452,2024,32,Sheffield United,Chelsea,0,0,1,2,2,1.4,0.3,32,68,Jack Robinson,3-5-2,11,5,0.4545454545454545,0.3333333333333333,15.2,0,0,0,Conor Gallagher,4-2-3-1,6,3,0.5,0.6,18.5,0,0,0,Robert Jones,2024-04-07,Sun,17:30
+1463,2024,33,Chelsea,Everton,1,0,0,6,0,3.1,1.5,58,42,Conor Gallagher,4-2-3-1,13,9,0.6923076923076923,1.0,18.8,0,1,1,Séamus Coleman,4-4-1-1,10,2,0.2,0.3333333333333333,13.7,0,0,0,Paul Tierney,2024-04-15,Mon,20:00
+1471,2024,29,Arsenal,Chelsea,1,0,0,5,0,3.3,1.6,45,55,Martin Ødegaard,4-3-3,27,10,0.3703703703703703,1.0,16.3,0,0,0,Conor Gallagher,4-2-3-1,7,1,0.1428571428571428,0.5,13.0,1,0,0,Simon Hooper,2024-04-23,Tue,20:00
+1483,2024,35,Aston Villa,Chelsea,0,0,1,2,2,1.1,1.6,29,71,John McGinn,4-4-1-1,9,4,0.4444444444444444,0.6,15.0,0,0,0,Conor Gallagher,4-2-3-1,21,5,0.238095238095238,0.5,21.7,1,0,0,Craig Pawson,2024-04-27,Sat,20:00
+1487,2024,26,Chelsea,Tottenham Hotspur,1,0,0,2,0,2.2,1.6,37,63,Conor Gallagher,4-2-3-1,16,4,0.25,1.0,16.1,2,0,0,Son Heung-min,4-2-3-1,19,3,0.1578947368421052,0.5,16.9,0,0,0,Robert Jones,2024-05-02,Thu,19:30
+1494,2024,36,Chelsea,West Ham United,1,0,0,5,0,4.1,0.9,69,31,Conor Gallagher,4-2-3-1,25,14,0.56,1.0,15.7,1,0,0,Kurt Zouma,4-2-3-1,13,2,0.1538461538461538,0.6428571428571429,17.6,2,0,0,Andy Madley,2024-05-05,Sun,14:00
+1505,2024,37,Nottingham Forest,Chelsea,0,1,0,2,3,1.5,1.6,33,67,Ryan Yates,5-4-1,20,4,0.2,0.4,17.2,0,0,0,Conor Gallagher,4-2-3-1,12,5,0.4166666666666667,0.5,12.0,1,0,0,Tony Harrington,2024-05-11,Sat,17:30
+1509,2024,34,Brighton And Hove Albion,Chelsea,0,1,0,1,2,1.3,1.5,55,45,Lewis Dunk,4-2-3-1,12,2,0.1666666666666666,0.6666666666666666,15.3,0,0,0,Conor Gallagher,4-2-3-1,14,6,0.4285714285714285,0.5,20.3,2,0,0,Michael Salisbury,2024-05-15,Wed,19:45
+1512,2024,38,Chelsea,Bournemouth,1,0,0,2,1,1.1,2.2,61,39,Conor Gallagher,4-2-3-1,16,6,0.375,0.8,18.2,0,0,0,Neto,4-2-3-1,22,5,0.2272727272727272,0.6666666666666666,16.8,0,0,0,Anthony Taylor,2024-05-19,Sun,16:00
+1529,2025,1,Chelsea,Manchester City,0,1,0,0,2,1.0,0.8,48,52,Enzo Fernández,4-2-3-1,10,3,0.3,0.6,17.1,0,0,0,Kevin De Bruyne,3-2-4-1,11,5,0.4545454545454545,1.0,19.1,0,0,0,Anthony Taylor,2024-08-18,Sun,16:30
+1538,2025,2,Wolverhampton Wanderers,Chelsea,0,1,0,2,6,1.9,1.6,40,60,Mario Lemina,4-2-3-1,12,4,0.3333333333333333,0.25,19.1,1,0,0,Enzo Fernández,4-2-3-1,14,8,0.5714285714285714,0.5,15.4,1,0,0,Darren England,2024-08-25,Sun,14:00
+1548,2025,3,Chelsea,Crystal Palace,0,0,1,1,1,2.4,0.5,62,38,Enzo Fernández,4-2-3-1,13,7,0.5384615384615384,0.6666666666666666,15.9,1,0,0,Marc Guéhi,3-4-3,9,3,0.3333333333333333,0.8571428571428571,20.6,1,0,0,Jarred Gillett,2024-09-01,Sun,13:30
+1558,2025,4,Bournemouth,Chelsea,0,1,0,0,1,1.7,0.8,34,66,Adam Smith,4-2-3-1,18,6,0.3333333333333333,0.6666666666666666,22.4,0,0,1,Moisés Caicedo,4-2-3-1,10,3,0.3,1.0,18.2,0,0,0,Anthony Taylor,2024-09-14,Sat,20:00
+1561,2025,5,West Ham United,Chelsea,0,1,0,0,3,0.9,2.2,53,47,Jarrod Bowen,3-4-3,15,7,0.4666666666666667,0.4,18.0,1,0,0,Enzo Fernández,4-2-3-1,12,5,0.4166666666666667,1.0,15.0,0,0,0,Samuel Barrott,2024-09-21,Sat,12:30
+1574,2025,6,Chelsea,Brighton And Hove Albion,1,0,0,4,2,4.2,1.1,41,59,Enzo Fernández,4-2-3-1,14,5,0.3571428571428571,0.6,15.7,1,1,1,Lewis Dunk,4-3-3,15,5,0.3333333333333333,0.2,20.1,2,0,0,Peter Bankes,2024-09-28,Sat,15:00
+1588,2025,7,Chelsea,Nottingham Forest,0,0,1,1,1,2.3,0.9,65,35,Enzo Fernández,4-2-3-1,22,8,0.3636363636363636,0.8888888888888888,17.2,0,0,0,Ryan Yates,4-2-3-1,16,9,0.5625,0.875,20.2,2,0,0,Chris Kavanagh,2024-10-06,Sun,14:00
+1599,2025,8,Liverpool,Chelsea,1,0,0,2,1,1.9,1.0,43,57,Virgil van Dijk,4-2-3-1,8,4,0.5,0.5,22.7,1,1,1,Reece James,4-2-3-1,12,2,0.1666666666666666,0.5,16.1,1,0,0,John Brooks,2024-10-20,Sun,16:30
+1609,2025,9,Chelsea,Newcastle United,1,0,0,2,1,1.6,1.8,50,50,Reece James,4-2-3-1,17,7,0.4117647058823529,0.5,16.7,0,0,0,Bruno Guimarães,4-3-3,11,2,0.1818181818181818,0.7142857142857143,14.0,1,0,0,Simon Hooper,2024-10-27,Sun,14:00
+1619,2025,10,Manchester United,Chelsea,0,0,1,1,1,2.0,1.1,46,54,Bruno Fernandes,4-2-3-1,10,3,0.3,0.6666666666666666,18.3,1,1,1,Reece James,4-2-3-1,12,3,0.25,0.6666666666666666,16.0,0,0,0,Robert Jones,2024-11-03,Sun,16:30
+1630,2025,11,Chelsea,Arsenal,0,0,1,1,1,1.5,1.5,49,51,Moisés Caicedo,4-2-3-1,17,3,0.1764705882352941,0.6666666666666666,20.8,3,0,0,Martin Ødegaard,4-3-3,13,3,0.2307692307692307,0.6666666666666666,16.3,0,0,0,Michael Oliver,2024-11-10,Sun,16:30
+1631,2025,12,Leicester City,Chelsea,0,1,0,1,2,1.1,2.7,37,63,Jamie Vardy,4-4-1-1,3,0,0.0,0.6666666666666666,18.8,0,1,1,Enzo Fernández,4-2-3-1,16,6,0.375,0.0,14.2,0,0,0,Andy Madley,2024-11-23,Sat,12:30
+1649,2025,13,Chelsea,Aston Villa,1,0,0,3,0,1.6,1.2,64,36,Enzo Fernández,4-2-3-1,17,8,0.4705882352941176,1.0,15.8,0,0,0,John McGinn,4-2-3-1,10,3,0.3,0.625,13.4,0,0,0,Stuart Attwell,2024-12-01,Sun,13:30
+1656,2025,14,Southampton,Chelsea,0,1,0,1,5,1.6,5.2,45,55,Jack Stephens,5-3-2,6,4,0.6666666666666666,0.5454545454545454,9.7,0,0,0,Enzo Fernández,4-2-3-1,26,11,0.4230769230769231,0.75,12.6,1,0,0,Tony Harrington,2024-12-04,Wed,19:30
+1668,2025,15,Tottenham Hotspur,Chelsea,0,1,0,3,4,2.8,2.8,39,61,Son Heung-min,4-3-3,13,5,0.3846153846153846,0.3333333333333333,13.7,1,0,0,Enzo Fernández,4-2-3-1,15,6,0.4,0.4,17.9,0,2,2,Anthony Taylor,2024-12-08,Sun,16:30
+1678,2025,16,Chelsea,Brentford,1,0,0,2,1,2.2,1.6,62,38,Enzo Fernández,4-2-3-1,26,8,0.3076923076923077,0.75,16.2,0,0,0,Christian Nørgaard,3-5-2,9,4,0.4444444444444444,0.75,11.9,0,0,0,Peter Bankes,2024-12-15,Sun,19:00
+1686,2025,17,Everton,Chelsea,0,0,1,0,0,1.0,1.2,25,75,James Tarkowski,4-3-3,5,4,0.8,1.0,19.8,1,0,0,Enzo Fernández,4-2-3-1,12,4,0.3333333333333333,1.0,16.8,2,0,0,Chris Kavanagh,2024-12-22,Sun,14:00
+1694,2025,18,Chelsea,Fulham,0,1,0,1,2,1.1,1.8,47,53,Enzo Fernández,4-2-3-1,12,8,0.6666666666666666,0.7142857142857143,18.7,1,0,0,Antonee Robinson,4-5-1,14,7,0.5,0.875,16.2,1,0,0,Samuel Barrott,2024-12-26,Thu,15:00
+1707,2025,19,Ipswich Town,Chelsea,1,0,0,2,0,1.6,2.0,24,76,Sam Morsy,5-4-1,8,5,0.625,1.0,16.1,0,1,1,Enzo Fernández,4-2-3-1,20,4,0.2,0.6,17.1,0,0,0,John Brooks,2024-12-30,Mon,19:45
+1715,2025,20,Crystal Palace,Chelsea,0,0,1,1,1,1.1,1.2,39,61,Marc Guéhi,3-4-3,13,6,0.4615384615384615,0.0,17.0,1,0,0,Enzo Fernández,4-2-3-1,15,1,0.0666666666666666,0.8333333333333334,16.2,0,0,0,Tim Robinson,2025-01-04,Sat,15:00
+1722,2025,21,Chelsea,Bournemouth,0,0,1,2,2,2.5,1.2,57,43,Enzo Fernández,4-2-3-1,26,10,0.3846153846153846,0.0,16.6,2,0,0,Lewis Cook,4-2-3-1,6,2,0.3333333333333333,0.8,18.6,0,1,1,Robert Jones,2025-01-14,Tue,19:30
+1739,2025,22,Chelsea,Wolverhampton Wanderers,1,0,0,3,1,3.1,0.8,63,37,Reece James,4-2-3-1,19,6,0.3157894736842105,0.75,14.0,0,0,0,Nélson Semedo,3-4-3,9,4,0.4444444444444444,0.5,16.7,0,0,0,Simon Hooper,2025-01-20,Mon,20:00
+1745,2025,23,Manchester City,Chelsea,1,0,0,3,1,2.2,1.8,56,44,Bernardo Silva,4-3-3,15,6,0.4,0.75,17.1,1,0,0,Reece James,4-2-3-1,10,4,0.4,0.5,16.5,0,0,0,John Brooks,2025-01-25,Sat,17:30
+1759,2025,24,Chelsea,West Ham United,1,0,0,2,1,1.6,1.2,68,32,Reece James,4-2-3-1,22,3,0.1363636363636363,0.8,17.0,1,0,0,Jarrod Bowen,3-4-3,14,5,0.3571428571428571,0.3333333333333333,20.4,1,0,0,Stuart Attwell,2025-02-03,Mon,20:00
+1761,2025,25,Brighton And Hove Albion,Chelsea,1,0,0,3,0,1.4,0.5,31,69,Danny Welbeck,5-4-1,13,5,0.3846153846153846,0.0,16.2,0,0,0,Enzo Fernández,4-2-3-1,8,0,0.0,0.4,16.9,0,0,0,Chris Kavanagh,2025-02-14,Fri,20:00
+1779,2025,26,Aston Villa,Chelsea,1,0,0,2,1,2.3,2.3,52,48,John McGinn,4-2-3-1,12,6,0.5,0.8333333333333334,13.2,0,0,0,Reece James,4-2-3-1,15,6,0.4,0.6666666666666666,16.3,0,0,0,Michael Oliver,2025-02-22,Sat,17:30
+1785,2025,27,Chelsea,Southampton,1,0,0,4,0,2.4,0.7,60,40,Enzo Fernández,4-2-3-1,19,10,0.5263157894736842,1.0,15.6,1,0,0,Aaron Ramsdale,5-4-1,7,2,0.2857142857142857,0.6,17.0,0,0,0,Thomas Bramall,2025-02-25,Tue,20:15
+1799,2025,28,Chelsea,Leicester City,1,0,0,1,0,1.7,0.1,56,44,Enzo Fernández,4-2-3-1,19,6,0.3157894736842105,1.0,20.0,0,0,1,Jamie Vardy,3-4-3,3,3,1.0,0.8333333333333334,21.3,0,0,0,Tim Robinson,2025-03-09,Sun,14:00
+1808,2025,29,Arsenal,Chelsea,1,0,0,1,0,0.7,0.4,42,58,Martin Ødegaard,4-3-3,12,4,0.3333333333333333,1.0,16.2,1,0,0,Reece James,4-2-3-1,8,2,0.25,0.75,21.8,0,0,0,Chris Kavanagh,2025-03-16,Sun,13:30
+1819,2025,30,Chelsea,Tottenham Hotspur,1,0,0,1,0,1.0,0.9,51,49,Enzo Fernández,4-2-3-1,11,5,0.4545454545454545,1.0,17.3,0,0,0,Son Heung-min,4-3-3,8,2,0.25,0.8,15.6,1,0,0,Craig Pawson,2025-04-03,Thu,20:00
+1826,2025,31,Brentford,Chelsea,0,0,1,0,0,1.1,1.2,42,58,Christian Nørgaard,4-2-3-1,9,2,0.2222222222222222,1.0,14.2,1,0,0,Reece James,4-2-3-1,21,5,0.238095238095238,1.0,19.0,0,0,0,Michael Oliver,2025-04-06,Sun,14:00
+1837,2025,32,Chelsea,Ipswich Town,0,0,1,2,2,2.2,1.1,73,27,Enzo Fernández,4-2-3-1,34,9,0.2647058823529412,0.5,18.0,0,0,0,Sam Morsy,4-2-3-1,13,4,0.3076923076923077,0.7777777777777778,21.0,0,0,0,Stuart Attwell,2025-04-13,Sun,14:00
+1846,2025,33,Fulham,Chelsea,0,1,0,1,2,0.3,0.9,41,59,Antonee Robinson,4-2-3-1,6,1,0.1666666666666666,0.7142857142857143,19.7,1,0,0,Reece James,4-2-3-1,13,7,0.5384615384615384,0.0,17.5,1,0,0,Anthony Taylor,2025-04-20,Sun,14:00
+1853,2025,34,Chelsea,Everton,1,0,0,1,0,0.8,0.4,55,45,Enzo Fernández,4-2-3-1,10,7,0.7,1.0,18.3,0,0,0,Jordan Pickford,4-2-3-1,6,3,0.5,0.8571428571428571,16.9,0,0,0,Chris Kavanagh,2025-04-26,Sat,12:30
+1869,2025,35,Chelsea,Liverpool,1,0,0,3,1,3.1,1.0,36,64,Enzo Fernández,4-2-3-1,16,5,0.3125,0.5,14.3,0,1,1,Virgil van Dijk,4-2-3-1,11,2,0.1818181818181818,0.4,13.5,1,0,0,Simon Hooper,2025-05-04,Sun,16:30
+1876,2025,36,Newcastle United,Chelsea,1,0,0,2,0,1.6,0.7,45,55,Bruno Guimarães,3-4-3,15,6,0.4,1.0,12.3,0,0,0,Enzo Fernández,4-2-3-1,10,3,0.3,0.6666666666666666,17.3,0,0,0,John Brooks,2025-05-11,Sun,12:00
+1882,2025,37,Chelsea,Manchester United,1,0,0,1,0,0.8,0.3,47,53,Reece James,4-2-3-1,11,3,0.2727272727272727,1.0,19.3,1,0,0,Bruno Fernandes,3-4-3,4,1,0.25,0.6666666666666666,15.3,0,0,0,Chris Kavanagh,2025-05-16,Fri,20:15
+1892,2025,38,Nottingham Forest,Chelsea,0,1,0,0,1,1.2,1.1,52,48,Morgan Gibbs-White,4-3-1-2,10,2,0.2,0.5,14.0,1,0,0,Reece James,4-2-3-1,6,2,0.3333333333333333,1.0,14.3,0,0,0,Anthony Taylor,2025-05-25,Sun,16:00

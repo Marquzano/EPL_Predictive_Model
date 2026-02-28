@@ -109,6 +109,8 @@ sql.execute("CREATE TABLE MATCH (ID INT PRIMARY KEY,"+
             "HomeFormID INT NOT NULL,"+
             "HomeSH INT NOT NULL,"+
             "HomeSOT INT NOT NULL,"+
+            "HomeAcc REAL,"+
+            "HomeDef REAL,"+
             "HomeDist REAL NOT NULL,"+
             "HomeFK INT NOT NULL,"+
             "HomePK INT NOT NULL,"+
@@ -117,6 +119,8 @@ sql.execute("CREATE TABLE MATCH (ID INT PRIMARY KEY,"+
             "AwayFormID INT NOT NULL,"+
             "AwaySH INT NOT NULL,"+
             "AwaySOT INT NOT NULL,"+
+            "AwayAcc REAL,"+
+            "AwayDef REAL,"+
             "AwayDist REAL NOT NULL,"+
             "AwayFK INT NOT NULL,"+
             "AwayPK INT NOT NULL,"+
@@ -126,7 +130,10 @@ sql.execute("CREATE TABLE MATCH (ID INT PRIMARY KEY,"+
             "DayID INT NOT NULL,"+
             "Time VARCHAR NOT NULL);")
 
-
+def Acc(sh,sot):
+    return(0. if sh==0 else float(sot/sh))
+def Def(gf,sot):
+    return(0. if sot==0 else float((sot-gf)/sot))
 #Read through spreadsheet and populate the Match Table
 row_ind,match_id = 0,1
 while row_ind<len(text)-1:
@@ -151,6 +158,8 @@ while row_ind<len(text)-1:
             int(np.where(forms==str(home['formation']))[0][0])+1,   #Home Formation
             int(home['sh']),                                        #Home SH
             int(home['sot']),                                       #Home SOT
+            Acc(int(home['sh']),int(home['sot'])),                  #Home Accuracy
+            Def(int(away['gf']),int(away['sot'])),                  #Home Defense
             float(home['dist']),                                    #Home Dist
             int(home['fk']),                                        #Home FK
             int(home['pk']),                                        #Home PK
@@ -159,6 +168,8 @@ while row_ind<len(text)-1:
             int(np.where(forms==str(away['formation']))[0][0])+1,   #Away Formation
             int(away['sh']),                                        #Away SH
             int(away['sot']),                                       #Away SOT
+            Acc(int(away['sh']),int(away['sot'])),                  #Home Accuracy
+            Def(int(home['gf']),int(home['sot'])),                  #Home Defense
             float(away['dist']),                                    #Away Dist
             int(away['fk']),                                        #Away FK
             int(away['pk']),                                        #Away PK
@@ -169,7 +180,7 @@ while row_ind<len(text)-1:
             home['time']                                            #Time
             ]
 
-    sql.execute("INSERT INTO MATCH VALUES "+ str(tuple(dbentry)))
+    sql.execute(f"INSERT INTO MATCH VALUES "+ str(tuple(dbentry)))
     match_id += 1
     row_ind += 2
     
@@ -185,9 +196,9 @@ query = '''
 SELECT DISTINCT M.ID, SEASON.Season, M.Round, t1.Team AS Home, t2.Team AS Away, M.HomeWin,
 M.AwayWin, M.Draw, M.HomeGoal, M.AwayGoal, M.HomeXG, M.AwayXG, M.HomePoss, M.AwayPoss,
 c1.Captain AS HomeCaptain, f1.Formation AS HomeFormation,
-M.HomeSH, M.HomeSOT, M.HomeDist, M.HomeFK, M.HomePK, M.HomePKAtt,
+M.HomeSH, M.HomeSOT, M.HomeAcc, M.HomeDef, M.HomeDist, M.HomeFK, M.HomePK, M.HomePKAtt,
 c2.Captain AS AwayCaptain, f2.Formation AS AwayFormation,
-M.AwaySH, M.AwaySOT, M.AwayDist, M.AwayFK, M.AwayPK, M.AwayPKAtt,
+M.AwaySH, M.AwaySOT, M.AwayAcc, M.AwayDef, M.AwayDist, M.AwayFK, M.AwayPK, M.AwayPKAtt,
 REFEREE.Referee, M.Date, DAY.Day, M.Time FROM MATCH M
 JOIN SEASON ON SEASON.ID=M.SeasonID
 JOIN REFEREE ON REFEREE.ID=M.RefID

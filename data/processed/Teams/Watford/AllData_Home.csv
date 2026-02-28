@@ -1,20 +1,20 @@
-ID,Season,Round,Home,Away,HomeWin,AwayWin,Draw,HomeGoal,AwayGoal,HomeXG,AwayXG,HomePoss,AwayPoss,HomeCaptain,HomeFormation,HomeSH,HomeSOT,HomeDist,HomeFK,HomePK,HomePKAtt,AwayCaptain,AwayFormation,AwaySH,AwaySOT,AwayDist,AwayFK,AwayPK,AwayPKAtt,Referee,Date,Day,Time
-387,2022,1,Watford,Aston Villa,1,0,0,3,2,1.2,1.2,38,62,Tom Cleverley,4-1-4-1,13,7,17.9,0,0,0,Tyrone Mings,4-2-3-1,10,1,22.8,1,1,1,Mike Dean,2021-08-14,Sat,15:00
-417,2022,4,Watford,Wolverhampton Wanderers,0,1,0,0,2,0.2,2.2,45,55,William Troost-Ekong,4-1-4-1,6,2,23.1,0,0,0,Conor Coady,3-4-3,14,5,16.4,1,0,0,Peter Bankes,2021-09-11,Sat,15:00
-435,2022,6,Watford,Newcastle United,0,0,1,1,1,0.9,1.9,53,47,Tom Cleverley,4-2-3-1,15,4,21.2,1,0,0,Federico Fernández,4-1-4-1,20,6,17.9,1,0,0,Jarred Gillett,2021-09-25,Sat,15:00
-451,2022,8,Watford,Liverpool,0,1,0,0,5,0.5,3.3,25,75,Moussa Sissoko,5-4-1,6,2,18.2,0,0,0,Jordan Henderson,4-3-3,19,8,16.0,0,0,0,Jonathan Moss,2021-10-16,Sat,12:30
-476,2022,10,Watford,Southampton,0,1,0,0,1,1.0,1.8,40,60,Moussa Sissoko,4-4-1-1,10,3,20.2,1,0,0,James Ward-Prowse,4-4-2,12,1,15.0,0,0,0,Peter Bankes,2021-10-30,Sat,15:00
-493,2022,12,Watford,Manchester United,1,0,0,4,1,2.7,1.4,39,61,Moussa Sissoko,4-1-4-1,19,6,15.9,2,0,1,Harry Maguire,4-2-3-1,9,3,14.9,0,0,0,Jonathan Moss,2021-11-20,Sat,15:00
-513,2022,14,Watford,Chelsea,0,1,0,1,2,1.0,0.9,51,49,Moussa Sissoko,4-1-4-1,14,6,21.4,2,0,0,César Azpilicueta,3-4-3,8,4,15.1,0,0,0,David Coote,2021-12-01,Wed,19:30
-524,2022,15,Watford,Manchester City,0,1,0,1,3,0.8,3.1,23,77,Moussa Sissoko,4-1-4-1,11,4,19.6,1,0,0,İlkay Gündoğan,4-3-3,26,12,14.4,0,0,0,Simon Hooper,2021-12-04,Sat,17:30
-558,2022,20,Watford,West Ham United,0,1,0,1,4,1.6,3.6,43,57,Moussa Sissoko,4-1-4-1,14,5,15.2,0,0,0,Mark Noble,4-2-3-1,12,5,16.0,0,1,1,Darren England,2021-12-28,Tue,15:00
-565,2022,21,Watford,Tottenham Hotspur,0,1,0,0,1,0.3,2.2,26,74,Moussa Sissoko,4-4-2,6,4,19.0,1,0,0,Hugo Lloris,3-4-3,21,9,17.6,0,0,0,Robert Jones,2022-01-01,Sat,15:00
-585,2022,23,Watford,Norwich City,0,1,0,0,3,1.2,1.1,67,33,Moussa Sissoko,4-3-3,15,3,19.1,0,0,0,Grant Hanley,4-4-2,7,2,15.7,1,0,0,Mike Dean,2022-01-21,Fri,20:00
-607,2022,25,Watford,Brighton And Hove Albion,0,1,0,0,2,0.5,1.6,36,64,Moussa Sissoko,4-4-2,9,1,17.4,1,0,0,Lewis Dunk,3-1-4-2,11,5,12.3,0,0,0,Jonathan Moss,2022-02-12,Sat,15:00
-625,2022,18,Watford,Crystal Palace,0,1,0,1,4,1.4,1.1,46,54,Moussa Sissoko,4-3-3,8,1,13.3,0,0,0,Marc Guéhi,4-3-3,7,5,15.1,0,0,0,Andre Marriner,2022-02-23,Wed,19:30
-645,2022,28,Watford,Arsenal,0,1,0,2,3,1.0,1.0,44,56,Moussa Sissoko,4-3-3,13,7,19.0,2,0,0,Alexandre Lacazette,4-2-3-1,16,4,17.3,0,0,0,Craig Pawson,2022-03-06,Sun,14:00
-682,2022,32,Watford,Leeds United,0,1,0,0,3,1.1,0.7,49,51,Moussa Sissoko,4-3-3,8,1,26.0,1,0,0,Liam Cooper,4-2-3-1,10,5,17.9,0,0,0,Andre Marriner,2022-04-09,Sat,15:00
-693,2022,33,Watford,Brentford,0,1,0,1,2,1.7,1.9,50,50,Moussa Sissoko,4-3-3,18,4,16.3,2,0,0,Pontus Jansson,4-3-3,16,5,19.7,0,0,0,Simon Hooper,2022-04-16,Sat,15:00
-714,2022,35,Watford,Burnley,0,1,0,1,2,1.0,1.6,47,53,Moussa Sissoko,4-3-3,13,1,15.5,1,0,0,James Tarkowski,4-4-2,17,6,15.9,1,0,0,Craig Pawson,2022-04-30,Sat,15:00
-735,2022,30,Watford,Everton,0,0,1,0,0,0.3,0.7,48,52,Moussa Sissoko,4-3-3,6,0,20.0,1,0,0,Séamus Coleman,5-4-1,16,5,16.8,0,0,0,Mike Dean,2022-05-11,Wed,19:45
-742,2022,37,Watford,Leicester City,0,1,0,1,5,1.4,2.5,41,59,Moussa Sissoko,4-3-3,13,5,12.4,0,0,0,Jonny Evans,4-1-4-1,13,7,16.4,0,0,0,Jarred Gillett,2022-05-15,Sun,14:00
+ID,Season,Round,Home,Away,HomeWin,AwayWin,Draw,HomeGoal,AwayGoal,HomeXG,AwayXG,HomePoss,AwayPoss,HomeCaptain,HomeFormation,HomeSH,HomeSOT,HomeAcc,HomeDef,HomeDist,HomeFK,HomePK,HomePKAtt,AwayCaptain,AwayFormation,AwaySH,AwaySOT,AwayAcc,AwayDef,AwayDist,AwayFK,AwayPK,AwayPKAtt,Referee,Date,Day,Time
+387,2022,1,Watford,Aston Villa,1,0,0,3,2,1.2,1.2,38,62,Tom Cleverley,4-1-4-1,13,7,0.5384615384615384,-1.0,17.9,0,0,0,Tyrone Mings,4-2-3-1,10,1,0.1,0.5714285714285714,22.8,1,1,1,Mike Dean,2021-08-14,Sat,15:00
+417,2022,4,Watford,Wolverhampton Wanderers,0,1,0,0,2,0.2,2.2,45,55,William Troost-Ekong,4-1-4-1,6,2,0.3333333333333333,0.6,23.1,0,0,0,Conor Coady,3-4-3,14,5,0.3571428571428571,1.0,16.4,1,0,0,Peter Bankes,2021-09-11,Sat,15:00
+435,2022,6,Watford,Newcastle United,0,0,1,1,1,0.9,1.9,53,47,Tom Cleverley,4-2-3-1,15,4,0.2666666666666666,0.8333333333333334,21.2,1,0,0,Federico Fernández,4-1-4-1,20,6,0.3,0.75,17.9,1,0,0,Jarred Gillett,2021-09-25,Sat,15:00
+451,2022,8,Watford,Liverpool,0,1,0,0,5,0.5,3.3,25,75,Moussa Sissoko,5-4-1,6,2,0.3333333333333333,0.375,18.2,0,0,0,Jordan Henderson,4-3-3,19,8,0.4210526315789473,1.0,16.0,0,0,0,Jonathan Moss,2021-10-16,Sat,12:30
+476,2022,10,Watford,Southampton,0,1,0,0,1,1.0,1.8,40,60,Moussa Sissoko,4-4-1-1,10,3,0.3,0.0,20.2,1,0,0,James Ward-Prowse,4-4-2,12,1,0.0833333333333333,1.0,15.0,0,0,0,Peter Bankes,2021-10-30,Sat,15:00
+493,2022,12,Watford,Manchester United,1,0,0,4,1,2.7,1.4,39,61,Moussa Sissoko,4-1-4-1,19,6,0.3157894736842105,0.6666666666666666,15.9,2,0,1,Harry Maguire,4-2-3-1,9,3,0.3333333333333333,0.3333333333333333,14.9,0,0,0,Jonathan Moss,2021-11-20,Sat,15:00
+513,2022,14,Watford,Chelsea,0,1,0,1,2,1.0,0.9,51,49,Moussa Sissoko,4-1-4-1,14,6,0.4285714285714285,0.5,21.4,2,0,0,César Azpilicueta,3-4-3,8,4,0.5,0.8333333333333334,15.1,0,0,0,David Coote,2021-12-01,Wed,19:30
+524,2022,15,Watford,Manchester City,0,1,0,1,3,0.8,3.1,23,77,Moussa Sissoko,4-1-4-1,11,4,0.3636363636363636,0.75,19.6,1,0,0,İlkay Gündoğan,4-3-3,26,12,0.4615384615384615,0.75,14.4,0,0,0,Simon Hooper,2021-12-04,Sat,17:30
+558,2022,20,Watford,West Ham United,0,1,0,1,4,1.6,3.6,43,57,Moussa Sissoko,4-1-4-1,14,5,0.3571428571428571,0.2,15.2,0,0,0,Mark Noble,4-2-3-1,12,5,0.4166666666666667,0.8,16.0,0,1,1,Darren England,2021-12-28,Tue,15:00
+565,2022,21,Watford,Tottenham Hotspur,0,1,0,0,1,0.3,2.2,26,74,Moussa Sissoko,4-4-2,6,4,0.6666666666666666,0.8888888888888888,19.0,1,0,0,Hugo Lloris,3-4-3,21,9,0.4285714285714285,1.0,17.6,0,0,0,Robert Jones,2022-01-01,Sat,15:00
+585,2022,23,Watford,Norwich City,0,1,0,0,3,1.2,1.1,67,33,Moussa Sissoko,4-3-3,15,3,0.2,-0.5,19.1,0,0,0,Grant Hanley,4-4-2,7,2,0.2857142857142857,1.0,15.7,1,0,0,Mike Dean,2022-01-21,Fri,20:00
+607,2022,25,Watford,Brighton And Hove Albion,0,1,0,0,2,0.5,1.6,36,64,Moussa Sissoko,4-4-2,9,1,0.1111111111111111,0.6,17.4,1,0,0,Lewis Dunk,3-1-4-2,11,5,0.4545454545454545,1.0,12.3,0,0,0,Jonathan Moss,2022-02-12,Sat,15:00
+625,2022,18,Watford,Crystal Palace,0,1,0,1,4,1.4,1.1,46,54,Moussa Sissoko,4-3-3,8,1,0.125,0.2,13.3,0,0,0,Marc Guéhi,4-3-3,7,5,0.7142857142857143,0.0,15.1,0,0,0,Andre Marriner,2022-02-23,Wed,19:30
+645,2022,28,Watford,Arsenal,0,1,0,2,3,1.0,1.0,44,56,Moussa Sissoko,4-3-3,13,7,0.5384615384615384,0.25,19.0,2,0,0,Alexandre Lacazette,4-2-3-1,16,4,0.25,0.7142857142857143,17.3,0,0,0,Craig Pawson,2022-03-06,Sun,14:00
+682,2022,32,Watford,Leeds United,0,1,0,0,3,1.1,0.7,49,51,Moussa Sissoko,4-3-3,8,1,0.125,0.4,26.0,1,0,0,Liam Cooper,4-2-3-1,10,5,0.5,1.0,17.9,0,0,0,Andre Marriner,2022-04-09,Sat,15:00
+693,2022,33,Watford,Brentford,0,1,0,1,2,1.7,1.9,50,50,Moussa Sissoko,4-3-3,18,4,0.2222222222222222,0.6,16.3,2,0,0,Pontus Jansson,4-3-3,16,5,0.3125,0.75,19.7,0,0,0,Simon Hooper,2022-04-16,Sat,15:00
+714,2022,35,Watford,Burnley,0,1,0,1,2,1.0,1.6,47,53,Moussa Sissoko,4-3-3,13,1,0.0769230769230769,0.6666666666666666,15.5,1,0,0,James Tarkowski,4-4-2,17,6,0.3529411764705882,0.0,15.9,1,0,0,Craig Pawson,2022-04-30,Sat,15:00
+735,2022,30,Watford,Everton,0,0,1,0,0,0.3,0.7,48,52,Moussa Sissoko,4-3-3,6,0,0.0,1.0,20.0,1,0,0,Séamus Coleman,5-4-1,16,5,0.3125,0.0,16.8,0,0,0,Mike Dean,2022-05-11,Wed,19:45
+742,2022,37,Watford,Leicester City,0,1,0,1,5,1.4,2.5,41,59,Moussa Sissoko,4-3-3,13,5,0.3846153846153846,0.2857142857142857,12.4,0,0,0,Jonny Evans,4-1-4-1,13,7,0.5384615384615384,0.8,16.4,0,0,0,Jarred Gillett,2022-05-15,Sun,14:00
