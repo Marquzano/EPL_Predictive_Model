@@ -1,7 +1,7 @@
 # Ignore all data files
 # data/raw/*
 # data/processed/*
-data/*.db
+data/raw/*.db
 
 # Ignore model weights and logs
 models/*.keras
