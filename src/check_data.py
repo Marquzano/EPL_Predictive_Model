@@ -1,4 +1,4 @@
-def check_raw_matches(cur, matches_df):
+def check_raw_matches(cur):
     # checking the structure of the table
     cur.execute('PRAGMA table_info(match_data);')
     print(cur.fetchall())
@@ -145,7 +145,7 @@ def check_raw_matches(cur, matches_df):
 
     print('\n\n\n\n\n')
 
-def check_matches(cur, matches_df):
+def check_matches(cur):
     # checking the structure of the table
     cur.execute('PRAGMA table_info(match_data);')
     print(cur.fetchall())
