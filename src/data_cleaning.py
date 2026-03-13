@@ -79,7 +79,7 @@ if __name__ == '__main__':
 
     # variables to create connection using new db and cleaned data
     clean_db = 'data/processed/EPL_data.db'
-    new_csv = 'data/processed/clean_file_matches.csv'
+    new_csv = 'data/processed/clean_final_matches.csv'
 
     make_csv(cleaned_df, new_csv)
 
@@ -92,6 +92,6 @@ if __name__ == '__main__':
 
     # review notes to determine output we need
     # our input will be the new EPL_data.db/clean_file_matches.csv
-    # need to reorient data
+    # need to transform data
 
     close_con(con)
