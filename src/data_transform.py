@@ -15,6 +15,34 @@ def open_con(db_path, csv_path, table_name):
     
     return con, cur, df
 
+def make_matches(df):
+    id_cols = ['season', 'date', 'time', 'round']
+
+    home_df = df[df['venue'] == 'Home'].copy()
+    away_df = df[df['venue'] == 'Away'].copy()
+
+    home_df = home_df.rename(columns={c: f"{c}_home" for c in home_df.columns if c not in id_cols})
+    away_df = away_df.rename(columns={c: f"{c}_away" for c in away_df.columns if c not in id_cols})
+
+    merged_df = pd.merge(home_df, away_df, on=id_cols)
+
+    print(merged_df.head())
+    
+    # print(home_df)
+    # print('\n\n\n\n\n')
+    # print(away_df)
+    
+    
+    # transformed_df = pd.DataFrame()
+
+
+    # for row in df.iterrows():
+    #     print('\n\n\n\n\n')
+    #     print(row)
+    #     print('\n\n\n\n\n')
+
+    return merged_df
+
 if __name__ == '__main__':
     clean_csv = 'data/processed/clean_final_matches.csv'
     db_path = 'data/processed/EPL_data.db'
@@ -26,3 +54,14 @@ if __name__ == '__main__':
     # matchweek
     # date
     # season
+    merged_df = make_matches(clean_df)
+
+    merged_df.to_csv('data/processed/merged_matches.csv')
+
+    merged_df.to_sql('merged_matches', con=con, if_exists='replace', index=False)
+
+    # need to remove some columns i.e. venue?, unnamed 0, opponent
+    # need to rename team to home in home_df and away in away_df
+    # number of other things need to be changed
+    # getting closer
+    # and learning more each step I take
