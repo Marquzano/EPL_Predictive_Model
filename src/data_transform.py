@@ -26,20 +26,7 @@ def make_matches(df):
 
     merged_df = pd.merge(home_df, away_df, on=id_cols)
 
-    print(merged_df.head())
-    
-    # print(home_df)
-    # print('\n\n\n\n\n')
-    # print(away_df)
-    
-    
-    # transformed_df = pd.DataFrame()
-
-
-    # for row in df.iterrows():
-    #     print('\n\n\n\n\n')
-    #     print(row)
-    #     print('\n\n\n\n\n')
+    print(merged_df.head()) 
 
     return merged_df
 
