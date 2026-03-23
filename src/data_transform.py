@@ -59,6 +59,15 @@ def clean_matches(con):
 
     return df
 
+def rolled_averages(con=None, df=None):
+    # we could go season by season
+    # this way you can handle relegated teams easier
+    # season = 2021
+    season_21_df = df[df['season'] == 2021]
+
+
+    return None
+
 if __name__ == '__main__':
     clean_csv = 'data/processed/clean_final_matches.csv'
     db_path = 'data/processed/EPL_data.db'
@@ -87,3 +96,5 @@ if __name__ == '__main__':
     clean_merged_df.to_csv('data/processed/merged_matches.csv')
 
     clean_merged_df.to_sql('merged_matches', con=con, if_exists='replace', index=False)
+
+    rolled_averages(df=clean_merged_df)
