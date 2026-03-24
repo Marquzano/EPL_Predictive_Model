@@ -74,6 +74,7 @@ if __name__ == '__main__':
 
     con, cur, clean_df = open_con(db_path, clean_csv, 'match_data')
 
+    rolled_averages(df=clean_df)
     # I want to combine rows that have data corresponding to a single match
     # make a function that takes the df and finds the rows with matching
     # matchweek
@@ -96,5 +97,3 @@ if __name__ == '__main__':
     clean_merged_df.to_csv('data/processed/merged_matches.csv')
 
     clean_merged_df.to_sql('merged_matches', con=con, if_exists='replace', index=False)
-
-    rolled_averages(df=clean_merged_df)
