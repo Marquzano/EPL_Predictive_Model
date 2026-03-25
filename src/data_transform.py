@@ -29,7 +29,7 @@ def make_matches(df):
     # merging into one df
     merged_df = pd.merge(home_df, away_df, on=id_cols)
 
-    # removing inconsistencies where matches merge on the same columns but are not the same match
+    # removing inconsistencies where matches merge on id_cols but are not the same match
     merged_df = merged_df[merged_df['opponent_home'] == merged_df['team_away']]
 
     # renaming columns team_home and team_away for simplicity
@@ -64,7 +64,7 @@ def rolled_averages(con=None, df=None):
     # this way you can handle relegated teams easier
     # season = 2021
     season_21_df = df[df['season'] == 2021]
-
+    
 
     return None
 
@@ -75,23 +75,15 @@ if __name__ == '__main__':
     con, cur, clean_df = open_con(db_path, clean_csv, 'match_data')
 
     rolled_averages(df=clean_df)
-    # I want to combine rows that have data corresponding to a single match
-    # make a function that takes the df and finds the rows with matching
-    # matchweek
-    # date
-    # season
+    
+    # merging rows to have single-row unique matches
     merged_df = make_matches(clean_df)
 
     merged_df.to_csv('data/processed/old_merged_matches.csv')
 
     merged_df.to_sql('old_merged_matches', con=con, if_exists='replace', index=False)
 
-    # need to remove some columns i.e. venue?, unnamed 0, opponent
-    # need to rename team to home in home_df and away in away_df
-    # number of other things need to be changed
-    # getting closer
-    # and learning more each step I take
-
+    # cleaning up the data to necessary keys, features, and labels
     clean_merged_df = clean_matches(con)
 
     clean_merged_df.to_csv('data/processed/merged_matches.csv')
