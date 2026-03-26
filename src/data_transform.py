@@ -64,6 +64,20 @@ def rolled_averages(con=None, df=None):
     # this way you can handle relegated teams easier
     # season = 2021
     season_21_df = df[df['season'] == 2021]
+
+    # practice query to calculate rolling average windows using SQL
+    #     SELECT
+    #    ...> date,
+    #    ...> time,
+    #    ...> round,
+    #    ...> result,
+    #    ...> gf,
+    #    ...> AVG(gf) OVER (PARTITION BY team ORDER BY date, time, round, season ROWS 5 PRECEDING) AS avg_5_gf,
+    #    ...> ga,
+    #    ...> AVG(ga) OVER (PARTITION BY team ORDER BY date, time, round, season ROWS 5 PRECEDING) AS avg_5_ga,
+    #    ...> team,
+    #    ...> season
+    #    ...> FROM match_data LIMIT 10;
     
 
     return None
