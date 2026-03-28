@@ -78,6 +78,24 @@ def rolled_averages(con=None, df=None):
     #    ...> team,
     #    ...> season
     #    ...> FROM match_data LIMIT 10;
+
+    # second attempt, this does the rolling average window calculations I am wanting
+    #     SELECT
+    #    ...> date,
+    #    ...> time,
+    #    ...> round,
+    #    ...> result,
+    #    ...> gf,
+    #    ...> AVG(gf) OVER(PARTITION BY team ORDER BY date, time, round, season ROWS BETWEEN 5 PRECEDING AND 1 PRECEDING) AS avg_5_gf,
+    #    ...> ga,
+    #    ...> AVG(ga) OVER(PARTITION BY team ORDER BY date, time, round, season ROWS BETWEEN 5 PRECEDING AND 1 PRECEDING) AS avg_5_ga,
+    #    ...> team,
+    #    ...> season
+    #    ...> FROM match_data LIMIT 30;
+
+    # now I need to modify the query so that the first 5 matches 
+    # that don't have exactly 5 previous matches default to -1
+    # for all their stat columns
     
 
     return None
