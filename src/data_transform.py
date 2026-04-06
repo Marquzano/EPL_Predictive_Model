@@ -96,6 +96,11 @@ def rolled_averages(con=None, df=None):
     # now I need to modify the query so that the first 5 matches 
     # that don't have exactly 5 previous matches default to -1
     # for all their stat columns
+
+    # Speaking with Emily:
+    # use CASE statement
+    # if first 5 give -1
+    # else do the rolling average window
     
 
     return None
