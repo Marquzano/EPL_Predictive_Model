@@ -101,6 +101,19 @@ def rolled_averages(con=None, df=None):
     # use CASE statement
     # if first 5 give -1
     # else do the rolling average window
+
+    # below is the latest attempt using CASE
+    # the result set is definitely not as expected
+    # getting duplicate rows and unsure why?
+    # WITH rolled_averages AS (
+	# SELECT date, time, round, season, team, ROW_NUMBER() OVER team AS team_index, AVG(gf) OVER calculate_frame AS avg_5_gf, AVG(xg) OVER calculate_frame AS avg_5_xg, AVG(poss) OVER calculate_frame AS avg_5_poss, AVG(sh) OVER calculate_frame AS avg_5_sh, AVG(sot) OVER calculate_frame AS avg_5_sot
+    # FROM match_data
+    # WINDOW calculate_frame AS (PARTITION BY team ORDER BY date, time, round, season ROWS BETWEEN 5 PRECEDING AND 1 PRECEDING), team AS (PARTITION BY team ORDER BY date, time, round, season)
+    # )
+    # SELECT md.date, md.time, md.round, md.venue, md.result, CASE WHEN ra.team_index <= 5 THEN -1 ELSE ra.avg_5_gf END AS avg_5_gf, md.opponent, CASE WHEN ra.team_index <= 5 THEN -1 ELSE ra.avg_5_xg END AS avg_5_xg, CASE WHEN ra.team_index <= 5 THEN -1 ELSE ra.avg_5_poss END AS avg_5_poss, CASE WHEN ra.team_index <= 5 THEN -1 ELSE ra.avg_5_sh END AS avg_5_sh, CASE WHEN ra.team_index <= 5 THEN -1 ELSE ra.avg_5_sot END AS avg_5_sot, md.team, md.season 
+    # FROM match_data md
+    # LEFT JOIN rolled_averages ra ON md.team=ra.team
+    # ORDER BY md.date, md.time, md.round, md.season;
     
 
     return None
