@@ -115,7 +115,51 @@ def rolled_averages(con=None, df=None):
     # LEFT JOIN rolled_averages ra ON md.team=ra.team
     # ORDER BY md.date, md.time, md.round, md.season;
     
-
+    # below is the fourth attempt
+    # still getting a large amount of duplicates
+    # not sure why
+    # will try again
+    #     WITH team_rows AS (
+    # 	SELECT team, ROW_NUMBER() OVER team AS team_index FROM match_data WINDOW team AS (PARTITION BY team ORDER BY date, time, round, season)
+    # )
+    # SELECT 
+    # date, 
+    # time, 
+    # round, 
+    # venue, 
+    # result,
+    # CASE 
+    # WHEN tr.team_index <= 5 
+    # THEN -1 
+    # ELSE AVG(gf) OVER calculate_frame 
+    # END AS avg_5_gf, 
+    # opponent,
+    # CASE 
+    # WHEN tr.team_index <= 5 
+    # THEN -1 
+    # ELSE AVG(xg) OVER calculate_frame 
+    # END AS avg_5_xg,
+    # CASE 
+    # WHEN tr.team_index <= 5 
+    # THEN -1 
+    # ELSE AVG(poss) OVER calculate_frame 
+    # END AS avg_5_poss,
+    # CASE 
+    # WHEN tr.team_index <= 5 
+    # THEN -1 
+    # ELSE AVG(sh) OVER calculate_frame 
+    # END AS avg_5_sh,
+    # CASE 
+    # WHEN tr.team_index <= 5 
+    # THEN -1 
+    # ELSE AVG(sot) OVER calculate_frame 
+    # END AS avg_5_sot,
+    # md.team,
+    # season
+    # FROM match_data md
+    # JOIN team_rows tr ON tr.team=md.team
+    # WINDOW calculate_frame AS (PARTITION BY md.team ORDER BY date, time, round, season ROWS BETWEEN 5 PRECEDING AND 1 PRECEDING), team AS (PARTITION BY team ORDER BY date, time, round, season)
+    # ORDER BY date, time, round, season;
     return None
 
 if __name__ == '__main__':
