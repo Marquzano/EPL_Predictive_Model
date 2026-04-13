@@ -59,108 +59,14 @@ def clean_matches(con):
 
     return df
 
-def rolled_averages(con=None, df=None):
-    # we could go season by season
-    # this way you can handle relegated teams easier
-    # season = 2021
-    season_21_df = df[df['season'] == 2021]
+def rolled_averages(con):
+    # use the connection to query match_data
+    # the query will run the rolled average calculations
+    # as well as the formatting for the result set
+    query = ('SELECT sub.date, sub.time, sub.round, sub.venue, sub.result, CASE WHEN team_index <= 5 THEN -1 ELSE avg_5_gf END AS avg_5_gf, sub.opponent, CASE WHEN team_index <= 5 THEN -1 ELSE avg_5_xg END AS avg_5_xg, CASE WHEN team_index <= 5 THEN -1 ELSE avg_5_poss END AS avg_5_poss, CASE WHEN team_index <= 5 THEN -1 ELSE avg_5_sh END AS avg_5_sh, CASE WHEN team_index <= 5 THEN -1 ELSE avg_5_sot END AS avg_5_sot, sub.team, sub.season FROM (SELECT *, ROW_NUMBER() OVER w AS team_index, AVG(gf) OVER (w ROWS BETWEEN 5 PRECEDING AND 1 PRECEDING) AS avg_5_gf, AVG(xg) OVER (w ROWS BETWEEN 5 PRECEDING AND 1 PRECEDING) AS avg_5_xg, AVG(poss) OVER (w ROWS BETWEEN 5 PRECEDING AND 1 PRECEDING) AS avg_5_poss, AVG(sh) OVER (w ROWS BETWEEN 5 PRECEDING AND 1 PRECEDING) AS avg_5_sh, AVG(sot) OVER (w ROWS BETWEEN 5 PRECEDING AND 1 PRECEDING) AS avg_5_sot FROM match_data WINDOW w AS (PARTITION BY team ORDER BY date, time, round, season)) sub;')
 
-    # practice query to calculate rolling average windows using SQL
-    #     SELECT
-    #    ...> date,
-    #    ...> time,
-    #    ...> round,
-    #    ...> result,
-    #    ...> gf,
-    #    ...> AVG(gf) OVER (PARTITION BY team ORDER BY date, time, round, season ROWS 5 PRECEDING) AS avg_5_gf,
-    #    ...> ga,
-    #    ...> AVG(ga) OVER (PARTITION BY team ORDER BY date, time, round, season ROWS 5 PRECEDING) AS avg_5_ga,
-    #    ...> team,
-    #    ...> season
-    #    ...> FROM match_data LIMIT 10;
-
-    # second attempt, this does the rolling average window calculations I am wanting
-    #     SELECT
-    #    ...> date,
-    #    ...> time,
-    #    ...> round,
-    #    ...> result,
-    #    ...> gf,
-    #    ...> AVG(gf) OVER(PARTITION BY team ORDER BY date, time, round, season ROWS BETWEEN 5 PRECEDING AND 1 PRECEDING) AS avg_5_gf,
-    #    ...> ga,
-    #    ...> AVG(ga) OVER(PARTITION BY team ORDER BY date, time, round, season ROWS BETWEEN 5 PRECEDING AND 1 PRECEDING) AS avg_5_ga,
-    #    ...> team,
-    #    ...> season
-    #    ...> FROM match_data LIMIT 30;
-
-    # now I need to modify the query so that the first 5 matches 
-    # that don't have exactly 5 previous matches default to -1
-    # for all their stat columns
-
-    # Speaking with Emily:
-    # use CASE statement
-    # if first 5 give -1
-    # else do the rolling average window
-
-    # below is the latest attempt using CASE
-    # the result set is definitely not as expected
-    # getting duplicate rows and unsure why?
-    # WITH rolled_averages AS (
-	# SELECT date, time, round, season, team, ROW_NUMBER() OVER team AS team_index, AVG(gf) OVER calculate_frame AS avg_5_gf, AVG(xg) OVER calculate_frame AS avg_5_xg, AVG(poss) OVER calculate_frame AS avg_5_poss, AVG(sh) OVER calculate_frame AS avg_5_sh, AVG(sot) OVER calculate_frame AS avg_5_sot
-    # FROM match_data
-    # WINDOW calculate_frame AS (PARTITION BY team ORDER BY date, time, round, season ROWS BETWEEN 5 PRECEDING AND 1 PRECEDING), team AS (PARTITION BY team ORDER BY date, time, round, season)
-    # )
-    # SELECT md.date, md.time, md.round, md.venue, md.result, CASE WHEN ra.team_index <= 5 THEN -1 ELSE ra.avg_5_gf END AS avg_5_gf, md.opponent, CASE WHEN ra.team_index <= 5 THEN -1 ELSE ra.avg_5_xg END AS avg_5_xg, CASE WHEN ra.team_index <= 5 THEN -1 ELSE ra.avg_5_poss END AS avg_5_poss, CASE WHEN ra.team_index <= 5 THEN -1 ELSE ra.avg_5_sh END AS avg_5_sh, CASE WHEN ra.team_index <= 5 THEN -1 ELSE ra.avg_5_sot END AS avg_5_sot, md.team, md.season 
-    # FROM match_data md
-    # LEFT JOIN rolled_averages ra ON md.team=ra.team
-    # ORDER BY md.date, md.time, md.round, md.season;
-    
-    # below is the fourth attempt
-    # still getting a large amount of duplicates
-    # not sure why
-    # will try again
-    #     WITH team_rows AS (
-    # 	SELECT team, ROW_NUMBER() OVER team AS team_index FROM match_data WINDOW team AS (PARTITION BY team ORDER BY date, time, round, season)
-    # )
-    # SELECT 
-    # date, 
-    # time, 
-    # round, 
-    # venue, 
-    # result,
-    # CASE 
-    # WHEN tr.team_index <= 5 
-    # THEN -1 
-    # ELSE AVG(gf) OVER calculate_frame 
-    # END AS avg_5_gf, 
-    # opponent,
-    # CASE 
-    # WHEN tr.team_index <= 5 
-    # THEN -1 
-    # ELSE AVG(xg) OVER calculate_frame 
-    # END AS avg_5_xg,
-    # CASE 
-    # WHEN tr.team_index <= 5 
-    # THEN -1 
-    # ELSE AVG(poss) OVER calculate_frame 
-    # END AS avg_5_poss,
-    # CASE 
-    # WHEN tr.team_index <= 5 
-    # THEN -1 
-    # ELSE AVG(sh) OVER calculate_frame 
-    # END AS avg_5_sh,
-    # CASE 
-    # WHEN tr.team_index <= 5 
-    # THEN -1 
-    # ELSE AVG(sot) OVER calculate_frame 
-    # END AS avg_5_sot,
-    # md.team,
-    # season
-    # FROM match_data md
-    # JOIN team_rows tr ON tr.team=md.team
-    # WINDOW calculate_frame AS (PARTITION BY md.team ORDER BY date, time, round, season ROWS BETWEEN 5 PRECEDING AND 1 PRECEDING), team AS (PARTITION BY team ORDER BY date, time, round, season)
-    # ORDER BY date, time, round, season;
-    return None
+    df = pd.read_sql(query, con=con)
+    return df
 
 if __name__ == '__main__':
     clean_csv = 'data/processed/clean_final_matches.csv'
@@ -168,7 +74,10 @@ if __name__ == '__main__':
 
     con, cur, clean_df = open_con(db_path, clean_csv, 'match_data')
 
-    rolled_averages(df=clean_df)
+    rolled_averages_df = rolled_averages(con)
+
+    # need to review the next steps to be sure I am not missing
+    # on any useful data sets
     
     # merging rows to have single-row unique matches
     merged_df = make_matches(clean_df)
