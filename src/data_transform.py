@@ -54,7 +54,7 @@ def make_matches(df):
 def clean_matches(con):
     # selecting the needed features and omitting others
     # also ordering the matches in chronological order
-    query = 'SELECT season, date, time, round, gf_home, xg_home, poss_home, sh_home, sot_home, home, gf_away, xg_away, poss_away, sh_away, sot_away, away, result FROM old_merged_matches ORDER BY date, time, round;'
+    query = 'SELECT season, date, time, round, avg_5_gf_home, avg_5_xg_home, avg_5_poss_home, avg_5_sh_home, avg_5_sot_home, home, avg_5_gf_away, avg_5_xg_away, avg_5_poss_away, avg_5_sh_away, avg_5_sot_away, away, result FROM old_merged_matches ORDER BY date, time, round, season;'
     df = pd.read_sql(query, con=con)
 
     return df
@@ -74,13 +74,15 @@ if __name__ == '__main__':
 
     con, cur, clean_df = open_con(db_path, clean_csv, 'match_data')
 
+    # run rolled average calculations on the match_data
     rolled_averages_df = rolled_averages(con)
 
-    # need to review the next steps to be sure I am not missing
-    # on any useful data sets
+    rolled_averages_df.to_csv('data/processed/rolled_averages.csv')
+
+    rolled_averages_df.to_sql('rolled_match_data', con=con, if_exists='replace', index=False)
     
     # merging rows to have single-row unique matches
-    merged_df = make_matches(clean_df)
+    merged_df = make_matches(rolled_averages_df)
 
     merged_df.to_csv('data/processed/old_merged_matches.csv')
 
