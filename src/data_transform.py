@@ -68,6 +68,13 @@ def rolled_averages(con):
     df = pd.read_sql(query, con=con)
     return df
 
+def make_labels_and_targets(df):
+    # take the feature values and append them to an array
+    # the input tensor will be 2x5
+    # do the same for the targets
+    # should the targets be 0, 1, 2 instead of Home, Away, Draw?
+    pass
+
 if __name__ == '__main__':
     clean_csv = 'data/processed/clean_final_matches.csv'
     db_path = 'data/processed/EPL_data.db'
@@ -94,3 +101,6 @@ if __name__ == '__main__':
     clean_merged_df.to_csv('data/processed/merged_matches.csv')
 
     clean_merged_df.to_sql('merged_matches', con=con, if_exists='replace', index=False)
+
+    # now we need to scale the features and one-hot encode the targets
+    # in order to do this we first need to create ndarrays of the labels and targets
