@@ -73,6 +73,31 @@ def make_labels_and_targets(df):
     # the input tensor will be 2x5
     # do the same for the targets
     # should the targets be 0, 1, 2 instead of Home, Away, Draw?
+
+    # do we have to scale the values first and then
+    # put the data in a 2x5 ndarray?
+
+    # lets start with the features
+    labels = []
+    for i in range(1900):
+        data1 = []
+        data2 = []
+        data1.append(df['avg_5_gf_home'][i].value)
+        data1.append(df['avg_5_xg_home'][i].value)
+        data1.append(df['avg_5_poss_home'][i].value)
+        data1.append(df['avg_5_sh_home'][i].value)
+        data1.append(df['avg_5_sot_home'][i].value)
+        data2.append(df['avg_5_gf_away'][i].value)
+        data2.append(df['avg_5_xg_away'][i].value)
+        data2.append(df['avg_5_poss_away'][i].value)
+        data2.append(df['avg_5_sh_away'][i].value)
+        data2.append(df['avg_5_sot_away'][i].value)
+        packet = []
+        packet.append(data1)
+        packet.append(data2)
+        labels.append(packet)
+    
+    print(labels)
     pass
 
 if __name__ == '__main__':
@@ -104,3 +129,4 @@ if __name__ == '__main__':
 
     # now we need to scale the features and one-hot encode the targets
     # in order to do this we first need to create ndarrays of the labels and targets
+    make_labels_and_targets(clean_merged_df)
