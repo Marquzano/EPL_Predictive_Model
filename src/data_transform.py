@@ -40,11 +40,11 @@ def make_matches(df):
 
     for value in merged_df['result_home']:
         if value == 'W':
-            data.append('Home')
+            data.append(0)
         elif value == 'L':
-            data.append('Away')
+            data.append(1)
         else:
-            data.append('Draw')
+            data.append(2)
     
     result = pd.Series(data)
     merged_df['result'] = result.values
@@ -54,7 +54,7 @@ def make_matches(df):
 def clean_matches(con):
     # selecting the needed features and omitting others
     # also ordering the matches in chronological order
-    query = 'SELECT season, date, time, round, avg_5_gf_home, avg_5_xg_home, avg_5_poss_home, avg_5_sh_home, avg_5_sot_home, home, avg_5_gf_away, avg_5_xg_away, avg_5_poss_away, avg_5_sh_away, avg_5_sot_away, away, result FROM old_merged_matches ORDER BY date, time, round, season;'
+    query = 'SELECT season, date, time, round, avg_5_gf_home, avg_5_xg_home, avg_5_poss_home, avg_5_sh_home, avg_5_sot_home, home, avg_5_gf_away, avg_5_xg_away, avg_5_poss_away, avg_5_sh_away, avg_5_sot_away, away, result FROM old_merged_matches WHERE avg_5_gf_home != -1 AND avg_5_gf_away != -1 ORDER BY date, time, round, season;'
     df = pd.read_sql(query, con=con)
 
     return df
@@ -68,37 +68,23 @@ def rolled_averages(con):
     df = pd.read_sql(query, con=con)
     return df
 
-def make_labels_and_targets(df):
+def make_labels_and_targets(con):
     # take the feature values and append them to an array
-    # the input tensor will be 2x5
-    # do the same for the targets
+    # the input tensor will be 1x10
+    # do the same for the targets shape 1x1
     # should the targets be 0, 1, 2 instead of Home, Away, Draw?
 
-    # do we have to scale the values first and then
-    # put the data in a 2x5 ndarray?
+    # here we pull the features/labels data first
+    query = 'SELECT avg_5_gf_home, avg_5_xg_home, avg_5_poss_home, avg_5_sh_home, avg_5_sot_home, avg_5_gf_away, avg_5_xg_away, avg_5_poss_away, avg_5_sh_away, avg_5_sot_away FROM merged_matches;'
+    labels_df = pd.read_sql(query, con=con)
+    labels = labels_df.to_numpy()
 
-    # lets start with the features
-    labels = []
-    for i in range(1900):
-        data1 = []
-        data2 = []
-        data1.append(df['avg_5_gf_home'][i].value)
-        data1.append(df['avg_5_xg_home'][i].value)
-        data1.append(df['avg_5_poss_home'][i].value)
-        data1.append(df['avg_5_sh_home'][i].value)
-        data1.append(df['avg_5_sot_home'][i].value)
-        data2.append(df['avg_5_gf_away'][i].value)
-        data2.append(df['avg_5_xg_away'][i].value)
-        data2.append(df['avg_5_poss_away'][i].value)
-        data2.append(df['avg_5_sh_away'][i].value)
-        data2.append(df['avg_5_sot_away'][i].value)
-        packet = []
-        packet.append(data1)
-        packet.append(data2)
-        labels.append(packet)
-    
-    print(labels)
-    pass
+    # next we pull the targets data
+    query = 'SELECT result FROM merged_matches'
+    targets_df = pd.read_sql(query, con=con)
+    targets = targets_df.to_numpy()
+
+    return labels, targets
 
 if __name__ == '__main__':
     clean_csv = 'data/processed/clean_final_matches.csv'
@@ -129,4 +115,7 @@ if __name__ == '__main__':
 
     # now we need to scale the features and one-hot encode the targets
     # in order to do this we first need to create ndarrays of the labels and targets
-    make_labels_and_targets(clean_merged_df)
+    labels, targets = make_labels_and_targets(con)
+
+    # now we continue with sci-kit learn and create a scaler based on the training data
+    # 2021-2024 seasons only
