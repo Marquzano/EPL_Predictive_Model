@@ -150,3 +150,5 @@ if __name__ == '__main__':
     print(f'\n', validate_labels_scaled)
     print(f'\n', train_targets_encoded)
     print(f'\n', validate_targets_encoded)
+
+    # with that I believe we have processed all the data and can move on to modeling
