@@ -1,6 +1,7 @@
 #! /home/marquzano/miniconda3/envs/machine_learning/bin/python3
 import pandas as pd
 import sqlite3
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
 
 # open connection to the DB first
 def open_con(db_path, csv_path, table_name):
@@ -74,17 +75,39 @@ def make_labels_and_targets(con):
     # do the same for the targets shape 1x1
     # should the targets be 0, 1, 2 instead of Home, Away, Draw?
 
-    # here we pull the features/labels data first
-    query = 'SELECT avg_5_gf_home, avg_5_xg_home, avg_5_poss_home, avg_5_sh_home, avg_5_sot_home, avg_5_gf_away, avg_5_xg_away, avg_5_poss_away, avg_5_sh_away, avg_5_sot_away FROM merged_matches;'
-    labels_df = pd.read_sql(query, con=con)
-    labels = labels_df.to_numpy()
+    # here we pull the training and validation features/labels data first
+    query = 'SELECT avg_5_gf_home, avg_5_xg_home, avg_5_poss_home, avg_5_sh_home, avg_5_sot_home, avg_5_gf_away, avg_5_xg_away, avg_5_poss_away, avg_5_sh_away, avg_5_sot_away FROM merged_matches WHERE season in (2021, 2022, 2023, 2024);'
+    train_labels_df = pd.read_sql(query, con=con)
+    train_labels = train_labels_df.to_numpy()
+    query = 'SELECT avg_5_gf_home, avg_5_xg_home, avg_5_poss_home, avg_5_sh_home, avg_5_sot_home, avg_5_gf_away, avg_5_xg_away, avg_5_poss_away, avg_5_sh_away, avg_5_sot_away FROM merged_matches WHERE season in (2025);'
+    validate_labels_df = pd.read_sql(query, con=con)
+    validate_labels = validate_labels_df.to_numpy()
 
-    # next we pull the targets data
-    query = 'SELECT result FROM merged_matches'
-    targets_df = pd.read_sql(query, con=con)
-    targets = targets_df.to_numpy()
+    # next we pull the training and validation targets data
+    query = 'SELECT result FROM merged_matches WHERE season in (2021, 2022, 2023, 2024)'
+    train_targets_df = pd.read_sql(query, con=con)
+    train_targets = train_targets_df.to_numpy()
+    query = 'SELECT result FROM merged_matches WHERE season in (2025)'
+    validate_targets_df = pd.read_sql(query, con=con)
+    validate_targets = validate_targets_df.to_numpy()
 
-    return labels, targets
+    return train_labels, validate_labels, train_targets, validate_targets
+
+def scale_labels(X_train, X_validate):
+    scaler = StandardScaler()
+    scaler.fit(X_train)
+    X_train_scaled = scaler.transform(X_train)
+    X_validate_scaled = scaler.transform(X_validate)
+
+    return X_train_scaled, X_validate_scaled
+
+def one_hot_encode_targets(y_train, y_validate):
+    encoder = OneHotEncoder(sparse_output=False)
+    encoder.fit(y_train.reshape(-1,1))
+    y_train_encoded = encoder.transform(y_train.reshape(-1,1))
+    y_validate_encoded = encoder.transform(y_validate.reshape(-1,1))
+
+    return y_train_encoded, y_validate_encoded
 
 if __name__ == '__main__':
     clean_csv = 'data/processed/clean_final_matches.csv'
@@ -113,9 +136,17 @@ if __name__ == '__main__':
 
     clean_merged_df.to_sql('merged_matches', con=con, if_exists='replace', index=False)
 
-    # now we need to scale the features and one-hot encode the targets
-    # in order to do this we first need to create ndarrays of the labels and targets
-    labels, targets = make_labels_and_targets(con)
+    # create ndarrays of the labels and targets
+    # training and validation data
+    train_labels, validate_labels, train_targets, validate_targets = make_labels_and_targets(con)
 
     # now we continue with sci-kit learn and create a scaler based on the training data
     # 2021-2024 seasons only
+    train_labels_scaled, validate_labels_scaled = scale_labels(train_labels, validate_labels)
+
+    train_targets_encoded, validate_targets_encoded = one_hot_encode_targets(train_targets, validate_targets)
+
+    print(train_labels_scaled)
+    print(f'\n', validate_labels_scaled)
+    print(f'\n', train_targets_encoded)
+    print(f'\n', validate_targets_encoded)
