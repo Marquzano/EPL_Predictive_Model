@@ -69,31 +69,30 @@ def rolled_averages(con):
     df = pd.read_sql(query, con=con)
     return df
 
-def make_labels_and_targets(con):
+def make_features_and_labels(con):
     # take the feature values and append them to an array
     # the input tensor will be 1x10
-    # do the same for the targets shape 1x1
-    # should the targets be 0, 1, 2 instead of Home, Away, Draw?
+    # do the same for the labels shape 1x1
 
-    # here we pull the training and validation features/labels data first
+    # here we pull the training and validation features data first
     query = 'SELECT avg_5_gf_home, avg_5_xg_home, avg_5_poss_home, avg_5_sh_home, avg_5_sot_home, avg_5_gf_away, avg_5_xg_away, avg_5_poss_away, avg_5_sh_away, avg_5_sot_away FROM merged_matches WHERE season in (2021, 2022, 2023, 2024);'
+    train_features_df = pd.read_sql(query, con=con)
+    train_features = train_features_df.to_numpy()
+    query = 'SELECT avg_5_gf_home, avg_5_xg_home, avg_5_poss_home, avg_5_sh_home, avg_5_sot_home, avg_5_gf_away, avg_5_xg_away, avg_5_poss_away, avg_5_sh_away, avg_5_sot_away FROM merged_matches WHERE season in (2025);'
+    validate_features_df = pd.read_sql(query, con=con)
+    validate_features = validate_features_df.to_numpy()
+
+    # next we pull the training and validation labels data
+    query = 'SELECT result FROM merged_matches WHERE season in (2021, 2022, 2023, 2024)'
     train_labels_df = pd.read_sql(query, con=con)
     train_labels = train_labels_df.to_numpy()
-    query = 'SELECT avg_5_gf_home, avg_5_xg_home, avg_5_poss_home, avg_5_sh_home, avg_5_sot_home, avg_5_gf_away, avg_5_xg_away, avg_5_poss_away, avg_5_sh_away, avg_5_sot_away FROM merged_matches WHERE season in (2025);'
+    query = 'SELECT result FROM merged_matches WHERE season in (2025)'
     validate_labels_df = pd.read_sql(query, con=con)
     validate_labels = validate_labels_df.to_numpy()
 
-    # next we pull the training and validation targets data
-    query = 'SELECT result FROM merged_matches WHERE season in (2021, 2022, 2023, 2024)'
-    train_targets_df = pd.read_sql(query, con=con)
-    train_targets = train_targets_df.to_numpy()
-    query = 'SELECT result FROM merged_matches WHERE season in (2025)'
-    validate_targets_df = pd.read_sql(query, con=con)
-    validate_targets = validate_targets_df.to_numpy()
+    return train_features, validate_features, train_labels, validate_labels
 
-    return train_labels, validate_labels, train_targets, validate_targets
-
-def scale_labels(X_train, X_validate):
+def scale_features(X_train, X_validate):
     scaler = StandardScaler()
     scaler.fit(X_train)
     X_train_scaled = scaler.transform(X_train)
@@ -101,7 +100,7 @@ def scale_labels(X_train, X_validate):
 
     return X_train_scaled, X_validate_scaled
 
-def one_hot_encode_targets(y_train, y_validate):
+def one_hot_encode_labels(y_train, y_validate):
     encoder = OneHotEncoder(sparse_output=False)
     encoder.fit(y_train.reshape(-1,1))
     y_train_encoded = encoder.transform(y_train.reshape(-1,1))
@@ -138,17 +137,12 @@ if __name__ == '__main__':
 
     # create ndarrays of the labels and targets
     # training and validation data
-    train_labels, validate_labels, train_targets, validate_targets = make_labels_and_targets(con)
+    train_features, validate_features, train_labels, validate_labels = make_features_and_labels(con)
 
     # now we continue with sci-kit learn and create a scaler based on the training data
     # 2021-2024 seasons only
-    train_labels_scaled, validate_labels_scaled = scale_labels(train_labels, validate_labels)
+    train_features_scaled, validate_features_scaled = scale_features(train_features, validate_features)
 
-    train_targets_encoded, validate_targets_encoded = one_hot_encode_targets(train_targets, validate_targets)
-
-    print(train_labels_scaled)
-    print(f'\n', validate_labels_scaled)
-    print(f'\n', train_targets_encoded)
-    print(f'\n', validate_targets_encoded)
+    train_labels_encoded, validate_labels_encoded = one_hot_encode_labels(train_labels, validate_labels)
 
     # with that I believe we have processed all the data and can move on to modeling
