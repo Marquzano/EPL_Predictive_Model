@@ -4,9 +4,9 @@
 data/raw/*.db
 
 # Ignore model weights and logs
-models/*.keras
-models/*.h5
-logs/
+# models/*.keras
+# models/*.h5
+# logs/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
