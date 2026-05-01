@@ -1,6 +1,7 @@
 #! /home/marquzano/miniconda3/envs/machine_learning/bin/python3
 from data_transform import open_con, rolled_averages, make_matches, clean_matches, make_features_and_labels, scale_features, one_hot_encode_labels
 import tensorflow as tf
+import matplotlib.pyplot as plt
 
 # make the numpy arrays into tensors
 def make_tensors(*args):
@@ -14,8 +15,8 @@ def make_tensors(*args):
 def load_model():
     pass
 
-def save_model():
-    pass
+def save_model(model, filename):
+    model.save(filename)
 
 if __name__ == '__main__':
     # bring in the data from data_transform
@@ -62,12 +63,34 @@ if __name__ == '__main__':
     train_labels_encoded = packet[2]
     validate_labels_encoded = packet[3]
 
-    model1 = tf.keras.Sequential([
-        tf.keras.layers.Input(shape=(1,10)),
+    # building
+    model = tf.keras.Sequential([
+        tf.keras.layers.Input(shape=(10,)),
         tf.keras.layers.Dense(units=10, activation='relu'),
-        tf.keras.layers.Dense(units=1, activation='softmax')
+        tf.keras.layers.Dense(units=3, activation='softmax')
     ])
 
-    model1.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy', 'precision'])
+    # compiling
+    model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy', 'precision'])
 
-    model1.fit(train_features_scaled, train_labels_encoded, epochs=100)
+    # training
+    history = model.fit(train_features_scaled, train_labels_encoded, epochs=50, batch_size=10, validation_data=(validate_features_scaled,validate_labels_encoded))
+
+    # analyzing
+    training_loss = history.history['loss']
+    validation_loss = history.history['val_loss']
+    training_accuracy = history.history['accuracy']
+    validation_accuracy = history.history['val_accuracy']
+
+    # epochs = range(1, 51)
+    # plt.figure(figsize=(8, 5))
+    # plt.plot(epochs, training_loss, label='Training Loss')
+    # plt.plot(epochs, validation_loss, label='Validation Loss')
+    # plt.title('Model loss during training')
+    # plt.ylabel('Loss')
+    # plt.xlabel('Epoch')
+    # plt.legend()
+    # plt.savefig('plots/epl_0_0_2_loss.png')
+
+    # saving first model
+    save_model(model, 'models/epl_0_0_2.keras')
