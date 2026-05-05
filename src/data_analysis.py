@@ -8,17 +8,6 @@ clean_csv = 'data/processed/clean_final_matches.csv'
 raw_df = pd.read_csv(raw_csv, na_filter=True)
 clean_df = pd.read_csv(clean_csv, na_filter=True)
 
-# check the number of features and rows
-# print('Raw Data Shape\n\n\n\n\n')
-# print(raw_df.shape)
-# print('Clean Data Shape\n\n\n\n\n')
-# print(clean_df.shape)
-
-# print('Raw Data dtypes\n\n\n\n\n')
-# print(raw_df.dtypes)
-# print('Clean Data dtypes\n\n\n\n\n')
-# print(clean_df.dtypes)
-
 raw_profile = ProfileReport(raw_df, title='Raw EPL Matches')
 clean_profile = ProfileReport(clean_df, title='Clean EPL Matches')
 
