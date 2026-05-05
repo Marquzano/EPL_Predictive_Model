@@ -36,7 +36,7 @@ def remove_columns(con):
     return new_matches_df
 
 # fixes inconsistencies between opponent and team columns
-def fix_inconsistencies(matches_df):
+def fix_inconsistencies(df):
     # make mapping dictionaries for opponent and team columns
     team_updates = {
         "Brighton And Hove Albion": "Brighton",
@@ -54,10 +54,14 @@ def fix_inconsistencies(matches_df):
     }
 
     # update df accordingly
-    matches_df['team'] = matches_df['team'].replace(team_updates)
-    matches_df['opponent'] = matches_df['opponent'].replace(opponent_updates)
+    df['team'] = df['team'].replace(team_updates)
+    df['opponent'] = df['opponent'].replace(opponent_updates)
     
-    return matches_df
+    return df
+
+# make ids for each team
+def make_team_ids(df):
+    print(df.columns)
 
 # main method where logic and transformation take place
 if __name__ == '__main__':
@@ -76,6 +80,8 @@ if __name__ == '__main__':
 
     # need to clean up team names (there are inconsistencies)
     cleaned_df = fix_inconsistencies(matches_df)
+
+    make_team_ids(cleaned_df)
 
     # variables to create connection using new db and cleaned data
     clean_db = 'data/processed/EPL_data.db'
