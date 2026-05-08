@@ -92,6 +92,17 @@ def make_features_and_labels(con):
 
     return train_features, validate_features, train_labels, validate_labels
 
+def make_cat_features(con):
+    # pull the home_id and away_id for training purposes
+    query = 'SELECT home_id, away_id FROM merged_matches WHERE season in (2021, 2022, 2023, 2024)'
+    train_cat_features_df = pd.read_sql(query, con=con)
+    train_cat_features = train_cat_features_df.to_numpy()
+    query = 'SELECT home_id, away_id FROM merged_matches WHERE season in (2025)'
+    validate_cat_features_df = pd.read_sql(query, con=con)
+    validate_cat_features = validate_cat_features_df.to_numpy()
+    
+    return train_cat_features, validate_cat_features
+
 def scale_features(X_train, X_validate):
     scaler = StandardScaler()
     scaler.fit(X_train)
@@ -138,6 +149,9 @@ if __name__ == '__main__':
     # create ndarrays of the labels and targets
     # training and validation data
     train_features, validate_features, train_labels, validate_labels = make_features_and_labels(con)
+
+    # create ndarrays of the cat_features (categorical_features)
+    train_cat_features, validate_cat_features = make_cat_features(con)
 
     # now we continue with sci-kit learn and create a scaler based on the training data
     # 2021-2024 seasons only

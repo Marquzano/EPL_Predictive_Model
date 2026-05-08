@@ -1,6 +1,7 @@
 #! /home/marquzano/miniconda3/envs/machine_learning/bin/python3
-from data_transform import open_con, rolled_averages, make_matches, clean_matches, make_features_and_labels, scale_features, one_hot_encode_labels
+from data_transform import open_con, rolled_averages, make_matches, clean_matches, make_features_and_labels, make_cat_features, scale_features, one_hot_encode_labels
 import tensorflow as tf
+from keras.models import load_model
 import matplotlib.pyplot as plt
 
 # make the numpy arrays into tensors
@@ -11,9 +12,6 @@ def make_tensors(*args):
         packet.append(tensor)
 
     return packet
-
-def load_model():
-    pass
 
 def save_model(model, filename):
     model.save(filename)
@@ -55,26 +53,26 @@ if __name__ == '__main__':
     train_features_scaled, validate_features_scaled = scale_features(train_features, validate_features)
 
     train_labels_encoded, validate_labels_encoded = one_hot_encode_labels(train_labels, validate_labels)
+
+    train_cat_features, validate_cat_features = make_cat_features(con)
     
-    packet = make_tensors(train_features_scaled, validate_features_scaled, train_labels_encoded, validate_labels_encoded)
+    packet = make_tensors(train_features_scaled, validate_features_scaled, train_labels_encoded, validate_labels_encoded, train_cat_features, validate_cat_features)
 
     train_features_scaled = packet[0]
     validate_features_scaled = packet[1]
     train_labels_encoded = packet[2]
     validate_labels_encoded = packet[3]
+    train_cat_features = packet[4]
+    validate_cat_features = packet[5]
 
     # building
-    model = tf.keras.Sequential([
-        tf.keras.layers.Input(shape=(10,)),
-        tf.keras.layers.Dense(units=10, activation='relu'),
-        tf.keras.layers.Dense(units=3, activation='softmax')
-    ])
+    
 
-    # compiling
-    model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy', 'precision'])
+    # load model for re-training
+    model = load_model('models/epl_1_0_2.keras')
 
     # training
-    history = model.fit(train_features_scaled, train_labels_encoded, epochs=50, batch_size=10, validation_data=(validate_features_scaled,validate_labels_encoded))
+    history = model.fit([train_cat_features, train_features_scaled], train_labels_encoded, epochs=50, validation_data=([validate_cat_features, validate_features_scaled], validate_labels_encoded))
 
     # analyzing
     training_loss = history.history['loss']
@@ -82,15 +80,27 @@ if __name__ == '__main__':
     training_accuracy = history.history['accuracy']
     validation_accuracy = history.history['val_accuracy']
 
-    # epochs = range(1, 51)
-    # plt.figure(figsize=(8, 5))
-    # plt.plot(epochs, training_loss, label='Training Loss')
-    # plt.plot(epochs, validation_loss, label='Validation Loss')
-    # plt.title('Model loss during training')
-    # plt.ylabel('Loss')
-    # plt.xlabel('Epoch')
-    # plt.legend()
-    # plt.savefig('plots/epl_0_0_2_loss.png')
+    # plot the loss
+    epochs = range(1, 51)
+    plt.figure(figsize=(8, 5))
+    plt.plot(epochs, training_loss, label='Training Loss')
+    plt.plot(epochs, validation_loss, label='Validation Loss')
+    plt.title('Model loss during training')
+    plt.ylabel('Loss')
+    plt.xlabel('Epoch')
+    plt.legend()
+    plt.savefig('plots/epl_1_0_2_loss.png')
+
+    # plot the accuracy
+    epochs = range(1, 51)
+    plt.figure(figsize=(8, 5))
+    plt.plot(epochs, training_accuracy, label='Training Accuracy')
+    plt.plot(epochs, validation_accuracy, label='Validation Accuracy')
+    plt.title('Model accuracy during training')
+    plt.ylabel('Accuracy')
+    plt.xlabel('Epoch')
+    plt.legend()
+    plt.savefig('plots/epl_1_0_2_accuracy.png')
 
     # saving first model
-    save_model(model, 'models/epl_0_0_2.keras')
+    save_model(model, 'models/epl_1_0_2.keras')
