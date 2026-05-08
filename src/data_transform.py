@@ -34,7 +34,7 @@ def make_matches(df):
     merged_df = merged_df[merged_df['opponent_home'] == merged_df['team_away']]
 
     # renaming columns team_home and team_away for simplicity
-    merged_df = merged_df.rename(columns={'team_home': 'home', 'team_away':'away'})
+    merged_df = merged_df.rename(columns={'team_home': 'home', 'team_away':'away', 'team_id_home': 'home_id', 'team_id_away': 'away_id'})
 
     # below I'm making a single column to hold the result for each unique match
     data = []
@@ -55,7 +55,7 @@ def make_matches(df):
 def clean_matches(con):
     # selecting the needed features and omitting others
     # also ordering the matches in chronological order
-    query = 'SELECT season, date, time, round, avg_5_gf_home, avg_5_xg_home, avg_5_poss_home, avg_5_sh_home, avg_5_sot_home, home, avg_5_gf_away, avg_5_xg_away, avg_5_poss_away, avg_5_sh_away, avg_5_sot_away, away, result FROM old_merged_matches WHERE avg_5_gf_home != -1 AND avg_5_gf_away != -1 ORDER BY date, time, round, season;'
+    query = 'SELECT season, date, time, round, avg_5_gf_home, avg_5_xg_home, avg_5_poss_home, avg_5_sh_home, avg_5_sot_home, home, home_id, avg_5_gf_away, avg_5_xg_away, avg_5_poss_away, avg_5_sh_away, avg_5_sot_away, away, away_id, result FROM old_merged_matches WHERE avg_5_gf_home != -1 AND avg_5_gf_away != -1 ORDER BY date, time, round, season;'
     df = pd.read_sql(query, con=con)
 
     return df
@@ -64,7 +64,7 @@ def rolled_averages(con):
     # use the connection to query match_data
     # the query will run the rolled average calculations
     # as well as the formatting for the result set
-    query = ('SELECT sub.date, sub.time, sub.round, sub.venue, sub.result, CASE WHEN team_index <= 5 THEN -1 ELSE avg_5_gf END AS avg_5_gf, sub.opponent, CASE WHEN team_index <= 5 THEN -1 ELSE avg_5_xg END AS avg_5_xg, CASE WHEN team_index <= 5 THEN -1 ELSE avg_5_poss END AS avg_5_poss, CASE WHEN team_index <= 5 THEN -1 ELSE avg_5_sh END AS avg_5_sh, CASE WHEN team_index <= 5 THEN -1 ELSE avg_5_sot END AS avg_5_sot, sub.team, sub.season FROM (SELECT *, ROW_NUMBER() OVER w AS team_index, AVG(gf) OVER (w ROWS BETWEEN 5 PRECEDING AND 1 PRECEDING) AS avg_5_gf, AVG(xg) OVER (w ROWS BETWEEN 5 PRECEDING AND 1 PRECEDING) AS avg_5_xg, AVG(poss) OVER (w ROWS BETWEEN 5 PRECEDING AND 1 PRECEDING) AS avg_5_poss, AVG(sh) OVER (w ROWS BETWEEN 5 PRECEDING AND 1 PRECEDING) AS avg_5_sh, AVG(sot) OVER (w ROWS BETWEEN 5 PRECEDING AND 1 PRECEDING) AS avg_5_sot FROM match_data WINDOW w AS (PARTITION BY team ORDER BY date, time, round, season)) sub;')
+    query = ('SELECT sub.date, sub.time, sub.round, sub.venue, sub.result, CASE WHEN team_index <= 5 THEN -1 ELSE avg_5_gf END AS avg_5_gf, sub.opponent, CASE WHEN team_index <= 5 THEN -1 ELSE avg_5_xg END AS avg_5_xg, CASE WHEN team_index <= 5 THEN -1 ELSE avg_5_poss END AS avg_5_poss, CASE WHEN team_index <= 5 THEN -1 ELSE avg_5_sh END AS avg_5_sh, CASE WHEN team_index <= 5 THEN -1 ELSE avg_5_sot END AS avg_5_sot, sub.team, sub.team_id, sub.season FROM (SELECT *, ROW_NUMBER() OVER w AS team_index, AVG(gf) OVER (w ROWS BETWEEN 5 PRECEDING AND 1 PRECEDING) AS avg_5_gf, AVG(xg) OVER (w ROWS BETWEEN 5 PRECEDING AND 1 PRECEDING) AS avg_5_xg, AVG(poss) OVER (w ROWS BETWEEN 5 PRECEDING AND 1 PRECEDING) AS avg_5_poss, AVG(sh) OVER (w ROWS BETWEEN 5 PRECEDING AND 1 PRECEDING) AS avg_5_sh, AVG(sot) OVER (w ROWS BETWEEN 5 PRECEDING AND 1 PRECEDING) AS avg_5_sot FROM match_data WINDOW w AS (PARTITION BY team ORDER BY date, time, round, season)) sub;')
 
     df = pd.read_sql(query, con=con)
     return df
