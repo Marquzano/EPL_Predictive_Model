@@ -4,20 +4,19 @@ import requests as re
 from requests.exceptions import RequestException
 
 if __name__ == '__main__':
-    # trying out https://www.fotmob.com/api
-    # by using requests to pull data straight from the site
+    # trying out API-Football
+    # will continue once I figure out a plan to:
+    # retrieve all necesarry stats from one endpoint (if possible)
 
     session = re.Session()
-    base_url = 'https://www.fotmob.com/api'
+    base_url = 'https://v3.football.api-sports.io/'
 
     try:
+        url = f'{base_url}leagues'
+        params = {}
         headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-            'Accept': 'application/json, text/plain, */*',
-            'Cache-Control': 'no-cache',            
+            'x-apisports-key': '710c55cb489a5287b157c77aed1fbd66'
             }
-        params = {'id':47, 'season':'2025/2026'}
-        url = f'{base_url}/leagues'
         response = session.get(url, params=params, headers=headers)
 
         print(response.text)

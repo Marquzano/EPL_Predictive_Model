@@ -2,6 +2,7 @@
 from data_transform import open_con, rolled_averages, make_matches, clean_matches, make_features_and_labels, make_cat_features, scale_features, one_hot_encode_labels
 import tensorflow as tf
 from keras.models import load_model
+from keras.callbacks import ModelCheckpoint, LearningRateScheduler
 import matplotlib.pyplot as plt
 
 # make the numpy arrays into tensors
@@ -15,6 +16,12 @@ def make_tensors(*args):
 
 def save_model(model, filename):
     model.save(filename)
+
+def scheduler(epoch, lr):
+    if epoch < 15:
+        return lr
+    else:
+        return lr * 0.1    
 
 if __name__ == '__main__':
     # bring in the data from data_transform
@@ -66,13 +73,41 @@ if __name__ == '__main__':
     validate_cat_features = packet[5]
 
     # building
-    
+    # Categorical layer input
+    match_ids = tf.keras.layers.Input(shape=(2,), name='match_ids')
+    ids_embedding = tf.keras.layers.Embedding(input_dim=27, output_dim=4)(match_ids)
+    flat_ids = tf.keras.layers.Flatten()(ids_embedding)
+
+    # Continuous layer input
+    match_stats = tf.keras.layers.Input(shape=(10,), name='match_stats')
+
+    # Merge the inputs
+    merged = tf.keras.layers.Concatenate()([flat_ids, match_stats])
+
+    # Dense Layers
+    a = tf.keras.layers.Dropout(0.4)(merged)
+    a = tf.keras.layers.Dense(units=15, activation='relu')(a)
+    a = tf.keras.layers.Dense(units=10, activation='relu')(a)
+    output = tf.keras.layers.Dense(units=3, activation='softmax')(a)
+
+    # Model
+    model = tf.keras.models.Model(inputs=[match_ids, match_stats], outputs=output)
+
+    # Compiling
+    adam = tf.keras.optimizers.Adam(learning_rate=0.0005)
+    model.compile(optimizer=adam, loss='categorical_crossentropy', metrics=['accuracy', 'precision'])
 
     # load model for re-training
-    model = load_model('models/epl_1_0_2.keras')
+    # model = load_model('models/epl_1_0_2.keras')
 
     # training
-    history = model.fit([train_cat_features, train_features_scaled], train_labels_encoded, epochs=50, validation_data=([validate_cat_features, validate_features_scaled], validate_labels_encoded))
+    model_checkpoint = ModelCheckpoint(filepath='models/epl_1_0_4.keras', save_best_only=True, monitor='val_accuracy')
+    learning_rate_scheduler = LearningRateScheduler(scheduler)
+    history = model.fit([train_cat_features, train_features_scaled], 
+                        train_labels_encoded, 
+                        epochs=50, 
+                        callbacks=[model_checkpoint, learning_rate_scheduler], 
+                        validation_data=([validate_cat_features, validate_features_scaled], validate_labels_encoded))
 
     # analyzing
     training_loss = history.history['loss']
@@ -89,7 +124,7 @@ if __name__ == '__main__':
     plt.ylabel('Loss')
     plt.xlabel('Epoch')
     plt.legend()
-    plt.savefig('plots/epl_1_0_2_loss.png')
+    plt.savefig('plots/epl_1_0_4_loss.png')
 
     # plot the accuracy
     epochs = range(1, 51)
@@ -100,7 +135,8 @@ if __name__ == '__main__':
     plt.ylabel('Accuracy')
     plt.xlabel('Epoch')
     plt.legend()
-    plt.savefig('plots/epl_1_0_2_accuracy.png')
+    plt.savefig('plots/epl_1_0_4_accuracy.png')
 
     # saving first model
-    save_model(model, 'models/epl_1_0_2.keras')
+    # not absolutely necessary now that we have the model_checkpoint callback
+    # save_model(model, 'models/epl_1_0_4.keras')
