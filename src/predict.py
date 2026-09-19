@@ -44,7 +44,7 @@ if __name__ == '__main__':
     stats_input_tensor_scaled = packet[0]
     team_input_tensor = packet[1]
 
-    model = get_model('models/epl_1_0_4.keras')
+    model = get_model('models/epl_1_0_2.keras')
 
     predictions = model.predict([team_input_tensor, stats_input_tensor_scaled])
 
