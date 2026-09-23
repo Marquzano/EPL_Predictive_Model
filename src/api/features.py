@@ -1,6 +1,9 @@
-#! /home/marquzano/miniconda3/envs/machine_learning/bin/python3
 import pandas as pd
 
+# pull the team form from the five trailing matches
+# prior to the as_of_date
+# for now it pulls from the DB as we don't have
+# live data
 def get_team_form(con, team_id, as_of_date):
     query = 'SELECT gf, xg, poss, sh, sot FROM match_data' \
     '        WHERE team_id = ? AND date < ?' \

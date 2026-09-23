@@ -6,6 +6,12 @@ from fastapi import FastAPI
 from api.routes import predict as predict_routes
 import sqlite3
 
+# create the lifespan of the app
+# to provide necessary objects at
+# startup and to break it down at
+# shutdown
+# make it to handle requests and
+# responses asynchronously
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     model = load_model('models/epl_1_0_4.keras')
@@ -17,6 +23,8 @@ async def lifespan(app: FastAPI):
 
     con.close()
 
+# make the app instance
 app = FastAPI(lifespan=lifespan)
 
+# include the current routes for the app
 app.include_router(predict_routes.router)
