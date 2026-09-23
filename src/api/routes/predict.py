@@ -8,7 +8,7 @@ from api.schemas import PredictRequest, PredictResponse
 router = APIRouter()
 
 # define /predict as a post whenever a request is made
-@router.post('/predict')
+@router.post('/predict', response_model=PredictResponse)
 def predict(request:Request, payload:PredictRequest):
     # pull the yielded objects at app startup
     model = request.state.model
