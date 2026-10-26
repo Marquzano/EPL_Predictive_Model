@@ -5,6 +5,7 @@ from sklearn.preprocessing import StandardScaler
 from fastapi import FastAPI
 from api.routes import predict as predict_routes
 import sqlite3
+DB_PATH = 'data/processed/EPL_data.db'
 
 # create the lifespan of the app
 # to provide necessary objects at
@@ -15,7 +16,7 @@ import sqlite3
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     model = load_model('models/epl_1_0_4.keras')
-    con = sqlite3.connect('data/processed/EPL_data.db')
+    con = sqlite3.connect(DB_PATH)
     training_features, *_ = make_features_and_labels(con)
     scaler = StandardScaler().fit(training_features)
 
