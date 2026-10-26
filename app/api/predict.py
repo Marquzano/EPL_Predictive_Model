@@ -1,8 +1,8 @@
 import datetime
 from fastapi import Request, APIRouter
-from modeling import make_tensors
-from api.features import get_team_form
-from api.schemas import PredictRequest, PredictResponse
+from pipeline.modeling import make_tensors
+from app.services.features import get_team_form
+from app.schemas.schemas import PredictRequest, PredictResponse
 
 # make the route object to define routes
 router = APIRouter()
