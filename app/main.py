@@ -3,7 +3,7 @@ from pipeline.data_transform import make_features_and_labels
 from keras.models import load_model
 from sklearn.preprocessing import StandardScaler
 from fastapi import FastAPI
-from api import predict as predict_routes
+from app.api import predict as predict_routes
 import sqlite3
 DB_PATH = 'data/processed/EPL_data.db'
 
