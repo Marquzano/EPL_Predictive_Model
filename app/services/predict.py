@@ -40,8 +40,13 @@ def predict_match(model, con, scaler, as_of_date, home_id, away_id):
 
     # run the prediction from the model
     prediction = model.predict([cat_tensor, stats_tensor])
-
     # get the probabilities from the prediction matrix
     probabilities = prediction[0]
 
-    return probabilities
+    # map the model's output indices to named outcomes
+    # label encoding from data_transform.py: 0=home win, 1=away win, 2=draw
+    return {
+            'home_win_probability': round(float(probabilities[0]), 5),
+            'away_win_probability': round(float(probabilities[1]), 5),
+            'draw_probability': round(float(probabilities[2]), 5)
+    }

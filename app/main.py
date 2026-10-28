@@ -17,12 +17,13 @@ DB_PATH = 'data/processed/EPL_data.db'
 async def lifespan(app: FastAPI):
     model = load_model('models/epl_1_0_4.keras')
     con = sqlite3.connect(DB_PATH)
-    training_features, *_ = make_features_and_labels(con)
-    scaler = StandardScaler().fit(training_features)
+    try:
+        training_features, *_ = make_features_and_labels(con)
+        scaler = StandardScaler().fit(training_features)
+    finally:
+        con.close()
 
-    yield {'model': model, 'con': con, 'scaler': scaler}
-
-    con.close()
+    yield {'model': model, 'db_path': DB_PATH, 'scaler': scaler}
 
 # make the app instance
 app = FastAPI(lifespan=lifespan)
