@@ -3,10 +3,12 @@ from pipeline.data_transform import make_features_and_labels
 from keras.models import load_model
 from sklearn.preprocessing import StandardScaler
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from app.api import predict as predict_routes
 from app.api import teams as teams_routes
 import sqlite3
 DB_PATH = 'data/processed/EPL_data.db'
+FRONTEND_ORIGINS = ['http://localhost:5173']
 
 # create the lifespan of the app
 # to provide necessary objects at
@@ -28,6 +30,13 @@ async def lifespan(app: FastAPI):
 
 # make the app instance
 app = FastAPI(lifespan=lifespan)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=FRONTEND_ORIGINS,
+    allow_methods=['GET', 'POST'],
+    allow_headers=['Content-Type']
+)
 
 # include the current routes for the app
 app.include_router(predict_routes.router)
