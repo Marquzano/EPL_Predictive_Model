@@ -4,6 +4,7 @@ from keras.models import load_model
 from sklearn.preprocessing import StandardScaler
 from fastapi import FastAPI
 from app.api import predict as predict_routes
+from app.api import teams as teams_routes
 import sqlite3
 DB_PATH = 'data/processed/EPL_data.db'
 
@@ -30,3 +31,4 @@ app = FastAPI(lifespan=lifespan)
 
 # include the current routes for the app
 app.include_router(predict_routes.router)
+app.include_router(teams_routes.router)

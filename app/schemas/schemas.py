@@ -18,6 +18,6 @@ class PredictResponse(BaseModel):
     away_win_probability: float
     draw_probability: float
 
-class Team(BaseModel):
+class TeamResponse(BaseModel):
     team_id: int
     team: str
