@@ -72,11 +72,8 @@ function App() {
       {prediction && (
         <PredictionResult prediction={prediction} homeName={homeName} awayName={awayName} />
       )}
-      {/* <p>
-        Selected: home={homeId ?? 'none'}, away={awayId ?? 'none'}
-      </p> */}
     </main>
-  )
+  ) 
 }
 
 export default App

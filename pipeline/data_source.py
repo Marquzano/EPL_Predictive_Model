@@ -15,7 +15,7 @@ if __name__ == '__main__':
         url = f'{base_url}leagues'
         params = {}
         headers = {
-            'x-apisports-key': '710c55cb489a5287b157c77aed1fbd66'
+            'x-apisports-key': ''
             }
         response = session.get(url, params=params, headers=headers)
 
