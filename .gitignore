@@ -2,6 +2,7 @@
 # data/raw/*
 # data/processed/*
 data/raw/*.db
+data/raw/api_football/
 
 # Ignore model weights and logs
 # models/*.keras
