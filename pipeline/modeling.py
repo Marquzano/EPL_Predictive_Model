@@ -25,10 +25,9 @@ def scheduler(epoch, lr):
 
 if __name__ == '__main__':
     # bring in the data from data_transform
-    clean_csv = 'data/processed/clean_final_matches.csv'
     db_path = 'data/processed/EPL_data.db'
 
-    con, cur, clean_df = open_con(db_path, clean_csv, 'match_data')
+    con, cur, clean_df = open_con(db_path)
 
     # run rolled average calculations on the match_data
     rolled_averages_df = rolled_averages(con)

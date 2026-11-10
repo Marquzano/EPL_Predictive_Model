@@ -112,7 +112,9 @@ def add_team_id_col(matches_df, team_id_df):
     matches_df['team_id'] = new_rows
     return matches_df
 
-# main method where logic and transformation take place
+# This is a one time historical build
+# DO NOT RUN AGAIN
+# This would overwrite the live data in match_data in EPL_data.db
 if __name__ == '__main__':
     # define raw csv file
     raw_file = 'data/raw/final_matches.csv'

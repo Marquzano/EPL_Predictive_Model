@@ -4,15 +4,14 @@ import sqlite3
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 
 # open connection to the DB first
-def open_con(db_path, csv_path, table_name):
+def open_con(db_path):
     # create the connection
     con = sqlite3.connect(db_path)
     cur = con.cursor()
 
-    # open csv file as a dataframe
-    df = pd.read_csv(csv_path, na_filter=True)
-    # load the dataframe as a table
-    df.to_sql(table_name, con=con, if_exists='replace', index=False)
+    # open db as a df
+    query = 'SELECT * FROM match_data;'
+    df = pd.read_sql(query, con=con)
     
     return con, cur, df
 
@@ -120,10 +119,9 @@ def one_hot_encode_labels(y_train, y_validate):
     return y_train_encoded, y_validate_encoded
 
 if __name__ == '__main__':
-    clean_csv = 'data/processed/clean_final_matches.csv'
     db_path = 'data/processed/EPL_data.db'
 
-    con, cur, clean_df = open_con(db_path, clean_csv, 'match_data')
+    con, cur, clean_df = open_con(db_path)
 
     # run rolled average calculations on the match_data
     rolled_averages_df = rolled_averages(con)
