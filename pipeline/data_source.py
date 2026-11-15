@@ -1,5 +1,6 @@
 #! /home/marquzano/miniconda3/envs/machine_learning/bin/python3
 import os
+import sys
 import json
 import time
 import sqlite3
@@ -23,6 +24,10 @@ BATCH_SIZE = 20 # API max for ?ids=
 PAUSE = 0.25 # ~240/min, under Pro 300 req/min
 UK_TZ = ZoneInfo('Europe/London')
 REQUIRED_STATS = ['expected_goals', 'Ball Possession', 'Total Shots', 'Shots on Goal']
+COLUMNS = ['date', 'time', 'round', 'venue', 'result', 'gf', 'ga', 'opponent',
+           'xg', 'xga', 'poss', 'sh', 'sot', 'team', 'season', 'team_id']
+FIRST_SEASON = 2025
+DEFAULT_SEASONS = [2025, 2026]
 
 if not API_KEY:
     raise SystemExit('APIFOOTBALL_KEY is not set. Add it to .env in the repo root')
@@ -52,14 +57,16 @@ def get_finished_ids(season):
 def find_uncached(fixture_ids):
     return [fid for fid in fixture_ids if not cache_path(fid).exists()]
 
-def has_required_stats(fixture):
+def missing_stats(fixture):
     if len(fixture['statistics']) != 2:
-        return False
+        return ['no statistics for one or both teams']
+    problems = []
     for team in fixture['statistics']:
         values = {s['type']: s['value'] for s in team['statistics']}
-        if any(values.get(stat) is None for stat in REQUIRED_STATS):
-            return False
-    return True
+        for stat in REQUIRED_STATS:
+            if values.get(stat) is None:
+                problems.append(f"{team['team']['name']}: {stat}")
+    return problems
 
 def fetch_and_cache(fixture_ids):
     for start in range(0, len(fixture_ids), BATCH_SIZE):
@@ -67,13 +74,121 @@ def fetch_and_cache(fixture_ids):
         fixtures = api_get('fixtures', {'ids': '-'.join(str(fid) for fid in batch)})
 
         for f in fixtures:
-            if has_required_stats(f):
+            problems = missing_stats(f)
+            if problems:
+                print(f"INCOMPLETE {f['fixture']['id']} | {f['fixture']['date'][:10]} | "
+                      f"{f['teams']['home']['name']} v {f['teams']['away']['name']} | "
+                      f"missing: {', '.join(problems)}")
+            else:
                 cache_path(f['fixture']['id']).write_text(json.dumps(f))
 
         print(f'fetched {start + len(batch)}/{len(fixture_ids)}')
 
 def load_cached(fixture_ids):
-    missing = [fid for fid in fixture_ids if not cache_path(fid).exists()]
+    missing = find_uncached(fixture_ids)
     if missing:
-        raise SystemExit(f'{len(missing)} finished fixtures have no complete stats yet: {missing}')
-    return [json.loads(cache_path(fid).read_text()) for fid in fixture_ids]
+        print(f'SKIPPED {len(missing)} finished fixtures without complete stats: {missing}')
+    return [json.loads(cache_path(fid).read_text()) for fid in fixture_ids if fid not in missing]
+
+def result_for(gf, ga):
+    if gf > ga:
+        return 'W'
+    if gf < ga:
+        return 'L'
+    return 'D'
+
+def to_float(value):
+    return float(str(value).rstrip('%'))
+
+def team_stats(fixture):
+    stats = {}
+    for entry in fixture['statistics']:
+        values = {s['type']: s['value'] for s in entry['statistics']}
+        stats[entry['team']['id']] = {
+            'xg': to_float(values['expected_goals']),
+            'poss': to_float(values['Ball Possession']),
+            'sh': to_float(values['Total Shots']),
+            'sot': to_float(values['Shots on Goal'])
+        }
+    return stats
+
+def match_data_row(common, venue, team, opponent, gf, ga, own, opp):
+    return {**common, 'venue': venue, 'team': team, 'opponent': opponent,
+            'gf': gf, 'ga': ga, 'result': result_for(gf, ga),
+            'xg': own['xg'], 'xga': opp['xg'],
+            'poss': own['poss'], 'sh': own['sh'], 'sot': own['sot']}
+
+def fixture_rows(f):
+    kickoff = datetime.fromisoformat(f['fixture']['date']).astimezone(UK_TZ)
+    common = {
+        'fixture_id': f['fixture']['id'],
+        'season': f['league']['season'] + 1,
+        'date': kickoff.strftime('%Y-%m-%d'),
+        'time': kickoff.strftime('%H:%M'),
+        'round': f['league']['round'].replace('Regular Season - ', 'Matchweek ')
+    }
+    home, away = f['teams']['home'], f['teams']['away']
+    hg, ag = f['goals']['home'], f['goals']['away']
+    stats = team_stats(f)
+    hs, aws = stats[home['id']], stats[away['id']]
+    return [
+        match_data_row(common, 'Home', home['name'], away['name'], hg, ag, hs, aws),
+        match_data_row(common, 'Away', away['name'], home['name'], ag, hg, aws, hs)
+    ]
+
+def load_name_maps(con):
+    aliases = dict(con.execute(
+        "SELECT alias, team FROM team_aliases WHERE source = 'api_football'").fetchall())
+    registry = dict(con.execute('SELECT team, team_id FROM team_registry').fetchall())
+    return aliases, registry
+
+def map_names(rows, aliases, registry):
+    unknown = {}
+    for row in rows:
+        row['team'] = aliases.get(row['team'], row['team'])
+        row['opponent'] = aliases.get(row['opponent'], row['opponent'])
+        for name in (row['team'], row['opponent']):
+            if name not in registry:
+                unknown.setdefault(name, row['fixture_id'])
+        row['team_id'] = registry.get(row['team'])
+
+    if unknown:
+        lines = '\n'.join(f' {name} (e.g. fixture {fid})' for name, fid in unknown.items())
+        raise SystemExit(f'Unknown team names - add to team_aliases or team_registry, then rerun:\n{lines}')
+
+def upsert(con, rows):
+    placeholders = ', '.join(f':{c}' for c in COLUMNS)
+    updates = ', '.join(f'{c} = excluded.{c}' for c in COLUMNS if c not in ('team_id', 'date'))
+    sql = (f'INSERT INTO match_data ({", ".join(COLUMNS)}) VALUES ({placeholders}) '
+           f'ON CONFLICT(team_id, date) DO UPDATE SET {updates}')
+    with con:
+        con.executemany(sql, rows)
+    print(f'upserted {len(rows)} rows')
+
+def ingest_season(con, season, aliases, registry):
+    finished = get_finished_ids(season)
+    to_fetch = find_uncached(finished)
+    print(f'season {season}: {len(finished)} finished, {len(to_fetch)} to fetch')
+
+    fetch_and_cache(to_fetch)
+    fixtures = load_cached(finished)
+    rows = [row for f in fixtures for row in fixture_rows(f)]
+    map_names(rows, aliases, registry)
+    upsert(con, rows)
+
+if __name__ == '__main__':
+    seasons = [int(s) for s in sys.argv[1:]] or DEFAULT_SEASONS
+    too_early = [s for s in seasons if s < FIRST_SEASON]
+    if too_early:
+        raise SystemExit(f'Refusing seasons {too_early}: before {FIRST_SEASON} is FBref history')
+
+    con = sqlite3.connect(DB_PATH)
+    try:
+        aliases, registry = load_name_maps(con)
+        for season in seasons:
+            ingest_season(con, season, aliases, registry)
+    finally:
+        con.close()
+
+    print(f'done | API requests this run: {request_count}')
+    print(f'next: rerun data_transform.py to rebuild the performance tables')
