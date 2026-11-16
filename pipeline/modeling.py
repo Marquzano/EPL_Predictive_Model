@@ -1,5 +1,5 @@
 #! /home/marquzano/miniconda3/envs/machine_learning/bin/python3
-from pipeline.data_transform import open_con, rolled_averages, make_matches, clean_matches, make_features_and_labels, make_cat_features, scale_features, one_hot_encode_labels
+from data_transform import open_con, rolled_averages, make_matches, clean_matches, make_features_and_labels, make_cat_features, scale_features, one_hot_encode_labels
 import tensorflow as tf
 from keras.models import load_model
 from keras.callbacks import ModelCheckpoint, LearningRateScheduler
@@ -30,32 +30,38 @@ if __name__ == '__main__':
     con, cur, clean_df = open_con(db_path)
 
     # run rolled average calculations on the match_data
-    rolled_averages_df = rolled_averages(con)
+    # rolled_averages_df = rolled_averages(con)
 
-    rolled_averages_df.to_csv('data/processed/rolled_averages.csv')
+    # rolled_averages_df.to_csv('data/processed/rolled_averages.csv')
 
-    rolled_averages_df.to_sql('rolled_match_data', con=con, if_exists='replace', index=False)
+    # rolled_averages_df.to_sql('rolled_match_data', con=con, if_exists='replace', index=False)
     
     # merging rows to have single-row unique matches
-    merged_df = make_matches(rolled_averages_df)
+    # merged_df = make_matches(rolled_averages_df)
 
-    merged_df.to_csv('data/processed/old_merged_matches.csv')
+    # merged_df.to_csv('data/processed/old_merged_matches.csv')
 
-    merged_df.to_sql('old_merged_matches', con=con, if_exists='replace', index=False)
+    # merged_df.to_sql('old_merged_matches', con=con, if_exists='replace', index=False)
 
     # cleaning up the data to necessary keys, features, and labels
-    clean_merged_df = clean_matches(con)
+    # clean_merged_df = clean_matches(con)
 
-    clean_merged_df.to_csv('data/processed/merged_matches.csv')
+    # clean_merged_df.to_csv('data/processed/merged_matches.csv')
 
-    clean_merged_df.to_sql('merged_matches', con=con, if_exists='replace', index=False)
+    # clean_merged_df.to_sql('merged_matches', con=con, if_exists='replace', index=False)
+
+    #########################################################
+    # All previous lines in the main module are commented out
+    # since the data is already available in the DB
+    # Live data is coming in now
+    #########################################################
 
     # create ndarrays of the labels and targets
     # training and validation data
     train_features, validate_features, train_labels, validate_labels = make_features_and_labels(con)
 
     # now we continue with sci-kit learn and create a scaler based on the training data
-    # 2021-2024 seasons only
+    # 2021-2025 seasons only
     train_features_scaled, validate_features_scaled = scale_features(train_features, validate_features)
 
     train_labels_encoded, validate_labels_encoded = one_hot_encode_labels(train_labels, validate_labels)
@@ -72,35 +78,35 @@ if __name__ == '__main__':
     validate_cat_features = packet[5]
 
     # building
-    # # Categorical layer input
-    # match_ids = tf.keras.layers.Input(shape=(2,), name='match_ids')
-    # ids_embedding = tf.keras.layers.Embedding(input_dim=27, output_dim=4)(match_ids)
-    # flat_ids = tf.keras.layers.Flatten()(ids_embedding)
+    # Categorical layer input
+    match_ids = tf.keras.layers.Input(shape=(2,), name='match_ids')
+    ids_embedding = tf.keras.layers.Embedding(input_dim=30, output_dim=4)(match_ids)
+    flat_ids = tf.keras.layers.Flatten()(ids_embedding)
 
-    # # Continuous layer input
-    # match_stats = tf.keras.layers.Input(shape=(10,), name='match_stats')
+    # Continuous layer input
+    match_stats = tf.keras.layers.Input(shape=(10,), name='match_stats')
 
-    # # Merge the inputs
-    # merged = tf.keras.layers.Concatenate()([flat_ids, match_stats])
+    # Merge the inputs
+    merged = tf.keras.layers.Concatenate()([flat_ids, match_stats])
 
-    # # Dense Layers
-    # a = tf.keras.layers.Dropout(0.4)(merged)
-    # a = tf.keras.layers.Dense(units=15, activation='relu')(a)
-    # a = tf.keras.layers.Dense(units=10, activation='relu')(a)
-    # output = tf.keras.layers.Dense(units=3, activation='softmax')(a)
+    # Dense Layers
+    a = tf.keras.layers.Dropout(0.4)(merged)
+    a = tf.keras.layers.Dense(units=15, activation='relu')(a)
+    a = tf.keras.layers.Dense(units=10, activation='relu')(a)
+    output = tf.keras.layers.Dense(units=3, activation='softmax')(a)
 
-    # # Model
-    # model = tf.keras.models.Model(inputs=[match_ids, match_stats], outputs=output)
+    # Model
+    model = tf.keras.models.Model(inputs=[match_ids, match_stats], outputs=output)
 
-    # # Compiling
-    # adam = tf.keras.optimizers.Adam(learning_rate=0.0005)
-    # model.compile(optimizer=adam, loss='categorical_crossentropy', metrics=['accuracy', 'precision'])
+    # Compiling
+    adam = tf.keras.optimizers.Adam(learning_rate=0.0005)
+    model.compile(optimizer=adam, loss='categorical_crossentropy', metrics=['accuracy', 'precision'])
 
     # load model for re-training
-    model = load_model('models/epl_1_0_2.keras')
+    # model = load_model('models/epl_2_0_0.keras')
 
     # training
-    model_checkpoint = ModelCheckpoint(filepath='models/epl_1_0_2.keras', save_best_only=True, monitor='val_accuracy')
+    model_checkpoint = ModelCheckpoint(filepath='models/epl_2_0_0.keras', save_best_only=True, monitor='val_accuracy')
     learning_rate_scheduler = LearningRateScheduler(scheduler)
     history = model.fit([train_cat_features, train_features_scaled], 
                         train_labels_encoded, 
@@ -123,7 +129,7 @@ if __name__ == '__main__':
     plt.ylabel('Loss')
     plt.xlabel('Epoch')
     plt.legend()
-    plt.savefig('plots/epl_1_0_2_loss.png')
+    plt.savefig('plots/epl_2_0_0_loss.png')
 
     # plot the accuracy
     epochs = range(1, 51)
@@ -134,8 +140,8 @@ if __name__ == '__main__':
     plt.ylabel('Accuracy')
     plt.xlabel('Epoch')
     plt.legend()
-    plt.savefig('plots/epl_1_0_2_accuracy.png')
+    plt.savefig('plots/epl_2_0_0_accuracy.png')
 
     # saving first model
     # not absolutely necessary now that we have the model_checkpoint callback
-    # save_model(model, 'models/epl_1_0_4.keras')
+    save_model(model, 'models/epl_2_0_0.keras')

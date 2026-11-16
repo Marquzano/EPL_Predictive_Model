@@ -74,18 +74,18 @@ def make_features_and_labels(con):
     # do the same for the labels shape 1x1
 
     # here we pull the training and validation features data first
-    query = 'SELECT avg_5_gf_home, avg_5_xg_home, avg_5_poss_home, avg_5_sh_home, avg_5_sot_home, avg_5_gf_away, avg_5_xg_away, avg_5_poss_away, avg_5_sh_away, avg_5_sot_away FROM merged_matches WHERE season in (2021, 2022, 2023, 2024);'
+    query = 'SELECT avg_5_gf_home, avg_5_xg_home, avg_5_poss_home, avg_5_sh_home, avg_5_sot_home, avg_5_gf_away, avg_5_xg_away, avg_5_poss_away, avg_5_sh_away, avg_5_sot_away FROM merged_matches WHERE season in (2021, 2022, 2023, 2024, 2025);'
     train_features_df = pd.read_sql(query, con=con)
     train_features = train_features_df.to_numpy()
-    query = 'SELECT avg_5_gf_home, avg_5_xg_home, avg_5_poss_home, avg_5_sh_home, avg_5_sot_home, avg_5_gf_away, avg_5_xg_away, avg_5_poss_away, avg_5_sh_away, avg_5_sot_away FROM merged_matches WHERE season in (2025);'
+    query = 'SELECT avg_5_gf_home, avg_5_xg_home, avg_5_poss_home, avg_5_sh_home, avg_5_sot_home, avg_5_gf_away, avg_5_xg_away, avg_5_poss_away, avg_5_sh_away, avg_5_sot_away FROM merged_matches WHERE season in (2026, 2027);'
     validate_features_df = pd.read_sql(query, con=con)
     validate_features = validate_features_df.to_numpy()
 
     # next we pull the training and validation labels data
-    query = 'SELECT result FROM merged_matches WHERE season in (2021, 2022, 2023, 2024)'
+    query = 'SELECT result FROM merged_matches WHERE season in (2021, 2022, 2023, 2024, 2025)'
     train_labels_df = pd.read_sql(query, con=con)
     train_labels = train_labels_df.to_numpy()
-    query = 'SELECT result FROM merged_matches WHERE season in (2025)'
+    query = 'SELECT result FROM merged_matches WHERE season in (2026, 2027)'
     validate_labels_df = pd.read_sql(query, con=con)
     validate_labels = validate_labels_df.to_numpy()
 
@@ -93,10 +93,10 @@ def make_features_and_labels(con):
 
 def make_cat_features(con):
     # pull the home_id and away_id for training purposes
-    query = 'SELECT home_id, away_id FROM merged_matches WHERE season in (2021, 2022, 2023, 2024)'
+    query = 'SELECT home_id, away_id FROM merged_matches WHERE season in (2021, 2022, 2023, 2024, 2025)'
     train_cat_features_df = pd.read_sql(query, con=con)
     train_cat_features = train_cat_features_df.to_numpy()
-    query = 'SELECT home_id, away_id FROM merged_matches WHERE season in (2025)'
+    query = 'SELECT home_id, away_id FROM merged_matches WHERE season in (2026, 2027)'
     validate_cat_features_df = pd.read_sql(query, con=con)
     validate_cat_features = validate_cat_features_df.to_numpy()
     
@@ -146,13 +146,15 @@ if __name__ == '__main__':
 
     # create ndarrays of the labels and targets
     # training and validation data
+    # updated the queries to include the new live data
     train_features, validate_features, train_labels, validate_labels = make_features_and_labels(con)
 
     # create ndarrays of the cat_features (categorical_features)
+    # updated the queries to include the new live data
     train_cat_features, validate_cat_features = make_cat_features(con)
 
     # now we continue with sci-kit learn and create a scaler based on the training data
-    # 2021-2024 seasons only
+    # this is now adjusted to live data so it is 2021-2025 seasons only
     train_features_scaled, validate_features_scaled = scale_features(train_features, validate_features)
 
     train_labels_encoded, validate_labels_encoded = one_hot_encode_labels(train_labels, validate_labels)
