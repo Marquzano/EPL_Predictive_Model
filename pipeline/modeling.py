@@ -1,9 +1,12 @@
 #! /home/marquzano/miniconda3/envs/machine_learning/bin/python3
 from data_transform import open_con, rolled_averages, make_matches, clean_matches, make_features_and_labels, make_cat_features, scale_features, one_hot_encode_labels
 import tensorflow as tf
+import joblib
 from keras.models import load_model
 from keras.callbacks import ModelCheckpoint, LearningRateScheduler
 import matplotlib.pyplot as plt
+
+LEARNING_RATE = 0.0005
 
 # make the numpy arrays into tensors
 def make_tensors(*args):
@@ -19,9 +22,9 @@ def save_model(model, filename):
 
 def scheduler(epoch, lr):
     if epoch < 15:
-        return lr
+        return LEARNING_RATE
     else:
-        return lr * 0.1    
+        return LEARNING_RATE * 0.1    
 
 if __name__ == '__main__':
     # bring in the data from data_transform
@@ -62,7 +65,8 @@ if __name__ == '__main__':
 
     # now we continue with sci-kit learn and create a scaler based on the training data
     # 2021-2025 seasons only
-    train_features_scaled, validate_features_scaled = scale_features(train_features, validate_features)
+    train_features_scaled, validate_features_scaled, scaler = scale_features(train_features, validate_features)
+    joblib.dump(scaler, 'models/epl_2_0_0_scaler.joblib')
 
     train_labels_encoded, validate_labels_encoded = one_hot_encode_labels(train_labels, validate_labels)
 
@@ -99,7 +103,7 @@ if __name__ == '__main__':
     model = tf.keras.models.Model(inputs=[match_ids, match_stats], outputs=output)
 
     # Compiling
-    adam = tf.keras.optimizers.Adam(learning_rate=0.0005)
+    adam = tf.keras.optimizers.Adam(learning_rate=LEARNING_RATE)
     model.compile(optimizer=adam, loss='categorical_crossentropy', metrics=['accuracy', 'precision'])
 
     # load model for re-training
@@ -144,4 +148,4 @@ if __name__ == '__main__':
 
     # saving first model
     # not absolutely necessary now that we have the model_checkpoint callback
-    save_model(model, 'models/epl_2_0_0.keras')
+    # save_model(model, 'models/epl_2_0_0.keras')

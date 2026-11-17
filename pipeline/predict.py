@@ -1,7 +1,7 @@
 #! /home/marquzano/miniconda3/envs/machine_learning/bin/python3
-from data_transform import make_features_and_labels, scale_features
 from keras.models import load_model
 import sqlite3
+import joblib
 from modeling import make_tensors
 
 def get_model(filename):
@@ -12,8 +12,6 @@ def get_model(filename):
 if __name__ == '__main__':
     # open the sql connection
     con = sqlite3.connect('data/processed/EPL_data.db')
-
-    train_features, validate_features, train_labels, validate_labels = make_features_and_labels(con)
 
     new_stats_input = [[1.4, 2.012, 60.96, 14.8, 5.8, 2.2, 2.08, 46.28, 17.6, 5.2],
                        [0.8, 1.038, 41.6, 10.6, 3.2, 1.2, 1.078, 40.26, 10.6, 3.6],
@@ -36,15 +34,16 @@ if __name__ == '__main__':
                       [17, 6],
                       [22, 8],
                       [25, 11]]
-    
-    train_features_scaled, new_stats_input_scaled = scale_features(train_features, new_stats_input)
+
+    scaler = joblib.load('models/epl_2_0_0_scaler.joblib')
+    new_stats_input_scaled = scaler.transform(new_stats_input)
 
     packet = make_tensors(new_stats_input_scaled, new_team_input)
 
     stats_input_tensor_scaled = packet[0]
     team_input_tensor = packet[1]
 
-    model = get_model('models/epl_1_0_2.keras')
+    model = get_model('models/epl_2_0_0.keras')
 
     predictions = model.predict([team_input_tensor, stats_input_tensor_scaled])
 

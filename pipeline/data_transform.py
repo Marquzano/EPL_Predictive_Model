@@ -108,7 +108,7 @@ def scale_features(X_train, X_validate):
     X_train_scaled = scaler.transform(X_train)
     X_validate_scaled = scaler.transform(X_validate)
 
-    return X_train_scaled, X_validate_scaled
+    return X_train_scaled, X_validate_scaled, scaler
 
 def one_hot_encode_labels(y_train, y_validate):
     encoder = OneHotEncoder(sparse_output=False)
@@ -155,7 +155,7 @@ if __name__ == '__main__':
 
     # now we continue with sci-kit learn and create a scaler based on the training data
     # this is now adjusted to live data so it is 2021-2025 seasons only
-    train_features_scaled, validate_features_scaled = scale_features(train_features, validate_features)
+    train_features_scaled, validate_features_scaled, _ = scale_features(train_features, validate_features)
 
     train_labels_encoded, validate_labels_encoded = one_hot_encode_labels(train_labels, validate_labels)
 
