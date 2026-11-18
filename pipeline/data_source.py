@@ -50,9 +50,11 @@ def api_get(endpoint, params):
 def cache_path(fixture_id):
     return CACHE_DIR / f'fixture_{fixture_id}.json'
 
-def get_finished_ids(season):
-    fixtures = api_get('fixtures', {'league': LEAGUE_ID, 'season': season})
-    return [f['fixture']['id'] for f in fixtures if f['fixture']['status']['short'] == 'FT']
+def get_fixture_list(season):
+    return api_get('fixtures', {'league': LEAGUE_ID, 'season': season})
+
+def finished_ids(fixture_list):
+    return [f['fixture']['id'] for f in fixture_list if f['fixture']['status']['short'] == 'FT']
 
 def find_uncached(fixture_ids):
     return [fid for fid in fixture_ids if not cache_path(fid).exists()]
@@ -166,7 +168,8 @@ def upsert(con, rows):
     print(f'upserted {len(rows)} rows')
 
 def ingest_season(con, season, aliases, registry):
-    finished = get_finished_ids(season)
+    fixture_list = get_fixture_list(season)
+    finished = finished_ids(fixture_list)
     to_fetch = find_uncached(finished)
     print(f'season {season}: {len(finished)} finished, {len(to_fetch)} to fetch')
 
