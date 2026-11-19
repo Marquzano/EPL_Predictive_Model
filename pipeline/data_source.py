@@ -24,10 +24,11 @@ BATCH_SIZE = 20 # API max for ?ids=
 PAUSE = 0.25 # ~240/min, under Pro 300 req/min
 UK_TZ = ZoneInfo('Europe/London')
 REQUIRED_STATS = ['expected_goals', 'Ball Possession', 'Total Shots', 'Shots on Goal']
-COLUMNS = ['date', 'time', 'round', 'venue', 'result', 'gf', 'ga', 'opponent',
+MATCH_DATA_COLUMNS = ['date', 'time', 'round', 'venue', 'result', 'gf', 'ga', 'opponent',
            'xg', 'xga', 'poss', 'sh', 'sot', 'team', 'season', 'team_id']
+FIXTURES_COLUMNS = ['season', 'home_id', 'away_id', 'round', 'date', 'time', 'status', 'fixture_id']
 FIRST_SEASON = 2025
-DEFAULT_SEASONS = [2025, 2026]
+DEFAULT_SEASONS = [2026]
 
 if not API_KEY:
     raise SystemExit('APIFOOTBALL_KEY is not set. Add it to .env in the repo root')
@@ -120,15 +121,26 @@ def match_data_row(common, venue, team, opponent, gf, ga, own, opp):
             'xg': own['xg'], 'xga': opp['xg'],
             'poss': own['poss'], 'sh': own['sh'], 'sot': own['sot']}
 
-def fixture_rows(f):
+def kickoff_fields(f):
     kickoff = datetime.fromisoformat(f['fixture']['date']).astimezone(UK_TZ)
-    common = {
+    return {
         'fixture_id': f['fixture']['id'],
         'season': f['league']['season'] + 1,
         'date': kickoff.strftime('%Y-%m-%d'),
         'time': kickoff.strftime('%H:%M'),
         'round': f['league']['round'].replace('Regular Season - ', 'Matchweek ')
     }
+
+def fixture_table_rows(f):
+    return {
+        **kickoff_fields(f),
+        'status': f['fixture']['status']['short'],
+        'home': f['teams']['home']['name'],
+        'away': f['teams']['away']['name']
+    }
+
+def fixture_rows(f):
+    common = kickoff_fields(f)
     home, away = f['teams']['home'], f['teams']['away']
     hg, ag = f['goals']['home'], f['goals']['away']
     stats = team_stats(f)
@@ -144,6 +156,21 @@ def load_name_maps(con):
     registry = dict(con.execute('SELECT team, team_id FROM team_registry').fetchall())
     return aliases, registry
 
+def stop_on_unknown(unknown):
+    if unknown:
+        lines = '\n'.join(f' {name} (e.g. fixture {fid})' for name, fid in unknown.items())
+        raise SystemExit(f'Unknown team names - add to team_aliases or team_registry, then rerun:\n{lines}')
+
+def map_fixture_ids(rows, aliases, registry):
+    unknown = {}
+    for row in rows:
+        for side in ('home', 'away'):
+            name = aliases.get(row[side], row[side])
+            if name not in registry:
+                unknown.setdefault(name, row['fixture_id'])
+            row[f'{side}_id'] = registry.get(name)
+    stop_on_unknown(unknown)
+
 def map_names(rows, aliases, registry):
     unknown = {}
     for row in rows:
@@ -154,21 +181,24 @@ def map_names(rows, aliases, registry):
                 unknown.setdefault(name, row['fixture_id'])
         row['team_id'] = registry.get(row['team'])
 
-    if unknown:
-        lines = '\n'.join(f' {name} (e.g. fixture {fid})' for name, fid in unknown.items())
-        raise SystemExit(f'Unknown team names - add to team_aliases or team_registry, then rerun:\n{lines}')
+    stop_on_unknown(unknown)
 
-def upsert(con, rows):
-    placeholders = ', '.join(f':{c}' for c in COLUMNS)
-    updates = ', '.join(f'{c} = excluded.{c}' for c in COLUMNS if c not in ('team_id', 'date'))
-    sql = (f'INSERT INTO match_data ({", ".join(COLUMNS)}) VALUES ({placeholders}) '
-           f'ON CONFLICT(team_id, date) DO UPDATE SET {updates}')
+def upsert(con, table, columns, key, rows):
+    placeholders = ', '.join(f':{c}' for c in columns)
+    updates = ', '.join(f'{c} = excluded.{c}' for c in columns if c not in key)
+    sql = (f'INSERT INTO {table} ({", ".join(columns)}) VALUES ({placeholders}) '
+           f'ON CONFLICT({", ".join(key)}) DO UPDATE SET {updates}')
     with con:
         con.executemany(sql, rows)
-    print(f'upserted {len(rows)} rows')
+    print(f'upserted {len(rows)} rows into {table}')
 
 def ingest_season(con, season, aliases, registry):
     fixture_list = get_fixture_list(season)
+
+    fixture_table = [fixture_table_rows(f) for f in fixture_list]
+    map_fixture_ids(fixture_table, aliases, registry)
+    upsert(con, 'fixtures', FIXTURES_COLUMNS, ('season', 'home_id', 'away_id'), fixture_table)
+
     finished = finished_ids(fixture_list)
     to_fetch = find_uncached(finished)
     print(f'season {season}: {len(finished)} finished, {len(to_fetch)} to fetch')
@@ -177,7 +207,7 @@ def ingest_season(con, season, aliases, registry):
     fixtures = load_cached(finished)
     rows = [row for f in fixtures for row in fixture_rows(f)]
     map_names(rows, aliases, registry)
-    upsert(con, rows)
+    upsert(con, 'match_data', MATCH_DATA_COLUMNS, ('team_id', 'date'), rows)
 
 if __name__ == '__main__':
     seasons = [int(s) for s in sys.argv[1:]] or DEFAULT_SEASONS
