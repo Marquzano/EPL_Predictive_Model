@@ -1,14 +1,14 @@
 from contextlib import asynccontextmanager
-from pipeline.data_transform import make_features_and_labels
 from keras.models import load_model
-from sklearn.preprocessing import StandardScaler
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api import predict as predict_routes
 from app.api import teams as teams_routes
-import sqlite3
+import joblib
 DB_PATH = 'data/processed/EPL_data.db'
 FRONTEND_ORIGINS = ['http://localhost:5173']
+MODEL_PATH = 'models/epl_2_0_0.keras'
+SCALER_PATH = 'models/epl_2_0_0_scaler.joblib'
 
 # create the lifespan of the app
 # to provide necessary objects at
@@ -18,13 +18,8 @@ FRONTEND_ORIGINS = ['http://localhost:5173']
 # responses asynchronously
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    model = load_model('models/epl_1_0_4.keras')
-    con = sqlite3.connect(DB_PATH)
-    try:
-        training_features, *_ = make_features_and_labels(con)
-        scaler = StandardScaler().fit(training_features)
-    finally:
-        con.close()
+    model = load_model(MODEL_PATH)
+    scaler = joblib.load(SCALER_PATH)
 
     yield {'model': model, 'db_path': DB_PATH, 'scaler': scaler}
 

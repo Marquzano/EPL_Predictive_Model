@@ -3,8 +3,7 @@ from pipeline.modeling import make_tensors
 
 # pull the team form from the five trailing matches
 # prior to the as_of_date
-# for now it pulls from the DB as we don't have
-# live data
+# This now pulls from live data
 def get_team_form(con, team_id, as_of_date):
     query = 'SELECT gf, xg, poss, sh, sot FROM match_data' \
     '        WHERE team_id = ? AND date < ?' \
@@ -18,35 +17,36 @@ def get_team_form(con, team_id, as_of_date):
     else:
         return team_form.mean().tolist()
 
-def predict_match(model, con, scaler, as_of_date, home_id, away_id):
-    # pull team form
-    # and give the yielded con and other
-    # values from the request
-    home_team_form = get_team_form(con=con, team_id=home_id, as_of_date=as_of_date)
-    away_team_form = get_team_form(con=con, team_id=away_id, as_of_date=as_of_date)
-
-    # make the input shapes as the model expects it
-    # stats shape - (1,10)
-    # categorical shape - (1,2)
-    stats_input = [home_team_form + away_team_form]
-    cat_input = [[home_id, away_id]]
-
-    # scale the stats according to the
-    # scaler created in training
-    scaled_stats = scaler.transform(stats_input)
-
-    # make the inputs into tensors
-    cat_tensor, stats_tensor = make_tensors(cat_input, scaled_stats)
-
-    # run the prediction from the model
-    prediction = model.predict([cat_tensor, stats_tensor])
-    # get the probabilities from the prediction matrix
-    probabilities = prediction[0]
-
-    # map the model's output indices to named outcomes
-    # label encoding from data_transform.py: 0=home win, 1=away win, 2=draw
+# function to handle label encoding for predictions
+def to_probabilities(row):
     return {
-            'home_win_probability': round(float(probabilities[0]), 5),
-            'away_win_probability': round(float(probabilities[1]), 5),
-            'draw_probability': round(float(probabilities[2]), 5)
+        'home_win_probability': round(float(row[0]), 5),
+        'away_win_probability': round(float(row[1]), 5),
+        'draw_probability': round(float(row[2]), 5)
     }
+
+def predict_matches(model, con, scaler, matches):
+    if not matches:
+        return []
+
+    stats_rows = []
+    cat_rows = []
+    insufficient = []
+
+    for m in matches:
+        home_form = get_team_form(con, m['home_id'], m['as_of_date'])
+        away_form = get_team_form(con, m['away_id'], m['as_of_date'])
+        stats_rows.append(home_form + away_form)
+        cat_rows.append([m['home_id'], m['away_id']])
+        insufficient.append(-1 in home_form + away_form) # shouldn't this be a comment?
+
+    scaled_stats = scaler.transform(stats_rows)
+    cat_tensor, stats_tensor = make_tensors(cat_rows, scaled_stats)
+    predictions = model.predict([cat_tensor, stats_tensor], verbose=0)
+
+    return [{**to_probabilities(p), 'insufficient_data': flag}
+            for p, flag in zip(predictions, insufficient)]
+
+def predict_match(model, con, scaler, as_of_date, home_id, away_id):
+    match = {'home_id': home_id, 'away_id': away_id, 'as_of_date': as_of_date}
+    return predict_matches(model, con, scaler, [match])[0]
